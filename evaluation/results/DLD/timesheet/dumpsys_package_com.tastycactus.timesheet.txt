@@ -1,0 +1,64 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        ce63d6c com.tastycactus.timesheet/.TimesheetActivity filter aa9f0dc
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.appwidget.action.APPWIDGET_UPDATE:
+        2473f35 com.tastycactus.timesheet/.TimesheetAppWidgetProvider filter 899a14f
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+
+Key Set Manager:
+  [com.tastycactus.timesheet]
+      Signing KeySets: 31
+
+Packages:
+  Package [com.tastycactus.timesheet] (5963fca):
+    userId=10076
+    pkg=Package{8a4e53b com.tastycactus.timesheet}
+    codePath=/data/app/com.tastycactus.timesheet-1
+    resourcePath=/data/app/com.tastycactus.timesheet-1
+    legacyNativeLibraryDir=/data/app/com.tastycactus.timesheet-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=6 minSdk=7 targetSdk=7
+    versionName=1.5
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{2afc458 com.tastycactus.timesheet}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/user/0/com.tastycactus.timesheet
+    supportsScreens=[small, medium, large, resizeable, anyDensity]
+    timeStamp=2022-01-02 09:40:04
+    firstInstallTime=2022-01-02 09:40:05
+    lastUpdateTime=2022-01-02 09:40:05
+    signatures=PackageSignatures{6b999b1 [e4685e1d]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.READ_EXTERNAL_STORAGE: granted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+    User 0: ceDataInode=3540084 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      runtime permissions:
+
+
+Dexopt state:
+  [com.tastycactus.timesheet]
+    Instruction Set: x86
+      path: /data/app/com.tastycactus.timesheet-1/base.apk
+      status: /data/app/com.tastycactus.timesheet-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpT
+      oDate]
+
+
+Compiler stats:
+  [com.tastycactus.timesheet]
+     base.apk - 33

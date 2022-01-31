@@ -1,0 +1,10 @@
+{
+  "stop_state": "700832cec1f7706eb30433077e447a93", 
+  "event_str": "IntentEvent(intent='am start org.tasks/com.todoroo.astrid.activity.TaskListActivity')", 
+  "tag": "2022-01-04_220030", 
+  "event": {
+    "intent": "am start org.tasks/com.todoroo.astrid.activity.TaskListActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "6835de5e3e4655e2be2dd08661aaa9ee"
+}

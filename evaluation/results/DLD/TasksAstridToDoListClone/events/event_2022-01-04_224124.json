@@ -1,0 +1,42 @@
+{
+  "stop_state": "4303aa1d646cb024450a3a662f7560f7", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-04_224124", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Sort", 
+      "resource_id": "org.tasks:id/menu_sort", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "72*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.tasks", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          624, 
+          48
+        ], 
+        [
+          696, 
+          120
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": true
+    }, 
+    "id": 2, 
+    "event_type": "touch"
+  }, 
+  "start_state": "223ee2bd65b21daf526eff1c2c43c9aa"
+}

@@ -1,0 +1,51 @@
+{
+  "stop_state": "60777dcd4d7f206d15fe79305aa1b672", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-04_221035", 
+  "event": {
+    "views_str": [
+      "8c5ae7ee84a4df178c568fabe8912c41"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "org.tasks:id/search_src_text", 
+        "text": "test123test123test123", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "396*54", 
+        "checked": false, 
+        "temp_id": 16, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]org.tasks:id/search_src_text", 
+        "is_password": false, 
+        "parent": 15, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "org.tasks", 
+        "long_clickable": true, 
+        "view_str": "8c5ae7ee84a4df178c568fabe8912c41", 
+        "enabled": true, 
+        "bounds": [
+          [
+            132, 
+            57
+          ], 
+          [
+            528, 
+            111
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]org.tasks:id/search_src_text[text]test123test123test123[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "eeed6b2b40067b57046fe0e1e5bfecd6"
+}

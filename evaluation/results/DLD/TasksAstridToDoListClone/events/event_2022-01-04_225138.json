@@ -1,0 +1,42 @@
+{
+  "stop_state": "7443a60c4b565e0a40877959648df56e", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-04_225138", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.tasks:id/completeBox", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "120*36", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.tasks", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          612
+        ], 
+        [
+          120, 
+          648
+        ]
+      ], 
+      "class": "android.widget.ImageView", 
+      "focusable": false
+    }, 
+    "id": 14, 
+    "event_type": "touch"
+  }, 
+  "start_state": "0d80af5dbd5c4833aa79eb70bab965e1"
+}

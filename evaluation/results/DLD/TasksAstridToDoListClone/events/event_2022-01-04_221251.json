@@ -1,0 +1,317 @@
+{
+  "stop_state": "cf0b8bfe0c966a147fc266a1ce042f61", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-04_221251", 
+  "event": {
+    "views_str": [
+      "412ab05dd030d3fd07c68ddec028e5ad", 
+      "07e3821faf0846412681f660ce229ef8", 
+      "94736c6d22920b8066bec458d66d8519", 
+      "2fb4314b81becbd2e3ab97354e898729", 
+      "372a16f7c4231ea14300fd33f66bd9cf", 
+      "e9a224e90def97b3e4edcc541cbc29fe", 
+      "8dbf98ae923b155ddcdfb8827ebd6a1f", 
+      "779ce0e8ef1c2bb89ab967925f7c9e65"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "org.tasks:id/search_src_text", 
+        "text": "Search\u2026", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "456*54", 
+        "checked": false, 
+        "temp_id": 16, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]org.tasks:id/search_src_text", 
+        "is_password": false, 
+        "parent": 15, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "org.tasks", 
+        "long_clickable": true, 
+        "view_str": "412ab05dd030d3fd07c68ddec028e5ad", 
+        "enabled": true, 
+        "bounds": [
+          [
+            132, 
+            57
+          ], 
+          [
+            588, 
+            111
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]org.tasks:id/search_src_text[text]Search\u2026[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "org.tasks:id/title", 
+        "text": "(No title)", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1032*37", 
+        "checked": false, 
+        "temp_id": 44, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]org.tasks:id/title", 
+        "is_password": false, 
+        "parent": 42, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "org.tasks", 
+        "long_clickable": true, 
+        "view_str": "07e3821faf0846412681f660ce229ef8", 
+        "enabled": true, 
+        "bounds": [
+          [
+            888, 
+            158
+          ], 
+          [
+            1920, 
+            195
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]org.tasks:id/title[text](No title)[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "org.tasks:id/priority_none", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "206*48", 
+        "checked": false, 
+        "temp_id": 69, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.RadioButton[resource_id]org.tasks:id/priority_none", 
+        "is_password": false, 
+        "parent": 68, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.RadioButton", 
+        "scrollable": false, 
+        "package": "org.tasks", 
+        "long_clickable": false, 
+        "view_str": "94736c6d22920b8066bec458d66d8519", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1060, 
+            432
+          ], 
+          [
+            1266, 
+            480
+          ]
+        ], 
+        "signature": "[class]android.widget.RadioButton[resource_id]org.tasks:id/priority_none[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "org.tasks:id/priority_low", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "206*48", 
+        "checked": true, 
+        "temp_id": 70, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.RadioButton[resource_id]org.tasks:id/priority_low", 
+        "is_password": false, 
+        "parent": 68, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.RadioButton", 
+        "scrollable": false, 
+        "package": "org.tasks", 
+        "long_clickable": false, 
+        "view_str": "2fb4314b81becbd2e3ab97354e898729", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1266, 
+            432
+          ], 
+          [
+            1472, 
+            480
+          ]
+        ], 
+        "signature": "[class]android.widget.RadioButton[resource_id]org.tasks:id/priority_low[text]None[enabled,checked,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "org.tasks:id/priority_medium", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "206*48", 
+        "checked": false, 
+        "temp_id": 71, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.RadioButton[resource_id]org.tasks:id/priority_medium", 
+        "is_password": false, 
+        "parent": 68, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.RadioButton", 
+        "scrollable": false, 
+        "package": "org.tasks", 
+        "long_clickable": false, 
+        "view_str": "372a16f7c4231ea14300fd33f66bd9cf", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1472, 
+            432
+          ], 
+          [
+            1678, 
+            480
+          ]
+        ], 
+        "signature": "[class]android.widget.RadioButton[resource_id]org.tasks:id/priority_medium[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "org.tasks:id/priority_high", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "206*48", 
+        "checked": false, 
+        "temp_id": 72, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.RadioButton[resource_id]org.tasks:id/priority_high", 
+        "is_password": false, 
+        "parent": 68, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.RadioButton", 
+        "scrollable": false, 
+        "package": "org.tasks", 
+        "long_clickable": false, 
+        "view_str": "e9a224e90def97b3e4edcc541cbc29fe", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1678, 
+            432
+          ], 
+          [
+            1884, 
+            480
+          ]
+        ], 
+        "signature": "[class]android.widget.RadioButton[resource_id]org.tasks:id/priority_high[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "org.tasks:id/notes", 
+        "text": "Description", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "996*33", 
+        "checked": false, 
+        "temp_id": 111, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]org.tasks:id/notes", 
+        "is_password": false, 
+        "parent": 109, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "org.tasks", 
+        "long_clickable": true, 
+        "view_str": "8dbf98ae923b155ddcdfb8827ebd6a1f", 
+        "enabled": true, 
+        "bounds": [
+          [
+            888, 
+            927
+          ], 
+          [
+            1884, 
+            960
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]org.tasks:id/notes[text]Description[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "org.tasks:id/commentField", 
+        "text": "Add a comment\u2026", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1044*33", 
+        "checked": false, 
+        "temp_id": 140, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]org.tasks:id/commentField", 
+        "is_password": false, 
+        "parent": 138, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "org.tasks", 
+        "long_clickable": true, 
+        "view_str": "779ce0e8ef1c2bb89ab967925f7c9e65", 
+        "enabled": true, 
+        "bounds": [
+          [
+            840, 
+            1026
+          ], 
+          [
+            1884, 
+            1059
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]org.tasks:id/commentField[text]Add a comment\u2026[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "abb3969c8e2f57ee18089fb1de450c7f"
+}

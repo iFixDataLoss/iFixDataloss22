@@ -1,0 +1,42 @@
+{
+  "stop_state": "b06cba07b92d7055c54e0665df52ad9e", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-04_222332", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.tasks:id/mdtp_date_picker_year", 
+      "text": "2022", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "282*28", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.tasks", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          519, 
+          240
+        ], 
+        [
+          801, 
+          268
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": false
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "ac84708fc631176688a56f40062cdf07"
+}

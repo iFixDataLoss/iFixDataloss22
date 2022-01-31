@@ -1,0 +1,43 @@
+{
+  "stop_state": "f970fd8b5673e180eefa3dbc6530c2d2", 
+  "event_str": "LongTouchEvent(duration=2000)", 
+  "tag": "2022-01-04_223008", 
+  "event": {
+    "event_type": "long_touch", 
+    "duration": 2000, 
+    "y": null, 
+    "x": null, 
+    "id": 29, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "480*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.tasks", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          320
+        ], 
+        [
+          480, 
+          392
+        ]
+      ], 
+      "class": "android.widget.RelativeLayout", 
+      "focusable": false
+    }
+  }, 
+  "start_state": "c3a1efd21735bcd701a80cf615817522"
+}

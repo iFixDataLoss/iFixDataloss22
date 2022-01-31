@@ -1,0 +1,42 @@
+{
+  "stop_state": "7fffd45de69c554f1f37abc7292fa3ba", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-04_222402", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.tasks:id/text1", 
+      "text": "Tomorrow", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": false, 
+      "checkable": true, 
+      "size": "133*33", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.tasks", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          888, 
+          340
+        ], 
+        [
+          1021, 
+          373
+        ]
+      ], 
+      "class": "android.widget.CheckedTextView", 
+      "focusable": false
+    }, 
+    "id": 1, 
+    "event_type": "touch"
+  }, 
+  "start_state": "0dbf48842d695977b2847a667d5831cd"
+}

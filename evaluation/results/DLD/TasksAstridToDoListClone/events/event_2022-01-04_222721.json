@@ -1,0 +1,43 @@
+{
+  "stop_state": "a67608d9bd176afb8deaa1a2b0594262", 
+  "event_str": "SetTextEvent", 
+  "tag": "2022-01-04_222721", 
+  "event": {
+    "event_type": "set_text", 
+    "text": "HelloWorld", 
+    "y": null, 
+    "x": null, 
+    "id": 21, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.tasks:id/search_src_text", 
+      "text": "Search\u2026", 
+      "editable": true, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": true, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "456*54", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.tasks", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          132, 
+          57
+        ], 
+        [
+          588, 
+          111
+        ]
+      ], 
+      "class": "android.widget.EditText", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "1208222be64cd92983ce7e5cf0215515"
+}

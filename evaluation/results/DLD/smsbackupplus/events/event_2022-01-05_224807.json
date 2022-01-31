@@ -1,0 +1,10 @@
+{
+  "stop_state": "34b4577a429fb86895cb03422bbdd768", 
+  "event_str": "IntentEvent(intent='am start com.zegoggles.smssync/com.zegoggles.smssync.activity.MainActivity')", 
+  "tag": "2022-01-05_224807", 
+  "event": {
+    "intent": "am start com.zegoggles.smssync/com.zegoggles.smssync.activity.MainActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "13fbaabcf49f74705a7c74fe1c43ac5c"
+}

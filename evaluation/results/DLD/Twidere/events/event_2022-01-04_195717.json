@@ -1,0 +1,10 @@
+{
+  "stop_state": "3d3c7ee8d3b3f658375ed147b0dfc000", 
+  "event_str": "IntentEvent(intent='am start org.mariotaku.twidere/org.mariotaku.twidere.activity.MainActivity')", 
+  "tag": "2022-01-04_195717", 
+  "event": {
+    "intent": "am start org.mariotaku.twidere/org.mariotaku.twidere.activity.MainActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "6835de5e3e4655e2be2dd08661aaa9ee"
+}

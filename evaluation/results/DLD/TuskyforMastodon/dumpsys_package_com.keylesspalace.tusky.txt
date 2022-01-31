@@ -1,0 +1,135 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Schemes:
+      com.keylesspalace.tusky:
+        584ebb6 com.keylesspalace.tusky/.LoginActivity filter be5f8d4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.keylesspalace.tusky"
+          Authority: "oauth2redirect": -1
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        e2e00b7 com.keylesspalace.tusky/.SplashActivity filter 2d16e27
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.android.vending.INSTALL_REFERRER:
+        2584024 com.keylesspalace.tusky/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver filter 148ab41
+          Action: "com.android.vending.INSTALL_REFERRER"
+          AutoVerify=false
+      com.google.android.c2dm.intent.RECEIVE:
+        2f6778d com.keylesspalace.tusky/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 564e8e6
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Action: "com.google.android.c2dm.intent.REGISTRATION"
+          Category: "com.keylesspalace.tusky"
+          AutoVerify=false
+      com.google.android.c2dm.intent.REGISTRATION:
+        2f6778d com.keylesspalace.tusky/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 564e8e6
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Action: "com.google.android.c2dm.intent.REGISTRATION"
+          Category: "com.keylesspalace.tusky"
+          AutoVerify=false
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.INSTANCE_ID_EVENT:
+        f6c0d42 com.keylesspalace.tusky/.MyFirebaseInstanceIdService filter 96557c5
+          Action: "com.google.firebase.INSTANCE_ID_EVENT"
+          AutoVerify=false
+        17f153 com.keylesspalace.tusky/com.google.firebase.iid.FirebaseInstanceIdService filter 350e228
+          Action: "com.google.firebase.INSTANCE_ID_EVENT"
+          mPriority=-500, mHasPartialTypes=false
+          AutoVerify=false
+      com.google.firebase.MESSAGING_EVENT:
+        eeb3a90 com.keylesspalace.tusky/.MyFirebaseMessagingService filter 842951a
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          AutoVerify=false
+        15fff89 com.keylesspalace.tusky/com.google.firebase.messaging.FirebaseMessagingService filter 9e3984b
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mHasPartialTypes=false
+          AutoVerify=false
+
+Permissions:
+  Permission [com.keylesspalace.tusky.permission.C2D_MESSAGE] (2b1bb8e):
+    sourcePackage=com.keylesspalace.tusky
+    uid=10079 gids=null type=0 prot=signature
+    perm=Permission{aa64faf com.keylesspalace.tusky.permission.C2D_MESSAGE}
+    packageSetting=PackageSetting{5716fbc com.keylesspalace.tusky/10079}
+
+Registered ContentProviders:
+  com.keylesspalace.tusky/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{8c00b45 com.keylesspalace.tusky/com.google.firebase.provider.FirebaseInitProvider}
+
+ContentProvider Authorities:
+  [com.keylesspalace.tusky.firebaseinitprovider]:
+    Provider{8c00b45 com.keylesspalace.tusky/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{992029a com.keylesspalace.tusky}
+
+Key Set Manager:
+  [com.keylesspalace.tusky]
+      Signing KeySets: 32
+
+Packages:
+  Package [com.keylesspalace.tusky] (5716fbc):
+    userId=10079
+    pkg=Package{d1237cb com.keylesspalace.tusky}
+    codePath=/data/app/com.keylesspalace.tusky-1
+    resourcePath=/data/app/com.keylesspalace.tusky-1
+    legacyNativeLibraryDir=/data/app/com.keylesspalace.tusky-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=12 minSdk=15 targetSdk=25
+    versionName=1.0.3
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{992029a com.keylesspalace.tusky}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/com.keylesspalace.tusky
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-04 20:54:09
+    firstInstallTime=2022-01-04 20:54:09
+    lastUpdateTime=2022-01-04 20:54:09
+    signatures=PackageSignatures{fc3cba8 [4b1cb804]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    declared permissions:
+      com.keylesspalace.tusky.permission.C2D_MESSAGE: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.WAKE_LOCK
+      com.google.android.c2dm.permission.RECEIVE
+      com.keylesspalace.tusky.permission.C2D_MESSAGE
+    install permissions:
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      com.keylesspalace.tusky.permission.C2D_MESSAGE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=3409345 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [com.keylesspalace.tusky]
+    Instruction Set: x86_64
+      path: /data/app/com.keylesspalace.tusky-1/base.apk
+      status: /data/app/com.keylesspalace.tusky-1/oat/x86_64/base.odex [compilation_filter=interpret-only, status=kOatUp
+      ToDate]
+
+
+Compiler stats:
+  [com.keylesspalace.tusky]
+     base.apk - 202

@@ -1,0 +1,43 @@
+{
+  "stop_state": "e7438ad7ab9366cd36f76a02515d10a8", 
+  "event_str": "LongTouchEvent(duration=2000)", 
+  "tag": "2022-01-04_222758", 
+  "event": {
+    "event_type": "long_touch", 
+    "duration": 2000, 
+    "y": null, 
+    "x": null, 
+    "id": 36, 
+    "view": {
+      "content_description": "Sort", 
+      "resource_id": "org.tasks:id/menu_sort", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "72*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.tasks", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          624, 
+          48
+        ], 
+        [
+          696, 
+          120
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "a1325aa3cf3f5737b7ab187f9ceb22e0"
+}

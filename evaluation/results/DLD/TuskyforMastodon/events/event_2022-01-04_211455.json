@@ -1,0 +1,10 @@
+{
+  "stop_state": "2a78b375972e4d5901421d71711e3199", 
+  "event_str": "IntentEvent(intent='am start com.keylesspalace.tusky/com.keylesspalace.tusky.SplashActivity')", 
+  "tag": "2022-01-04_211455", 
+  "event": {
+    "intent": "am start com.keylesspalace.tusky/com.keylesspalace.tusky.SplashActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "6835de5e3e4655e2be2dd08661aaa9ee"
+}

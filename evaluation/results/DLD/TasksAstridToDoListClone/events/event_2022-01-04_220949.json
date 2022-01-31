@@ -1,0 +1,51 @@
+{
+  "stop_state": "936587ca65e24e05993389f43c1764a7", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-04_220949", 
+  "event": {
+    "views_str": [
+      "412ab05dd030d3fd07c68ddec028e5ad"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "org.tasks:id/search_src_text", 
+        "text": "Search\u2026", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "456*54", 
+        "checked": false, 
+        "temp_id": 16, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]org.tasks:id/search_src_text", 
+        "is_password": false, 
+        "parent": 15, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "org.tasks", 
+        "long_clickable": true, 
+        "view_str": "412ab05dd030d3fd07c68ddec028e5ad", 
+        "enabled": true, 
+        "bounds": [
+          [
+            132, 
+            57
+          ], 
+          [
+            588, 
+            111
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]org.tasks:id/search_src_text[text]Search\u2026[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "f63c7449a3a038f85d6502424265a2fa"
+}

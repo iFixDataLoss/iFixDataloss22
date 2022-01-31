@@ -1,0 +1,42 @@
+{
+  "stop_state": "3239003e2a5a73b6b369bd26c5623c31", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-04_222416", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "android:id/button3", 
+      "text": "REVERSE", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "125*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.tasks", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          567, 
+          708
+        ], 
+        [
+          692, 
+          780
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "15b0762cd940ec51b0fac8f0cae4cd95"
+}

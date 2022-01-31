@@ -1,0 +1,11 @@
+{
+  "stop_state": "7a53cffa6629fbb901707564ad72094f", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-04_223618", 
+  "event": {
+    "views_str": [], 
+    "event_type": "fill_UI", 
+    "views": []
+  }, 
+  "start_state": "7a53cffa6629fbb901707564ad72094f"
+}

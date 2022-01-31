@@ -1,0 +1,42 @@
+{
+  "stop_state": "95b15f78e97f8e9d64663263c992a9c5", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-04_220943", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Done", 
+      "resource_id": "org.tasks:id/action_mode_close_button", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "84*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.tasks", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          48
+        ], 
+        [
+          84, 
+          120
+        ]
+      ], 
+      "class": "android.widget.ImageView", 
+      "focusable": true
+    }, 
+    "id": 9, 
+    "event_type": "touch"
+  }, 
+  "start_state": "a2fc9f50c591b3fce9e3050ee37727fa"
+}

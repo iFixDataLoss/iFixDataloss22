@@ -1,0 +1,209 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        be35c1d com.farmerbb.taskbar/.MainActivity filter 168c176
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.APPLICATION_PREFERENCES"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+        14d3e92 com.farmerbb.taskbar/.activity.HomeActivity filter bd08377
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.HOME"
+          AutoVerify=false
+        de05063 com.farmerbb.taskbar/.activity.KeyboardShortcutActivity filter 4e06be4
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.ASSIST"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.APP_MAPS"
+          Category: "android.intent.category.APP_CALENDAR"
+          AutoVerify=false
+        929460 com.farmerbb.taskbar/.activity.IconPackApplyActivity filter ac5984d
+          Action: "android.intent.action.MAIN"
+          Action: "com.farmerbb.taskbar.APPLY_ICON_PACK"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+        9de9d19 com.farmerbb.taskbar/.activity.ShortcutActivity filter 3177f02
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+        1fcb1de com.farmerbb.taskbar/.activity.StartTaskbarActivity filter 73fe013
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.APPLICATION_PREFERENCES:
+        be35c1d com.farmerbb.taskbar/.MainActivity filter 168c176
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.APPLICATION_PREFERENCES"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      com.farmerbb.taskbar.APPLY_ICON_PACK:
+        929460 com.farmerbb.taskbar/.activity.IconPackApplyActivity filter ac5984d
+          Action: "android.intent.action.MAIN"
+          Action: "com.farmerbb.taskbar.APPLY_ICON_PACK"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.ASSIST:
+        de05063 com.farmerbb.taskbar/.activity.KeyboardShortcutActivity filter 4e06be4
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.ASSIST"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.APP_MAPS"
+          Category: "android.intent.category.APP_CALENDAR"
+          AutoVerify=false
+      android.intent.action.CREATE_SHORTCUT:
+        9de9d19 com.farmerbb.taskbar/.activity.ShortcutActivity filter 3177f02
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+        1fcb1de com.farmerbb.taskbar/.activity.StartTaskbarActivity filter 73fe013
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        67d8fbf com.farmerbb.taskbar/.receiver.UninstallReceiver filter e24f89b
+          Action: "android.intent.action.PACKAGE_FULLY_REMOVED"
+          Scheme: "package"
+          AutoVerify=false
+
+  Non-Data Actions:
+      com.farmerbb.taskbar.START:
+        1fc968c com.farmerbb.taskbar/.receiver.StartReceiver filter b087120
+          Action: "com.farmerbb.taskbar.START"
+          AutoVerify=false
+      com.farmerbb.taskbar.ENABLE_HOME:
+        ab2f1d5 com.farmerbb.taskbar/.receiver.EnableHomeReceiver filter c5f4438
+          Action: "com.farmerbb.taskbar.ENABLE_HOME"
+          AutoVerify=false
+      com.farmerbb.taskbar.SHOW_HIDE_TASKBAR:
+        39e0dea com.farmerbb.taskbar/.receiver.ShowHideTaskbarReceiver filter 6c4a823
+          Action: "com.farmerbb.taskbar.SHOW_HIDE_TASKBAR"
+          AutoVerify=false
+      android.app.action.DEVICE_ADMIN_ENABLED:
+        f8568db com.farmerbb.taskbar/.receiver.LockDeviceReceiver filter 8d37f4c
+          Action: "android.app.action.DEVICE_ADMIN_ENABLED"
+          AutoVerify=false
+      com.farmerbb.taskbar.RECEIVE_SETTINGS:
+        6228f78 com.farmerbb.taskbar/.receiver.SendSettingsReceiver filter 39e8b95
+          Action: "com.farmerbb.taskbar.RECEIVE_SETTINGS"
+          AutoVerify=false
+      android.intent.action.BOOT_COMPLETED:
+        33dd651 com.farmerbb.taskbar/.receiver.BootReceiver filter 49fbc9e
+          Action: "android.intent.action.BOOT_COMPLETED"
+          AutoVerify=false
+      com.farmerbb.taskbar.SEND_SETTINGS:
+        c471eb6 com.farmerbb.taskbar/.receiver.ReceiveSettingsReceiver filter 34704aa
+          Action: "com.farmerbb.taskbar.SEND_SETTINGS"
+          AutoVerify=false
+      com.farmerbb.taskbar.DISABLE_HOME:
+        c67b7b7 com.farmerbb.taskbar/.receiver.DisableHomeReceiver filter 6a94c11
+          Action: "com.farmerbb.taskbar.DISABLE_HOME"
+          AutoVerify=false
+      android.intent.action.MY_PACKAGE_REPLACED:
+        ad2b24 com.farmerbb.taskbar/.receiver.PackageUpgradeReceiver filter 3afa37f
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          AutoVerify=false
+      com.farmerbb.taskbar.QUIT:
+        eb8868d com.farmerbb.taskbar/.receiver.QuitReceiver filter 3d01ad9
+          Action: "com.farmerbb.taskbar.QUIT"
+          AutoVerify=false
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.accessibilityservice.AccessibilityService:
+        b9e7042 com.farmerbb.taskbar/.service.PowerMenuService filter 9b11d52
+          Action: "android.accessibilityservice.AccessibilityService"
+          AutoVerify=false
+
+Permissions:
+  Permission [com.farmerbb.taskbar.ENABLE_DISABLE_HOME] (db61853):
+    sourcePackage=com.farmerbb.taskbar
+    uid=10078 gids=null type=0 prot=signature|privileged
+    perm=Permission{523d590 com.farmerbb.taskbar.ENABLE_DISABLE_HOME}
+    packageSetting=PackageSetting{8b3fe89 com.farmerbb.taskbar/10078}
+  Permission [com.farmerbb.taskbar.SEND_RECEIVE_SETTINGS] (3274e8e):
+    sourcePackage=com.farmerbb.taskbar
+    uid=10078 gids=null type=0 prot=signature
+    perm=Permission{17fe6af com.farmerbb.taskbar.SEND_RECEIVE_SETTINGS}
+    packageSetting=PackageSetting{8b3fe89 com.farmerbb.taskbar/10078}
+  Permission [com.farmerbb.taskbar.START_STOP_TASKBAR] (618babc):
+    sourcePackage=com.farmerbb.taskbar
+    uid=10078 gids=null type=0 prot=signature
+    perm=Permission{ad4fa45 com.farmerbb.taskbar.START_STOP_TASKBAR}
+    packageSetting=PackageSetting{8b3fe89 com.farmerbb.taskbar/10078}
+
+Key Set Manager:
+  [com.farmerbb.taskbar]
+      Signing KeySets: 31
+
+Packages:
+  Package [com.farmerbb.taskbar] (8b3fe89):
+    userId=10078
+    pkg=Package{74dc59a com.farmerbb.taskbar}
+    codePath=/data/app/com.farmerbb.taskbar-1
+    resourcePath=/data/app/com.farmerbb.taskbar-1
+    legacyNativeLibraryDir=/data/app/com.farmerbb.taskbar-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=108 minSdk=21 targetSdk=25
+    versionName=3.0.3
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{d6e3ecb com.farmerbb.taskbar}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/com.farmerbb.taskbar
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-04 20:50:03
+    firstInstallTime=2022-01-04 20:50:03
+    lastUpdateTime=2022-01-04 20:50:03
+    signatures=PackageSignatures{b14c6a8 [673cd49e]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    declared permissions:
+      com.farmerbb.taskbar.START_STOP_TASKBAR: prot=signature, INSTALLED
+      com.farmerbb.taskbar.SEND_RECEIVE_SETTINGS: prot=signature, INSTALLED
+      com.farmerbb.taskbar.ENABLE_DISABLE_HOME: prot=signature|privileged, INSTALLED
+    requested permissions:
+      android.permission.PACKAGE_USAGE_STATS
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.SYSTEM_ALERT_WINDOW
+      com.farmerbb.taskbar.START_STOP_TASKBAR
+      com.farmerbb.taskbar.SEND_RECEIVE_SETTINGS
+      com.android.launcher.permission.INSTALL_SHORTCUT
+    install permissions:
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.farmerbb.taskbar.SEND_RECEIVE_SETTINGS: granted=true
+      android.permission.PACKAGE_USAGE_STATS: granted=true
+      com.farmerbb.taskbar.START_STOP_TASKBAR: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+    User 0: ceDataInode=3409314 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
+      runtime permissions:
+      disabledComponents:
+        com.farmerbb.taskbar.activity.HomeActivity
+        com.farmerbb.taskbar.activity.KeyboardShortcutActivity
+      enabledComponents:
+        com.farmerbb.taskbar.activity.ShortcutActivity
+        com.farmerbb.taskbar.activity.StartTaskbarActivity
+
+
+Dexopt state:
+  [com.farmerbb.taskbar]
+    Instruction Set: x86_64
+      path: /data/app/com.farmerbb.taskbar-1/base.apk
+      status: /data/app/com.farmerbb.taskbar-1/oat/x86_64/base.odex [compilation_filter=interpret-only, status=kOatUpToD
+      ate]
+
+
+Compiler stats:
+  [com.farmerbb.taskbar]
+    (No recorded stats)

@@ -1,0 +1,44 @@
+{
+  "stop_state": "0dbf48842d695977b2847a667d5831cd", 
+  "event_str": "ScrollEvent(direction=UP)", 
+  "tag": "2022-01-04_224447", 
+  "event": {
+    "direction": "UP", 
+    "event_type": "scroll", 
+    "y_full_down": 1750, 
+    "y": null, 
+    "x": null, 
+    "id": 18, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.tasks:id/due_date", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "109*39", 
+      "scrollable": true, 
+      "checked": false, 
+      "package": "org.tasks", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          888, 
+          249
+        ], 
+        [
+          997, 
+          288
+        ]
+      ], 
+      "class": "android.widget.Spinner", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "03be6d9ebe21723af7909b8890d86fe4"
+}

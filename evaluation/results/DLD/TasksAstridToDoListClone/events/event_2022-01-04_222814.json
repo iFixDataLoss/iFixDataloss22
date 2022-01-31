@@ -1,0 +1,42 @@
+{
+  "stop_state": "c58b7cbb9cc53a8bb06962e748ef3cb3", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-04_222814", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.tasks:id/fab", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "84*84", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.tasks", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          660, 
+          972
+        ], 
+        [
+          744, 
+          1056
+        ]
+      ], 
+      "class": "android.widget.ImageButton", 
+      "focusable": true
+    }, 
+    "id": 7, 
+    "event_type": "touch"
+  }, 
+  "start_state": "6ac51f7e3e3455a79439ff9fff23cb51"
+}

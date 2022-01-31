@@ -1,0 +1,42 @@
+{
+  "stop_state": "8d64fa00639c1dc6b174d29304a7e910", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-04_221535", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.tasks:id/search_src_text", 
+      "text": "test123test123test123test123test123HelloWorld", 
+      "editable": true, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": true, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "396*54", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.tasks", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          132, 
+          57
+        ], 
+        [
+          528, 
+          111
+        ]
+      ], 
+      "class": "android.widget.EditText", 
+      "focusable": true
+    }, 
+    "id": 1, 
+    "event_type": "touch"
+  }, 
+  "start_state": "8d64fa00639c1dc6b174d29304a7e910"
+}

@@ -1,0 +1,64 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        9cb2ae5 de.smasi.tickmate/.Tickmate filter c15a6f5
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BOOT_COMPLETED:
+        4b139ba de.smasi.tickmate/.notifications.NotificationInstallerStartUp filter e526c2c
+          Action: "android.intent.action.BOOT_COMPLETED"
+          AutoVerify=false
+
+Key Set Manager:
+  [de.smasi.tickmate]
+      Signing KeySets: 61
+
+Packages:
+  Package [de.smasi.tickmate] (ee8706b):
+    userId=10069
+    pkg=Package{8faa7c8 de.smasi.tickmate}
+    codePath=/data/app/de.smasi.tickmate-1
+    resourcePath=/data/app/de.smasi.tickmate-1
+    legacyNativeLibraryDir=/data/app/de.smasi.tickmate-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=42 minSdk=14 targetSdk=26
+    versionName=1.4.6
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{e889061 de.smasi.tickmate}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/de.smasi.tickmate
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-03 14:11:38
+    firstInstallTime=2022-01-03 14:11:38
+    lastUpdateTime=2022-01-03 14:11:38
+    signatures=PackageSignatures{8293786 [e4685e1d]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.WAKE_LOCK
+      com.android.alarm.permission.SET_ALARM
+    install permissions:
+      com.android.alarm.permission.SET_ALARM: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=3539618 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      runtime permissions:
+
+
+Dexopt state:
+  [de.smasi.tickmate]
+    Instruction Set: x86
+      path: /data/app/de.smasi.tickmate-1/base.apk
+      status: /data/app/de.smasi.tickmate-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDate]
+
+
+Compiler stats:
+  [de.smasi.tickmate]
+     base.apk - 151

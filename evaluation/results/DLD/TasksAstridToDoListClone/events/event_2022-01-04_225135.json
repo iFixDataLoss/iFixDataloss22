@@ -1,0 +1,42 @@
+{
+  "stop_state": "0d80af5dbd5c4833aa79eb70bab965e1", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-04_225135", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Collapse", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "84*96", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.tasks", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          12, 
+          36
+        ], 
+        [
+          96, 
+          132
+        ]
+      ], 
+      "class": "android.widget.ImageButton", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "1f659b87adf03313687935481979eb20"
+}

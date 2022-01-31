@@ -1,0 +1,626 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Full MIME Types:
+      text/plain:
+        708afbc org.mariotaku.twidere/.activity.ComposeActivity filter 49a8770
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "text/plain"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      image/*:
+        708afbc org.mariotaku.twidere/.activity.ComposeActivity filter 49a8770
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "text/plain"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Base MIME Types:
+      text:
+        708afbc org.mariotaku.twidere/.activity.ComposeActivity filter 49a8770
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "text/plain"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Wild MIME Types:
+      image:
+        708afbc org.mariotaku.twidere/.activity.ComposeActivity filter 49a8770
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "text/plain"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Schemes:
+      twidere:
+        ba64b45 org.mariotaku.twidere/.activity.LinkHandlerActivity filter 9cb582b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "twidere"
+          AutoVerify=false
+      file:
+        d1b429a org.mariotaku.twidere/.activity.MediaViewerActivity filter cb3d488
+          Action: "org.mariotaku.twidere.VIEW_MEDIA"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "file"
+          AutoVerify=false
+      http:
+        d1b429a org.mariotaku.twidere/.activity.MediaViewerActivity filter cb3d488
+          Action: "org.mariotaku.twidere.VIEW_MEDIA"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "file"
+          AutoVerify=false
+        277cb org.mariotaku.twidere/.activity.WebLinkHandlerActivity filter 709f2cc
+          Action: "android.intent.action.VIEW"
+          Action: "android.nfc.action.NDEF_DISCOVERED"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "twitter.com": -1
+          Authority: "www.twitter.com": -1
+          Authority: "mobile.twitter.com": -1
+          Authority: "fanfou.com": -1
+          AutoVerify=false
+        277cb org.mariotaku.twidere/.activity.WebLinkHandlerActivity filter cfeb915
+          Action: "android.intent.action.VIEW"
+          Action: "android.nfc.action.NDEF_DISCOVERED"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "twidere.mariotaku.org": -1
+          Authority: "twidere.org": -1
+          Path: "PatternMatcher{PREFIX: /external}"
+          Path: "PatternMatcher{PREFIX: /external}"
+          AutoVerify=false
+      https:
+        d1b429a org.mariotaku.twidere/.activity.MediaViewerActivity filter cb3d488
+          Action: "org.mariotaku.twidere.VIEW_MEDIA"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "file"
+          AutoVerify=false
+        277cb org.mariotaku.twidere/.activity.WebLinkHandlerActivity filter 709f2cc
+          Action: "android.intent.action.VIEW"
+          Action: "android.nfc.action.NDEF_DISCOVERED"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "twitter.com": -1
+          Authority: "www.twitter.com": -1
+          Authority: "mobile.twitter.com": -1
+          Authority: "fanfou.com": -1
+          AutoVerify=false
+        277cb org.mariotaku.twidere/.activity.WebLinkHandlerActivity filter cfeb915
+          Action: "android.intent.action.VIEW"
+          Action: "android.nfc.action.NDEF_DISCOVERED"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "twidere.mariotaku.org": -1
+          Authority: "twidere.org": -1
+          Path: "PatternMatcher{PREFIX: /external}"
+          Path: "PatternMatcher{PREFIX: /external}"
+          AutoVerify=false
+      db-lflrwypk2e5pjm6:
+        38f0ba8 org.mariotaku.twidere/com.dropbox.core.android.AuthActivity filter a5c9796
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "db-lflrwypk2e5pjm6"
+          AutoVerify=false
+      twidere.settings:
+        56556c1 org.mariotaku.twidere/.activity.SettingsActivity filter a045ca5
+          Action: "android.intent.action.MAIN"
+          Action: "org.mariotaku.twidere.SETTINGS"
+          Action: "org.mariotaku.twidere.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "twidere.settings"
+          AutoVerify=false
+
+  Non-Data Actions:
+      org.mariotaku.twidere.PICK_IMAGE:
+        6daee66 org.mariotaku.twidere/.activity.ThemedMediaPickerActivity filter 5881246
+          Action: "android.intent.action.MAIN"
+          Action: "org.mariotaku.twidere.PICK_IMAGE"
+          Action: "org.mariotaku.twidere.TAKE_PHOTO"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      org.mariotaku.twidere.TWITTER_BROWSER_LOGIN:
+        8bec5a7 org.mariotaku.twidere/.activity.BrowserSignInActivity filter 56c2a0f
+          Action: "org.mariotaku.twidere.TWITTER_BROWSER_LOGIN"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      org.mariotaku.twidere.PICK_FILE:
+        f9d3a54 org.mariotaku.twidere/.activity.FileSelectorActivity filter c831e21
+          Action: "org.mariotaku.twidere.PICK_FILE"
+          Action: "org.mariotaku.twidere.PICK_DIRECTORY"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      org.mariotaku.twidere.SELECT_USER_LIST:
+        eaf9dfd org.mariotaku.twidere/.activity.UserListSelectorActivity filter 2b1b4ff
+          Action: "org.mariotaku.twidere.SELECT_USER_LIST"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      org.mariotaku.twidere.HIDDEN_SETTINGS_ENTRY:
+        1978af2 org.mariotaku.twidere/.activity.presentation.ToggleRefreshActivity filter cf6a21b
+          Action: "org.mariotaku.twidere.HIDDEN_SETTINGS_ENTRY"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      org.mariotaku.twidere.REPLY_MULTIPLE:
+        708afbc org.mariotaku.twidere/.activity.ComposeActivity filter 7b2e5b3
+          Action: "android.intent.action.MAIN"
+          Action: "org.mariotaku.twidere.COMPOSE"
+          Action: "org.mariotaku.twidere.COMPOSE_TAKE_PHOTO"
+          Action: "org.mariotaku.twidere.COMPOSE_PICK_IMAGE"
+          Action: "org.mariotaku.twidere.REPLY"
+          Action: "org.mariotaku.twidere.QUOTE"
+          Action: "org.mariotaku.twidere.EDIT_DRAFT"
+          Action: "org.mariotaku.twidere.MENTION"
+          Action: "org.mariotaku.twidere.REPLY_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.MAIN:
+        3081543 org.mariotaku.twidere/.activity.MainActivity filter 3a06f17
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+        5bda7c0 org.mariotaku.twidere/.activity.MainHondaJOJOActivity filter ff27f04
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+        708afbc org.mariotaku.twidere/.activity.ComposeActivity filter 7b2e5b3
+          Action: "android.intent.action.MAIN"
+          Action: "org.mariotaku.twidere.COMPOSE"
+          Action: "org.mariotaku.twidere.COMPOSE_TAKE_PHOTO"
+          Action: "org.mariotaku.twidere.COMPOSE_PICK_IMAGE"
+          Action: "org.mariotaku.twidere.REPLY"
+          Action: "org.mariotaku.twidere.QUOTE"
+          Action: "org.mariotaku.twidere.EDIT_DRAFT"
+          Action: "org.mariotaku.twidere.MENTION"
+          Action: "org.mariotaku.twidere.REPLY_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+        6daee66 org.mariotaku.twidere/.activity.ThemedMediaPickerActivity filter 5881246
+          Action: "android.intent.action.MAIN"
+          Action: "org.mariotaku.twidere.PICK_IMAGE"
+          Action: "org.mariotaku.twidere.TAKE_PHOTO"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      org.mariotaku.twidere.TAKE_PHOTO:
+        6daee66 org.mariotaku.twidere/.activity.ThemedMediaPickerActivity filter 5881246
+          Action: "android.intent.action.MAIN"
+          Action: "org.mariotaku.twidere.PICK_IMAGE"
+          Action: "org.mariotaku.twidere.TAKE_PHOTO"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      org.mariotaku.twidere.HOME:
+        95d1cf9 org.mariotaku.twidere/.activity.HomeActivity filter e0b7ced
+          Action: "org.mariotaku.twidere.HOME"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.MANAGE_NETWORK_USAGE:
+        56556c1 org.mariotaku.twidere/.activity.SettingsActivity filter a78aa9c
+          Action: "android.intent.action.MANAGE_NETWORK_USAGE"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      org.mariotaku.twidere.COMPOSE_PICK_IMAGE:
+        708afbc org.mariotaku.twidere/.activity.ComposeActivity filter 7b2e5b3
+          Action: "android.intent.action.MAIN"
+          Action: "org.mariotaku.twidere.COMPOSE"
+          Action: "org.mariotaku.twidere.COMPOSE_TAKE_PHOTO"
+          Action: "org.mariotaku.twidere.COMPOSE_PICK_IMAGE"
+          Action: "org.mariotaku.twidere.REPLY"
+          Action: "org.mariotaku.twidere.QUOTE"
+          Action: "org.mariotaku.twidere.EDIT_DRAFT"
+          Action: "org.mariotaku.twidere.MENTION"
+          Action: "org.mariotaku.twidere.REPLY_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      org.mariotaku.twidere.REQUEST_PERMISSIONS:
+        d0f643e org.mariotaku.twidere/.activity.RequestPermissionsActivity filter 2c07059
+          Action: "org.mariotaku.twidere.REQUEST_PERMISSIONS"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      org.mariotaku.twidere.SELECT_USER:
+        60cc29f org.mariotaku.twidere/.activity.UserSelectorActivity filter c01241e
+          Action: "org.mariotaku.twidere.SELECT_USER"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      org.mariotaku.twidere.TWITTER_LOGIN:
+        cb57fec org.mariotaku.twidere/.activity.SignInActivity filter 197036e
+          Action: "org.mariotaku.twidere.TWITTER_LOGIN"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      org.mariotaku.twidere.MENTION:
+        708afbc org.mariotaku.twidere/.activity.ComposeActivity filter 7b2e5b3
+          Action: "android.intent.action.MAIN"
+          Action: "org.mariotaku.twidere.COMPOSE"
+          Action: "org.mariotaku.twidere.COMPOSE_TAKE_PHOTO"
+          Action: "org.mariotaku.twidere.COMPOSE_PICK_IMAGE"
+          Action: "org.mariotaku.twidere.REPLY"
+          Action: "org.mariotaku.twidere.QUOTE"
+          Action: "org.mariotaku.twidere.EDIT_DRAFT"
+          Action: "org.mariotaku.twidere.MENTION"
+          Action: "org.mariotaku.twidere.REPLY_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      org.mariotaku.twidere.COMPOSE:
+        708afbc org.mariotaku.twidere/.activity.ComposeActivity filter 7b2e5b3
+          Action: "android.intent.action.MAIN"
+          Action: "org.mariotaku.twidere.COMPOSE"
+          Action: "org.mariotaku.twidere.COMPOSE_TAKE_PHOTO"
+          Action: "org.mariotaku.twidere.COMPOSE_PICK_IMAGE"
+          Action: "org.mariotaku.twidere.REPLY"
+          Action: "org.mariotaku.twidere.QUOTE"
+          Action: "org.mariotaku.twidere.EDIT_DRAFT"
+          Action: "org.mariotaku.twidere.MENTION"
+          Action: "org.mariotaku.twidere.REPLY_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      org.mariotaku.twidere.COMPOSE_TAKE_PHOTO:
+        708afbc org.mariotaku.twidere/.activity.ComposeActivity filter 7b2e5b3
+          Action: "android.intent.action.MAIN"
+          Action: "org.mariotaku.twidere.COMPOSE"
+          Action: "org.mariotaku.twidere.COMPOSE_TAKE_PHOTO"
+          Action: "org.mariotaku.twidere.COMPOSE_PICK_IMAGE"
+          Action: "org.mariotaku.twidere.REPLY"
+          Action: "org.mariotaku.twidere.QUOTE"
+          Action: "org.mariotaku.twidere.EDIT_DRAFT"
+          Action: "org.mariotaku.twidere.MENTION"
+          Action: "org.mariotaku.twidere.REPLY_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      org.mariotaku.twidere.SELECT_ACCOUNT:
+        2c98fb5 org.mariotaku.twidere/.activity.AccountSelectorActivity filter 4b3e87a
+          Action: "org.mariotaku.twidere.SELECT_ACCOUNT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      org.mariotaku.twidere.QUOTE:
+        708afbc org.mariotaku.twidere/.activity.ComposeActivity filter 7b2e5b3
+          Action: "android.intent.action.MAIN"
+          Action: "org.mariotaku.twidere.COMPOSE"
+          Action: "org.mariotaku.twidere.COMPOSE_TAKE_PHOTO"
+          Action: "org.mariotaku.twidere.COMPOSE_PICK_IMAGE"
+          Action: "org.mariotaku.twidere.REPLY"
+          Action: "org.mariotaku.twidere.QUOTE"
+          Action: "org.mariotaku.twidere.EDIT_DRAFT"
+          Action: "org.mariotaku.twidere.MENTION"
+          Action: "org.mariotaku.twidere.REPLY_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      org.mariotaku.twidere.REPLY:
+        708afbc org.mariotaku.twidere/.activity.ComposeActivity filter 7b2e5b3
+          Action: "android.intent.action.MAIN"
+          Action: "org.mariotaku.twidere.COMPOSE"
+          Action: "org.mariotaku.twidere.COMPOSE_TAKE_PHOTO"
+          Action: "org.mariotaku.twidere.COMPOSE_PICK_IMAGE"
+          Action: "org.mariotaku.twidere.REPLY"
+          Action: "org.mariotaku.twidere.QUOTE"
+          Action: "org.mariotaku.twidere.EDIT_DRAFT"
+          Action: "org.mariotaku.twidere.MENTION"
+          Action: "org.mariotaku.twidere.REPLY_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      org.mariotaku.twidere.GLOBAL_SEARCH:
+        499864a org.mariotaku.twidere/.activity.QuickSearchBarActivity filter baffae9
+          Action: "org.mariotaku.twidere.GLOBAL_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.ASSIST:
+        384e9bb org.mariotaku.twidere/.activity.AssistLauncherActivity filter 17642a
+          Action: "android.intent.action.ASSIST"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      org.mariotaku.twidere.EDIT_DRAFT:
+        708afbc org.mariotaku.twidere/.activity.ComposeActivity filter 7b2e5b3
+          Action: "android.intent.action.MAIN"
+          Action: "org.mariotaku.twidere.COMPOSE"
+          Action: "org.mariotaku.twidere.COMPOSE_TAKE_PHOTO"
+          Action: "org.mariotaku.twidere.COMPOSE_PICK_IMAGE"
+          Action: "org.mariotaku.twidere.REPLY"
+          Action: "org.mariotaku.twidere.QUOTE"
+          Action: "org.mariotaku.twidere.EDIT_DRAFT"
+          Action: "org.mariotaku.twidere.MENTION"
+          Action: "org.mariotaku.twidere.REPLY_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.CREATE_SHORTCUT:
+        70aed8 org.mariotaku.twidere/.activity.shortcut.ComposeShortcutCreatorActivity filter 8a54c07
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+        8507231 org.mariotaku.twidere/.activity.shortcut.UserFavoritesShortcutCreatorActivity filter ff5b134
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+        ff1bd16 org.mariotaku.twidere/.activity.shortcut.UserTimelineShortcutCreatorActivity filter 9d27b5d
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+        68e6697 org.mariotaku.twidere/.activity.shortcut.UserMediaTimelineTimelineShortcutCreatorActivity filter 7230cd2
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+        dade084 org.mariotaku.twidere/.activity.shortcut.UserShortcutCreatorActivity filter 440a1a3
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+        789006d org.mariotaku.twidere/.activity.shortcut.UserListTimelineShortcutCreatorActivity filter 7d6aca0
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.SEARCH:
+        95d1cf9 org.mariotaku.twidere/.activity.HomeActivity filter 7429722
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      org.mariotaku.twidere.PICK_DIRECTORY:
+        f9d3a54 org.mariotaku.twidere/.activity.FileSelectorActivity filter c831e21
+          Action: "org.mariotaku.twidere.PICK_FILE"
+          Action: "org.mariotaku.twidere.PICK_DIRECTORY"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        708afbc org.mariotaku.twidere/.activity.ComposeActivity filter 49a8770
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "text/plain"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      android.intent.action.SEND_MULTIPLE:
+        708afbc org.mariotaku.twidere/.activity.ComposeActivity filter 49a8770
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "text/plain"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Schemes:
+      android_secret_code:
+        4c494a2 org.mariotaku.twidere/.receiver.SecretCodeBroadcastReceiver filter d2f6a3b
+          Action: "android.provider.Telephony.SECRET_CODE"
+          Scheme: "android_secret_code"
+          Authority: "8943373": -1
+          AutoVerify=false
+
+  Non-Data Actions:
+      org.mariotaku.twidere.NOTIFICATION_DELETED:
+        448d533 org.mariotaku.twidere/.receiver.NotificationReceiver filter 553b8ca
+          Action: "org.mariotaku.twidere.NOTIFICATION_DELETED"
+          AutoVerify=false
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        c6a80f0 org.mariotaku.twidere/.receiver.PowerStateReceiver filter 71afc35
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          AutoVerify=false
+      com.android.vending.INSTALL_REFERRER:
+        6423669 org.mariotaku.twidere/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver filter 4306558
+          Action: "com.android.vending.INSTALL_REFERRER"
+          AutoVerify=false
+      com.google.android.c2dm.intent.RECEIVE:
+        4fb58ee org.mariotaku.twidere/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 18c26b1
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Category: "org.mariotaku.twidere"
+          AutoVerify=false
+      android.intent.action.ACTION_POWER_CONNECTED:
+        c6a80f0 org.mariotaku.twidere/.receiver.PowerStateReceiver filter 71afc35
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          AutoVerify=false
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.content.SyncAdapter:
+        a31918f org.mariotaku.twidere/.service.AccountSyncService filter c58c179
+          Action: "android.content.SyncAdapter"
+          AutoVerify=false
+      com.google.firebase.INSTANCE_ID_EVENT:
+        50ebc1c org.mariotaku.twidere/com.google.firebase.iid.FirebaseInstanceIdService filter 7eece6c
+          Action: "com.google.firebase.INSTANCE_ID_EVENT"
+          mPriority=-500, mHasPartialTypes=false
+          AutoVerify=false
+      android.service.dreams.DreamService:
+        e3ed025 org.mariotaku.twidere/.nyan.NyanDaydreamService filter 9383b1f
+          Action: "android.service.dreams.DreamService"
+          mPriority=1, mHasPartialTypes=false
+          AutoVerify=false
+      android.accounts.AccountAuthenticator:
+        5c815fa org.mariotaku.twidere/.service.AccountAuthenticatorService filter 3870e40
+          Action: "android.accounts.AccountAuthenticator"
+          AutoVerify=false
+      android.service.wallpaper.WallpaperService:
+        63fb7ab org.mariotaku.twidere/.nyan.NyanWallpaperService filter 9536ebe
+          Action: "android.service.wallpaper.WallpaperService"
+          mPriority=1, mHasPartialTypes=false
+          AutoVerify=false
+
+Permissions:
+  Permission [org.mariotaku.twidere.permission.UPLOAD_MEDIA] (c597e08):
+    sourcePackage=org.mariotaku.twidere
+    uid=10076 gids=null type=0 prot=normal
+    perm=Permission{8b149a1 org.mariotaku.twidere.permission.UPLOAD_MEDIA}
+    packageSetting=PackageSetting{b7197c6 org.mariotaku.twidere/10076}
+  Permission [org.mariotaku.twidere.permission.SHORTEN_STATUS] (4c02387):
+    sourcePackage=org.mariotaku.twidere
+    uid=10076 gids=null type=0 prot=normal
+    perm=Permission{20c72b4 org.mariotaku.twidere.permission.SHORTEN_STATUS}
+    packageSetting=PackageSetting{b7197c6 org.mariotaku.twidere/10076}
+  Permission [org.mariotaku.twidere.permission.C2D_MESSAGE] (577dedd):
+    sourcePackage=org.mariotaku.twidere
+    uid=10076 gids=null type=0 prot=signature
+    perm=Permission{5df6a52 org.mariotaku.twidere.permission.C2D_MESSAGE}
+    packageSetting=PackageSetting{b7197c6 org.mariotaku.twidere/10076}
+  Permission [org.mariotaku.twidere.permission.SYNC_TIMELINE] (ff17123):
+    sourcePackage=org.mariotaku.twidere
+    uid=10076 gids=null type=0 prot=normal
+    perm=Permission{e580620 org.mariotaku.twidere.permission.SYNC_TIMELINE}
+    packageSetting=PackageSetting{b7197c6 org.mariotaku.twidere/10076}
+  Permission [org.mariotaku.twidere.permission.ACCESS_DATABASE] (a188bd9):
+    sourcePackage=org.mariotaku.twidere
+    uid=10076 gids=null type=0 prot=signature
+    perm=Permission{9e5d99e org.mariotaku.twidere.permission.ACCESS_DATABASE}
+    packageSetting=PackageSetting{b7197c6 org.mariotaku.twidere/10076}
+
+Registered ContentProviders:
+  org.mariotaku.twidere/.provider.CacheProvider:
+    Provider{d5ffc7f org.mariotaku.twidere/.provider.CacheProvider}
+  org.mariotaku.twidere/.provider.TwidereDataProvider:
+    Provider{a07644c org.mariotaku.twidere/.provider.TwidereDataProvider}
+  org.mariotaku.twidere/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{47d0c95 org.mariotaku.twidere/com.google.firebase.provider.FirebaseInitProvider}
+  org.mariotaku.twidere/android.support.v4.content.FileProvider:
+    Provider{351f1aa org.mariotaku.twidere/android.support.v4.content.FileProvider}
+  org.mariotaku.twidere/.provider.RecentSearchProvider:
+    Provider{501e19b org.mariotaku.twidere/.provider.RecentSearchProvider}
+  org.mariotaku.twidere/.provider.ShareProvider:
+    Provider{d6c7938 org.mariotaku.twidere/.provider.ShareProvider}
+
+ContentProvider Authorities:
+  [org.mariotaku.twidere.pncfileprovider]:
+    Provider{351f1aa org.mariotaku.twidere/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{d6edd11 org.mariotaku.twidere}
+  [org.mariotaku.twidere.provider.SearchRecentSuggestions]:
+    Provider{501e19b org.mariotaku.twidere/.provider.RecentSearchProvider}
+      applicationInfo=ApplicationInfo{d6edd11 org.mariotaku.twidere}
+  [org.mariotaku.twidere.firebaseinitprovider]:
+    Provider{47d0c95 org.mariotaku.twidere/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{d6edd11 org.mariotaku.twidere}
+  [twidere]:
+    Provider{a07644c org.mariotaku.twidere/.provider.TwidereDataProvider}
+      applicationInfo=ApplicationInfo{d6edd11 org.mariotaku.twidere}
+  [twidere.cache]:
+    Provider{d5ffc7f org.mariotaku.twidere/.provider.CacheProvider}
+      applicationInfo=ApplicationInfo{d6edd11 org.mariotaku.twidere}
+  [twidere.share]:
+    Provider{d6c7938 org.mariotaku.twidere/.provider.ShareProvider}
+      applicationInfo=ApplicationInfo{d6edd11 org.mariotaku.twidere}
+
+Key Set Manager:
+  [org.mariotaku.twidere]
+      Signing KeySets: 29
+
+Packages:
+  Package [org.mariotaku.twidere] (b7197c6):
+    userId=10076
+    pkg=Package{bb57e76 org.mariotaku.twidere}
+    codePath=/data/app/org.mariotaku.twidere-1
+    resourcePath=/data/app/org.mariotaku.twidere-1
+    legacyNativeLibraryDir=/data/app/org.mariotaku.twidere-1/lib
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    versionCode=396 minSdk=14 targetSdk=26
+    versionName=3.7.2
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{d6edd11 org.mariotaku.twidere}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE ]
+    privateFlags=[ HAS_DOMAIN_URLS RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/org.mariotaku.twidere
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      com.sec.android.app.multiwindow
+    timeStamp=2022-01-04 18:54:47
+    firstInstallTime=2022-01-04 18:54:48
+    lastUpdateTime=2022-01-04 18:54:48
+    signatures=PackageSignatures{e12fc77 [b76a991b]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE ]
+    declared permissions:
+      org.mariotaku.twidere.permission.ACCESS_DATABASE: prot=signature, INSTALLED
+      org.mariotaku.twidere.permission.SHORTEN_STATUS: prot=normal, INSTALLED
+      org.mariotaku.twidere.permission.UPLOAD_MEDIA: prot=normal, INSTALLED
+      org.mariotaku.twidere.permission.SYNC_TIMELINE: prot=normal, INSTALLED
+      org.mariotaku.twidere.permission.C2D_MESSAGE: prot=signature, INSTALLED
+    requested permissions:
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      com.android.vending.BILLING
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.INTERNET
+      android.permission.VIBRATE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.NFC
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.READ_SYNC_SETTINGS
+      android.permission.WRITE_SYNC_SETTINGS
+      org.mariotaku.twidere.permission.SHORTEN_STATUS
+      org.mariotaku.twidere.permission.UPLOAD_MEDIA
+      org.mariotaku.twidere.permission.SYNC_TIMELINE
+      org.mariotaku.twidere.permission.ACCESS_DATABASE
+      android.permission.WAKE_LOCK
+      com.google.android.c2dm.permission.RECEIVE
+      org.mariotaku.twidere.permission.C2D_MESSAGE
+    install permissions:
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      org.mariotaku.twidere.permission.UPLOAD_MEDIA: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      org.mariotaku.twidere.permission.SHORTEN_STATUS: granted=true
+      org.mariotaku.twidere.permission.C2D_MESSAGE: granted=true
+      android.permission.NFC: granted=true
+      org.mariotaku.twidere.permission.SYNC_TIMELINE: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      org.mariotaku.twidere.permission.ACCESS_DATABASE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=3409302 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=true
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.ACCESS_COARSE_LOCATION: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [org.mariotaku.twidere]
+    Instruction Set: x86_64
+      path: /data/app/org.mariotaku.twidere-1/base.apk
+      status: /data/app/org.mariotaku.twidere-1/oat/x86_64/base.odex [compilation_filter=interpret-only, status=kOatUpTo
+      Date]
+
+
+Compiler stats:
+  [org.mariotaku.twidere]
+     base.apk - 712

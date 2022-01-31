@@ -1,0 +1,275 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Schemes:
+      com.zegoggles.smssync:
+        acadff0 com.zegoggles.smssync/.activity.auth.RedirectReceiverActivity filter 6e7a359
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.zegoggles.smssync"
+          Path: "PatternMatcher{LITERAL: /oauth2redirect}"
+          AutoVerify=false
+      mms:
+        c3ca969 com.zegoggles.smssync/.compat.ComposeSmsActivity filter 43bdb1e
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SENDTO"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "sms"
+          Scheme: "smsto"
+          Scheme: "mms"
+          Scheme: "mmsto"
+          AutoVerify=false
+      sms:
+        c3ca969 com.zegoggles.smssync/.compat.ComposeSmsActivity filter 43bdb1e
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SENDTO"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "sms"
+          Scheme: "smsto"
+          Scheme: "mms"
+          Scheme: "mmsto"
+          AutoVerify=false
+      mmsto:
+        c3ca969 com.zegoggles.smssync/.compat.ComposeSmsActivity filter 43bdb1e
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SENDTO"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "sms"
+          Scheme: "smsto"
+          Scheme: "mms"
+          Scheme: "mmsto"
+          AutoVerify=false
+      smsto:
+        c3ca969 com.zegoggles.smssync/.compat.ComposeSmsActivity filter 43bdb1e
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SENDTO"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "sms"
+          Scheme: "smsto"
+          Scheme: "mms"
+          Scheme: "mmsto"
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        1a84fee com.zegoggles.smssync/.activity.MainActivity filter 21ecba0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Full MIME Types:
+      application/vnd.wap.mms-message:
+        d18bc8f com.zegoggles.smssync/.compat.MmsReceiver filter e29dca3
+          Action: "android.provider.Telephony.WAP_PUSH_DELIVER"
+          Type: "application/vnd.wap.mms-message"
+          AutoVerify=false
+
+  Base MIME Types:
+      application:
+        d18bc8f com.zegoggles.smssync/.compat.MmsReceiver filter e29dca3
+          Action: "android.provider.Telephony.WAP_PUSH_DELIVER"
+          Type: "application/vnd.wap.mms-message"
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.provider.Telephony.SMS_DELIVER:
+        2960b1c com.zegoggles.smssync/.compat.SmsReceiver filter c5053d2
+          Action: "android.provider.Telephony.SMS_DELIVER"
+          AutoVerify=false
+      android.intent.action.BOOT_COMPLETED:
+        4ed7325 com.zegoggles.smssync/.receiver.BootReceiver filter 2e0d707
+          Action: "android.intent.action.BOOT_COMPLETED"
+          AutoVerify=false
+      android.provider.Telephony.SMS_RECEIVED:
+        5cd7cfa com.zegoggles.smssync/.receiver.SmsBroadcastReceiver filter a9ee946
+          Action: "android.provider.Telephony.SMS_RECEIVED"
+          AutoVerify=false
+      com.zegoggles.smssync.BACKUP:
+        7ee92ab com.zegoggles.smssync/.receiver.BackupBroadcastReceiver filter 3dc7e5d
+          Action: "com.zegoggles.smssync.BACKUP"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.MY_PACKAGE_REPLACED:
+        c86bd08 com.zegoggles.smssync/.receiver.PackageReplacedReceiver filter 1a9e034
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      android.provider.Telephony.WAP_PUSH_DELIVER:
+        d18bc8f com.zegoggles.smssync/.compat.MmsReceiver filter e29dca3
+          Action: "android.provider.Telephony.WAP_PUSH_DELIVER"
+          Type: "application/vnd.wap.mms-message"
+          AutoVerify=false
+
+Service Resolver Table:
+  Schemes:
+      mms:
+        f271ca1 com.zegoggles.smssync/.compat.HeadlessSmsSendService filter c331388
+          Action: "android.intent.action.RESPOND_VIA_MESSAGE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "sms"
+          Scheme: "smsto"
+          Scheme: "mms"
+          Scheme: "mmsto"
+          AutoVerify=false
+      sms:
+        f271ca1 com.zegoggles.smssync/.compat.HeadlessSmsSendService filter c331388
+          Action: "android.intent.action.RESPOND_VIA_MESSAGE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "sms"
+          Scheme: "smsto"
+          Scheme: "mms"
+          Scheme: "mmsto"
+          AutoVerify=false
+      mmsto:
+        f271ca1 com.zegoggles.smssync/.compat.HeadlessSmsSendService filter c331388
+          Action: "android.intent.action.RESPOND_VIA_MESSAGE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "sms"
+          Scheme: "smsto"
+          Scheme: "mms"
+          Scheme: "mmsto"
+          AutoVerify=false
+      smsto:
+        f271ca1 com.zegoggles.smssync/.compat.HeadlessSmsSendService filter c331388
+          Action: "android.intent.action.RESPOND_VIA_MESSAGE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "sms"
+          Scheme: "smsto"
+          Scheme: "mms"
+          Scheme: "mmsto"
+          AutoVerify=false
+
+  Non-Data Actions:
+      com.google.android.gms.gcm.ACTION_TASK_READY:
+        3e66ec6 com.zegoggles.smssync/com.firebase.jobdispatcher.GooglePlayReceiver filter 4e2f121
+          Action: "com.google.android.gms.gcm.ACTION_TASK_READY"
+          AutoVerify=false
+      com.firebase.jobdispatcher.ACTION_EXECUTE:
+        201ae87 com.zegoggles.smssync/.service.SmsJobService filter cd4332b
+          Action: "com.firebase.jobdispatcher.ACTION_EXECUTE"
+          AutoVerify=false
+
+Preferred Activities User 0:
+  Schemes:
+      mms:
+        b3a86ef com.zegoggles.smssync/.compat.ComposeSmsActivity
+         mMatch=0x200000 mAlways=true
+          Selected from:
+            com.zegoggles.smssync/.compat.ComposeSmsActivity
+          Action: "android.intent.action.SENDTO"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "mms"
+          AutoVerify=false
+      sms:
+        22b14c9 com.zegoggles.smssync/.compat.ComposeSmsActivity
+         mMatch=0x200000 mAlways=true
+          Selected from:
+            com.zegoggles.smssync/.compat.ComposeSmsActivity
+          Action: "android.intent.action.SENDTO"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "sms"
+          AutoVerify=false
+      mmsto:
+        8e275fc com.zegoggles.smssync/.compat.ComposeSmsActivity
+         mMatch=0x200000 mAlways=true
+          Selected from:
+            com.zegoggles.smssync/.compat.ComposeSmsActivity
+          Action: "android.intent.action.SENDTO"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "mmsto"
+          AutoVerify=false
+      smsto:
+        92347ce com.zegoggles.smssync/.compat.ComposeSmsActivity
+         mMatch=0x200000 mAlways=true
+          Selected from:
+            com.zegoggles.smssync/.compat.ComposeSmsActivity
+          Action: "android.intent.action.SENDTO"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "smsto"
+          AutoVerify=false
+
+Key Set Manager:
+  [com.zegoggles.smssync]
+      Signing KeySets: 57
+
+Packages:
+  Package [com.zegoggles.smssync] (14ea1b4):
+    userId=10104
+    pkg=Package{8f7e1dd com.zegoggles.smssync}
+    codePath=/data/app/com.zegoggles.smssync-1
+    resourcePath=/data/app/com.zegoggles.smssync-1
+    legacyNativeLibraryDir=/data/app/com.zegoggles.smssync-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=1571 minSdk=9 targetSdk=25
+    versionName=1.5.11-beta18
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{64ab152 com.zegoggles.smssync}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/com.zegoggles.smssync
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-05 22:49:37
+    firstInstallTime=2022-01-05 22:49:37
+    lastUpdateTime=2022-01-05 22:49:37
+    signatures=PackageSignatures{740ac23 [6033aa3d]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.READ_SMS
+      android.permission.WRITE_SMS
+      android.permission.RECEIVE_SMS
+      android.permission.READ_CALL_LOG
+      android.permission.WRITE_CALL_LOG
+      android.permission.READ_CONTACTS
+      android.permission.WRITE_CONTACTS
+      android.permission.READ_CALENDAR
+      android.permission.WRITE_CALENDAR
+      android.permission.GET_ACCOUNTS
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.WAKE_LOCK
+      android.permission.RECEIVE_BOOT_COMPLETED
+      com.android.vending.BILLING
+    install permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      android.permission.WRITE_SMS: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=3410232 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_SMS: granted=true, flags=[ GRANTED_BY_DEFAULT ]
+        android.permission.READ_CALENDAR: granted=true
+        android.permission.READ_CALL_LOG: granted=true, flags=[ GRANTED_BY_DEFAULT ]
+        android.permission.RECEIVE_SMS: granted=true, flags=[ GRANTED_BY_DEFAULT ]
+        android.permission.WRITE_CONTACTS: granted=true, flags=[ GRANTED_BY_DEFAULT ]
+        android.permission.WRITE_CALENDAR: granted=true
+        android.permission.WRITE_CALL_LOG: granted=true, flags=[ GRANTED_BY_DEFAULT ]
+        android.permission.GET_ACCOUNTS: granted=true, flags=[ GRANTED_BY_DEFAULT ]
+        android.permission.READ_CONTACTS: granted=true, flags=[ GRANTED_BY_DEFAULT ]
+
+
+Dexopt state:
+  [com.zegoggles.smssync]
+    Instruction Set: x86_64
+      path: /data/app/com.zegoggles.smssync-1/base.apk
+      status: /data/app/com.zegoggles.smssync-1/oat/x86_64/base.odex [compilation_filter=interpret-only, status=kOatUpTo
+      Date]
+
+
+Compiler stats:
+  [com.zegoggles.smssync]
+     base.apk - 157

@@ -1,0 +1,113 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        33699ec com.nutomic.syncthingandroid/.activities.FirstStartActivity filter 22baa2f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+        33699ec com.nutomic.syncthingandroid/.activities.FirstStartActivity filter 9cbf83c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LEANBACK_LAUNCHER"
+          AutoVerify=false
+      .activities.LogActivity:
+        9ada1b5 com.nutomic.syncthingandroid/.activities.LogActivity filter be329c5
+          Action: ".activities.LogActivity"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.nutomic.syncthingandroid.action.START:
+        d31304a com.nutomic.syncthingandroid/.receiver.AppConfigReceiver filter ae1f00e
+          Action: "com.nutomic.syncthingandroid.action.START"
+          Action: "com.nutomic.syncthingandroid.action.STOP"
+          AutoVerify=false
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        de44bbb com.nutomic.syncthingandroid/.receiver.BatteryReceiver filter 4563b10
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          AutoVerify=false
+      android.net.conn.CONNECTIVITY_CHANGE:
+        6e968d8 com.nutomic.syncthingandroid/.receiver.NetworkReceiver filter 944a3d3
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          AutoVerify=false
+      android.intent.action.BOOT_COMPLETED:
+        e63a431 com.nutomic.syncthingandroid/.receiver.BootReceiver filter d163609
+          Action: "android.intent.action.BOOT_COMPLETED"
+          AutoVerify=false
+      android.intent.action.ACTION_POWER_CONNECTED:
+        de44bbb com.nutomic.syncthingandroid/.receiver.BatteryReceiver filter 4563b10
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          AutoVerify=false
+      com.nutomic.syncthingandroid.action.STOP:
+        d31304a com.nutomic.syncthingandroid/.receiver.AppConfigReceiver filter ae1f00e
+          Action: "com.nutomic.syncthingandroid.action.START"
+          Action: "com.nutomic.syncthingandroid.action.STOP"
+          AutoVerify=false
+
+Key Set Manager:
+  [com.nutomic.syncthingandroid]
+      Signing KeySets: 37
+
+Packages:
+  Package [com.nutomic.syncthingandroid] (b5a0716):
+    userId=10084
+    pkg=Package{481e897 com.nutomic.syncthingandroid}
+    codePath=/data/app/com.nutomic.syncthingandroid-1
+    resourcePath=/data/app/com.nutomic.syncthingandroid-1
+    legacyNativeLibraryDir=/data/app/com.nutomic.syncthingandroid-1/lib
+    primaryCpuAbi=x86
+    secondaryCpuAbi=null
+    versionCode=4115 minSdk=11 targetSdk=25
+    versionName=0.9.5
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{bf83a84 com.nutomic.syncthingandroid}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/com.nutomic.syncthingandroid
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-05 00:01:54
+    firstInstallTime=2022-01-05 00:01:54
+    lastUpdateTime=2022-01-05 00:01:54
+    signatures=PackageSignatures{9d526d [9ba3beb9]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    requested permissions:
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.WAKE_LOCK
+      android.permission.READ_SYNC_SETTINGS
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=3409282 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [com.nutomic.syncthingandroid]
+    Instruction Set: x86
+      path: /data/app/com.nutomic.syncthingandroid-1/base.apk
+      status: /data/app/com.nutomic.syncthingandroid-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOat
+      UpToDate]
+
+
+Compiler stats:
+  [com.nutomic.syncthingandroid]
+     base.apk - 198

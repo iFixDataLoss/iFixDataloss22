@@ -1,0 +1,353 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Full MIME Types:
+      vnd.android.cursor.item/task:
+        960b70e org.tasks/com.todoroo.astrid.activity.TaskEditActivity filter 1611b49
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/task"
+          AutoVerify=false
+      text/plain:
+        8c8652f org.tasks/com.todoroo.astrid.activity.ShareLinkActivity filter 54c316f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+        d81973c org.tasks/.voice.VoiceCommandActivity filter 794758b
+          Action: "com.google.android.gm.action.AUTO_SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+
+  Base MIME Types:
+      vnd.android.cursor.item:
+        960b70e org.tasks/com.todoroo.astrid.activity.TaskEditActivity filter 1611b49
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/task"
+          AutoVerify=false
+      text:
+        8c8652f org.tasks/com.todoroo.astrid.activity.ShareLinkActivity filter 54c316f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+        d81973c org.tasks/.voice.VoiceCommandActivity filter 794758b
+          Action: "com.google.android.gm.action.AUTO_SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        a9dcc5 org.tasks/com.todoroo.astrid.activity.TaskListActivity filter b2f3713
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+        ef5361a org.tasks/com.todoroo.astrid.reminders.ReminderPreferences filter d639f5a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.NOTIFICATION_PREFERENCES"
+          AutoVerify=false
+      android.intent.action.VIEW:
+        a9dcc5 org.tasks/com.todoroo.astrid.activity.TaskListActivity filter 1946d50
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.GET_CONTENT:
+        700254b org.tasks/.files.MyFilePickerActivity filter c172305
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        96eeb28 org.tasks/.widget.WidgetConfigActivity filter 35b0e7c
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+          AutoVerify=false
+      com.twofortyfouram.locale.intent.action.EDIT_SETTING:
+        8d08041 org.tasks/.locale.ui.activity.TaskerCreateTaskActivity filter a889668
+          Action: "com.twofortyfouram.locale.intent.action.EDIT_SETTING"
+          AutoVerify=false
+        b2099e6 org.tasks/com.twofortyfouram.locale.example.setting.toast.ui.activity.PluginActivity filter 66bea81
+          Action: "com.twofortyfouram.locale.intent.action.EDIT_SETTING"
+          AutoVerify=false
+      android.intent.action.CREATE_SHORTCUT:
+        9a9cb27 org.tasks/.widget.ShortcutConfigActivity filter 1f0c4e
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        8c8652f org.tasks/com.todoroo.astrid.activity.ShareLinkActivity filter 54c316f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+      android.intent.action.VIEW:
+        960b70e org.tasks/com.todoroo.astrid.activity.TaskEditActivity filter 1611b49
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/task"
+          AutoVerify=false
+      com.google.android.gm.action.AUTO_SEND:
+        d81973c org.tasks/.voice.VoiceCommandActivity filter 794758b
+          Action: "com.google.android.gm.action.AUTO_SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.todoroo.astrid.widget.TasksWidget.EDIT_TASK:
+        5b91d4 org.tasks/.widget.TasksWidget filter 5f7aa
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.todoroo.astrid.widget.TasksWidget.COMPLETE_TASK"
+          Action: "com.todoroo.astrid.widget.TasksWidget.EDIT_TASK"
+          AutoVerify=false
+      android.intent.action.QUICKBOOT_POWERON:
+        b63df7d org.tasks/com.evernote.android.job.JobBootReceiver filter 32fc6e4
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          AutoVerify=false
+      com.htc.intent.action.QUICKBOOT_POWERON:
+        b63df7d org.tasks/com.evernote.android.job.JobBootReceiver filter 32fc6e4
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          AutoVerify=false
+      android.intent.action.PHONE_STATE:
+        f4c6e72 org.tasks/com.todoroo.astrid.calls.PhoneStateChangedReceiver filter b7c6f9b
+          Action: "android.intent.action.PHONE_STATE"
+          AutoVerify=false
+      com.android.vending.INSTALL_REFERRER:
+        b5df2c3 org.tasks/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver filter 249574d
+          Action: "com.android.vending.INSTALL_REFERRER"
+          AutoVerify=false
+      com.google.android.c2dm.intent.RECEIVE:
+        cc9f740 org.tasks/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 461d202
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Category: "org.tasks"
+          AutoVerify=false
+      com.evernote.android.job.v14.RUN_JOB:
+        6d3f679 org.tasks/com.evernote.android.job.v14.PlatformAlarmReceiver filter ca86a77
+          Action: "com.evernote.android.job.v14.RUN_JOB"
+          Action: "net.vrallev.android.job.v14.RUN_JOB"
+          AutoVerify=false
+      android.intent.action.BOOT_COMPLETED:
+        7eeffbe org.tasks/.receivers.BootCompletedReceiver filter adeef38
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+        b63df7d org.tasks/com.evernote.android.job.JobBootReceiver filter 32fc6e4
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          AutoVerify=false
+      com.twofortyfouram.locale.intent.action.FIRE_SETTING:
+        da2f81f org.tasks/.locale.receiver.FireReceiver filter 6a3e476
+          Action: "com.twofortyfouram.locale.intent.action.FIRE_SETTING"
+          AutoVerify=false
+      com.todoroo.astrid.widget.TasksWidget.COMPLETE_TASK:
+        5b91d4 org.tasks/.widget.TasksWidget filter 5f7aa
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.todoroo.astrid.widget.TasksWidget.COMPLETE_TASK"
+          Action: "com.todoroo.astrid.widget.TasksWidget.EDIT_TASK"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_UPDATE:
+        5b91d4 org.tasks/.widget.TasksWidget filter 5f7aa
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.todoroo.astrid.widget.TasksWidget.COMPLETE_TASK"
+          Action: "com.todoroo.astrid.widget.TasksWidget.EDIT_TASK"
+          AutoVerify=false
+      android.intent.action.MY_PACKAGE_REPLACED:
+        cf7476c org.tasks/.receivers.MyPackageReplacedReceiver filter b1f1b11
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          AutoVerify=false
+        b63df7d org.tasks/com.evernote.android.job.JobBootReceiver filter 32fc6e4
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          AutoVerify=false
+      net.vrallev.android.job.v14.RUN_JOB:
+        6d3f679 org.tasks/com.evernote.android.job.v14.PlatformAlarmReceiver filter ca86a77
+          Action: "com.evernote.android.job.v14.RUN_JOB"
+          Action: "net.vrallev.android.job.v14.RUN_JOB"
+          AutoVerify=false
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.INSTANCE_ID_EVENT:
+        6948135 org.tasks/com.google.firebase.iid.FirebaseInstanceIdService filter f056a95
+          Action: "com.google.firebase.INSTANCE_ID_EVENT"
+          mPriority=-500, mHasPartialTypes=false
+          AutoVerify=false
+      com.google.android.gms.gcm.ACTION_TASK_READY:
+        9759ca org.tasks/com.evernote.android.job.gcm.PlatformGcmService filter e1e7a4c
+          Action: "com.google.android.gms.gcm.ACTION_TASK_READY"
+          AutoVerify=false
+      com.google.android.apps.dashclock.Extension:
+        a08f73b org.tasks/.dashclock.DashClockExtension filter 1adaa7f
+          Action: "com.google.android.apps.dashclock.Extension"
+          AutoVerify=false
+
+Permissions:
+  Permission [org.tasks.permission.READ_TASKS] (3c76e58):
+    sourcePackage=org.tasks
+    uid=10081 gids=null type=0 prot=normal
+    perm=Permission{f98fbb1 org.tasks.permission.READ_TASKS}
+    packageSetting=PackageSetting{cb94896 org.tasks/10081}
+  Permission [org.tasks.permission.C2D_MESSAGE] (905cc17):
+    sourcePackage=org.tasks
+    uid=10081 gids=null type=0 prot=signature
+    perm=Permission{c711804 org.tasks.permission.C2D_MESSAGE}
+    packageSetting=PackageSetting{cb94896 org.tasks/10081}
+
+Registered ContentProviders:
+  org.tasks/com.crashlytics.android.CrashlyticsInitProvider:
+    Provider{890a1ed org.tasks/com.crashlytics.android.CrashlyticsInitProvider}
+  org.tasks/android.arch.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{1395822 org.tasks/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+  org.tasks/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{a9112b3 org.tasks/com.google.firebase.provider.FirebaseInitProvider}
+  org.tasks/android.support.v4.content.FileProvider:
+    Provider{ce9b070 org.tasks/android.support.v4.content.FileProvider}
+  org.tasks/com.todoroo.astrid.provider.Astrid2TaskProvider:
+    Provider{9e26fe9 org.tasks/com.todoroo.astrid.provider.Astrid2TaskProvider}
+
+ContentProvider Authorities:
+  [org.tasks.provider]:
+    Provider{ce9b070 org.tasks/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{ab8d46e org.tasks}
+  [org.tasks.crashlyticsinitprovider]:
+    Provider{890a1ed org.tasks/com.crashlytics.android.CrashlyticsInitProvider}
+      applicationInfo=ApplicationInfo{ab8d46e org.tasks}
+  [org.tasks.firebaseinitprovider]:
+    Provider{a9112b3 org.tasks/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{ab8d46e org.tasks}
+  [org.tasks]:
+    Provider{9e26fe9 org.tasks/com.todoroo.astrid.provider.Astrid2TaskProvider}
+      applicationInfo=ApplicationInfo{ab8d46e org.tasks}
+  [org.tasks.tasksprovider]:
+    Provider{9e26fe9 org.tasks/com.todoroo.astrid.provider.Astrid2TaskProvider}
+      applicationInfo=ApplicationInfo{ab8d46e org.tasks}
+  [org.tasks.lifecycle-trojan]:
+    Provider{1395822 org.tasks/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{ab8d46e org.tasks}
+
+Key Set Manager:
+  [org.tasks]
+      Signing KeySets: 34
+
+Packages:
+  Package [org.tasks] (cb94896):
+    userId=10081
+    pkg=Package{c80270f org.tasks}
+    codePath=/data/app/org.tasks-1
+    resourcePath=/data/app/org.tasks-1
+    legacyNativeLibraryDir=/data/app/org.tasks-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=532 minSdk=15 targetSdk=27
+    versionName=6.0.6
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{ab8d46e org.tasks}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/org.tasks
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      com.google.android.maps
+    usesLibraryFiles:
+      /system/framework/maps.jar
+    timeStamp=2022-01-04 22:01:58
+    firstInstallTime=2022-01-04 22:01:59
+    lastUpdateTime=2022-01-04 22:01:59
+    signatures=PackageSignatures{311639c [91bad841]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    declared permissions:
+      org.tasks.permission.READ_TASKS: prot=normal, INSTALLED
+      org.tasks.permission.C2D_MESSAGE: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.ACCESS_FINE_LOCATION
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      com.google.android.googleapps.permission.GOOGLE_AUTH
+      android.permission.GET_ACCOUNTS
+      android.permission.VIBRATE
+      android.permission.WRITE_CALENDAR
+      android.permission.READ_CALENDAR
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_PHONE_STATE
+      android.permission.READ_CALL_LOG
+      android.permission.READ_CONTACTS
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.RECORD_AUDIO
+      android.permission.WAKE_LOCK
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      org.tasks.permission.READ_TASKS
+      org.dmfs.permission.READ_TASKS
+      org.dmfs.permission.WRITE_TASKS
+      com.android.vending.BILLING
+      com.google.android.c2dm.permission.RECEIVE
+      org.tasks.permission.C2D_MESSAGE
+      com.sec.android.provider.badge.permission.READ
+      com.sec.android.provider.badge.permission.WRITE
+      com.htc.launcher.permission.READ_SETTINGS
+      com.htc.launcher.permission.UPDATE_SHORTCUT
+      com.sonyericsson.home.permission.BROADCAST_BADGE
+      com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+      com.anddoes.launcher.permission.UPDATE_COUNT
+      com.majeur.launcher.permission.UPDATE_BADGE
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      com.huawei.android.launcher.permission.READ_SETTINGS
+      com.huawei.android.launcher.permission.WRITE_SETTINGS
+      android.permission.READ_APP_BADGE
+      com.oppo.launcher.permission.READ_SETTINGS
+      com.oppo.launcher.permission.WRITE_SETTINGS
+      me.everything.badger.permission.BADGE_COUNT_READ
+      me.everything.badger.permission.BADGE_COUNT_WRITE
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      org.tasks.permission.READ_TASKS: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      org.tasks.permission.C2D_MESSAGE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=3409258 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_CALENDAR: granted=true
+        android.permission.READ_CALL_LOG: granted=true
+        android.permission.ACCESS_FINE_LOCATION: granted=true
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.READ_PHONE_STATE: granted=true
+        android.permission.WRITE_CALENDAR: granted=true
+        android.permission.GET_ACCOUNTS: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+        android.permission.RECORD_AUDIO: granted=true
+        android.permission.READ_CONTACTS: granted=true
+
+
+Dexopt state:
+  [org.tasks]
+    Instruction Set: x86_64
+      path: /data/app/org.tasks-1/base.apk
+      status: /data/app/org.tasks-1/oat/x86_64/base.odex [compilation_filter=interpret-only, status=kOatUpToDate]
+
+
+Compiler stats:
+  [org.tasks]
+     base.apk - 241

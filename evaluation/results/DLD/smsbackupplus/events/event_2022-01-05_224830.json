@@ -1,0 +1,89 @@
+{
+  "stop_state": "5f9e04b71a00b15f78e704e98ffda68d", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-05_224830", 
+  "event": {
+    "views_str": [
+      "26c4eb637404eaef887e8bb764e87b37", 
+      "bd6d76925d0209ff405f2eefc1e68271"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.zegoggles.smssync:id/switchWidget", 
+        "text": "OFF", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "72*41", 
+        "checked": false, 
+        "temp_id": 30, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.Switch[resource_id]com.zegoggles.smssync:id/switchWidget", 
+        "is_password": false, 
+        "parent": 29, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.Switch", 
+        "scrollable": false, 
+        "package": "com.zegoggles.smssync", 
+        "long_clickable": false, 
+        "view_str": "26c4eb637404eaef887e8bb764e87b37", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1809, 
+            374
+          ], 
+          [
+            1881, 
+            415
+          ]
+        ], 
+        "signature": "[class]android.widget.Switch[resource_id]com.zegoggles.smssync:id/switchWidget[text]OFF[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "android:id/checkbox", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*48", 
+        "checked": false, 
+        "temp_id": 36, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox", 
+        "is_password": false, 
+        "parent": 35, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.zegoggles.smssync", 
+        "long_clickable": false, 
+        "view_str": "bd6d76925d0209ff405f2eefc1e68271", 
+        "enabled": false, 
+        "bounds": [
+          [
+            1833, 
+            469
+          ], 
+          [
+            1881, 
+            517
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox[text]None[,,]"
+      }
+    ]
+  }, 
+  "start_state": "5f9e04b71a00b15f78e704e98ffda68d"
+}

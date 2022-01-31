@@ -1,0 +1,10 @@
+{
+  "stop_state": "241c330e607e4107c0190e22cb95c836", 
+  "event_str": "IntentEvent(intent='am start com.farmerbb.taskbar/com.farmerbb.taskbar.MainActivity')", 
+  "tag": "2022-01-04_225251", 
+  "event": {
+    "intent": "am start com.farmerbb.taskbar/com.farmerbb.taskbar.MainActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "2c1ee889c02e89e4b62747eec7959ec8"
+}

@@ -1,0 +1,10 @@
+{
+  "stop_state": "46eb97ac4ab3038fe713d9c037f7db76", 
+  "event_str": "IntentEvent(intent='am start de.smasi.tickmate/de.smasi.tickmate.Tickmate')", 
+  "tag": "2022-01-03_150218", 
+  "event": {
+    "intent": "am start de.smasi.tickmate/de.smasi.tickmate.Tickmate", 
+    "event_type": "intent"
+  }, 
+  "start_state": "48e6c7f167f5dbd7d84637100024177b"
+}

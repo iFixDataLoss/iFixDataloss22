@@ -1,0 +1,42 @@
+{
+  "stop_state": "0dbf48842d695977b2847a667d5831cd", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-04_222252", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.tasks:id/due_date", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "145*39", 
+      "scrollable": true, 
+      "checked": false, 
+      "package": "org.tasks", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          888, 
+          249
+        ], 
+        [
+          1033, 
+          288
+        ]
+      ], 
+      "class": "android.widget.Spinner", 
+      "focusable": true
+    }, 
+    "id": 9, 
+    "event_type": "touch"
+  }, 
+  "start_state": "7bab7e6993016f04c0b8692bf2f2decd"
+}

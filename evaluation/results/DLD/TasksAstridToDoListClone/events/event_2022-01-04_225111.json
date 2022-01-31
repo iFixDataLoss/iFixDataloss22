@@ -1,0 +1,42 @@
+{
+  "stop_state": "7d70ee136ff97f68f588e6e97b12fa89", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-04_225111", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.tasks:id/text1", 
+      "text": "Next Tuesday", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": false, 
+      "checkable": true, 
+      "size": "169*33", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.tasks", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          888, 
+          412
+        ], 
+        [
+          1057, 
+          445
+        ]
+      ], 
+      "class": "android.widget.CheckedTextView", 
+      "focusable": false
+    }, 
+    "id": 2, 
+    "event_type": "touch"
+  }, 
+  "start_state": "0dbf48842d695977b2847a667d5831cd"
+}

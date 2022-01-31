@@ -1,0 +1,10 @@
+{
+  "stop_state": "5f02f391f34ba4178882b8d339f64bbc", 
+  "event_str": "IntentEvent(intent='am start com.tastycactus.timesheet/com.tastycactus.timesheet.TimesheetActivity')", 
+  "tag": "2022-01-02_101741", 
+  "event": {
+    "intent": "am start com.tastycactus.timesheet/com.tastycactus.timesheet.TimesheetActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "545abb84d22c326c61edd3d53f2968bf"
+}
