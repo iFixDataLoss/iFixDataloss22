@@ -1,0 +1,10 @@
+{
+  "stop_state": "1aa8733b82bdb1491d98dbdeb9c72eae", 
+  "event_str": "IntentEvent(intent='am start com.geecko.QuickLyric/com.geecko.QuickLyric.MainActivity')", 
+  "tag": "2022-01-05_170856", 
+  "event": {
+    "intent": "am start com.geecko.QuickLyric/com.geecko.QuickLyric.MainActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "13fbaabcf49f74705a7c74fe1c43ac5c"
+}

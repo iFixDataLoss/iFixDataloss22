@@ -1,0 +1,62 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        27e3cbc com.iskrembilen.quasseldroid.debug/com.iskrembilen.quasseldroid.gui.SplashActivity filter 54ec147
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Key Set Manager:
+  [com.iskrembilen.quasseldroid.debug]
+      Signing KeySets: 43
+
+Packages:
+  Package [com.iskrembilen.quasseldroid.debug] (ba95445):
+    userId=10090
+    pkg=Package{124179a com.iskrembilen.quasseldroid.debug}
+    codePath=/data/app/com.iskrembilen.quasseldroid.debug-1
+    resourcePath=/data/app/com.iskrembilen.quasseldroid.debug-1
+    legacyNativeLibraryDir=/data/app/com.iskrembilen.quasseldroid.debug-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=111 minSdk=14 targetSdk=23
+    versionName=0.11.6
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{6ab28cb com.iskrembilen.quasseldroid.debug}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/user/0/com.iskrembilen.quasseldroid.debug
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-05 15:31:03
+    firstInstallTime=2022-01-05 15:31:03
+    lastUpdateTime=2022-01-05 15:31:03
+    signatures=PackageSignatures{55068a8 [45e775cf]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.VIBRATE
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.WAKE_LOCK
+    install permissions:
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=3409980 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+
+
+Dexopt state:
+  [com.iskrembilen.quasseldroid.debug]
+    Instruction Set: x86_64
+      path: /data/app/com.iskrembilen.quasseldroid.debug-1/base.apk
+      status: /data/app/com.iskrembilen.quasseldroid.debug-1/oat/x86_64/base.odex [compilation_filter=interpret-only, st
+      atus=kOatUpToDate]
+
+
+Compiler stats:
+  [com.iskrembilen.quasseldroid.debug]
+     base.apk - 193

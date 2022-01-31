@@ -1,0 +1,42 @@
+{
+  "stop_state": "623a419113f385ecd8bc5d6aaba0b04c", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-05_154525", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.iskrembilen.quasseldroid.debug:id/remember_me_checkbox", 
+      "text": "Remember me", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": true, 
+      "size": "183*48", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.iskrembilen.quasseldroid.debug", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          546, 
+          577
+        ], 
+        [
+          729, 
+          625
+        ]
+      ], 
+      "class": "android.widget.CheckBox", 
+      "focusable": true
+    }, 
+    "id": 1, 
+    "event_type": "touch"
+  }, 
+  "start_state": "d384594a1ab700f84d73d5ed88f5b861"
+}

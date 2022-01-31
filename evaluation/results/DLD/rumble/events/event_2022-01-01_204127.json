@@ -1,0 +1,42 @@
+{
+  "stop_state": "92c03f8ae4663c14b33ee699a5a5b9e9", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-01_204127", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.disrupted.rumble:id/login_button", 
+      "text": "START!", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "132*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.disrupted.rumble", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          894, 
+          637
+        ], 
+        [
+          1026, 
+          709
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "433b7f4b944552d1b597142f42e1ae38"
+}

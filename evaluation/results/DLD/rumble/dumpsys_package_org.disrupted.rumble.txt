@@ -1,0 +1,102 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      org.disrupted.rumble.userinterface.activity.DisplayStatusActivity:
+        a5429a0 org.disrupted.rumble/.userinterface.activity.DisplayStatusActivity filter d1dce7f
+          Action: "org.disrupted.rumble.userinterface.activity.DisplayStatusActivity"
+          AutoVerify=false
+      android.intent.action.MAIN:
+        c44a959 org.disrupted.rumble/.userinterface.activity.RoutingActivity filter 133d020
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      org.disrupted.rumble.userinterface.activity.DisplayQRCode:
+        8ab691e org.disrupted.rumble/.userinterface.activity.DisplayQRCode filter 5398dd9
+          Action: "org.disrupted.rumble.userinterface.activity.DisplayQRCode"
+          AutoVerify=false
+      org.disrupted.rumble.userinterface.activity.DisplayImage:
+        63715ff org.disrupted.rumble/.userinterface.activity.DisplayImage filter 18fb39e
+          Action: "org.disrupted.rumble.userinterface.activity.DisplayImage"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BOOT_COMPLETED:
+        623fcc org.disrupted.rumble/.app.StartOnBoot filter d162323
+          Action: "android.intent.action.BOOT_COMPLETED"
+          AutoVerify=false
+
+Key Set Manager:
+  [org.disrupted.rumble]
+      Signing KeySets: 20
+
+Packages:
+  Package [org.disrupted.rumble] (d0d8215):
+    userId=10063
+    pkg=Package{da0f92a org.disrupted.rumble}
+    codePath=/data/app/org.disrupted.rumble-1
+    resourcePath=/data/app/org.disrupted.rumble-1
+    legacyNativeLibraryDir=/data/app/org.disrupted.rumble-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=16 minSdk=16 targetSdk=24
+    versionName=1.0.2
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{9f1131b org.disrupted.rumble}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/org.disrupted.rumble
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-01 20:03:25
+    firstInstallTime=2022-01-01 20:03:26
+    lastUpdateTime=2022-01-01 20:03:26
+    signatures=PackageSignatures{1598cb8 [8beee47a]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.BLUETOOTH
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.CHANGE_WIFI_MULTICAST_STATE
+      android.permission.INTERNET
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.CAMERA
+      android.permission.VIBRATE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.FLASHLIGHT
+    install permissions:
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.CHANGE_WIFI_MULTICAST_STATE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.FLASHLIGHT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+    User 0: ceDataInode=3539816 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.CAMERA: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [org.disrupted.rumble]
+    Instruction Set: x86
+      path: /data/app/org.disrupted.rumble-1/base.apk
+      status: /data/app/org.disrupted.rumble-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDate
+      ]
+
+
+Compiler stats:
+  [org.disrupted.rumble]
+     base.apk - 443

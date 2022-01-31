@@ -1,0 +1,85 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        822bd7f com.wanghaus.remembeer/.activity.History filter a241889
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      android.intent.action.SEARCH:
+        822bd7f com.wanghaus.remembeer/.activity.History filter 3ce608e
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.appwidget.action.APPWIDGET_UPDATE:
+        bc1914c com.wanghaus.remembeer/.widget.AddBeerAppWidgetProvider filter 83c1790
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+
+Key Set Manager:
+  [com.wanghaus.remembeer]
+      Signing KeySets: 129
+
+Packages:
+  Package [com.wanghaus.remembeer] (cde2253):
+    userId=10077
+    sharedUser=SharedUserSetting{8783595 com.wanghaus.remembeer/10077}
+    pkg=Package{1c066aa com.wanghaus.remembeer}
+    codePath=/data/app/com.wanghaus.remembeer-1
+    resourcePath=/data/app/com.wanghaus.remembeer-1
+    legacyNativeLibraryDir=/data/app/com.wanghaus.remembeer-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=50 minSdk=4 targetSdk=4
+    versionName=1.3.0
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{fafb29b com.wanghaus.remembeer}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/user/0/com.wanghaus.remembeer
+    supportsScreens=[small, medium, large, resizeable, anyDensity]
+    timeStamp=2022-01-07 20:23:44
+    firstInstallTime=2022-01-07 20:23:45
+    lastUpdateTime=2022-01-07 20:23:45
+    signatures=PackageSignatures{51c7638 [c52bce]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.VIBRATE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.INTERNET: granted=true
+      android.permission.READ_EXTERNAL_STORAGE: granted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+      android.permission.VIBRATE: granted=true
+    User 0: ceDataInode=3539554 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+
+Shared users:
+  SharedUser [com.wanghaus.remembeer] (8783595):
+    userId=10077
+    install permissions:
+      android.permission.INTERNET: granted=true
+      android.permission.READ_EXTERNAL_STORAGE: granted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+      android.permission.VIBRATE: granted=true
+    User 0: 
+      gids=[3003]
+      runtime permissions:
+
+
+Dexopt state:
+  [com.wanghaus.remembeer]
+    Instruction Set: x86
+      path: /data/app/com.wanghaus.remembeer-1/base.apk
+      status: /data/app/com.wanghaus.remembeer-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDa
+      te]
+
+
+Compiler stats:
+  [com.wanghaus.remembeer]
+     base.apk - 60

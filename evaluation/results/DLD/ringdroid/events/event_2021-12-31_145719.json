@@ -1,0 +1,43 @@
+{
+  "stop_state": "61988802aa45011eedc04b0c6c6dfcd3", 
+  "event_str": "SetTextEvent", 
+  "tag": "2021-12-31_145719", 
+  "event": {
+    "event_type": "set_text", 
+    "text": "HelloWorld", 
+    "y": null, 
+    "x": null, 
+    "id": 10, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.ringdroid:id/filename", 
+      "text": "Call Connect Rintest123gtone", 
+      "editable": true, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": true, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "788*111", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.ringdroid", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          96, 
+          768
+        ], 
+        [
+          884, 
+          879
+        ]
+      ], 
+      "class": "android.widget.EditText", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "57577314046a43a1426c1c7d2a9d0d2c"
+}

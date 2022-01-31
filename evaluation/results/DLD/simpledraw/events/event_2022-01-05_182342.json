@@ -1,0 +1,10 @@
+{
+  "stop_state": "0ba70108dd38f720f6f55e80b07e50dc", 
+  "event_str": "IntentEvent(intent='am start com.simplemobiletools.draw/com.simplemobiletools.draw.activities.SplashActivity')", 
+  "tag": "2022-01-05_182342", 
+  "event": {
+    "intent": "am start com.simplemobiletools.draw/com.simplemobiletools.draw.activities.SplashActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "13fbaabcf49f74705a7c74fe1c43ac5c"
+}

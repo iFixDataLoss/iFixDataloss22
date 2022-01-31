@@ -1,0 +1,89 @@
+{
+  "stop_state": "0694d62f93c59ea8692b129ff49a2ec0", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-12-31_145550", 
+  "event": {
+    "views_str": [
+      "860c6798e144624db6538516cd75fd24", 
+      "b217f4079b3fa095757a2f5938b6fe17"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.ringdroid:id/starttext", 
+        "text": "0.00", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "197*87", 
+        "checked": false, 
+        "temp_id": 28, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.ringdroid:id/starttext", 
+        "is_password": false, 
+        "parent": 26, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.ringdroid", 
+        "long_clickable": true, 
+        "view_str": "860c6798e144624db6538516cd75fd24", 
+        "enabled": true, 
+        "bounds": [
+          [
+            311, 
+            1951
+          ], 
+          [
+            508, 
+            2038
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.ringdroid:id/starttext[text]0.00[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.ringdroid:id/endtext", 
+        "text": "2.02", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "197*87", 
+        "checked": false, 
+        "temp_id": 30, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.ringdroid:id/endtext", 
+        "is_password": false, 
+        "parent": 26, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.ringdroid", 
+        "long_clickable": true, 
+        "view_str": "b217f4079b3fa095757a2f5938b6fe17", 
+        "enabled": true, 
+        "bounds": [
+          [
+            697, 
+            1951
+          ], 
+          [
+            894, 
+            2038
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.ringdroid:id/endtext[text]2.02[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "0694d62f93c59ea8692b129ff49a2ec0"
+}

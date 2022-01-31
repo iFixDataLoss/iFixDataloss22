@@ -1,0 +1,10 @@
+{
+  "stop_state": "f4dd5e4426c08156dc9e8820908f6bb4", 
+  "event_str": "IntentEvent(intent='am start com.simplemobiletools.gallery/com.simplemobiletools.gallery.activities.MainActivity')", 
+  "tag": "2022-01-05_202239", 
+  "event": {
+    "intent": "am start com.simplemobiletools.gallery/com.simplemobiletools.gallery.activities.MainActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "13fbaabcf49f74705a7c74fe1c43ac5c"
+}

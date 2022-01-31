@@ -1,0 +1,163 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Full MIME Types:
+      text/*:
+        2a979fa com.simplemobiletools.filemanager/.activities.ReadTextActivity filter b94f579
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      */*:
+        6af4bab com.simplemobiletools.filemanager/.activities.MainActivity filter 457d172
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.OPENABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      resource/folder:
+        6af4bab com.simplemobiletools.filemanager/.activities.MainActivity filter e039240
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "resource/folder"
+          AutoVerify=false
+
+  Base MIME Types:
+      resource:
+        6af4bab com.simplemobiletools.filemanager/.activities.MainActivity filter e039240
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "resource/folder"
+          AutoVerify=false
+
+  Wild MIME Types:
+      *:
+        6af4bab com.simplemobiletools.filemanager/.activities.MainActivity filter 457d172
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.OPENABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      text:
+        2a979fa com.simplemobiletools.filemanager/.activities.ReadTextActivity filter b94f579
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        2f38208 com.simplemobiletools.filemanager/.activities.SplashActivity filter ba17cd4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      android.intent.action.RINGTONE_PICKER:
+        6af4bab com.simplemobiletools.filemanager/.activities.MainActivity filter b6119c3
+          Action: "android.intent.action.RINGTONE_PICKER"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.SEARCH:
+        6af4bab com.simplemobiletools.filemanager/.activities.MainActivity filter 7c2ee7d
+          Action: "android.intent.action.SEARCH"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      android.intent.action.VIEW:
+        6af4bab com.simplemobiletools.filemanager/.activities.MainActivity filter e039240
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "resource/folder"
+          AutoVerify=false
+        2a979fa com.simplemobiletools.filemanager/.activities.ReadTextActivity filter b94f579
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      android.intent.action.GET_CONTENT:
+        6af4bab com.simplemobiletools.filemanager/.activities.MainActivity filter 457d172
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.OPENABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.simplemobiletools.commons.SHARED_THEME_ACTIVATED:
+        d7cfda1 com.simplemobiletools.filemanager/com.simplemobiletools.commons.receivers.SharedThemeReceiver filter df88227
+          Action: "com.simplemobiletools.commons.SHARED_THEME_ACTIVATED"
+          Action: "com.simplemobiletools.commons.SHARED_THEME_UPDATED"
+          AutoVerify=false
+      com.simplemobiletools.commons.SHARED_THEME_UPDATED:
+        d7cfda1 com.simplemobiletools.filemanager/com.simplemobiletools.commons.receivers.SharedThemeReceiver filter df88227
+          Action: "com.simplemobiletools.commons.SHARED_THEME_ACTIVATED"
+          Action: "com.simplemobiletools.commons.SHARED_THEME_UPDATED"
+          AutoVerify=false
+
+Registered ContentProviders:
+  com.simplemobiletools.filemanager/android.support.v4.content.FileProvider:
+    Provider{f053bc6 com.simplemobiletools.filemanager/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [com.simplemobiletools.filemanager.provider]:
+    Provider{f053bc6 com.simplemobiletools.filemanager/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{e94f787 com.simplemobiletools.filemanager}
+
+Key Set Manager:
+  [com.simplemobiletools.filemanager]
+      Signing KeySets: 49
+
+Packages:
+  Package [com.simplemobiletools.filemanager] (242b6b4):
+    userId=10096
+    pkg=Package{d4ad2dd com.simplemobiletools.filemanager}
+    codePath=/data/app/com.simplemobiletools.filemanager-1
+    resourcePath=/data/app/com.simplemobiletools.filemanager-1
+    legacyNativeLibraryDir=/data/app/com.simplemobiletools.filemanager-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=44 minSdk=16 targetSdk=27
+    versionName=3.2.0
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{e94f787 com.simplemobiletools.filemanager}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/com.simplemobiletools.filemanager
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-05 18:30:23
+    firstInstallTime=2022-01-05 18:30:24
+    lastUpdateTime=2022-01-05 18:30:24
+    signatures=PackageSignatures{9094e52 [913691f6]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.REQUEST_INSTALL_PACKAGES
+      android.permission.USE_FINGERPRINT
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.REQUEST_INSTALL_PACKAGES: granted=true
+    User 0: ceDataInode=3410084 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [com.simplemobiletools.filemanager]
+    Instruction Set: x86_64
+      path: /data/app/com.simplemobiletools.filemanager-1/base.apk
+      status: /data/app/com.simplemobiletools.filemanager-1/oat/x86_64/base.odex [compilation_filter=interpret-only, sta
+      tus=kOatUpToDate]
+
+
+Compiler stats:
+  [com.simplemobiletools.filemanager]
+     base.apk - 119

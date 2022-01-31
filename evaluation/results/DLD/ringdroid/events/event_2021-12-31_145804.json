@@ -1,0 +1,42 @@
+{
+  "stop_state": "984c2ba9bb40f724d51beabb15ae6c30", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-12-31_145804", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.ringdroid:id/cancel", 
+      "text": "Cancel", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "281*135", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.ringdroid", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          504, 
+          1235
+        ], 
+        [
+          785, 
+          1370
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 3, 
+    "event_type": "touch"
+  }, 
+  "start_state": "61988802aa45011eedc04b0c6c6dfcd3"
+}

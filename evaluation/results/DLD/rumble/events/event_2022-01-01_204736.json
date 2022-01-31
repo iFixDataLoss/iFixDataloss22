@@ -1,0 +1,10 @@
+{
+  "stop_state": "433b7f4b944552d1b597142f42e1ae38", 
+  "event_str": "IntentEvent(intent='am start org.disrupted.rumble/org.disrupted.rumble.userinterface.activity.RoutingActivity')", 
+  "tag": "2022-01-01_204736", 
+  "event": {
+    "intent": "am start org.disrupted.rumble/org.disrupted.rumble.userinterface.activity.RoutingActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "545abb84d22c326c61edd3d53f2968bf"
+}

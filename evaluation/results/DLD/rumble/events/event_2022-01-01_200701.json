@@ -1,0 +1,51 @@
+{
+  "stop_state": "433b7f4b944552d1b597142f42e1ae38", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-01_200701", 
+  "event": {
+    "views_str": [
+      "7018d7722a80c572491796b6a3e9893a"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "org.disrupted.rumble:id/login_username", 
+        "text": "username", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "300*68", 
+        "checked": false, 
+        "temp_id": 5, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]org.disrupted.rumble:id/login_username", 
+        "is_password": false, 
+        "parent": 3, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "org.disrupted.rumble", 
+        "long_clickable": true, 
+        "view_str": "7018d7722a80c572491796b6a3e9893a", 
+        "enabled": true, 
+        "bounds": [
+          [
+            810, 
+            524
+          ], 
+          [
+            1110, 
+            592
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]org.disrupted.rumble:id/login_username[text]username[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "433b7f4b944552d1b597142f42e1ae38"
+}

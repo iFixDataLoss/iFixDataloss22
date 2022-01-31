@@ -1,0 +1,375 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Full MIME Types:
+      vnd.android.cursor.dir/image:
+        17671c7 com.simplemobiletools.gallery/.activities.MainActivity filter 4ccbc75
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          Type: "vnd.android.cursor.dir/image"
+          Type: "vnd.android.cursor.dir/video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        17671c7 com.simplemobiletools.gallery/.activities.MainActivity filter 416140a
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.OPENABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          Type: "vnd.android.cursor.dir/image"
+          Type: "vnd.android.cursor.dir/video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      vnd.android.cursor.dir/video:
+        17671c7 com.simplemobiletools.gallery/.activities.MainActivity filter 4ccbc75
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          Type: "vnd.android.cursor.dir/image"
+          Type: "vnd.android.cursor.dir/video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        17671c7 com.simplemobiletools.gallery/.activities.MainActivity filter 416140a
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.OPENABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          Type: "vnd.android.cursor.dir/image"
+          Type: "vnd.android.cursor.dir/video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      video/*:
+        17671c7 com.simplemobiletools.gallery/.activities.MainActivity filter 4ccbc75
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          Type: "vnd.android.cursor.dir/image"
+          Type: "vnd.android.cursor.dir/video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        17671c7 com.simplemobiletools.gallery/.activities.MainActivity filter 416140a
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.OPENABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          Type: "vnd.android.cursor.dir/image"
+          Type: "vnd.android.cursor.dir/video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        d0343f4 com.simplemobiletools.gallery/.activities.ViewPagerActivity filter 13dc47b
+          Action: "com.android.camera.action.REVIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        bd0771d com.simplemobiletools.gallery/.activities.VideoActivity filter a39aaf1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      image/*:
+        17671c7 com.simplemobiletools.gallery/.activities.MainActivity filter 4ccbc75
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          Type: "vnd.android.cursor.dir/image"
+          Type: "vnd.android.cursor.dir/video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        17671c7 com.simplemobiletools.gallery/.activities.MainActivity filter 416140a
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.OPENABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          Type: "vnd.android.cursor.dir/image"
+          Type: "vnd.android.cursor.dir/video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        d0343f4 com.simplemobiletools.gallery/.activities.ViewPagerActivity filter 13dc47b
+          Action: "com.android.camera.action.REVIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        97bbd92 com.simplemobiletools.gallery/.activities.PhotoActivity filter b4c5298
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        e5e6363 com.simplemobiletools.gallery/.activities.EditActivity filter 40966d6
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        20aab60 com.simplemobiletools.gallery/.activities.SetWallpaperActivity filter 4da2d57
+          Action: "android.intent.action.ATTACH_DATA"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Base MIME Types:
+      vnd.android.cursor.dir:
+        17671c7 com.simplemobiletools.gallery/.activities.MainActivity filter 4ccbc75
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          Type: "vnd.android.cursor.dir/image"
+          Type: "vnd.android.cursor.dir/video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        17671c7 com.simplemobiletools.gallery/.activities.MainActivity filter 4ccbc75
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          Type: "vnd.android.cursor.dir/image"
+          Type: "vnd.android.cursor.dir/video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        17671c7 com.simplemobiletools.gallery/.activities.MainActivity filter 416140a
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.OPENABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          Type: "vnd.android.cursor.dir/image"
+          Type: "vnd.android.cursor.dir/video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        17671c7 com.simplemobiletools.gallery/.activities.MainActivity filter 416140a
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.OPENABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          Type: "vnd.android.cursor.dir/image"
+          Type: "vnd.android.cursor.dir/video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Wild MIME Types:
+      image:
+        17671c7 com.simplemobiletools.gallery/.activities.MainActivity filter 4ccbc75
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          Type: "vnd.android.cursor.dir/image"
+          Type: "vnd.android.cursor.dir/video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        17671c7 com.simplemobiletools.gallery/.activities.MainActivity filter 416140a
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.OPENABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          Type: "vnd.android.cursor.dir/image"
+          Type: "vnd.android.cursor.dir/video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        d0343f4 com.simplemobiletools.gallery/.activities.ViewPagerActivity filter 13dc47b
+          Action: "com.android.camera.action.REVIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        97bbd92 com.simplemobiletools.gallery/.activities.PhotoActivity filter b4c5298
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        e5e6363 com.simplemobiletools.gallery/.activities.EditActivity filter 40966d6
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        20aab60 com.simplemobiletools.gallery/.activities.SetWallpaperActivity filter 4da2d57
+          Action: "android.intent.action.ATTACH_DATA"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      video:
+        17671c7 com.simplemobiletools.gallery/.activities.MainActivity filter 4ccbc75
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          Type: "vnd.android.cursor.dir/image"
+          Type: "vnd.android.cursor.dir/video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        17671c7 com.simplemobiletools.gallery/.activities.MainActivity filter 416140a
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.OPENABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          Type: "vnd.android.cursor.dir/image"
+          Type: "vnd.android.cursor.dir/video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        d0343f4 com.simplemobiletools.gallery/.activities.ViewPagerActivity filter 13dc47b
+          Action: "com.android.camera.action.REVIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        bd0771d com.simplemobiletools.gallery/.activities.VideoActivity filter a39aaf1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        17671c7 com.simplemobiletools.gallery/.activities.MainActivity filter 8ca67ac
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      android.intent.action.SET_WALLPAPER:
+        20aab60 com.simplemobiletools.gallery/.activities.SetWallpaperActivity filter 3000044
+          Action: "android.intent.action.SET_WALLPAPER"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      com.android.camera.action.REVIEW:
+        d0343f4 com.simplemobiletools.gallery/.activities.ViewPagerActivity filter 13dc47b
+          Action: "com.android.camera.action.REVIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      android.intent.action.EDIT:
+        e5e6363 com.simplemobiletools.gallery/.activities.EditActivity filter 40966d6
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      android.intent.action.PICK:
+        17671c7 com.simplemobiletools.gallery/.activities.MainActivity filter 4ccbc75
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          Type: "vnd.android.cursor.dir/image"
+          Type: "vnd.android.cursor.dir/video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      android.intent.action.VIEW:
+        97bbd92 com.simplemobiletools.gallery/.activities.PhotoActivity filter b4c5298
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        bd0771d com.simplemobiletools.gallery/.activities.VideoActivity filter a39aaf1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      android.intent.action.GET_CONTENT:
+        17671c7 com.simplemobiletools.gallery/.activities.MainActivity filter 416140a
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.OPENABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          Type: "vnd.android.cursor.dir/image"
+          Type: "vnd.android.cursor.dir/video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      android.intent.action.ATTACH_DATA:
+        20aab60 com.simplemobiletools.gallery/.activities.SetWallpaperActivity filter 4da2d57
+          Action: "android.intent.action.ATTACH_DATA"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+Key Set Manager:
+  [com.simplemobiletools.gallery]
+      Signing KeySets: 51
+
+Packages:
+  Package [com.simplemobiletools.gallery] (b026819):
+    userId=10098
+    pkg=Package{81420de com.simplemobiletools.gallery}
+    codePath=/data/app/com.simplemobiletools.gallery-1
+    resourcePath=/data/app/com.simplemobiletools.gallery-1
+    legacyNativeLibraryDir=/data/app/com.simplemobiletools.gallery-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=50 minSdk=16 targetSdk=24
+    versionName=1.50
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{c49d2bf com.simplemobiletools.gallery}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/com.simplemobiletools.gallery
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-05 19:32:47
+    firstInstallTime=2022-01-05 19:32:47
+    lastUpdateTime=2022-01-05 19:32:47
+    signatures=PackageSignatures{85f1d8c [45e775cf]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.SET_WALLPAPER
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.SET_WALLPAPER: granted=true
+    User 0: ceDataInode=3410156 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [com.simplemobiletools.gallery]
+    Instruction Set: x86_64
+      path: /data/app/com.simplemobiletools.gallery-1/base.apk
+      status: /data/app/com.simplemobiletools.gallery-1/oat/x86_64/base.odex [compilation_filter=interpret-only, status=
+      kOatUpToDate]
+
+
+Compiler stats:
+  [com.simplemobiletools.gallery]
+     base.apk - 167

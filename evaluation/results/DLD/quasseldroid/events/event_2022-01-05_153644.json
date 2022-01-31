@@ -1,0 +1,10 @@
+{
+  "stop_state": "d384594a1ab700f84d73d5ed88f5b861", 
+  "event_str": "IntentEvent(intent='am start com.iskrembilen.quasseldroid.debug/com.iskrembilen.quasseldroid.gui.SplashActivity')", 
+  "tag": "2022-01-05_153644", 
+  "event": {
+    "intent": "am start com.iskrembilen.quasseldroid.debug/com.iskrembilen.quasseldroid.gui.SplashActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "13fbaabcf49f74705a7c74fe1c43ac5c"
+}

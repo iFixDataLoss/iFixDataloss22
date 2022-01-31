@@ -1,0 +1,10 @@
+{
+  "stop_state": "915ea89a1d07f5de9fb8ee743310f6b4", 
+  "event_str": "IntentEvent(intent='am start com.simplemobiletools.filemanager/com.simplemobiletools.filemanager.activities.SplashActivity')", 
+  "tag": "2022-01-05_191140", 
+  "event": {
+    "intent": "am start com.simplemobiletools.filemanager/com.simplemobiletools.filemanager.activities.SplashActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "13fbaabcf49f74705a7c74fe1c43ac5c"
+}

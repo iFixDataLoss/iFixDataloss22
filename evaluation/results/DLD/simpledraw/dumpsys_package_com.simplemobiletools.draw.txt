@@ -1,0 +1,152 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Full MIME Types:
+      image/*:
+        63d603 com.simplemobiletools.draw/.activities.MainActivity filter 96b82
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        63d603 com.simplemobiletools.draw/.activities.MainActivity filter b509293
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        63d603 com.simplemobiletools.draw/.activities.MainActivity filter ea962d0
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Wild MIME Types:
+      image:
+        63d603 com.simplemobiletools.draw/.activities.MainActivity filter 96b82
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        63d603 com.simplemobiletools.draw/.activities.MainActivity filter b509293
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        63d603 com.simplemobiletools.draw/.activities.MainActivity filter ea962d0
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.media.action.IMAGE_CAPTURE:
+        63d603 com.simplemobiletools.draw/.activities.MainActivity filter 71aa2c9
+          Action: "android.media.action.IMAGE_CAPTURE"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.MAIN:
+        f093980 com.simplemobiletools.draw/.activities.SplashActivity filter 2d166cd
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        63d603 com.simplemobiletools.draw/.activities.MainActivity filter b509293
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      android.intent.action.VIEW:
+        63d603 com.simplemobiletools.draw/.activities.MainActivity filter 96b82
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      android.intent.action.SEND_MULTIPLE:
+        63d603 com.simplemobiletools.draw/.activities.MainActivity filter ea962d0
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.simplemobiletools.commons.SHARED_THEME_ACTIVATED:
+        f72abb9 com.simplemobiletools.draw/com.simplemobiletools.commons.receivers.SharedThemeReceiver filter 2986464
+          Action: "com.simplemobiletools.commons.SHARED_THEME_ACTIVATED"
+          Action: "com.simplemobiletools.commons.SHARED_THEME_UPDATED"
+          AutoVerify=false
+      com.simplemobiletools.commons.SHARED_THEME_UPDATED:
+        f72abb9 com.simplemobiletools.draw/com.simplemobiletools.commons.receivers.SharedThemeReceiver filter 2986464
+          Action: "com.simplemobiletools.commons.SHARED_THEME_ACTIVATED"
+          Action: "com.simplemobiletools.commons.SHARED_THEME_UPDATED"
+          AutoVerify=false
+
+Registered ContentProviders:
+  com.simplemobiletools.draw/android.support.v4.content.FileProvider:
+    Provider{e3babfe com.simplemobiletools.draw/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [com.simplemobiletools.draw.provider]:
+    Provider{e3babfe com.simplemobiletools.draw/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{243cf5f com.simplemobiletools.draw}
+
+Key Set Manager:
+  [com.simplemobiletools.draw]
+      Signing KeySets: 47
+
+Packages:
+  Package [com.simplemobiletools.draw] (2886dac):
+    userId=10094
+    pkg=Package{4894a75 com.simplemobiletools.draw}
+    codePath=/data/app/com.simplemobiletools.draw-1
+    resourcePath=/data/app/com.simplemobiletools.draw-1
+    legacyNativeLibraryDir=/data/app/com.simplemobiletools.draw-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=32 minSdk=16 targetSdk=27
+    versionName=3.1.5
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{243cf5f com.simplemobiletools.draw}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/com.simplemobiletools.draw
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-05 17:22:02
+    firstInstallTime=2022-01-05 17:22:03
+    lastUpdateTime=2022-01-05 17:22:03
+    signatures=PackageSignatures{ea28a0a [6ec805c5]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+    User 0: ceDataInode=3408444 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [com.simplemobiletools.draw]
+    Instruction Set: x86_64
+      path: /data/app/com.simplemobiletools.draw-1/base.apk
+      status: /data/app/com.simplemobiletools.draw-1/oat/x86_64/base.odex [compilation_filter=interpret-only, status=kOa
+      tUpToDate]
+
+
+Compiler stats:
+  [com.simplemobiletools.draw]
+     base.apk - 123

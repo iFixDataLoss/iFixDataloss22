@@ -1,0 +1,51 @@
+{
+  "stop_state": "57577314046a43a1426c1c7d2a9d0d2c", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-12-31_145705", 
+  "event": {
+    "views_str": [
+      "aeae5219236626afa3476a0277e3eb63"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.ringdroid:id/filename", 
+        "text": "Call Connect Ringtone", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "788*111", 
+        "checked": false, 
+        "temp_id": 11, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.ringdroid:id/filename", 
+        "is_password": false, 
+        "parent": 6, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.ringdroid", 
+        "long_clickable": true, 
+        "view_str": "aeae5219236626afa3476a0277e3eb63", 
+        "enabled": true, 
+        "bounds": [
+          [
+            96, 
+            1110
+          ], 
+          [
+            884, 
+            1221
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.ringdroid:id/filename[text]Call Connect Ringtone[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "2283c2f23c5036ae612f173e6ca6b73d"
+}

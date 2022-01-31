@@ -1,0 +1,42 @@
+{
+  "stop_state": "23bf02bf6692b8651b6df513a0b72059", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-12-31_145641", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "551*135", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.ringdroid", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          506, 
+          626
+        ], 
+        [
+          1057, 
+          761
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focusable": false
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "69e50e48a1beb872be881e4db36b808e"
+}

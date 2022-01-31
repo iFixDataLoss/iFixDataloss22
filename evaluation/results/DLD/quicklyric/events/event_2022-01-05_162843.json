@@ -1,0 +1,89 @@
+{
+  "stop_state": "bba8ff87fab1fbb5c777a71b793a81a9", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-05_162843", 
+  "event": {
+    "views_str": [
+      "1dcc11c177c88daf1a49bfc44417fc15", 
+      "ef2d082ed48040dbd3df34ffa8d0e30e"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.geecko.QuickLyric:id/song", 
+        "text": null, 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "39*41", 
+        "checked": false, 
+        "temp_id": 40, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.geecko.QuickLyric:id/song", 
+        "is_password": false, 
+        "parent": 33, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.geecko.QuickLyric", 
+        "long_clickable": true, 
+        "view_str": "1dcc11c177c88daf1a49bfc44417fc15", 
+        "enabled": true, 
+        "bounds": [
+          [
+            18, 
+            398
+          ], 
+          [
+            57, 
+            439
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.geecko.QuickLyric:id/song[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.geecko.QuickLyric:id/artist", 
+        "text": null, 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "39*33", 
+        "checked": false, 
+        "temp_id": 41, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.geecko.QuickLyric:id/artist", 
+        "is_password": false, 
+        "parent": 33, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.geecko.QuickLyric", 
+        "long_clickable": true, 
+        "view_str": "ef2d082ed48040dbd3df34ffa8d0e30e", 
+        "enabled": true, 
+        "bounds": [
+          [
+            18, 
+            439
+          ], 
+          [
+            57, 
+            472
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.geecko.QuickLyric:id/artist[text]None[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "bba8ff87fab1fbb5c777a71b793a81a9"
+}
