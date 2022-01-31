@@ -1,0 +1,57 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        b18bdb9 org.billthefarmer.tuner/.MainActivity filter cf47ff0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Key Set Manager:
+  [org.billthefarmer.tuner]
+      Signing KeySets: 47
+
+Packages:
+  Package [org.billthefarmer.tuner] (96d55fe):
+    userId=10092
+    pkg=Package{435315f org.billthefarmer.tuner}
+    codePath=/data/app/org.billthefarmer.tuner-1
+    resourcePath=/data/app/org.billthefarmer.tuner-1
+    legacyNativeLibraryDir=/data/app/org.billthefarmer.tuner-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=133 minSdk=14 targetSdk=28
+    versionName=1.33
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{e2b27ac org.billthefarmer.tuner}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/org.billthefarmer.tuner
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-02 15:29:54
+    firstInstallTime=2022-01-02 15:29:54
+    lastUpdateTime=2022-01-02 15:29:54
+    signatures=PackageSignatures{97e7c75 [7687f22c]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.RECORD_AUDIO
+      android.permission.READ_EXTERNAL_STORAGE
+    User 0: ceDataInode=3539513 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.RECORD_AUDIO: granted=true
+
+
+Dexopt state:
+  [org.billthefarmer.tuner]
+    Instruction Set: x86
+      path: /data/app/org.billthefarmer.tuner-1/base.apk
+      status: /data/app/org.billthefarmer.tuner-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToD
+      ate]
+
+
+Compiler stats:
+  [org.billthefarmer.tuner]
+     base.apk - 34

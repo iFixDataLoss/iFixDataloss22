@@ -1,0 +1,42 @@
+{
+  "stop_state": "da1d07c75a35b596213220b1e4f7b926", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_145546", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Find directions between two points", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "60*48", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.billthefarmer.diary", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          453, 
+          225
+        ], 
+        [
+          513, 
+          273
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 11, 
+    "event_type": "touch"
+  }, 
+  "start_state": "13762a508bb4e20665a37f0da78195c8"
+}

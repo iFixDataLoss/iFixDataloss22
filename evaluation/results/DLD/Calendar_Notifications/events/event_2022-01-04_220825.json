@@ -1,0 +1,10 @@
+{
+  "stop_state": "471ec5960937de952e9b005c2f6df696", 
+  "event_str": "IntentEvent(intent='am start com.github.quarck.calnotify/com.github.quarck.calnotify.ui.MainActivity')", 
+  "tag": "2022-01-04_220825", 
+  "event": {
+    "intent": "am start com.github.quarck.calnotify/com.github.quarck.calnotify.ui.MainActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "24f1cc7b049aa17ec1c741081fcd2836"
+}

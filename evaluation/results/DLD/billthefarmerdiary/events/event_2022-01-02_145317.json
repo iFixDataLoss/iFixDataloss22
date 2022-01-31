@@ -1,0 +1,203 @@
+{
+  "stop_state": "6a67c91251aa222294477f57ef01029f", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-02_145317", 
+  "event": {
+    "views_str": [
+      "cd16092a6a39657abe25af52a1f40c86", 
+      "9aaa01c58c7914d92ceed3f0755f59b8", 
+      "bc0a548d3b8f84f63b9d45aa4bea751f", 
+      "b3e924688ff8fdd06c5d94c2deec81a3", 
+      "b508b549e9edbf1a6eb610ee30b534ea"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "user_email", 
+        "text": "", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "669*60", 
+        "checked": false, 
+        "temp_id": 71, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]user_email", 
+        "is_password": false, 
+        "parent": 69, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "org.billthefarmer.diary", 
+        "long_clickable": false, 
+        "view_str": "cd16092a6a39657abe25af52a1f40c86", 
+        "enabled": true, 
+        "bounds": [
+          [
+            270, 
+            621
+          ], 
+          [
+            939, 
+            681
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]user_email[text][enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "user_email_confirmation", 
+        "text": "", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "669*60", 
+        "checked": false, 
+        "temp_id": 73, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]user_email_confirmation", 
+        "is_password": false, 
+        "parent": 69, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "org.billthefarmer.diary", 
+        "long_clickable": false, 
+        "view_str": "9aaa01c58c7914d92ceed3f0755f59b8", 
+        "enabled": true, 
+        "bounds": [
+          [
+            270, 
+            750
+          ], 
+          [
+            939, 
+            810
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]user_email_confirmation[text][enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "user_display_name", 
+        "text": "", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "669*60", 
+        "checked": false, 
+        "temp_id": 80, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]user_display_name", 
+        "is_password": false, 
+        "parent": 69, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "org.billthefarmer.diary", 
+        "long_clickable": false, 
+        "view_str": "bc0a548d3b8f84f63b9d45aa4bea751f", 
+        "enabled": true, 
+        "bounds": [
+          [
+            270, 
+            912
+          ], 
+          [
+            939, 
+            972
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]user_display_name[text][enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "user_pass_crypt", 
+        "text": "\u2022\u2022\u2022", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "669*6", 
+        "checked": false, 
+        "temp_id": 83, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]user_pass_crypt", 
+        "is_password": true, 
+        "parent": 69, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "org.billthefarmer.diary", 
+        "long_clickable": false, 
+        "view_str": "b3e924688ff8fdd06c5d94c2deec81a3", 
+        "enabled": true, 
+        "bounds": [
+          [
+            270, 
+            1074
+          ], 
+          [
+            939, 
+            1080
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]user_pass_crypt[text]\u2022[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "user_pass_crypt_confirmation", 
+        "text": "\u2022\u2022\u2022", 
+        "visible": false, 
+        "checkable": false, 
+        "children": [], 
+        "size": "669*-123", 
+        "checked": false, 
+        "temp_id": 85, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]user_pass_crypt_confirmation", 
+        "is_password": true, 
+        "parent": 69, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "org.billthefarmer.diary", 
+        "long_clickable": false, 
+        "view_str": "b508b549e9edbf1a6eb610ee30b534ea", 
+        "enabled": true, 
+        "bounds": [
+          [
+            270, 
+            1203
+          ], 
+          [
+            939, 
+            1080
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]user_pass_crypt_confirmation[text]\u2022[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "73309952a878b524c759ae7af9841800"
+}

@@ -1,0 +1,51 @@
+{
+  "stop_state": "627e322b2ed53b5de3aa8c5d33b914aa", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-04_190352", 
+  "event": {
+    "views_str": [
+      "74efc6c26e1b7144b9fffdd63b64150b"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.knirirr.beecount:id/newprojName", 
+        "text": null, 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1904*65", 
+        "checked": false, 
+        "temp_id": 13, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.knirirr.beecount:id/newprojName", 
+        "is_password": false, 
+        "parent": 11, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.knirirr.beecount", 
+        "long_clickable": true, 
+        "view_str": "74efc6c26e1b7144b9fffdd63b64150b", 
+        "enabled": true, 
+        "bounds": [
+          [
+            8, 
+            212
+          ], 
+          [
+            1912, 
+            277
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.knirirr.beecount:id/newprojName[text]None[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "627e322b2ed53b5de3aa8c5d33b914aa"
+}

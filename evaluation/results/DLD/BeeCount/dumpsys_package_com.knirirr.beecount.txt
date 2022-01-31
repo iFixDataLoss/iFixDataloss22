@@ -1,0 +1,61 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        45e2e95 com.knirirr.beecount/.WelcomeActivity filter dbca4b7
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+          AutoVerify=false
+
+Key Set Manager:
+  [com.knirirr.beecount]
+      Signing KeySets: 17
+
+Packages:
+  Package [com.knirirr.beecount] (a896baa):
+    userId=10064
+    pkg=Package{accd39b com.knirirr.beecount}
+    codePath=/data/app/com.knirirr.beecount-1
+    resourcePath=/data/app/com.knirirr.beecount-1
+    legacyNativeLibraryDir=/data/app/com.knirirr.beecount-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=125 minSdk=14 targetSdk=30
+    versionName=2.6.0
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{6918338 com.knirirr.beecount}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA TEST_ONLY ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/com.knirirr.beecount
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      com.sec.android.app.multiwindow
+    timeStamp=2021-12-31 17:50:59
+    firstInstallTime=2021-12-31 16:14:09
+    lastUpdateTime=2021-12-31 17:51:00
+    signatures=PackageSignatures{7401f11 [2a6013c3]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA TEST_ONLY ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.WAKE_LOCK
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=3538966 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
+      runtime permissions:
+
+
+Dexopt state:
+  [com.knirirr.beecount]
+    Instruction Set: x86
+      path: /data/app/com.knirirr.beecount-1/base.apk
+      status: /data/app/com.knirirr.beecount-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDate
+      ]
+
+
+Compiler stats:
+  [com.knirirr.beecount]
+     base.apk - 182

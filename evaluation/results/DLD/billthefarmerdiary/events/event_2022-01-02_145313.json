@@ -1,0 +1,42 @@
+{
+  "stop_state": "73309952a878b524c759ae7af9841800", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_145313", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Start Mapping", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "234*58", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.billthefarmer.diary", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          267, 
+          624
+        ], 
+        [
+          501, 
+          682
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 19, 
+    "event_type": "touch"
+  }, 
+  "start_state": "13762a508bb4e20665a37f0da78195c8"
+}

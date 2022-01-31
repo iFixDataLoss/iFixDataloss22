@@ -1,0 +1,206 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      com.github.quarck.calnotify.prefs.CalendarsActivity:
+        9a59c59 com.github.quarck.calnotify/.prefs.CalendarsActivity filter 96828bc
+          Action: "com.github.quarck.calnotify.prefs.CalendarsActivity"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.MAIN:
+        6fce01e com.github.quarck.calnotify/.ui.MainActivity filter 7d04caf
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      com.github.quarck.calnotify.prefs.AppStylePrefActivity:
+        b28c0ff com.github.quarck.calnotify/.prefs.AppStylePrefActivity filter b2ad045
+          Action: "com.github.quarck.calnotify.prefs.AppStylePrefActivity"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Full MIME Types:
+      vnd.android.cursor.item/calendar_alert_time:
+        f620ecc com.github.quarck.calnotify/.broadcastreceivers.EventReminderBroadcastReceiver filter 8b86390
+          Action: "android.intent.action.EVENT_REMINDER"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/calendar_alert_time"
+          mPriority=2147483647, mHasPartialTypes=false
+          AutoVerify=false
+      vnd.android.cursor.item/calendarEx-alert:
+        f620ecc com.github.quarck.calnotify/.broadcastreceivers.EventReminderBroadcastReceiver filter 330ce42
+          Action: "android.intent.action.EVENTEX_REMINDER"
+          Type: "vnd.android.cursor.item/calendarEx-alert"
+          mPriority=2147483647, mHasPartialTypes=false
+          AutoVerify=false
+      vnd.android.cursor.item/calendar-alert:
+        f620ecc com.github.quarck.calnotify/.broadcastreceivers.EventReminderBroadcastReceiver filter 5c19c8d
+          Action: "android.intent.action.EVENT_REMINDER"
+          Type: "vnd.android.cursor.item/calendar-alert"
+          mPriority=2147483647, mHasPartialTypes=false
+          AutoVerify=false
+
+  Base MIME Types:
+      vnd.android.cursor.item:
+        f620ecc com.github.quarck.calnotify/.broadcastreceivers.EventReminderBroadcastReceiver filter 5c19c8d
+          Action: "android.intent.action.EVENT_REMINDER"
+          Type: "vnd.android.cursor.item/calendar-alert"
+          mPriority=2147483647, mHasPartialTypes=false
+          AutoVerify=false
+        f620ecc com.github.quarck.calnotify/.broadcastreceivers.EventReminderBroadcastReceiver filter 330ce42
+          Action: "android.intent.action.EVENTEX_REMINDER"
+          Type: "vnd.android.cursor.item/calendarEx-alert"
+          mPriority=2147483647, mHasPartialTypes=false
+          AutoVerify=false
+        f620ecc com.github.quarck.calnotify/.broadcastreceivers.EventReminderBroadcastReceiver filter 8b86390
+          Action: "android.intent.action.EVENT_REMINDER"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/calendar_alert_time"
+          mPriority=2147483647, mHasPartialTypes=false
+          AutoVerify=false
+
+  Schemes:
+      content:
+        f620ecc com.github.quarck.calnotify/.broadcastreceivers.EventReminderBroadcastReceiver filter 3ac1e53
+          Action: "android.intent.action.EVENT_REMINDER"
+          Scheme: "content"
+          mPriority=2147483647, mHasPartialTypes=false
+          AutoVerify=false
+        b0aa515 com.github.quarck.calnotify/.broadcastreceivers.CalendarChangedBroadcastReceiver filter 6387489
+          Action: "android.intent.action.PROVIDER_CHANGED"
+          Scheme: "content"
+          Authority: "com.android.calendar": -1
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.QUICKBOOT_POWERON:
+        512e02a com.github.quarck.calnotify/.broadcastreceivers.BootCompleteBroadcastReceiver filter 474d924
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.REBOOT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      com.htc.intent.action.QUICKBOOT_POWERON:
+        512e02a com.github.quarck.calnotify/.broadcastreceivers.BootCompleteBroadcastReceiver filter 474d924
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.REBOOT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.TIMEZONE_CHANGED:
+        3d26e1b com.github.quarck.calnotify/.broadcastreceivers.TimeSetBroadcastReceiver filter 4818c8e
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          AutoVerify=false
+      android.intent.action.TIME_SET:
+        3d26e1b com.github.quarck.calnotify/.broadcastreceivers.TimeSetBroadcastReceiver filter 4818c8e
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          AutoVerify=false
+      android.intent.action.BOOT_COMPLETED:
+        512e02a com.github.quarck.calnotify/.broadcastreceivers.BootCompleteBroadcastReceiver filter 474d924
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.REBOOT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.MY_PACKAGE_REPLACED:
+        2074bb8 com.github.quarck.calnotify/.broadcastreceivers.AppUpdatedBroadcastReceiver filter 4e95db7
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          AutoVerify=false
+      android.intent.action.REBOOT:
+        512e02a com.github.quarck.calnotify/.broadcastreceivers.BootCompleteBroadcastReceiver filter 474d924
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.REBOOT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      android.intent.action.EVENTEX_REMINDER:
+        f620ecc com.github.quarck.calnotify/.broadcastreceivers.EventReminderBroadcastReceiver filter 330ce42
+          Action: "android.intent.action.EVENTEX_REMINDER"
+          Type: "vnd.android.cursor.item/calendarEx-alert"
+          mPriority=2147483647, mHasPartialTypes=false
+          AutoVerify=false
+      android.intent.action.EVENT_REMINDER:
+        f620ecc com.github.quarck.calnotify/.broadcastreceivers.EventReminderBroadcastReceiver filter 5c19c8d
+          Action: "android.intent.action.EVENT_REMINDER"
+          Type: "vnd.android.cursor.item/calendar-alert"
+          mPriority=2147483647, mHasPartialTypes=false
+          AutoVerify=false
+        f620ecc com.github.quarck.calnotify/.broadcastreceivers.EventReminderBroadcastReceiver filter 8b86390
+          Action: "android.intent.action.EVENT_REMINDER"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/calendar_alert_time"
+          mPriority=2147483647, mHasPartialTypes=false
+          AutoVerify=false
+
+Registered ContentProviders:
+  com.github.quarck.calnotify/android.support.v4.content.FileProvider:
+    Provider{e7d7d91 com.github.quarck.calnotify/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [com.github.quarck.calnotify.fileprovider]:
+    Provider{e7d7d91 com.github.quarck.calnotify/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{6d6d4f6 com.github.quarck.calnotify}
+
+Key Set Manager:
+  [com.github.quarck.calnotify]
+      Signing KeySets: 90
+
+Packages:
+  Package [com.github.quarck.calnotify] (a9fd0f7):
+    userId=10070
+    pkg=Package{dc16b64 com.github.quarck.calnotify}
+    codePath=/data/app/com.github.quarck.calnotify-1
+    resourcePath=/data/app/com.github.quarck.calnotify-1
+    legacyNativeLibraryDir=/data/app/com.github.quarck.calnotify-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=271828 minSdk=18 targetSdk=25
+    versionName=3.14.159
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{6d6d4f6 com.github.quarck.calnotify}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/com.github.quarck.calnotify
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-04 21:15:08
+    firstInstallTime=2022-01-04 21:15:09
+    lastUpdateTime=2022-01-04 21:15:09
+    signatures=PackageSignatures{d6b61cd [539d6179]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.QUICKBOOT_POWERON
+      android.permission.WAKE_LOCK
+      android.permission.READ_CALENDAR
+      android.permission.WRITE_CALENDAR
+      android.permission.VIBRATE
+    install permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=3539332 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      runtime permissions:
+        android.permission.READ_CALENDAR: granted=true
+        android.permission.WRITE_CALENDAR: granted=true
+
+
+Dexopt state:
+  [com.github.quarck.calnotify]
+    Instruction Set: x86
+      path: /data/app/com.github.quarck.calnotify-1/base.apk
+      status: /data/app/com.github.quarck.calnotify-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatU
+      pToDate]
+
+
+Compiler stats:
+  [com.github.quarck.calnotify]
+     base.apk - 254

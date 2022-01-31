@@ -1,0 +1,42 @@
+{
+  "stop_state": "3a191e9b985568b88bcbd06b75a050a3", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_151021", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "OpenStreetMap", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "170*30", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.billthefarmer.diary", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          154, 
+          553
+        ], 
+        [
+          324, 
+          583
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "3a191e9b985568b88bcbd06b75a050a3"
+}

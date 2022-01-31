@@ -1,0 +1,231 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Full MIME Types:
+      */*:
+        68df50d eu.siacs.conversations/.ui.ShareWithActivity filter b014b4
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      text/plain:
+        68df50d eu.siacs.conversations/.ui.ShareWithActivity filter 3050d87
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+      image/*:
+        68df50d eu.siacs.conversations/.ui.ShareWithActivity filter 87fd8dd
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Base MIME Types:
+      text:
+        68df50d eu.siacs.conversations/.ui.ShareWithActivity filter 3050d87
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+
+  Wild MIME Types:
+      *:
+        68df50d eu.siacs.conversations/.ui.ShareWithActivity filter b014b4
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      image:
+        68df50d eu.siacs.conversations/.ui.ShareWithActivity filter 87fd8dd
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Schemes:
+      imto:
+        297cc2 eu.siacs.conversations/.ui.StartConversationActivity filter f2a01ab
+          Action: "android.intent.action.SENDTO"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "imto"
+          Authority: "jabber": -1
+          AutoVerify=false
+      xmpp:
+        297cc2 eu.siacs.conversations/.ui.StartConversationActivity filter 6a70008
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xmpp"
+          AutoVerify=false
+        297cc2 eu.siacs.conversations/.ui.StartConversationActivity filter 54da3a1
+          Action: "android.nfc.action.NDEF_DISCOVERED"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "xmpp"
+          AutoVerify=false
+      https:
+        297cc2 eu.siacs.conversations/.ui.StartConversationActivity filter 96fe9c6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "conversations.im": -1
+          Path: "PatternMatcher{PREFIX: /i/}"
+          Path: "PatternMatcher{PREFIX: /j/}"
+          AutoVerify=true
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        5b96ad3 eu.siacs.conversations/.ui.ConversationActivity filter 62547fa
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        68df50d eu.siacs.conversations/.ui.ShareWithActivity filter 3050d87
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+        68df50d eu.siacs.conversations/.ui.ShareWithActivity filter b014b4
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      android.intent.action.SEND_MULTIPLE:
+        68df50d eu.siacs.conversations/.ui.ShareWithActivity filter 87fd8dd
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.net.conn.CONNECTIVITY_CHANGE:
+        b0f610 eu.siacs.conversations/.services.EventReceiver filter 1e98a25
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.media.RINGER_MODE_CHANGED"
+          AutoVerify=false
+      android.intent.action.BOOT_COMPLETED:
+        b0f610 eu.siacs.conversations/.services.EventReceiver filter 1e98a25
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.media.RINGER_MODE_CHANGED"
+          AutoVerify=false
+      android.intent.action.ACTION_SHUTDOWN:
+        b0f610 eu.siacs.conversations/.services.EventReceiver filter 1e98a25
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.media.RINGER_MODE_CHANGED"
+          AutoVerify=false
+      android.media.RINGER_MODE_CHANGED:
+        b0f610 eu.siacs.conversations/.services.EventReceiver filter 1e98a25
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.media.RINGER_MODE_CHANGED"
+          AutoVerify=false
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.service.chooser.ChooserTargetService:
+        6b1d509 eu.siacs.conversations/.services.ContactChooserTargetService filter a281e1c
+          Action: "android.service.chooser.ChooserTargetService"
+          AutoVerify=false
+
+Registered ContentProviders:
+  eu.siacs.conversations/android.support.v4.content.FileProvider:
+    Provider{696a30e eu.siacs.conversations/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [eu.siacs.conversations.files]:
+    Provider{696a30e eu.siacs.conversations/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{ea5e12f eu.siacs.conversations}
+
+Key Set Manager:
+  [eu.siacs.conversations]
+      Signing KeySets: 92
+
+Packages:
+  Package [eu.siacs.conversations] (97633c):
+    userId=10063
+    pkg=Package{d19b8c5 eu.siacs.conversations}
+    codePath=/data/app/eu.siacs.conversations-1
+    resourcePath=/data/app/eu.siacs.conversations-1
+    legacyNativeLibraryDir=/data/app/eu.siacs.conversations-1/lib
+    primaryCpuAbi=x86
+    secondaryCpuAbi=null
+    versionCode=172 minSdk=14 targetSdk=24
+    versionName=1.14.1
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{ea5e12f eu.siacs.conversations}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ HAS_DOMAIN_URLS RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/eu.siacs.conversations
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-05 12:19:47
+    firstInstallTime=2022-01-05 12:19:48
+    lastUpdateTime=2022-01-05 12:19:48
+    signatures=PackageSignatures{79de21a [45e775cf]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.READ_CONTACTS
+      android.permission.READ_PROFILE
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.WAKE_LOCK
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.VIBRATE
+      android.permission.NFC
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+      com.sec.android.provider.badge.permission.READ
+      com.sec.android.provider.badge.permission.WRITE
+      com.htc.launcher.permission.READ_SETTINGS
+      com.htc.launcher.permission.UPDATE_SHORTCUT
+      com.sonyericsson.home.permission.BROADCAST_BADGE
+      com.anddoes.launcher.permission.UPDATE_COUNT
+      com.majeur.launcher.permission.UPDATE_BADGE
+      com.google.android.c2dm.permission.RECEIVE
+    install permissions:
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.NFC: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: granted=true
+      android.permission.READ_PROFILE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=3540084 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+        android.permission.READ_CONTACTS: granted=true
+
+
+Dexopt state:
+  [eu.siacs.conversations]
+    Instruction Set: x86
+      path: /data/app/eu.siacs.conversations-1/base.apk
+      status: /data/app/eu.siacs.conversations-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDa
+      te]
+
+
+Compiler stats:
+  [eu.siacs.conversations]
+     base.apk - 439

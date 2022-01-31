@@ -1,0 +1,43 @@
+{
+  "stop_state": "e41cd93562f056f627e0d437ca9a4994", 
+  "event_str": "SetTextEvent", 
+  "tag": "2022-01-02_152425", 
+  "event": {
+    "event_type": "set_text", 
+    "text": "HelloWorld", 
+    "y": null, 
+    "x": null, 
+    "id": 20, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "query", 
+      "text": "", 
+      "editable": true, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "376*48", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.billthefarmer.diary", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          12, 
+          225
+        ], 
+        [
+          388, 
+          273
+        ]
+      ], 
+      "class": "android.widget.EditText", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "13762a508bb4e20665a37f0da78195c8"
+}

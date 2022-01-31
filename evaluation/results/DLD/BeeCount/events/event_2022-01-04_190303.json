@@ -1,0 +1,10 @@
+{
+  "stop_state": "e2b9207c2f2bf92b3d4bf75576568f29", 
+  "event_str": "IntentEvent(intent='am start com.knirirr.beecount/com.knirirr.beecount.WelcomeActivity')", 
+  "tag": "2022-01-04_190303", 
+  "event": {
+    "intent": "am start com.knirirr.beecount/com.knirirr.beecount.WelcomeActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "2c1ee889c02e89e4b62747eec7959ec8"
+}

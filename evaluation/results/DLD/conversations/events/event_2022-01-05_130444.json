@@ -1,0 +1,10 @@
+{
+  "stop_state": "60f7aada6ea6dbed265bc5657ebb94c5", 
+  "event_str": "IntentEvent(intent='am start eu.siacs.conversations/eu.siacs.conversations.ui.ConversationActivity')", 
+  "tag": "2022-01-05_130444", 
+  "event": {
+    "intent": "am start eu.siacs.conversations/eu.siacs.conversations.ui.ConversationActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "946bb7bdf6e615e6b5ad994ff482186b"
+}
