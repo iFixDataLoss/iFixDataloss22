@@ -1,0 +1,669 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Full MIME Types:
+      application/x-zip-compressed:
+        f8232ab ee.aegrel.gadgetbridge/.activities.FwAppInstallerActivity filter 7a3c05e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/zip"
+          Type: "application/x-zip-compressed"
+          AutoVerify=false
+      application/zip:
+        f8232ab ee.aegrel.gadgetbridge/.activities.FwAppInstallerActivity filter 7a3c05e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/zip"
+          Type: "application/x-zip-compressed"
+          AutoVerify=false
+      */*:
+        f8232ab ee.aegrel.gadgetbridge/.activities.FwAppInstallerActivity filter feab4e3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pbl}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        f8232ab ee.aegrel.gadgetbridge/.activities.FwAppInstallerActivity filter c09bc3f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      application/octet-stream:
+        f8232ab ee.aegrel.gadgetbridge/.activities.FwAppInstallerActivity filter 996d599
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/octet-stream"
+          AutoVerify=false
+
+  Base MIME Types:
+      application:
+        f8232ab ee.aegrel.gadgetbridge/.activities.FwAppInstallerActivity filter 996d599
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/octet-stream"
+          AutoVerify=false
+        f8232ab ee.aegrel.gadgetbridge/.activities.FwAppInstallerActivity filter 7a3c05e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/zip"
+          Type: "application/x-zip-compressed"
+          AutoVerify=false
+        f8232ab ee.aegrel.gadgetbridge/.activities.FwAppInstallerActivity filter 7a3c05e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/zip"
+          Type: "application/x-zip-compressed"
+          AutoVerify=false
+
+  Wild MIME Types:
+      *:
+        f8232ab ee.aegrel.gadgetbridge/.activities.FwAppInstallerActivity filter feab4e3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pbl}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        f8232ab ee.aegrel.gadgetbridge/.activities.FwAppInstallerActivity filter c09bc3f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Schemes:
+      file:
+        f8232ab ee.aegrel.gadgetbridge/.activities.FwAppInstallerActivity filter feab4e3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pbl}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        f8232ab ee.aegrel.gadgetbridge/.activities.FwAppInstallerActivity filter 49e5ee0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pbl}"
+          AutoVerify=false
+      gadgetbridge:
+        121dd08 ee.aegrel.gadgetbridge/.activities.ExternalPebbleJSActivity filter cf63255
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "gadgetbridge"
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        8f3bca1 ee.aegrel.gadgetbridge/.activities.ControlCenterv2 filter a286512
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      ru.gelin.android.weather.notification.ACTION_WEATHER_SKIN_PREFERENCES:
+        8c68ec6 ee.aegrel.gadgetbridge/.externalevents.WeatherNotificationConfig filter f3a890c
+          Action: "ru.gelin.android.weather.notification.ACTION_WEATHER_SKIN_PREFERENCES"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        f8232ab ee.aegrel.gadgetbridge/.activities.FwAppInstallerActivity filter c09bc3f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      android.intent.action.VIEW:
+        f8232ab ee.aegrel.gadgetbridge/.activities.FwAppInstallerActivity filter feab4e3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.fw}"
+          Path: "PatternMatcher{GLOB: /.*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.ft.en}"
+          Path: "PatternMatcher{GLOB: /.*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.ft}"
+          Path: "PatternMatcher{GLOB: /.*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.res}"
+          Path: "PatternMatcher{GLOB: /.*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.gps}"
+          Path: "PatternMatcher{GLOB: /.*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pbw}"
+          Path: "PatternMatcher{GLOB: /.*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pbz}"
+          Path: "PatternMatcher{GLOB: /.*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pbl}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pbl}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        f8232ab ee.aegrel.gadgetbridge/.activities.FwAppInstallerActivity filter 996d599
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/octet-stream"
+          AutoVerify=false
+        f8232ab ee.aegrel.gadgetbridge/.activities.FwAppInstallerActivity filter 7a3c05e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/zip"
+          Type: "application/x-zip-compressed"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.bluetooth.adapter.action.STATE_CHANGED:
+        f2f4e87 ee.aegrel.gadgetbridge/.externalevents.BluetoothStateChangeReceiver filter 1fc6686
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          AutoVerify=false
+      ru.gelin.android.weather.notification.ACTION_WEATHER_UPDATE_2:
+        47bc1b4 ee.aegrel.gadgetbridge/.externalevents.WeatherNotificationReceiver filter b587ec8
+          Action: "ru.gelin.android.weather.notification.ACTION_WEATHER_UPDATE_2"
+          AutoVerify=false
+      ee.aegrel.gadgetbridge.musiccontrol:
+        2ee81dd ee.aegrel.gadgetbridge/.service.receivers.GBMusicControlReceiver filter 158ab47
+          Action: "ee.aegrel.gadgetbridge.musiccontrol"
+          AutoVerify=false
+      ee.aegrel.gadgetbridge.callcontrol:
+        90cd152 ee.aegrel.gadgetbridge/.service.receivers.GBCallControlReceiver filter 6dabf74
+          Action: "ee.aegrel.gadgetbridge.callcontrol"
+          AutoVerify=false
+      android.intent.action.BOOT_COMPLETED:
+        9a84c23 ee.aegrel.gadgetbridge/.externalevents.AutoStartReceiver filter 1ff1b61
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      ee.aegrel.gadgetbridge.SLEEP_ALARM_WIDGET_CLICK:
+        9ed4520 ee.aegrel.gadgetbridge/.SleepAlarmWidget filter 9310c9d
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "ee.aegrel.gadgetbridge.SLEEP_ALARM_WIDGET_CLICK"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_UPDATE:
+        9ed4520 ee.aegrel.gadgetbridge/.SleepAlarmWidget filter 9310c9d
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "ee.aegrel.gadgetbridge.SLEEP_ALARM_WIDGET_CLICK"
+          AutoVerify=false
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.service.notification.NotificationListenerService:
+        bd65ed9 ee.aegrel.gadgetbridge/.externalevents.NotificationListener filter 14b436b
+          Action: "android.service.notification.NotificationListenerService"
+          AutoVerify=false
+
+Registered ContentProviders:
+  ee.aegrel.gadgetbridge/.contentprovider.PebbleContentProvider:
+    Provider{2b09e ee.aegrel.gadgetbridge/.contentprovider.PebbleContentProvider}
+  ee.aegrel.gadgetbridge/android.support.v4.content.FileProvider:
+    Provider{b29877f ee.aegrel.gadgetbridge/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [ee.aegrel.gadgetbridge.screenshot_provider]:
+    Provider{b29877f ee.aegrel.gadgetbridge/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{331934c ee.aegrel.gadgetbridge}
+  [com.getpebble.android.provider]:
+    Provider{2b09e ee.aegrel.gadgetbridge/.contentprovider.PebbleContentProvider}
+      applicationInfo=ApplicationInfo{331934c ee.aegrel.gadgetbridge}
+
+Key Set Manager:
+  [ee.aegrel.gadgetbridge]
+      Signing KeySets: 115
+
+Packages:
+  Package [ee.aegrel.gadgetbridge] (fc50f95):
+    userId=10086
+    pkg=Package{3e538aa ee.aegrel.gadgetbridge}
+    codePath=/data/app/ee.aegrel.gadgetbridge-1
+    resourcePath=/data/app/ee.aegrel.gadgetbridge-1
+    legacyNativeLibraryDir=/data/app/ee.aegrel.gadgetbridge-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=126 minSdk=19 targetSdk=27
+    versionName=0.25.5.5
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{331934c ee.aegrel.gadgetbridge}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/ee.aegrel.gadgetbridge
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-06 20:51:02
+    firstInstallTime=2022-01-06 20:51:02
+    lastUpdateTime=2022-01-06 20:51:02
+    signatures=PackageSignatures{d591c9b [985b67f1]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    requested permissions:
+      android.permission.BLUETOOTH
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.READ_PHONE_STATE
+      android.permission.PROCESS_OUTGOING_CALLS
+      android.permission.CALL_PHONE
+      android.permission.RECEIVE_SMS
+      android.permission.SEND_SMS
+      android.permission.READ_CONTACTS
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.READ_CALENDAR
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.RECEIVE_BOOT_COMPLETED
+      cyanogenmod.permission.ACCESS_WEATHER_MANAGER
+      cyanogenmod.permission.READ_WEATHER
+      org.omnirom.omnijaws.READ_WEATHER
+    install permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+    User 0: ceDataInode=3539538 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3002, 3001]
+      runtime permissions:
+        android.permission.READ_CALENDAR: granted=true
+        android.permission.RECEIVE_SMS: granted=true
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.ACCESS_COARSE_LOCATION: granted=true
+        android.permission.READ_PHONE_STATE: granted=true
+        android.permission.SEND_SMS: granted=true
+        android.permission.CALL_PHONE: granted=true
+        android.permission.PROCESS_OUTGOING_CALLS: granted=true
+        android.permission.READ_CONTACTS: granted=true
+
+
+Dexopt state:
+  [ee.aegrel.gadgetbridge]
+    Instruction Set: x86
+      path: /data/app/ee.aegrel.gadgetbridge-1/base.apk
+      status: /data/app/ee.aegrel.gadgetbridge-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDa
+      te]
+
+
+Compiler stats:
+  [ee.aegrel.gadgetbridge]
+     base.apk - 195

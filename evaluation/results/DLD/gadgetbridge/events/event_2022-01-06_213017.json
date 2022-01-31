@@ -1,0 +1,10 @@
+{
+  "stop_state": "feabd19224589d07682d92c3b9f33f71", 
+  "event_str": "IntentEvent(intent='am start ee.aegrel.gadgetbridge/ee.aegrel.gadgetbridge.activities.ControlCenterv2')", 
+  "tag": "2022-01-06_213017", 
+  "event": {
+    "intent": "am start ee.aegrel.gadgetbridge/ee.aegrel.gadgetbridge.activities.ControlCenterv2", 
+    "event_type": "intent"
+  }, 
+  "start_state": "4291dfd416cf938637a0f64064f45321"
+}

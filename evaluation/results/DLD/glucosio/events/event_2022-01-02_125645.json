@@ -1,0 +1,42 @@
+{
+  "stop_state": "e09a9f94ae3798fdb21e010548c6ee1c", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_125645", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Glucosio", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "108*35", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.glucosio.android", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          126, 
+          445
+        ], 
+        [
+          234, 
+          480
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 4, 
+    "event_type": "touch"
+  }, 
+  "start_state": "e09a9f94ae3798fdb21e010548c6ee1c"
+}

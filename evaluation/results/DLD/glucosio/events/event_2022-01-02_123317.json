@@ -1,0 +1,42 @@
+{
+  "stop_state": "24d968c25cc6f8b58145f202ff2b5d20", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_123317", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.glucosio.android:id/activity_hello_age", 
+      "text": null, 
+      "editable": true, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": true, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "912*70", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.glucosio.android", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          48, 
+          575
+        ], 
+        [
+          960, 
+          645
+        ]
+      ], 
+      "class": "android.widget.EditText", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "24d968c25cc6f8b58145f202ff2b5d20"
+}

@@ -1,0 +1,43 @@
+{
+  "stop_state": "461309b8f51d0bc7a8e7780fc0a7d1d3", 
+  "event_str": "SetTextEvent", 
+  "tag": "2022-01-02_125907", 
+  "event": {
+    "event_type": "set_text", 
+    "text": "HelloWorld", 
+    "y": null, 
+    "x": null, 
+    "id": 9, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.glucosio.android:id/activity_hello_age", 
+      "text": null, 
+      "editable": true, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": true, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "912*70", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.glucosio.android", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          48, 
+          575
+        ], 
+        [
+          960, 
+          645
+        ]
+      ], 
+      "class": "android.widget.EditText", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "461309b8f51d0bc7a8e7780fc0a7d1d3"
+}

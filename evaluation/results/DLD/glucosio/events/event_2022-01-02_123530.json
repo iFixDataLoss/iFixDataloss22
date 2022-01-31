@@ -1,0 +1,43 @@
+{
+  "stop_state": "a8aed00a0e60ad436d205a9f42e7a47e", 
+  "event_str": "LongTouchEvent(duration=2000)", 
+  "tag": "2022-01-02_123530", 
+  "event": {
+    "event_type": "long_touch", 
+    "duration": 2000, 
+    "y": null, 
+    "x": null, 
+    "id": 8, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.glucosio.android:id/custom_spinner", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "912*52", 
+      "scrollable": true, 
+      "checked": false, 
+      "package": "org.glucosio.android", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          48, 
+          713
+        ], 
+        [
+          960, 
+          765
+        ]
+      ], 
+      "class": "android.widget.Spinner", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "c7b1f551af29da2a9956a228ebaa49b8"
+}

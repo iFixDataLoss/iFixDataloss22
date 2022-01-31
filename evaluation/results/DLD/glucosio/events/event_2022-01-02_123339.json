@@ -1,0 +1,89 @@
+{
+  "stop_state": "82b1e287328370ae2d1b6257c4d202b8", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-02_123339", 
+  "event": {
+    "views_str": [
+      "59533eacb275c46e53c3f23455cf923d", 
+      "0e58fcbab8c35efa2ae5e95e64769959"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "s", 
+        "text": "", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "594*45", 
+        "checked": false, 
+        "temp_id": 59, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]s", 
+        "is_password": false, 
+        "parent": 58, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "org.glucosio.android", 
+        "long_clickable": false, 
+        "view_str": "59533eacb275c46e53c3f23455cf923d", 
+        "enabled": true, 
+        "bounds": [
+          [
+            135, 
+            819
+          ], 
+          [
+            729, 
+            864
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]s[text][enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "s", 
+        "text": "", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "254*45", 
+        "checked": false, 
+        "temp_id": 64, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]s", 
+        "is_password": false, 
+        "parent": 63, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "org.glucosio.android", 
+        "long_clickable": false, 
+        "view_str": "0e58fcbab8c35efa2ae5e95e64769959", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1300, 
+            549
+          ], 
+          [
+            1554, 
+            594
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]s[text][enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "7c6d9fa77c631878cc29869ce784be6c"
+}

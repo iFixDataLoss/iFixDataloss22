@@ -1,0 +1,330 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Full MIME Types:
+      */*:
+        979f0d7 org.gnucash.android/.ui.account.AccountsActivity filter a4e3c11
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.gnucash}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        979f0d7 org.gnucash.android/.ui.account.AccountsActivity filter fc2f176
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.gnca}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        979f0d7 org.gnucash.android/.ui.account.AccountsActivity filter 2d6f377
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.gnca.zip}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Wild MIME Types:
+      *:
+        979f0d7 org.gnucash.android/.ui.account.AccountsActivity filter a4e3c11
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.gnucash}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        979f0d7 org.gnucash.android/.ui.account.AccountsActivity filter fc2f176
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.gnca}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        979f0d7 org.gnucash.android/.ui.account.AccountsActivity filter 2d6f377
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.gnca.zip}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Schemes:
+      db-dhjh8ke9wf05948:
+        d973dc4 org.gnucash.android/com.dropbox.core.android.AuthActivity filter bc9884d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "db-dhjh8ke9wf05948"
+          AutoVerify=false
+      file:
+        979f0d7 org.gnucash.android/.ui.account.AccountsActivity filter a4e3c11
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.gnucash}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        979f0d7 org.gnucash.android/.ui.account.AccountsActivity filter fc2f176
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.gnca}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        979f0d7 org.gnucash.android/.ui.account.AccountsActivity filter 2d6f377
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.gnca.zip}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        979f0d7 org.gnucash.android/.ui.account.AccountsActivity filter 4c1f438
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        7cf34ad org.gnucash.android/.ui.homescreen.WidgetConfigurationActivity filter 8be1be4
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      android.intent.action.EDIT:
+        979f0d7 org.gnucash.android/.ui.account.AccountsActivity filter a4e3c11
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.gnucash}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        979f0d7 org.gnucash.android/.ui.account.AccountsActivity filter fc2f176
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.gnca}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        979f0d7 org.gnucash.android/.ui.account.AccountsActivity filter 2d6f377
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.gnca.zip}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      android.intent.action.VIEW:
+        979f0d7 org.gnucash.android/.ui.account.AccountsActivity filter a4e3c11
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.gnucash}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        979f0d7 org.gnucash.android/.ui.account.AccountsActivity filter fc2f176
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.gnca}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        979f0d7 org.gnucash.android/.ui.account.AccountsActivity filter 2d6f377
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.gnca.zip}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Full MIME Types:
+      vnd.android.cursor.item/vnd.org.gnucash.android.account:
+        1453e2 org.gnucash.android/.receivers.AccountCreator filter 76b2f4c
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/vnd.org.gnucash.android.account"
+          AutoVerify=false
+      vnd.android.cursor.item/vnd.org.gnucash.android.transaction:
+        d02c373 org.gnucash.android/.receivers.TransactionRecorder filter 418137f
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/vnd.org.gnucash.android.transaction"
+          AutoVerify=false
+
+  Base MIME Types:
+      vnd.android.cursor.item:
+        d02c373 org.gnucash.android/.receivers.TransactionRecorder filter 418137f
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/vnd.org.gnucash.android.transaction"
+          AutoVerify=false
+        1453e2 org.gnucash.android/.receivers.AccountCreator filter 76b2f4c
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/vnd.org.gnucash.android.account"
+          AutoVerify=false
+
+  Non-Data Actions:
+      org.gnucash.android.action_scheduled_actions:
+        fac7230 org.gnucash.android/.receivers.PeriodicJobReceiver filter 4a4689b
+          Action: "org.gnucash.android.action_backup"
+          Action: "org.gnucash.android.action_scheduled_actions"
+          AutoVerify=false
+      org.gnucash.android.action_backup:
+        fac7230 org.gnucash.android/.receivers.PeriodicJobReceiver filter 4a4689b
+          Action: "org.gnucash.android.action_backup"
+          Action: "org.gnucash.android.action_scheduled_actions"
+          AutoVerify=false
+      android.intent.action.BOOT_COMPLETED:
+        8576ea9 org.gnucash.android/.receivers.BootReceiver filter f5e34aa
+          Action: "android.intent.action.BOOT_COMPLETED"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_UPDATE:
+        a7cc2e org.gnucash.android/.receivers.TransactionAppWidgetProvider filter 1d47b95
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      android.intent.action.INSERT:
+        d02c373 org.gnucash.android/.receivers.TransactionRecorder filter 418137f
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/vnd.org.gnucash.android.transaction"
+          AutoVerify=false
+        1453e2 org.gnucash.android/.receivers.AccountCreator filter 76b2f4c
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/vnd.org.gnucash.android.account"
+          AutoVerify=false
+
+Permissions:
+  Permission [org.gnucash.android.permission.RECORD_TRANSACTION] (13c23cf):
+    sourcePackage=org.gnucash.android
+    uid=10086 gids=null type=0 prot=dangerous
+    perm=Permission{a9e815c org.gnucash.android.permission.RECORD_TRANSACTION}
+    packageSetting=PackageSetting{a0f4c65 org.gnucash.android/10086}
+  Permission [org.gnucash.android.permission.CREATE_ACCOUNT] (ce87d3a):
+    sourcePackage=org.gnucash.android
+    uid=10086 gids=null type=0 prot=dangerous
+    perm=Permission{a012deb org.gnucash.android.permission.CREATE_ACCOUNT}
+    packageSetting=PackageSetting{a0f4c65 org.gnucash.android/10086}
+
+Registered ContentProviders:
+  org.gnucash.android/android.support.v4.content.FileProvider:
+    Provider{d405748 org.gnucash.android/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [org.gnucash.android.fileprovider]:
+    Provider{d405748 org.gnucash.android/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{8ad49e1 org.gnucash.android}
+
+Key Set Manager:
+  [org.gnucash.android]
+      Signing KeySets: 41
+
+Packages:
+  Package [org.gnucash.android] (a0f4c65):
+    userId=10086
+    pkg=Package{3513306 org.gnucash.android}
+    codePath=/data/app/org.gnucash.android-1
+    resourcePath=/data/app/org.gnucash.android-1
+    legacyNativeLibraryDir=/data/app/org.gnucash.android-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=24003 minSdk=19 targetSdk=27
+    versionName=2.4.0-beta3
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{8ad49e1 org.gnucash.android}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/org.gnucash.android
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-02 13:07:55
+    firstInstallTime=2022-01-02 13:07:56
+    lastUpdateTime=2022-01-02 13:07:56
+    signatures=PackageSignatures{3c2bdc7 [49a1167c]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    declared permissions:
+      org.gnucash.android.permission.CREATE_ACCOUNT: prot=dangerous, INSTALLED
+      org.gnucash.android.permission.RECORD_TRANSACTION: prot=dangerous, INSTALLED
+    requested permissions:
+      android.permission.SET_ANIMATION_SCALE
+      org.gnucash.android.permission.RECORD_TRANSACTION
+      org.gnucash.android.permission.CREATE_ACCOUNT
+      android.permission.VIBRATE
+      android.permission.WAKE_LOCK
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+    install permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.SET_ANIMATION_SCALE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=3539514 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+        org.gnucash.android.permission.RECORD_TRANSACTION: granted=true
+        org.gnucash.android.permission.CREATE_ACCOUNT: granted=true
+
+
+Dexopt state:
+  [org.gnucash.android]
+    Instruction Set: x86
+      path: /data/app/org.gnucash.android-1/base.apk
+      status: /data/app/org.gnucash.android-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDate]
+      
+
+
+Compiler stats:
+  [org.gnucash.android]
+     base.apk - 595

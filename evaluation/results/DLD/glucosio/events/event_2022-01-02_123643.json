@@ -1,0 +1,42 @@
+{
+  "stop_state": "e09a9f94ae3798fdb21e010548c6ee1c", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_123643", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "searchsubmit", 
+      "text": "Search", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": true, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "122*51", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.glucosio.android", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          721, 
+          816
+        ], 
+        [
+          843, 
+          867
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 6, 
+    "event_type": "touch"
+  }, 
+  "start_state": "e09a9f94ae3798fdb21e010548c6ee1c"
+}

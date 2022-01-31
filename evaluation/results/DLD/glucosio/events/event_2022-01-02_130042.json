@@ -1,0 +1,42 @@
+{
+  "stop_state": "bf8ab192d17deaa20e4c716be94a63ad", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_130042", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "android:id/text1", 
+      "text": "LADA", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": true, 
+      "size": "912*72", 
+      "scrollable": false, 
+      "checked": true, 
+      "package": "org.glucosio.android", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          48, 
+          929
+        ], 
+        [
+          960, 
+          1001
+        ]
+      ], 
+      "class": "android.widget.CheckedTextView", 
+      "focusable": false
+    }, 
+    "id": 7, 
+    "event_type": "touch"
+  }, 
+  "start_state": "120a32ad4b5dbd12c380dc2b1fc894ec"
+}

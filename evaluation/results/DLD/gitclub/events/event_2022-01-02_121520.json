@@ -1,0 +1,42 @@
+{
+  "stop_state": "d7ae9bb5e8b4073cc2146a5e7486eb38", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_121520", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "tellh.com.gitclub:id/skip", 
+      "text": "SKIP", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "150*95", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "tellh.com.gitclub", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          12, 
+          985
+        ], 
+        [
+          162, 
+          1080
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "c607df04fa39831af84107699ff9d6f4"
+}

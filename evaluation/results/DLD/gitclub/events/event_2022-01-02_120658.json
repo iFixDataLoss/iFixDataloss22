@@ -1,0 +1,42 @@
+{
+  "stop_state": "afafb72744daefab32b75bceb43a7fdf", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_120658", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "tellh.com.gitclub:id/item_container", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "954*190", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "tellh.com.gitclub", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          3, 
+          353
+        ], 
+        [
+          957, 
+          543
+        ]
+      ], 
+      "class": "android.widget.FrameLayout", 
+      "focusable": false
+    }, 
+    "id": 4, 
+    "event_type": "touch"
+  }, 
+  "start_state": "2e7190e34c10daa4762594e2c6e4dd93"
+}

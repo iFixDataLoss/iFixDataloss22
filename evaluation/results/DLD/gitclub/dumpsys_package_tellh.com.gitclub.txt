@@ -1,0 +1,95 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Schemes:
+      tencent100424468:
+        4ffb8f7 tellh.com.gitclub/com.tencent.tauth.AuthActivity filter 98623
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tencent100424468"
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        1473364 tellh.com.gitclub/.presentation.view.activity.IntroActivity filter 7a6b352
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Key Set Manager:
+  [tellh.com.gitclub]
+      Signing KeySets: 37
+
+Packages:
+  Package [tellh.com.gitclub] (5189cd):
+    userId=10082
+    pkg=Package{c425282 tellh.com.gitclub}
+    codePath=/data/app/tellh.com.gitclub-1
+    resourcePath=/data/app/tellh.com.gitclub-1
+    legacyNativeLibraryDir=/data/app/tellh.com.gitclub-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=1 minSdk=14 targetSdk=24
+    versionName=1.0
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{feced93 tellh.com.gitclub}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/tellh.com.gitclub
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-02 11:50:08
+    firstInstallTime=2022-01-02 11:50:09
+    lastUpdateTime=2022-01-02 11:50:09
+    signatures=PackageSignatures{af621d0 [1296a1b]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.READ_PHONE_STATE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.READ_LOGS
+      android.permission.CALL_PHONE
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.GET_TASKS
+      android.permission.SET_DEBUG_APP
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.GET_ACCOUNTS
+      android.permission.USE_CREDENTIALS
+      android.permission.MANAGE_ACCOUNTS
+    install permissions:
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.SET_DEBUG_APP: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.READ_LOGS: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+    User 0: ceDataInode=3539514 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003, 1007]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=true
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.ACCESS_COARSE_LOCATION: granted=true
+        android.permission.READ_PHONE_STATE: granted=true
+        android.permission.CALL_PHONE: granted=true
+        android.permission.GET_ACCOUNTS: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [tellh.com.gitclub]
+    Instruction Set: x86
+      path: /data/app/tellh.com.gitclub-1/base.apk
+      status: /data/app/tellh.com.gitclub-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDate]
+
+
+Compiler stats:
+  [tellh.com.gitclub]
+     base.apk - 364

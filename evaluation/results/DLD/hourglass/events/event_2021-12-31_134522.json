@@ -1,0 +1,42 @@
+{
+  "stop_state": "0266cc25cf2716a25a0f7b61e94bdfa1", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-12-31_134522", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.alaskalinuxuser.hourglass:id/okButton", 
+      "text": "OK", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "248*135", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.alaskalinuxuser.hourglass", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          416, 
+          602
+        ], 
+        [
+          664, 
+          737
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 1, 
+    "event_type": "touch"
+  }, 
+  "start_state": "f4c9ce73f3962618461e9c4ec472c1ef"
+}

@@ -1,0 +1,51 @@
+{
+  "stop_state": "186a9e6edc987fd0326aae1c08eab305", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-12-31_133352", 
+  "event": {
+    "views_str": [
+      "ce8158b7eaefebf6dffd9b83d543fea8"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.alaskalinuxuser.hourglass:id/manualTimeText", 
+        "text": "5:00", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "850*93", 
+        "checked": false, 
+        "temp_id": 12, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.alaskalinuxuser.hourglass:id/manualTimeText", 
+        "is_password": false, 
+        "parent": 10, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.alaskalinuxuser.hourglass", 
+        "long_clickable": true, 
+        "view_str": "ce8158b7eaefebf6dffd9b83d543fea8", 
+        "enabled": true, 
+        "bounds": [
+          [
+            115, 
+            439
+          ], 
+          [
+            965, 
+            532
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.alaskalinuxuser.hourglass:id/manualTimeText[text]5:00[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "59f280f5e9c7bfb4504d22dab69dab0f"
+}

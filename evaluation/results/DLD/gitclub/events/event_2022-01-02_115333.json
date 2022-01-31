@@ -1,0 +1,89 @@
+{
+  "stop_state": "335f9b08119b1e2011ea608777aba6ef", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-02_115333", 
+  "event": {
+    "views_str": [
+      "36899343c749f66987cebf982529dab4", 
+      "1962330a8d58070fecebeb43054803c0"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "tellh.com.gitclub:id/edit_username", 
+        "text": null, 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "798*68", 
+        "checked": false, 
+        "temp_id": 9, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]tellh.com.gitclub:id/edit_username", 
+        "is_password": false, 
+        "parent": 8, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "tellh.com.gitclub", 
+        "long_clickable": true, 
+        "view_str": "36899343c749f66987cebf982529dab4", 
+        "enabled": true, 
+        "bounds": [
+          [
+            561, 
+            545
+          ], 
+          [
+            1359, 
+            613
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]tellh.com.gitclub:id/edit_username[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "tellh.com.gitclub:id/edit_password", 
+        "text": null, 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "798*68", 
+        "checked": false, 
+        "temp_id": 12, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]tellh.com.gitclub:id/edit_password", 
+        "is_password": true, 
+        "parent": 11, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "tellh.com.gitclub", 
+        "long_clickable": true, 
+        "view_str": "1962330a8d58070fecebeb43054803c0", 
+        "enabled": true, 
+        "bounds": [
+          [
+            561, 
+            629
+          ], 
+          [
+            1359, 
+            697
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]tellh.com.gitclub:id/edit_password[text]None[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "335f9b08119b1e2011ea608777aba6ef"
+}

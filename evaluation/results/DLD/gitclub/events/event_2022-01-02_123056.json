@@ -1,0 +1,42 @@
+{
+  "stop_state": "dafd4b607b1ef3b883a0fe9f383fd1c5", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_123056", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "240*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "tellh.com.gitclub", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          480, 
+          264
+        ], 
+        [
+          720, 
+          336
+        ]
+      ], 
+      "class": "android.support.v7.app.ActionBar$Tab", 
+      "focusable": true
+    }, 
+    "id": 2, 
+    "event_type": "touch"
+  }, 
+  "start_state": "2e7190e34c10daa4762594e2c6e4dd93"
+}

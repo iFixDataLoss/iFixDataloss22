@@ -1,0 +1,44 @@
+{
+  "stop_state": "cd9e751280456fb986ea64a8d59816ca", 
+  "event_str": "ScrollEvent(direction=UP)", 
+  "tag": "2022-01-02_123605", 
+  "event": {
+    "direction": "UP", 
+    "event_type": "scroll", 
+    "y_full_down": 1750, 
+    "y": null, 
+    "x": null, 
+    "id": 3, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.glucosio.android:id/custom_spinner", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "912*52", 
+      "scrollable": true, 
+      "checked": false, 
+      "package": "org.glucosio.android", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          48, 
+          713
+        ], 
+        [
+          960, 
+          765
+        ]
+      ], 
+      "class": "android.widget.Spinner", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "19e02c2f70a8f0c58c73764ba0659e09"
+}

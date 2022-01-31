@@ -1,0 +1,10 @@
+{
+  "stop_state": "0266cc25cf2716a25a0f7b61e94bdfa1", 
+  "event_str": "IntentEvent(intent='am start com.alaskalinuxuser.hourglass/com.alaskalinuxuser.hourglass.MainActivity')", 
+  "tag": "2021-12-31_133251", 
+  "event": {
+    "intent": "am start com.alaskalinuxuser.hourglass/com.alaskalinuxuser.hourglass.MainActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "0b5aad7f99c2504cf58d8200138ea578"
+}

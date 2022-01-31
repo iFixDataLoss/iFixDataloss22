@@ -1,0 +1,165 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      android.nfc.action.TECH_DISCOVERED:
+        141c826 org.glucosio.android/.activity.FreestyleLibreActivity filter 607501d
+          Action: "android.nfc.action.TECH_DISCOVERED"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.MAIN:
+        761fc67 org.glucosio.android/.activity.SplashActivity filter ef42292
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      com.google.android.gms.appinvite.ACTION_PREVIEW:
+        e4a0a14 org.glucosio.android/com.google.android.gms.appinvite.PreviewActivity filter f676463
+          Action: "com.google.android.gms.appinvite.ACTION_PREVIEW"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        41092bd org.glucosio.android/.receivers.GlucosioBroadcastReceiver filter 1208848
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MAIN"
+          AutoVerify=false
+      com.google.android.gms.analytics.ANALYTICS_DISPATCH:
+        2f240b2 org.glucosio.android/com.google.android.gms.analytics.AnalyticsReceiver filter 41026e1
+          Action: "com.google.android.gms.analytics.ANALYTICS_DISPATCH"
+          AutoVerify=false
+      com.android.vending.INSTALL_REFERRER:
+        c87f803 org.glucosio.android/com.google.android.gms.analytics.CampaignTrackingReceiver filter 9bf4c06
+          Action: "com.android.vending.INSTALL_REFERRER"
+          AutoVerify=false
+        8c7b380 org.glucosio.android/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver filter 24162c7
+          Action: "com.android.vending.INSTALL_REFERRER"
+          AutoVerify=false
+      com.google.android.c2dm.intent.RECEIVE:
+        ab89db9 org.glucosio.android/com.google.android.gms.gcm.GcmReceiver filter e77063a
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Category: "org.glucosio.android"
+          AutoVerify=false
+        6bfb5fe org.glucosio.android/com.google.firebase.iid.FirebaseInstanceIdReceiver filter ed9e0f4
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Category: "org.glucosio.android"
+          AutoVerify=false
+      android.intent.action.BOOT_COMPLETED:
+        41092bd org.glucosio.android/.receivers.GlucosioBroadcastReceiver filter 1208848
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MAIN"
+          AutoVerify=false
+      com.google.android.c2dm.intent.REGISTRATION:
+        ab89db9 org.glucosio.android/com.google.android.gms.gcm.GcmReceiver filter 76f82eb
+          Action: "com.google.android.c2dm.intent.REGISTRATION"
+          AutoVerify=false
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.INSTANCE_ID_EVENT:
+        988115f org.glucosio.android/com.google.firebase.iid.FirebaseInstanceIdService filter e5965
+          Action: "com.google.firebase.INSTANCE_ID_EVENT"
+          mPriority=-500, mHasPartialTypes=false
+          AutoVerify=false
+      com.google.firebase.MESSAGING_EVENT:
+        2b487ac org.glucosio.android/.service.GlucosioFirebaseMessagingService filter 4ff28cf
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          AutoVerify=false
+        33c5c75 org.glucosio.android/com.google.firebase.messaging.FirebaseMessagingService filter e2da25c
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mHasPartialTypes=false
+          AutoVerify=false
+      com.google.android.gms.wearable.BIND_LISTENER:
+        c5d340a org.glucosio.android/.service.DataLayerListenerService filter f2fc52e
+          Action: "com.google.android.gms.wearable.BIND_LISTENER"
+          AutoVerify=false
+
+Permissions:
+  Permission [org.glucosio.android.permission.C2D_MESSAGE] (346647b):
+    sourcePackage=org.glucosio.android
+    uid=10084 gids=null type=0 prot=signature
+    perm=Permission{9b87298 org.glucosio.android.permission.C2D_MESSAGE}
+    packageSetting=PackageSetting{34af1 org.glucosio.android/10084}
+
+Registered ContentProviders:
+  org.glucosio.android/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{9a286d6 org.glucosio.android/com.google.firebase.provider.FirebaseInitProvider}
+  org.glucosio.android/android.support.v4.content.FileProvider:
+    Provider{ecccd57 org.glucosio.android/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [org.glucosio.android.provider.fileprovider]:
+    Provider{ecccd57 org.glucosio.android/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{c0e2044 org.glucosio.android}
+  [org.glucosio.android.firebaseinitprovider]:
+    Provider{9a286d6 org.glucosio.android/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{c0e2044 org.glucosio.android}
+
+Key Set Manager:
+  [org.glucosio.android]
+      Signing KeySets: 39
+
+Packages:
+  Package [org.glucosio.android] (34af1):
+    userId=10084
+    pkg=Package{870a52d org.glucosio.android}
+    codePath=/data/app/org.glucosio.android-1
+    resourcePath=/data/app/org.glucosio.android-1
+    legacyNativeLibraryDir=/data/app/org.glucosio.android-1/lib
+    primaryCpuAbi=x86
+    secondaryCpuAbi=null
+    versionCode=41 minSdk=16 targetSdk=25
+    versionName=1.4.0
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{c0e2044 org.glucosio.android}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/org.glucosio.android
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-02 12:32:08
+    firstInstallTime=2022-01-02 12:32:09
+    lastUpdateTime=2022-01-02 12:32:09
+    signatures=PackageSignatures{8183a62 [c8a6cb62]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    declared permissions:
+      org.glucosio.android.permission.C2D_MESSAGE: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.NFC
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      org.glucosio.android.permission.C2D_MESSAGE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.WAKE_LOCK
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.VIBRATE
+    install permissions:
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.NFC: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      org.glucosio.android.permission.C2D_MESSAGE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=3539518 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [org.glucosio.android]
+    Instruction Set: x86
+      path: /data/app/org.glucosio.android-1/base.apk
+      status: /data/app/org.glucosio.android-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDate
+      ]
+
+
+Compiler stats:
+  [org.glucosio.android]
+     base.apk - 261
