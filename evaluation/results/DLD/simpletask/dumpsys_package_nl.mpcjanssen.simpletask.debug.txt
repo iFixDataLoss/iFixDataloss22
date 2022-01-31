@@ -1,0 +1,178 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Full MIME Types:
+      */*:
+        c18f3d2 nl.mpcjanssen.simpletask.debug/nl.mpcjanssen.simpletask.AddTaskBackground filter 5cd090c
+          Action: "android.intent.action.SEND"
+          Action: "nl.mpcjanssen.simpletask.BACKGROUND_TASK"
+          Action: "com.google.android.gm.action.AUTO_SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      vnd.android.cursor.item/event:
+        755fca3 nl.mpcjanssen.simpletask.debug/nl.mpcjanssen.simpletask.Simpletask filter e9d1ed1
+          Action: "android.provider.calendar.action.HANDLE_CUSTOM_EVENT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/event"
+          AutoVerify=false
+
+  Base MIME Types:
+      vnd.android.cursor.item:
+        755fca3 nl.mpcjanssen.simpletask.debug/nl.mpcjanssen.simpletask.Simpletask filter e9d1ed1
+          Action: "android.provider.calendar.action.HANDLE_CUSTOM_EVENT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/event"
+          AutoVerify=false
+
+  Wild MIME Types:
+      *:
+        c18f3d2 nl.mpcjanssen.simpletask.debug/nl.mpcjanssen.simpletask.AddTaskBackground filter 5cd090c
+          Action: "android.intent.action.SEND"
+          Action: "nl.mpcjanssen.simpletask.BACKGROUND_TASK"
+          Action: "com.google.android.gm.action.AUTO_SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Non-Data Actions:
+      nl.mpcjanssen.simpletask.START_WITH_FILTER:
+        755fca3 nl.mpcjanssen.simpletask.debug/nl.mpcjanssen.simpletask.Simpletask filter e7c5d5b
+          Action: "nl.mpcjanssen.simpletask.START_WITH_FILTER"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.MAIN:
+        ba86ba0 nl.mpcjanssen.simpletask.debug/nl.mpcjanssen.simpletask.AddTask filter f563c3f
+          Action: "android.intent.action.MAIN"
+          AutoVerify=false
+        755fca3 nl.mpcjanssen.simpletask.debug/nl.mpcjanssen.simpletask.Simpletask filter dfe046a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        540c359 nl.mpcjanssen.simpletask.debug/nl.mpcjanssen.simpletask.FilterActivity filter eeffd36
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+          AutoVerify=false
+      android.intent.action.CREATE_SHORTCUT:
+        7ee7b1e nl.mpcjanssen.simpletask.debug/nl.mpcjanssen.simpletask.AddTaskShortcut filter c56b255
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.SEARCH:
+        755fca3 nl.mpcjanssen.simpletask.debug/nl.mpcjanssen.simpletask.Simpletask filter ec7a9f8
+          Action: "android.intent.action.SEARCH"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      nl.mpcjanssen.simpletask.BACKGROUND_TASK:
+        c18f3d2 nl.mpcjanssen.simpletask.debug/nl.mpcjanssen.simpletask.AddTaskBackground filter 5cd090c
+          Action: "android.intent.action.SEND"
+          Action: "nl.mpcjanssen.simpletask.BACKGROUND_TASK"
+          Action: "com.google.android.gm.action.AUTO_SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      android.intent.action.SEND:
+        c18f3d2 nl.mpcjanssen.simpletask.debug/nl.mpcjanssen.simpletask.AddTaskBackground filter 5cd090c
+          Action: "android.intent.action.SEND"
+          Action: "nl.mpcjanssen.simpletask.BACKGROUND_TASK"
+          Action: "com.google.android.gm.action.AUTO_SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      android.provider.calendar.action.HANDLE_CUSTOM_EVENT:
+        755fca3 nl.mpcjanssen.simpletask.debug/nl.mpcjanssen.simpletask.Simpletask filter e9d1ed1
+          Action: "android.provider.calendar.action.HANDLE_CUSTOM_EVENT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/event"
+          AutoVerify=false
+      com.google.android.gm.action.AUTO_SEND:
+        c18f3d2 nl.mpcjanssen.simpletask.debug/nl.mpcjanssen.simpletask.AddTaskBackground filter 5cd090c
+          Action: "android.intent.action.SEND"
+          Action: "nl.mpcjanssen.simpletask.BACKGROUND_TASK"
+          Action: "com.google.android.gm.action.AUTO_SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      nl.mpcjanssen.simpletask.ADD_TASK_FROM_WIDGET:
+        141bfff nl.mpcjanssen.simpletask.debug/nl.mpcjanssen.simpletask.MyAppWidgetProvider filter e52405e
+          Action: "nl.mpcjanssen.simpletask.ADD_TASK_FROM_WIDGET"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_UPDATE:
+        141bfff nl.mpcjanssen.simpletask.debug/nl.mpcjanssen.simpletask.MyAppWidgetProvider filter bef5599
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+
+Registered ContentProviders:
+  nl.mpcjanssen.simpletask.debug/nl.mpcjanssen.simpletask.CachedFileProvider:
+    Provider{fb8a1cc nl.mpcjanssen.simpletask.debug/nl.mpcjanssen.simpletask.CachedFileProvider}
+
+ContentProvider Authorities:
+  [nl.mpcjanssen.simpletask.debug.provider.cloudless]:
+    Provider{fb8a1cc nl.mpcjanssen.simpletask.debug/nl.mpcjanssen.simpletask.CachedFileProvider}
+      applicationInfo=ApplicationInfo{2b13c15 nl.mpcjanssen.simpletask.debug}
+
+Key Set Manager:
+  [nl.mpcjanssen.simpletask.debug]
+      Signing KeySets: 55
+
+Packages:
+  Package [nl.mpcjanssen.simpletask.debug] (3032b2a):
+    userId=10102
+    pkg=Package{bfc5d1b nl.mpcjanssen.simpletask.debug}
+    codePath=/data/app/nl.mpcjanssen.simpletask.debug-1
+    resourcePath=/data/app/nl.mpcjanssen.simpletask.debug-1
+    legacyNativeLibraryDir=/data/app/nl.mpcjanssen.simpletask.debug-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=3089 minSdk=14 targetSdk=23
+    versionName=10.1.13-DEBUG
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{2b13c15 nl.mpcjanssen.simpletask.debug}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/user/0/nl.mpcjanssen.simpletask.debug
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      com.sec.android.app.multiwindow
+    timeStamp=2022-01-05 21:47:29
+    firstInstallTime=2022-01-05 21:47:29
+    lastUpdateTime=2022-01-05 21:47:29
+    signatures=PackageSignatures{cb40eb8 [45e775cf]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.WRITE_EXTERNAL_STORAGE
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.READ_CALENDAR
+      android.permission.WRITE_CALENDAR
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+    User 0: ceDataInode=3410245 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      runtime permissions:
+        android.permission.READ_CALENDAR: granted=true
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.WRITE_CALENDAR: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [nl.mpcjanssen.simpletask.debug]
+    Instruction Set: x86_64
+      path: /data/app/nl.mpcjanssen.simpletask.debug-1/base.apk
+      status: /data/app/nl.mpcjanssen.simpletask.debug-1/oat/x86_64/base.odex [compilation_filter=interpret-only, status
+      =kOatUpToDate]
+
+
+Compiler stats:
+  [nl.mpcjanssen.simpletask.debug]
+     base.apk - 226

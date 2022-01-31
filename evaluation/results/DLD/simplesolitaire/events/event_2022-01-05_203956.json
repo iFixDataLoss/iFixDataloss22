@@ -1,0 +1,42 @@
+{
+  "stop_state": "5aff1ab522b3f083a3943dde7fd064de", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-05_203956", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "de.tobiasbielefeld.solitaire:id/buttonStartSpider", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "625*333", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.tobiasbielefeld.solitaire", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          23, 
+          747
+        ], 
+        [
+          648, 
+          1080
+        ]
+      ], 
+      "class": "android.widget.ImageButton", 
+      "focusable": true
+    }, 
+    "id": 1, 
+    "event_type": "touch"
+  }, 
+  "start_state": "283615b69c9966689b9ed7c8e98535d8"
+}

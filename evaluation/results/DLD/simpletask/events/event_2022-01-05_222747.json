@@ -1,0 +1,10 @@
+{
+  "stop_state": "1cfafb880f5a8fcd388f5797d325c29a", 
+  "event_str": "IntentEvent(intent='am start nl.mpcjanssen.simpletask.debug/nl.mpcjanssen.simpletask.Simpletask')", 
+  "tag": "2022-01-05_222747", 
+  "event": {
+    "intent": "am start nl.mpcjanssen.simpletask.debug/nl.mpcjanssen.simpletask.Simpletask", 
+    "event_type": "intent"
+  }, 
+  "start_state": "13fbaabcf49f74705a7c74fe1c43ac5c"
+}

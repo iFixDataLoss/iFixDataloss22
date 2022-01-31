@@ -1,0 +1,42 @@
+{
+  "stop_state": "48c8560bdfc25d7766c1b402d27d84fe", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-05_214403", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "android:id/button2", 
+      "text": "CANCEL", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "116*81", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.tobiasbielefeld.solitaire", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          895, 
+          1085
+        ], 
+        [
+          1011, 
+          1166
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 3, 
+    "event_type": "touch"
+  }, 
+  "start_state": "1090033326f061722bb56e2a51e1b46c"
+}

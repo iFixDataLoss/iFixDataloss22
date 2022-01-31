@@ -1,0 +1,42 @@
+{
+  "stop_state": "f70b02a36246cd224d41a5310b55208d", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-05_220912", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Simpletask C", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "84*96", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "nl.mpcjanssen.simpletask.debug", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          12, 
+          36
+        ], 
+        [
+          96, 
+          132
+        ]
+      ], 
+      "class": "android.widget.ImageButton", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "1cfafb880f5a8fcd388f5797d325c29a"
+}

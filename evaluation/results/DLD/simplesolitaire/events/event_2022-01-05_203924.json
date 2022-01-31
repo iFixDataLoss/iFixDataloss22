@@ -1,0 +1,10 @@
+{
+  "stop_state": "283615b69c9966689b9ed7c8e98535d8", 
+  "event_str": "IntentEvent(intent='am start de.tobiasbielefeld.solitaire/de.tobiasbielefeld.solitaire.ui.GameChooser')", 
+  "tag": "2022-01-05_203924", 
+  "event": {
+    "intent": "am start de.tobiasbielefeld.solitaire/de.tobiasbielefeld.solitaire.ui.GameChooser", 
+    "event_type": "intent"
+  }, 
+  "start_state": "13fbaabcf49f74705a7c74fe1c43ac5c"
+}

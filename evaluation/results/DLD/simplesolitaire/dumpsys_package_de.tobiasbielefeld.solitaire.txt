@@ -1,0 +1,52 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        b041cbc de.tobiasbielefeld.solitaire/.ui.GameChooser filter 1645855
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Key Set Manager:
+  [de.tobiasbielefeld.solitaire]
+      Signing KeySets: 53
+
+Packages:
+  Package [de.tobiasbielefeld.solitaire] (6e9b445):
+    userId=10100
+    pkg=Package{8ccf79a de.tobiasbielefeld.solitaire}
+    codePath=/data/app/de.tobiasbielefeld.solitaire-1
+    resourcePath=/data/app/de.tobiasbielefeld.solitaire-1
+    legacyNativeLibraryDir=/data/app/de.tobiasbielefeld.solitaire-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=15 minSdk=11 targetSdk=25
+    versionName=2.0.1
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{dd288cb de.tobiasbielefeld.solitaire}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/de.tobiasbielefeld.solitaire
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-05 20:40:54
+    firstInstallTime=2022-01-05 20:40:54
+    lastUpdateTime=2022-01-05 20:40:54
+    signatures=PackageSignatures{5448a8 [45e775cf]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    User 0: ceDataInode=3410188 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      runtime permissions:
+
+
+Dexopt state:
+  [de.tobiasbielefeld.solitaire]
+    Instruction Set: x86_64
+      path: /data/app/de.tobiasbielefeld.solitaire-1/base.apk
+      status: /data/app/de.tobiasbielefeld.solitaire-1/oat/x86_64/base.odex [compilation_filter=interpret-only, status=k
+      OatUpToDate]
+
+
+Compiler stats:
+  [de.tobiasbielefeld.solitaire]
+     base.apk - 128
