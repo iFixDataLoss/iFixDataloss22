@@ -1,0 +1,277 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Full MIME Types:
+      */*:
+        29852c8 com.fsck.k9.debug/com.fsck.k9.activity.MessageCompose filter 64a5dd0
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        29852c8 com.fsck.k9.debug/com.fsck.k9.activity.MessageCompose filter 51f81c9
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Wild MIME Types:
+      *:
+        29852c8 com.fsck.k9.debug/com.fsck.k9.activity.MessageCompose filter 64a5dd0
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        29852c8 com.fsck.k9.debug/com.fsck.k9.activity.MessageCompose filter 51f81c9
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Schemes:
+      mailto:
+        29852c8 com.fsck.k9.debug/com.fsck.k9.activity.MessageCompose filter 73c9993
+          Action: "android.intent.action.SENDTO"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "mailto"
+          AutoVerify=false
+        29852c8 com.fsck.k9.debug/com.fsck.k9.activity.MessageCompose filter 26bb0ce
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "mailto"
+          AutoVerify=false
+      email:
+        2c45f61 com.fsck.k9.debug/com.fsck.k9.activity.MessageList filter d952e82
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "email"
+          Authority: "messages": -1
+          AutoVerify=false
+
+  Non-Data Actions:
+      org.autocrypt.PEER_ACTION:
+        29852c8 com.fsck.k9.debug/com.fsck.k9.activity.MessageCompose filter 50d3bef
+          Action: "org.autocrypt.PEER_ACTION"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.MAIN:
+        8b25a86 com.fsck.k9.debug/com.fsck.k9.activity.Accounts filter 46ca4f7
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+        5298f47 com.fsck.k9.debug/com.fsck.k9.activity.FolderList filter a8faf64
+          Action: "android.intent.action.MAIN"
+          AutoVerify=false
+        2c45f61 com.fsck.k9.debug/com.fsck.k9.activity.MessageList filter 1f655cd
+          Action: "android.intent.action.MAIN"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        443d374 com.fsck.k9.debug/com.fsck.k9.activity.UnreadWidgetConfiguration filter 5160bda
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+          AutoVerify=false
+      android.intent.action.CREATE_SHORTCUT:
+        b06909d com.fsck.k9.debug/com.fsck.k9.activity.LauncherShortcuts filter 7957185
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.SEARCH:
+        8499912 com.fsck.k9.debug/com.fsck.k9.activity.Search filter 8bf86fc
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        29852c8 com.fsck.k9.debug/com.fsck.k9.activity.MessageCompose filter 64a5dd0
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      android.intent.action.SEND_MULTIPLE:
+        29852c8 com.fsck.k9.debug/com.fsck.k9.activity.MessageCompose filter 51f81c9
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Schemes:
+      file:
+        9e5d8e3 com.fsck.k9.debug/com.fsck.k9.service.StorageReceiver filter bb94fb8
+          Action: "android.intent.action.MEDIA_MOUNTED"
+          Scheme: "file"
+          AutoVerify=false
+
+  Non-Data Actions:
+      com.fsck.k9.debug.K9RemoteControl.requestAccounts:
+        184b2e0 com.fsck.k9.debug/com.fsck.k9.service.RemoteControlReceiver filter 4ba021b
+          Action: "com.fsck.k9.debug.K9RemoteControl.requestAccounts"
+          AutoVerify=false
+      android.intent.action.DEVICE_STORAGE_LOW:
+        d409999 com.fsck.k9.debug/com.fsck.k9.service.BootReceiver filter d36d059
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          AutoVerify=false
+      android.net.conn.CONNECTIVITY_CHANGE:
+        d409999 com.fsck.k9.debug/com.fsck.k9.service.BootReceiver filter 2ff14ff
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          AutoVerify=false
+      android.intent.action.DEVICE_STORAGE_OK:
+        d409999 com.fsck.k9.debug/com.fsck.k9.service.BootReceiver filter 1a8041e
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+          AutoVerify=false
+      android.net.conn.BACKGROUND_DATA_SETTING_CHANGED:
+        d409999 com.fsck.k9.debug/com.fsck.k9.service.BootReceiver filter b3bd2cc
+          Action: "android.net.conn.BACKGROUND_DATA_SETTING_CHANGED"
+          AutoVerify=false
+      android.intent.action.BOOT_COMPLETED:
+        d409999 com.fsck.k9.debug/com.fsck.k9.service.BootReceiver filter 2aa8ca0
+          Action: "android.intent.action.BOOT_COMPLETED"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_UPDATE:
+        8a4345e com.fsck.k9.debug/com.fsck.k9.provider.UnreadWidgetProvider filter 4813191
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+        493203f com.fsck.k9.debug/com.fsck.k9.widget.list.MessageListWidgetProvider filter f4278f6
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+      com.fsck.k9.debug.K9RemoteControl.set:
+        184b2e0 com.fsck.k9.debug/com.fsck.k9.service.RemoteControlReceiver filter 94c442a
+          Action: "com.fsck.k9.debug.K9RemoteControl.set"
+          AutoVerify=false
+      com.android.sync.SYNC_CONN_STATUS_CHANGED:
+        d409999 com.fsck.k9.debug/com.fsck.k9.service.BootReceiver filter 87b1915
+          Action: "com.android.sync.SYNC_CONN_STATUS_CHANGED"
+          AutoVerify=false
+
+Permissions:
+  Permission [com.fsck.k9.debug.permission.READ_MESSAGES] (6321d0c):
+    sourcePackage=com.fsck.k9.debug
+    uid=10078 gids=null type=0 prot=dangerous
+    perm=Permission{b783655 com.fsck.k9.debug.permission.READ_MESSAGES}
+    packageSetting=PackageSetting{d7b386a com.fsck.k9.debug/10078}
+  Permission [com.fsck.k9.debug.permission.DELETE_MESSAGES] (4a3815b):
+    sourcePackage=com.fsck.k9.debug
+    uid=10078 gids=null type=0 prot=dangerous
+    perm=Permission{269fdf8 com.fsck.k9.debug.permission.DELETE_MESSAGES}
+    packageSetting=PackageSetting{d7b386a com.fsck.k9.debug/10078}
+  Permission [com.fsck.k9.debug.permission.REMOTE_CONTROL] (852e2d1):
+    sourcePackage=com.fsck.k9.debug
+    uid=10078 gids=null type=0 prot=dangerous
+    perm=Permission{b0c7136 com.fsck.k9.debug.permission.REMOTE_CONTROL}
+    packageSetting=PackageSetting{d7b386a com.fsck.k9.debug/10078}
+
+Registered ContentProviders:
+  com.fsck.k9.debug/com.fsck.k9.provider.AttachmentTempFileProvider:
+    Provider{48ed837 com.fsck.k9.debug/com.fsck.k9.provider.AttachmentTempFileProvider}
+  com.fsck.k9.debug/com.fsck.k9.provider.EmailProvider:
+    Provider{83d01a4 com.fsck.k9.debug/com.fsck.k9.provider.EmailProvider}
+  com.fsck.k9.debug/com.fsck.k9.provider.DecryptedFileProvider:
+    Provider{151db0d com.fsck.k9.debug/com.fsck.k9.provider.DecryptedFileProvider}
+  com.fsck.k9.debug/com.fsck.k9.provider.AttachmentProvider:
+    Provider{9a66ac2 com.fsck.k9.debug/com.fsck.k9.provider.AttachmentProvider}
+  com.fsck.k9.debug/com.fsck.k9.provider.RawMessageProvider:
+    Provider{46ec0d3 com.fsck.k9.debug/com.fsck.k9.provider.RawMessageProvider}
+  com.fsck.k9.debug/com.fsck.k9.provider.MessageProvider:
+    Provider{81a9410 com.fsck.k9.debug/com.fsck.k9.provider.MessageProvider}
+
+ContentProvider Authorities:
+  [com.fsck.k9.debug.rawmessageprovider]:
+    Provider{46ec0d3 com.fsck.k9.debug/com.fsck.k9.provider.RawMessageProvider}
+      applicationInfo=ApplicationInfo{ce1b09 com.fsck.k9.debug}
+  [com.fsck.k9.debug.messageprovider]:
+    Provider{81a9410 com.fsck.k9.debug/com.fsck.k9.provider.MessageProvider}
+      applicationInfo=ApplicationInfo{ce1b09 com.fsck.k9.debug}
+  [com.fsck.k9.debug.provider.email]:
+    Provider{83d01a4 com.fsck.k9.debug/com.fsck.k9.provider.EmailProvider}
+      applicationInfo=ApplicationInfo{ce1b09 com.fsck.k9.debug}
+  [com.fsck.k9.debug.decryptedfileprovider]:
+    Provider{151db0d com.fsck.k9.debug/com.fsck.k9.provider.DecryptedFileProvider}
+      applicationInfo=ApplicationInfo{ce1b09 com.fsck.k9.debug}
+  [com.fsck.k9.debug.tempfileprovider]:
+    Provider{48ed837 com.fsck.k9.debug/com.fsck.k9.provider.AttachmentTempFileProvider}
+      applicationInfo=ApplicationInfo{ce1b09 com.fsck.k9.debug}
+  [com.fsck.k9.debug.attachmentprovider]:
+    Provider{9a66ac2 com.fsck.k9.debug/com.fsck.k9.provider.AttachmentProvider}
+      applicationInfo=ApplicationInfo{ce1b09 com.fsck.k9.debug}
+
+Key Set Manager:
+  [com.fsck.k9.debug]
+      Signing KeySets: 33
+
+Packages:
+  Package [com.fsck.k9.debug] (d7b386a):
+    userId=10078
+    pkg=Package{5f4710e com.fsck.k9.debug}
+    codePath=/data/app/com.fsck.k9.debug-1
+    resourcePath=/data/app/com.fsck.k9.debug-1
+    legacyNativeLibraryDir=/data/app/com.fsck.k9.debug-1/lib
+    primaryCpuAbi=x86
+    secondaryCpuAbi=null
+    versionCode=26000 minSdk=15 targetSdk=22
+    versionName=5.600
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{ce1b09 com.fsck.k9.debug}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/com.fsck.k9.debug
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-02 10:27:28
+    firstInstallTime=2022-01-02 10:27:29
+    lastUpdateTime=2022-01-02 10:27:29
+    signatures=PackageSignatures{25a972f [e4685e1d]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    declared permissions:
+      com.fsck.k9.debug.permission.REMOTE_CONTROL: prot=dangerous, INSTALLED
+      com.fsck.k9.debug.permission.READ_MESSAGES: prot=dangerous, INSTALLED
+      com.fsck.k9.debug.permission.DELETE_MESSAGES: prot=dangerous, INSTALLED
+    requested permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.READ_CONTACTS
+      android.permission.READ_SYNC_SETTINGS
+      android.permission.WRITE_CONTACTS
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.INTERNET
+      android.permission.VIBRATE
+      android.permission.WAKE_LOCK
+      android.permission.WRITE_EXTERNAL_STORAGE
+      com.fsck.k9.debug.permission.REMOTE_CONTROL
+      com.fsck.k9.debug.permission.READ_MESSAGES
+      com.fsck.k9.debug.permission.DELETE_MESSAGES
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      com.fsck.k9.debug.permission.READ_MESSAGES: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.fsck.k9.debug.permission.DELETE_MESSAGES: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.READ_EXTERNAL_STORAGE: granted=true
+      android.permission.WRITE_CONTACTS: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+      android.permission.VIBRATE: granted=true
+      com.fsck.k9.debug.permission.REMOTE_CONTROL: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.READ_CONTACTS: granted=true
+    User 0: ceDataInode=3539518 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+
+
+Dexopt state:
+  [com.fsck.k9.debug]
+    Instruction Set: x86
+      path: /data/app/com.fsck.k9.debug-1/base.apk
+      status: /data/app/com.fsck.k9.debug-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDate]
+
+
+Compiler stats:
+  [com.fsck.k9.debug]
+     base.apk - 299

@@ -1,0 +1,10 @@
+{
+  "stop_state": "4113cf84a0fa20560debcee3f6f6c7ec", 
+  "event_str": "IntentEvent(intent='am start com.fsck.k9.debug/com.fsck.k9.activity.Accounts')", 
+  "tag": "2022-01-02_110547", 
+  "event": {
+    "intent": "am start com.fsck.k9.debug/com.fsck.k9.activity.Accounts", 
+    "event_type": "intent"
+  }, 
+  "start_state": "4113cf84a0fa20560debcee3f6f6c7ec"
+}
