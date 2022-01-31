@@ -1,0 +1,42 @@
+{
+  "stop_state": "86fb7d7b8530be327439d39b086352a0", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_114818", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "adding-a-security-policy-to-your-repository#about-security-policies", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "48*69", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          501, 
+          561
+        ], 
+        [
+          549, 
+          630
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 20, 
+    "event_type": "touch"
+  }, 
+  "start_state": "6068b219ce00f29f3cc843d2f59178f0"
+}

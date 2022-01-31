@@ -1,0 +1,42 @@
+{
+  "stop_state": "7c57c0afb8212687fcbc1a563fcf75a8", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_113633", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "MONITOR & TROUBLESHOOT", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": true, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "489*51", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          840
+        ], 
+        [
+          489, 
+          891
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 11, 
+    "event_type": "touch"
+  }, 
+  "start_state": "c88572d65acc10f561bb868199079606"
+}

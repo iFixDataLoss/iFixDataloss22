@@ -1,0 +1,163 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Full MIME Types:
+      text/plain:
+        d7d3167 de.baumann.browser/.Activity.BrowserActivity filter 8d6963
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+
+  Base MIME Types:
+      text:
+        d7d3167 de.baumann.browser/.Activity.BrowserActivity filter 8d6963
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+
+  Schemes:
+      http:
+        59b14 de.baumann.browser/.Activity.HolderActivity filter 68b1b92
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          AutoVerify=false
+      https:
+        59b14 de.baumann.browser/.Activity.HolderActivity filter 68b1b92
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        d7d3167 de.baumann.browser/.Activity.BrowserActivity filter 7e43960
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.WEB_SEARCH"
+          Action: "sc_startPage"
+          Action: "sc_bookmark"
+          Action: "sc_history"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      sc_history:
+        d7d3167 de.baumann.browser/.Activity.BrowserActivity filter 7e43960
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.WEB_SEARCH"
+          Action: "sc_startPage"
+          Action: "sc_bookmark"
+          Action: "sc_history"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      sc_bookmark:
+        d7d3167 de.baumann.browser/.Activity.BrowserActivity filter 7e43960
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.WEB_SEARCH"
+          Action: "sc_startPage"
+          Action: "sc_bookmark"
+          Action: "sc_history"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      sc_startPage:
+        d7d3167 de.baumann.browser/.Activity.BrowserActivity filter 7e43960
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.WEB_SEARCH"
+          Action: "sc_startPage"
+          Action: "sc_bookmark"
+          Action: "sc_history"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      android.intent.action.WEB_SEARCH:
+        d7d3167 de.baumann.browser/.Activity.BrowserActivity filter 7e43960
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.WEB_SEARCH"
+          Action: "sc_startPage"
+          Action: "sc_bookmark"
+          Action: "sc_history"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        d7d3167 de.baumann.browser/.Activity.BrowserActivity filter 8d6963
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+
+Registered ContentProviders:
+  de.baumann.browser/android.support.v4.content.FileProvider:
+    Provider{d1b4fbd de.baumann.browser/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [de.baumann.browser.provider]:
+    Provider{d1b4fbd de.baumann.browser/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{1ab9b2 de.baumann.browser}
+
+Key Set Manager:
+  [de.baumann.browser]
+      Signing KeySets: 35
+
+Packages:
+  Package [de.baumann.browser] (1a17d03):
+    userId=10080
+    pkg=Package{92b5480 de.baumann.browser}
+    codePath=/data/app/de.baumann.browser-1
+    resourcePath=/data/app/de.baumann.browser-1
+    legacyNativeLibraryDir=/data/app/de.baumann.browser-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=92 minSdk=21 targetSdk=28
+    versionName=6.4
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{1ab9b2 de.baumann.browser}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privateFlags=[ HAS_DOMAIN_URLS RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/de.baumann.browser
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-02 11:10:38
+    firstInstallTime=2022-01-02 11:10:39
+    lastUpdateTime=2022-01-02 11:10:39
+    signatures=PackageSignatures{6322ab9 [96626356]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.FOREGROUND_SERVICE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      com.android.launcher.permission.INSTALL_SHORTCUT
+    install permissions:
+      android.permission.INTERNET: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+    User 0: ceDataInode=3539174 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=true
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.ACCESS_COARSE_LOCATION: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [de.baumann.browser]
+    Instruction Set: x86
+      path: /data/app/de.baumann.browser-1/base.apk
+      status: /data/app/de.baumann.browser-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDate]
+
+
+Compiler stats:
+  [de.baumann.browser]
+     base.apk - 221

@@ -1,0 +1,127 @@
+{
+  "stop_state": "1ccea950e8d7b0a62a4b92fce62d1b5f", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-02_112822", 
+  "event": {
+    "views_str": [
+      "84e1d39dd81ab16256e64ddffe36cbf8", 
+      "656f406b7805d88d67dfd9da3565ef70", 
+      "9d1f161a06300495b7171bbb3a62d888"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": null, 
+        "text": "", 
+        "visible": false, 
+        "checkable": false, 
+        "children": [], 
+        "size": "384*57", 
+        "checked": false, 
+        "temp_id": 164, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]None", 
+        "is_password": false, 
+        "parent": 155, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "de.baumann.browser", 
+        "long_clickable": false, 
+        "view_str": "84e1d39dd81ab16256e64ddffe36cbf8", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1476, 
+            60
+          ], 
+          [
+            1860, 
+            117
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]None[text][enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": null, 
+        "text": "", 
+        "visible": false, 
+        "checkable": false, 
+        "children": [], 
+        "size": "861*-1101", 
+        "checked": false, 
+        "temp_id": 260, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]None", 
+        "is_password": false, 
+        "parent": 258, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "de.baumann.browser", 
+        "long_clickable": false, 
+        "view_str": "656f406b7805d88d67dfd9da3565ef70", 
+        "enabled": true, 
+        "bounds": [
+          [
+            816, 
+            2097
+          ], 
+          [
+            1677, 
+            996
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]None[text][enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "de.baumann.browser:id/main_omnibox_input", 
+        "text": "https://docs.github.com/en/actions", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1728*84", 
+        "checked": false, 
+        "temp_id": 730, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]de.baumann.browser:id/main_omnibox_input", 
+        "is_password": false, 
+        "parent": 728, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "de.baumann.browser", 
+        "long_clickable": true, 
+        "view_str": "9d1f161a06300495b7171bbb3a62d888", 
+        "enabled": true, 
+        "bounds": [
+          [
+            72, 
+            996
+          ], 
+          [
+            1800, 
+            1080
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]de.baumann.browser:id/main_omnibox_input[text]https://docs.github.com/en/actions[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "1ccea950e8d7b0a62a4b92fce62d1b5f"
+}

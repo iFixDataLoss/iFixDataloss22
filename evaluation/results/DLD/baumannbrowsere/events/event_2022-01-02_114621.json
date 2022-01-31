@@ -1,0 +1,51 @@
+{
+  "stop_state": "9e515c01564e9fbd242696ac00acbf8c", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-02_114621", 
+  "event": {
+    "views_str": [
+      "946666a99ed9dc2cdc71cd075e961dbd"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": null, 
+        "text": "", 
+        "visible": false, 
+        "checkable": false, 
+        "children": [], 
+        "size": "384*60", 
+        "checked": false, 
+        "temp_id": 88, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]None", 
+        "is_password": false, 
+        "parent": 73, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "de.baumann.browser", 
+        "long_clickable": false, 
+        "view_str": "946666a99ed9dc2cdc71cd075e961dbd", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1476, 
+            61
+          ], 
+          [
+            1860, 
+            121
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]None[text][enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "9e515c01564e9fbd242696ac00acbf8c"
+}

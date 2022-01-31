@@ -1,0 +1,42 @@
+{
+  "stop_state": "3ee61a28c1425207da4f952f227a52e2", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_112116", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "aurelia", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "262*39", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          552, 
+          844
+        ], 
+        [
+          814, 
+          883
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": false
+    }, 
+    "id": 28, 
+    "event_type": "touch"
+  }, 
+  "start_state": "71312c95143cb33e2cb9a165e9f2fff4"
+}

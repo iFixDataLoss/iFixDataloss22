@@ -1,0 +1,42 @@
+{
+  "stop_state": "b1be6e6d3564c4327f400ed58248a661", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_112412", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Marketplace", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "133*84", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          636, 
+          48
+        ], 
+        [
+          769, 
+          132
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 6, 
+    "event_type": "touch"
+  }, 
+  "start_state": "ed69693cc65872f3c33384c8953fbe5f"
+}

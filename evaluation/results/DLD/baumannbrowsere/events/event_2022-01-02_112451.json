@@ -1,0 +1,42 @@
+{
+  "stop_state": "adcb397249cf0bd4a42fed78ffba2c5c", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_112451", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "Why GitHub? ", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "161*84", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          107, 
+          47
+        ], 
+        [
+          268, 
+          131
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 2, 
+    "event_type": "touch"
+  }, 
+  "start_state": "2ecd7081d46c0578a451e511fc77e43b"
+}

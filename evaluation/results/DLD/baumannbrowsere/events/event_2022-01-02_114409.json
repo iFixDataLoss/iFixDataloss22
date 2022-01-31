@@ -1,0 +1,42 @@
+{
+  "stop_state": "4e152ef074eb39967964c8035bbcf4fd", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_114409", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Configure secret scans", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "489*44", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          661
+        ], 
+        [
+          489, 
+          705
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 15, 
+    "event_type": "touch"
+  }, 
+  "start_state": "4e152ef074eb39967964c8035bbcf4fd"
+}

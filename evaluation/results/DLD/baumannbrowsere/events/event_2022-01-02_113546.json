@@ -1,0 +1,42 @@
+{
+  "stop_state": "5ea5de5b1c97ed33c6e7206a7b91eff9", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_113546", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "Deploying Xcode applications", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "489*55", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          813
+        ], 
+        [
+          489, 
+          868
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 21, 
+    "event_type": "touch"
+  }, 
+  "start_state": "a695257878bcc6e4e8ddaa3c10f1659e"
+}

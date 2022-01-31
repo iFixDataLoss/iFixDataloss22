@@ -1,0 +1,42 @@
+{
+  "stop_state": "fee297873054286f165047b3b9a4b621", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_113913", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "PROJECT BOARDS", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "489*53", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          394
+        ], 
+        [
+          489, 
+          447
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 4, 
+    "event_type": "touch"
+  }, 
+  "start_state": "6c6e2bda5fa84d1763ef5f13d2348486"
+}

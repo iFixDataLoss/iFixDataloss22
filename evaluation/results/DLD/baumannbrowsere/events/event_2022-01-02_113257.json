@@ -1,0 +1,42 @@
+{
+  "stop_state": "3d7a6e1e453a9845bd1db68add19ee33", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_113257", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "TROUBLESHOOTING SSH", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "489*53", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          457
+        ], 
+        [
+          489, 
+          510
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 5, 
+    "event_type": "touch"
+  }, 
+  "start_state": "a434d1d560a7101c0b287c7370673467"
+}

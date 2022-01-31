@@ -1,0 +1,44 @@
+{
+  "stop_state": "a7fcd2920964150ac849f9e3b7f9cf2b", 
+  "event_str": "ScrollEvent(direction=UP)", 
+  "tag": "2022-01-02_113057", 
+  "event": {
+    "direction": "UP", 
+    "event_type": "scroll", 
+    "y_full_down": 1750, 
+    "y": null, 
+    "x": null, 
+    "id": 25, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": false, 
+      "checkable": false, 
+      "size": "489*960", 
+      "scrollable": true, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          36
+        ], 
+        [
+          489, 
+          996
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": false
+    }
+  }, 
+  "start_state": "a7fcd2920964150ac849f9e3b7f9cf2b"
+}

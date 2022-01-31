@@ -1,0 +1,42 @@
+{
+  "stop_state": "19764c98d4171ff2d31de1da4d9e7154", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_111840", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Explore GitHub", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "380*45", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          508, 
+          168
+        ], 
+        [
+          888, 
+          213
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 6, 
+    "event_type": "touch"
+  }, 
+  "start_state": "b45c355a7b5203796f5fb2de6b035979"
+}

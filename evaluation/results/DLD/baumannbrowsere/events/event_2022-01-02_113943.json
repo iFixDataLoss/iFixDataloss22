@@ -1,0 +1,42 @@
+{
+  "stop_state": "f350bec6900052082ad3b2e43d842622", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_113943", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "Planning and tracking work for your team or project", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "489*59", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          937
+        ], 
+        [
+          489, 
+          996
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 27, 
+    "event_type": "touch"
+  }, 
+  "start_state": "90dc2c0ddb23bc404e816a2371856747"
+}

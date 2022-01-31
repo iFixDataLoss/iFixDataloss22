@@ -1,0 +1,42 @@
+{
+  "stop_state": "2b1b98f1e91d96e3b599803a490cb6af", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_113836", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Assign issues & PRs", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "489*44", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          574
+        ], 
+        [
+          489, 
+          618
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 14, 
+    "event_type": "touch"
+  }, 
+  "start_state": "aea4e6c32335c14321ef5b8d08a916dd"
+}

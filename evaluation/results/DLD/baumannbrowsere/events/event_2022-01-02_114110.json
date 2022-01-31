@@ -1,0 +1,42 @@
+{
+  "stop_state": "fd4d8b4dcbbca726cc46fd5f073ad56e", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_114110", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "Find your username or email", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "489*49", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          681
+        ], 
+        [
+          489, 
+          730
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 15, 
+    "event_type": "touch"
+  }, 
+  "start_state": "4c21184f0f8a165ca9a735bfda6b96a4"
+}

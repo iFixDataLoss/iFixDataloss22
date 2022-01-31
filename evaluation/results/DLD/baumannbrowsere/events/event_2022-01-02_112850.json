@@ -1,0 +1,89 @@
+{
+  "stop_state": "7b8f234c46c539bee4791af4a643784c", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-02_112850", 
+  "event": {
+    "views_str": [
+      "b014564ec84403cb2cb6d920fe7a2ecc", 
+      "c7dd0e5a64f9d63ba1b9e264658d6d0d"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": null, 
+        "text": "", 
+        "visible": false, 
+        "checkable": false, 
+        "children": [], 
+        "size": "384*57", 
+        "checked": false, 
+        "temp_id": 107, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]None", 
+        "is_password": false, 
+        "parent": 95, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "de.baumann.browser", 
+        "long_clickable": false, 
+        "view_str": "b014564ec84403cb2cb6d920fe7a2ecc", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1476, 
+            60
+          ], 
+          [
+            1860, 
+            117
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]None[text][enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "de.baumann.browser:id/main_omnibox_input", 
+        "text": "https://docs.github.com/en/actions/guides", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1728*84", 
+        "checked": false, 
+        "temp_id": 457, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]de.baumann.browser:id/main_omnibox_input", 
+        "is_password": false, 
+        "parent": 455, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "de.baumann.browser", 
+        "long_clickable": true, 
+        "view_str": "c7dd0e5a64f9d63ba1b9e264658d6d0d", 
+        "enabled": true, 
+        "bounds": [
+          [
+            72, 
+            996
+          ], 
+          [
+            1800, 
+            1080
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]de.baumann.browser:id/main_omnibox_input[text]https://docs.github.com/en/actions/guides[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "7b8f234c46c539bee4791af4a643784c"
+}

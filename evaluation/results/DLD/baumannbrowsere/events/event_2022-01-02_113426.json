@@ -1,0 +1,42 @@
+{
+  "stop_state": "8700e53861d982ef1df5491a1867ad04", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_113426", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Use SSH over HTTPS port", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "489*42", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          159
+        ], 
+        [
+          489, 
+          201
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 4, 
+    "event_type": "touch"
+  }, 
+  "start_state": "ca17e4988a4600b485b520e51ff34238"
+}

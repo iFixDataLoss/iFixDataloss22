@@ -1,0 +1,42 @@
+{
+  "stop_state": "ccb5ddbded57db7cd4e59b861a3ba36e", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_114637", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Secure your organization", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "489*44", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          430
+        ], 
+        [
+          489, 
+          474
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 8, 
+    "event_type": "touch"
+  }, 
+  "start_state": "9e515c01564e9fbd242696ac00acbf8c"
+}

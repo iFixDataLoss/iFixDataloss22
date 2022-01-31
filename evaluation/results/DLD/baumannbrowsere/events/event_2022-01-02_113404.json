@@ -1,0 +1,89 @@
+{
+  "stop_state": "deb871657c85dafa62c06c79dd760598", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-02_113404", 
+  "event": {
+    "views_str": [
+      "954ea3394183d61d51d5440e00129e07", 
+      "6c54b1352e585f72682e3f5dfbea4f16"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": null, 
+        "text": "", 
+        "visible": false, 
+        "checkable": false, 
+        "children": [], 
+        "size": "384*59", 
+        "checked": false, 
+        "temp_id": 130, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]None", 
+        "is_password": false, 
+        "parent": 115, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "de.baumann.browser", 
+        "long_clickable": false, 
+        "view_str": "954ea3394183d61d51d5440e00129e07", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1476, 
+            61
+          ], 
+          [
+            1860, 
+            120
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]None[text][enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "de.baumann.browser:id/main_omnibox_input", 
+        "text": "https://docs.github.com/en/authentication/troubleshooting-ssh/error-unknown-key-type", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1728*84", 
+        "checked": false, 
+        "temp_id": 233, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]de.baumann.browser:id/main_omnibox_input", 
+        "is_password": false, 
+        "parent": 231, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "de.baumann.browser", 
+        "long_clickable": true, 
+        "view_str": "6c54b1352e585f72682e3f5dfbea4f16", 
+        "enabled": true, 
+        "bounds": [
+          [
+            72, 
+            996
+          ], 
+          [
+            1800, 
+            1080
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]de.baumann.browser:id/main_omnibox_input[text]None[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "deb871657c85dafa62c06c79dd760598"
+}

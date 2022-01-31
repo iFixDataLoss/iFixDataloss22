@@ -1,0 +1,42 @@
+{
+  "stop_state": "7f6dce80c4f023c2f1cb55c5722ddfa2", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_111348", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "@scoute-dich", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "33*32", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          192, 
+          346
+        ], 
+        [
+          225, 
+          378
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 14, 
+    "event_type": "touch"
+  }, 
+  "start_state": "d185bb0602c106dd2d2ce4e90a0835e9"
+}

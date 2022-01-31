@@ -1,0 +1,165 @@
+{
+  "stop_state": "21a6c02ce0cebc49e35a38472ce6ed2f", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-02_111852", 
+  "event": {
+    "views_str": [
+      "98e82372fb28a34ff4cb5f5ff771eb15", 
+      "cc85330a8b2384b737ad9acdc5ca4d97", 
+      "cc85330a8b2384b737ad9acdc5ca4d97", 
+      "3e76213aa6344917f38473333b626994"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": null, 
+        "text": "", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "318*54", 
+        "checked": false, 
+        "temp_id": 40, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]None", 
+        "is_password": false, 
+        "parent": 39, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "de.baumann.browser", 
+        "long_clickable": false, 
+        "view_str": "98e82372fb28a34ff4cb5f5ff771eb15", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1311, 
+            63
+          ], 
+          [
+            1629, 
+            117
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]None[text][enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "", 
+        "text": "", 
+        "visible": false, 
+        "checkable": true, 
+        "children": [], 
+        "size": "26*-1111", 
+        "checked": true, 
+        "temp_id": 213, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]", 
+        "is_password": false, 
+        "parent": 212, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "de.baumann.browser", 
+        "long_clickable": false, 
+        "view_str": "cc85330a8b2384b737ad9acdc5ca4d97", 
+        "enabled": false, 
+        "bounds": [
+          [
+            634, 
+            2107
+          ], 
+          [
+            660, 
+            996
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id][text][,checked,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "", 
+        "text": "", 
+        "visible": false, 
+        "checkable": true, 
+        "children": [], 
+        "size": "26*-3262", 
+        "checked": true, 
+        "temp_id": 401, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]", 
+        "is_password": false, 
+        "parent": 400, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "de.baumann.browser", 
+        "long_clickable": false, 
+        "view_str": "cc85330a8b2384b737ad9acdc5ca4d97", 
+        "enabled": false, 
+        "bounds": [
+          [
+            634, 
+            4258
+          ], 
+          [
+            660, 
+            996
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id][text][,checked,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "de.baumann.browser:id/main_omnibox_input", 
+        "text": "https://github.com/topics/computer-vision", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1728*84", 
+        "checked": false, 
+        "temp_id": 1385, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]de.baumann.browser:id/main_omnibox_input", 
+        "is_password": false, 
+        "parent": 1383, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "de.baumann.browser", 
+        "long_clickable": true, 
+        "view_str": "3e76213aa6344917f38473333b626994", 
+        "enabled": true, 
+        "bounds": [
+          [
+            72, 
+            996
+          ], 
+          [
+            1800, 
+            1080
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]de.baumann.browser:id/main_omnibox_input[text]https://github.com/topics/computer-vision[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "fb3fb9a0b5ae7902ad5c8fda02d160eb"
+}

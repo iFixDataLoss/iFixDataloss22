@@ -1,0 +1,127 @@
+{
+  "stop_state": "9abe63161cd6dc2084cca7a1bee8b754", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-02_112147", 
+  "event": {
+    "views_str": [
+      "d85507d4408cee2dfce3d0e79f70403e", 
+      "36ed9dd44b5628a48ee0097338b00eef", 
+      "6ee0d684b7daaf56b251efaff9569e8d"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": null, 
+        "text": "", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "314*54", 
+        "checked": false, 
+        "temp_id": 40, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]None", 
+        "is_password": false, 
+        "parent": 39, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "de.baumann.browser", 
+        "long_clickable": false, 
+        "view_str": "d85507d4408cee2dfce3d0e79f70403e", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1102, 
+            62
+          ], 
+          [
+            1416, 
+            116
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]None[text][enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "your-repos-filter", 
+        "text": "", 
+        "visible": false, 
+        "checkable": false, 
+        "children": [], 
+        "size": "916*-56", 
+        "checked": false, 
+        "temp_id": 183, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]your-repos-filter", 
+        "is_password": false, 
+        "parent": 182, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "de.baumann.browser", 
+        "long_clickable": false, 
+        "view_str": "36ed9dd44b5628a48ee0097338b00eef", 
+        "enabled": true, 
+        "bounds": [
+          [
+            23, 
+            1053
+          ], 
+          [
+            939, 
+            997
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]your-repos-filter[text][enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "de.baumann.browser:id/main_omnibox_input", 
+        "text": "https://github.com/aurelia", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1728*84", 
+        "checked": false, 
+        "temp_id": 549, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]de.baumann.browser:id/main_omnibox_input", 
+        "is_password": false, 
+        "parent": 547, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "de.baumann.browser", 
+        "long_clickable": true, 
+        "view_str": "6ee0d684b7daaf56b251efaff9569e8d", 
+        "enabled": true, 
+        "bounds": [
+          [
+            72, 
+            996
+          ], 
+          [
+            1800, 
+            1080
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]de.baumann.browser:id/main_omnibox_input[text]https://github.com/aurelia[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "2ce30e839aba613a02eace08d733307a"
+}

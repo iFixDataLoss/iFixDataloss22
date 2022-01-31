@@ -1,0 +1,42 @@
+{
+  "stop_state": "13fee27312d2f077689ab2ac45f715df", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_113457", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "SSL certificate problem", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "489*48", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          636
+        ], 
+        [
+          489, 
+          684
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 23, 
+    "event_type": "touch"
+  }, 
+  "start_state": "93bc120573dc9cc2c3fb0117b55bbc3e"
+}

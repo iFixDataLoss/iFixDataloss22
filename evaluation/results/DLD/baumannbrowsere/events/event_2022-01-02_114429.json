@@ -1,0 +1,42 @@
+{
+  "stop_state": "9a016fec0800c1f7195a21b2401a4084", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_114429", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "SUPPLY CHAIN SECURITY", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "489*53", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          736
+        ], 
+        [
+          489, 
+          789
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 14, 
+    "event_type": "touch"
+  }, 
+  "start_state": "08a6632466246d150d8a6e910659b528"
+}

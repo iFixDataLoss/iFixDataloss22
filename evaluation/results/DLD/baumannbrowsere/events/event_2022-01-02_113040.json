@@ -1,0 +1,42 @@
+{
+  "stop_state": "fcad04a5e7f7e0b8e2cc374ddd7f0205", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_113040", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "Actions for project management", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "489*48", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          777
+        ], 
+        [
+          489, 
+          825
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 10, 
+    "event_type": "touch"
+  }, 
+  "start_state": "fcad04a5e7f7e0b8e2cc374ddd7f0205"
+}

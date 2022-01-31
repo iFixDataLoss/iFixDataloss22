@@ -1,0 +1,42 @@
+{
+  "stop_state": "43ad4944acae657762b4c268082e63b5", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_111501", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "browser", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "78*26", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          691, 
+          670
+        ], 
+        [
+          769, 
+          696
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 50, 
+    "event_type": "touch"
+  }, 
+  "start_state": "273ca380c1b60b974ec61c53d4c8251d"
+}

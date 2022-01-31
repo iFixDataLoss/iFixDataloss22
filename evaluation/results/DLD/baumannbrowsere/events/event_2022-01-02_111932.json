@@ -1,0 +1,42 @@
+{
+  "stop_state": "e5fc5ac3f81ffb6838493243361b36da", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_111932", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": " Issues", 
+      "resource_id": "issues-tab-5108051", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "116*49", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          352, 
+          819
+        ], 
+        [
+          468, 
+          868
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 20, 
+    "event_type": "touch"
+  }, 
+  "start_state": "6a74f663cfdf9b11fdd82b7fb7c7dc3d"
+}

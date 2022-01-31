@@ -1,0 +1,42 @@
+{
+  "stop_state": "5e5a17280e026ff86263bc5b4eefa698", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_113330", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "Agent failure to sign", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "489*50", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          904
+        ], 
+        [
+          489, 
+          954
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 22, 
+    "event_type": "touch"
+  }, 
+  "start_state": "3d7a6e1e453a9845bd1db68add19ee33"
+}

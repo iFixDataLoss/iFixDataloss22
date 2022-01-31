@@ -1,0 +1,42 @@
+{
+  "stop_state": "daee2df84f7c157779bd63ba2592962d", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_114332", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "de.baumann.browser:id/omnibox_overview", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "60*60", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          1008
+        ], 
+        [
+          60, 
+          1068
+        ]
+      ], 
+      "class": "android.widget.ImageButton", 
+      "focusable": true
+    }, 
+    "id": 12, 
+    "event_type": "touch"
+  }, 
+  "start_state": "3e222f49fe6aadb24a7e8d7752478285"
+}

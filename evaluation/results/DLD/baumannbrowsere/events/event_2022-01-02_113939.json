@@ -1,0 +1,42 @@
+{
+  "stop_state": "90dc2c0ddb23bc404e816a2371856747", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_113939", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "Marking issues or pull requests as a duplicate", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "489*80", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          715
+        ], 
+        [
+          489, 
+          795
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 19, 
+    "event_type": "touch"
+  }, 
+  "start_state": "2d41addde7336aa990635086f2d8ee24"
+}

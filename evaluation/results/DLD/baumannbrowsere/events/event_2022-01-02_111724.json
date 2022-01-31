@@ -1,0 +1,127 @@
+{
+  "stop_state": "3be8b17a437866ea24746986fe5ea66b", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-02_111724", 
+  "event": {
+    "views_str": [
+      "8157c13740c254833aceedc8ad64f184", 
+      "983d097e068ff9786b45a2e60aa92588", 
+      "6c54b1352e585f72682e3f5dfbea4f16"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "login_field", 
+        "text": "", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "402*50", 
+        "checked": false, 
+        "temp_id": 24, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]login_field", 
+        "is_password": false, 
+        "parent": 22, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "de.baumann.browser", 
+        "long_clickable": false, 
+        "view_str": "8157c13740c254833aceedc8ad64f184", 
+        "enabled": true, 
+        "bounds": [
+          [
+            759, 
+            346
+          ], 
+          [
+            1161, 
+            396
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]login_field[text][enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "password", 
+        "text": "\u2022\u2022\u2022", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "402*48", 
+        "checked": false, 
+        "temp_id": 27, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]password", 
+        "is_password": true, 
+        "parent": 25, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "de.baumann.browser", 
+        "long_clickable": false, 
+        "view_str": "983d097e068ff9786b45a2e60aa92588", 
+        "enabled": true, 
+        "bounds": [
+          [
+            759, 
+            459
+          ], 
+          [
+            1161, 
+            507
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]password[text]\u2022[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "de.baumann.browser:id/main_omnibox_input", 
+        "text": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fscoute-dich%2FSieben%2Fstargazers", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1728*84", 
+        "checked": false, 
+        "temp_id": 55, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]de.baumann.browser:id/main_omnibox_input", 
+        "is_password": false, 
+        "parent": 53, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "de.baumann.browser", 
+        "long_clickable": true, 
+        "view_str": "6c54b1352e585f72682e3f5dfbea4f16", 
+        "enabled": true, 
+        "bounds": [
+          [
+            72, 
+            996
+          ], 
+          [
+            1800, 
+            1080
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]de.baumann.browser:id/main_omnibox_input[text]None[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "3be8b17a437866ea24746986fe5ea66b"
+}

@@ -1,0 +1,42 @@
+{
+  "stop_state": "d5d060a91983d5277fa0843d8592cd6c", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_114453", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "Use CodeQL in CI system", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "489*57", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          771
+        ], 
+        [
+          489, 
+          828
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 15, 
+    "event_type": "touch"
+  }, 
+  "start_state": "f421591d0fb69a56f963d18f05321aff"
+}

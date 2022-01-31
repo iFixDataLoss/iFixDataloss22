@@ -1,0 +1,42 @@
+{
+  "stop_state": "a02103aa3c7ff0a9294d72095e2113aa", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_113137", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "MANAGING ISSUES AND PULL REQUESTS", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "489*51", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          714
+        ], 
+        [
+          489, 
+          765
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 9, 
+    "event_type": "touch"
+  }, 
+  "start_state": "00d10430e42b16699f5a5923d324c88a"
+}

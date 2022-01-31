@@ -1,0 +1,42 @@
+{
+  "stop_state": "65031d25eb7ca6a584f05cd85ae72f6a", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_112645", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "Sign up for GitHub", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "288*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          546, 
+          801
+        ], 
+        [
+          834, 
+          873
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 9, 
+    "event_type": "touch"
+  }, 
+  "start_state": "c395e25c9fc8b997b6e2bbcb63f23c46"
+}

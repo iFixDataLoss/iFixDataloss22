@@ -1,0 +1,43 @@
+{
+  "stop_state": "30be897efe7e61d1f83b59f38ba83ff9", 
+  "event_str": "SetTextEvent", 
+  "tag": "2022-01-02_112604", 
+  "event": {
+    "event_type": "set_text", 
+    "text": "HelloWorld", 
+    "y": null, 
+    "x": null, 
+    "id": 11, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "user_email", 
+      "text": "", 
+      "editable": true, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "511*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          24, 
+          801
+        ], 
+        [
+          535, 
+          873
+        ]
+      ], 
+      "class": "android.widget.EditText", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "92067d7148271ac1f2c334bb8d1e11a2"
+}

@@ -1,0 +1,42 @@
+{
+  "stop_state": "676538871720d729edf2cfceaaf69526", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_114841", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Billing and payments", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "489*55", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          591
+        ], 
+        [
+          489, 
+          646
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 14, 
+    "event_type": "touch"
+  }, 
+  "start_state": "50253094f10f198997602fe346c8ce14"
+}

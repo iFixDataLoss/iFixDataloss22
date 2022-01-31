@@ -1,0 +1,42 @@
+{
+  "stop_state": "5a61187950b707fde555dc0fb82a7ae9", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_113754", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Repositories", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "141*33", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          549, 
+          72
+        ], 
+        [
+          690, 
+          105
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 9, 
+    "event_type": "touch"
+  }, 
+  "start_state": "c5ae3d2ce59e1f2601fe099fb2aa3d23"
+}

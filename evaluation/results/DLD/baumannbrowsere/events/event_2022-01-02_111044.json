@@ -1,0 +1,10 @@
+{
+  "stop_state": "4b8341ada8d05413c61509646ef28593", 
+  "event_str": "IntentEvent(intent='am start de.baumann.browser/de.baumann.browser.Activity.BrowserActivity')", 
+  "tag": "2022-01-02_111044", 
+  "event": {
+    "intent": "am start de.baumann.browser/de.baumann.browser.Activity.BrowserActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "545abb84d22c326c61edd3d53f2968bf"
+}

@@ -1,0 +1,42 @@
+{
+  "stop_state": "08a6632466246d150d8a6e910659b528", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_114425", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Secure your repository", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "489*44", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          382
+        ], 
+        [
+          489, 
+          426
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 6, 
+    "event_type": "touch"
+  }, 
+  "start_state": "d8d586e3a7621dbe59d7f50bc9ae19d2"
+}

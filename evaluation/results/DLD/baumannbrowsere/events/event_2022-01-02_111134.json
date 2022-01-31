@@ -1,0 +1,127 @@
+{
+  "stop_state": "e6394839de9fb403f4c6feb6f4e28e6c", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-02_111134", 
+  "event": {
+    "views_str": [
+      "0a4ea38ca700510b3a1330aa5106d3be", 
+      "eb9c3d60cce3497384f66c9f826f731d", 
+      "6c54b1352e585f72682e3f5dfbea4f16"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": null, 
+        "text": "", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "318*54", 
+        "checked": false, 
+        "temp_id": 40, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]None", 
+        "is_password": false, 
+        "parent": 39, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "de.baumann.browser", 
+        "long_clickable": false, 
+        "view_str": "0a4ea38ca700510b3a1330aa5106d3be", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1311, 
+            63
+          ], 
+          [
+            1629, 
+            117
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]None[text][enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "context-commitish-filter-field", 
+        "text": "", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "426*48", 
+        "checked": false, 
+        "temp_id": 108, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]context-commitish-filter-field", 
+        "is_password": false, 
+        "parent": 107, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "de.baumann.browser", 
+        "long_clickable": false, 
+        "view_str": "eb9c3d60cce3497384f66c9f826f731d", 
+        "enabled": true, 
+        "bounds": [
+          [
+            60, 
+            483
+          ], 
+          [
+            486, 
+            531
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]context-commitish-filter-field[text][enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "de.baumann.browser:id/main_omnibox_input", 
+        "text": "https://github.com/scoute-dich/browser/tree/master/wiki", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1728*84", 
+        "checked": false, 
+        "temp_id": 269, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]de.baumann.browser:id/main_omnibox_input", 
+        "is_password": false, 
+        "parent": 267, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "de.baumann.browser", 
+        "long_clickable": true, 
+        "view_str": "6c54b1352e585f72682e3f5dfbea4f16", 
+        "enabled": true, 
+        "bounds": [
+          [
+            72, 
+            996
+          ], 
+          [
+            1800, 
+            1080
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]de.baumann.browser:id/main_omnibox_input[text]None[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "4ce99717b59c401b7104fefda7e37c7c"
+}

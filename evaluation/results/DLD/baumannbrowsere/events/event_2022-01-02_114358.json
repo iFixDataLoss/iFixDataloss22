@@ -1,0 +1,42 @@
+{
+  "stop_state": "4bc6e4ed955d16ae33e04c466f9c0b05", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_114358", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Securing your organization You can use a number of GitHub features to help keep your organization secure.", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "381*102", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          561, 
+          894
+        ], 
+        [
+          942, 
+          996
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 15, 
+    "event_type": "touch"
+  }, 
+  "start_state": "f948fc539399fc7caa2fba71a42199ed"
+}

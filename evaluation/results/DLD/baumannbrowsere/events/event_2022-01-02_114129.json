@@ -1,0 +1,42 @@
+{
+  "stop_state": "7d0e9cc9a3f125554381e4b05d72c110", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_114129", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "Set commit email address", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "489*49", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          429
+        ], 
+        [
+          489, 
+          478
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 11, 
+    "event_type": "touch"
+  }, 
+  "start_state": "fd4d8b4dcbbca726cc46fd5f073ad56e"
+}

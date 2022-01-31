@@ -1,0 +1,42 @@
+{
+  "stop_state": "2d41addde7336aa990635086f2d8ee24", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_113936", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Creating an issue Issues can be created in a variety of ways, so you can choose the most convenient method for your workflow.", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "381*144", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          561, 
+          678
+        ], 
+        [
+          942, 
+          822
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 12, 
+    "event_type": "touch"
+  }, 
+  "start_state": "eb180fba3e8f0b8c617ba6ced8ac53ff"
+}

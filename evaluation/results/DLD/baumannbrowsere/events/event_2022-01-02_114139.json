@@ -1,0 +1,42 @@
+{
+  "stop_state": "b1fa8c78ca936551e307660dce54e02f", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_114139", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Managing your profile README You can add a README to your GitHub profile to tell other people about yourself.", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "381*48", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          561, 
+          948
+        ], 
+        [
+          942, 
+          996
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 10, 
+    "event_type": "touch"
+  }, 
+  "start_state": "eea7573cd65ef196f9c288715aabb81d"
+}

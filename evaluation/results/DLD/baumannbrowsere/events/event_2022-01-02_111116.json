@@ -1,0 +1,42 @@
+{
+  "stop_state": "f83c6e9c15a92f1ea57ff51ffced8596", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_111116", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "wiki", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "39*24", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.baumann.browser", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          120, 
+          804
+        ], 
+        [
+          159, 
+          828
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 33, 
+    "event_type": "touch"
+  }, 
+  "start_state": "6776a4e4759bb6edfaad40834bccdce1"
+}
