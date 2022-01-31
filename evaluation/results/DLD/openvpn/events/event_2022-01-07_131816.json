@@ -1,0 +1,203 @@
+{
+  "stop_state": "1ef9ee4137d2fd995142fed3f0369f06", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-07_131816", 
+  "event": {
+    "views_str": [
+      "8f29bcc1d0304ebc2fc07189bd31ded6", 
+      "99dc585c4139cac3a5f3cf8db75f43b4", 
+      "99dc585c4139cac3a5f3cf8db75f43b4", 
+      "8f29bcc1d0304ebc2fc07189bd31ded6", 
+      "8f29bcc1d0304ebc2fc07189bd31ded6"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "android:id/checkbox", 
+        "text": null, 
+        "visible": false, 
+        "checkable": true, 
+        "children": [], 
+        "size": "-36*48", 
+        "checked": true, 
+        "temp_id": 26, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox", 
+        "is_password": false, 
+        "parent": 25, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "de.blinkt.openvpn", 
+        "long_clickable": false, 
+        "view_str": "8f29bcc1d0304ebc2fc07189bd31ded6", 
+        "enabled": true, 
+        "bounds": [
+          [
+            0, 
+            314
+          ], 
+          [
+            -36, 
+            362
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox[text]None[enabled,checked,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "android:id/checkbox", 
+        "text": null, 
+        "visible": false, 
+        "checkable": true, 
+        "children": [], 
+        "size": "-36*48", 
+        "checked": false, 
+        "temp_id": 32, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox", 
+        "is_password": false, 
+        "parent": 31, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "de.blinkt.openvpn", 
+        "long_clickable": false, 
+        "view_str": "99dc585c4139cac3a5f3cf8db75f43b4", 
+        "enabled": true, 
+        "bounds": [
+          [
+            0, 
+            426
+          ], 
+          [
+            -36, 
+            474
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "android:id/checkbox", 
+        "text": null, 
+        "visible": false, 
+        "checkable": true, 
+        "children": [], 
+        "size": "-36*48", 
+        "checked": false, 
+        "temp_id": 42, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox", 
+        "is_password": false, 
+        "parent": 41, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "de.blinkt.openvpn", 
+        "long_clickable": false, 
+        "view_str": "99dc585c4139cac3a5f3cf8db75f43b4", 
+        "enabled": true, 
+        "bounds": [
+          [
+            0, 
+            674
+          ], 
+          [
+            -36, 
+            722
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "android:id/checkbox", 
+        "text": null, 
+        "visible": false, 
+        "checkable": true, 
+        "children": [], 
+        "size": "-36*48", 
+        "checked": true, 
+        "temp_id": 53, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox", 
+        "is_password": false, 
+        "parent": 52, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "de.blinkt.openvpn", 
+        "long_clickable": false, 
+        "view_str": "8f29bcc1d0304ebc2fc07189bd31ded6", 
+        "enabled": true, 
+        "bounds": [
+          [
+            0, 
+            953
+          ], 
+          [
+            -36, 
+            1001
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox[text]None[enabled,checked,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "android:id/checkbox", 
+        "text": null, 
+        "visible": false, 
+        "checkable": true, 
+        "children": [], 
+        "size": "-36*15", 
+        "checked": true, 
+        "temp_id": 59, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox", 
+        "is_password": false, 
+        "parent": 58, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "de.blinkt.openvpn", 
+        "long_clickable": false, 
+        "view_str": "8f29bcc1d0304ebc2fc07189bd31ded6", 
+        "enabled": true, 
+        "bounds": [
+          [
+            0, 
+            1065
+          ], 
+          [
+            -36, 
+            1080
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox[text]None[enabled,checked,]"
+      }
+    ]
+  }, 
+  "start_state": "1ef9ee4137d2fd995142fed3f0369f06"
+}

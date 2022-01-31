@@ -1,0 +1,51 @@
+{
+  "stop_state": "c779522e0ec3376aa29f1c5be73dfae3", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-07_122748", 
+  "event": {
+    "views_str": [
+      "d35ca34102cbd7a7fdd9243cfeed9b7e"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "org.dmfs.tasks:id/checkbox", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*48", 
+        "checked": false, 
+        "temp_id": 12, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]org.dmfs.tasks:id/checkbox", 
+        "is_password": false, 
+        "parent": 9, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "org.dmfs.tasks", 
+        "long_clickable": false, 
+        "view_str": "d35ca34102cbd7a7fdd9243cfeed9b7e", 
+        "enabled": true, 
+        "bounds": [
+          [
+            558, 
+            204
+          ], 
+          [
+            606, 
+            252
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]org.dmfs.tasks:id/checkbox[text]None[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "246cb6269edc397c9b0bd2dfab4bbedb"
+}

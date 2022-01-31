@@ -1,0 +1,51 @@
+{
+  "stop_state": "a8478ee6a2addbcb460ddc3abcfe8dc2", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-07_180309", 
+  "event": {
+    "views_str": [
+      "7e708db445f102ccf4680c94e3f04baf"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.arduia.expense:id/search_box", 
+        "text": "Search", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1824*75", 
+        "checked": false, 
+        "temp_id": 18, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.arduia.expense:id/search_box", 
+        "is_password": false, 
+        "parent": 17, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.arduia.expense", 
+        "long_clickable": true, 
+        "view_str": "7e708db445f102ccf4680c94e3f04baf", 
+        "enabled": true, 
+        "bounds": [
+          [
+            48, 
+            401
+          ], 
+          [
+            1872, 
+            476
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.arduia.expense:id/search_box[text]Search[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "a8478ee6a2addbcb460ddc3abcfe8dc2"
+}

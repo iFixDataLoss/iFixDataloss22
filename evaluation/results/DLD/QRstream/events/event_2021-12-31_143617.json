@@ -1,0 +1,42 @@
+{
+  "stop_state": "0db7b472b9a1cbc3fa079a2beb6df1be", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-12-31_143617", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "android:id/edit", 
+      "text": "640", 
+      "editable": true, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": true, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "961*88", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.github.xloem.qrstream", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          51, 
+          1178
+        ], 
+        [
+          1012, 
+          1266
+        ]
+      ], 
+      "class": "android.widget.EditText", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "0db7b472b9a1cbc3fa079a2beb6df1be"
+}

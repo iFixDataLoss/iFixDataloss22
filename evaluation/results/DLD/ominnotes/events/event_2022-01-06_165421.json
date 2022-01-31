@@ -1,0 +1,10 @@
+{
+  "stop_state": "343031a7653b6180bb21b845fe8e45c8", 
+  "event_str": "IntentEvent(intent='am start it.feio.android.omninotes/it.feio.android.omninotes.MainActivity')", 
+  "tag": "2022-01-06_165421", 
+  "event": {
+    "intent": "am start it.feio.android.omninotes/it.feio.android.omninotes.MainActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "13fbaabcf49f74705a7c74fe1c43ac5c"
+}

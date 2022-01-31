@@ -1,0 +1,51 @@
+{
+  "stop_state": "ba63fae7218d2041571f95320a6c0944", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-03_131457", 
+  "event": {
+    "views_str": [
+      "c81951c50f10e4d14d15ecdcca46bf5e"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "org.secuso.privacyfriendlynotes:id/etName", 
+        "text": "Name", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1596*68", 
+        "checked": false, 
+        "temp_id": 12, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]org.secuso.privacyfriendlynotes:id/etName", 
+        "is_password": false, 
+        "parent": 11, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "org.secuso.privacyfriendlynotes", 
+        "long_clickable": true, 
+        "view_str": "c81951c50f10e4d14d15ecdcca46bf5e", 
+        "enabled": true, 
+        "bounds": [
+          [
+            96, 
+            156
+          ], 
+          [
+            1692, 
+            224
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]org.secuso.privacyfriendlynotes:id/etName[text]Name[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "ba63fae7218d2041571f95320a6c0944"
+}

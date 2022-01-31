@@ -1,0 +1,42 @@
+{
+  "stop_state": "0ffdfa8639f76d7246506ee5b8c058c7", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-07_122921", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "108*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.dmfs.tasks", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          324, 
+          132
+        ], 
+        [
+          432, 
+          204
+        ]
+      ], 
+      "class": "android.support.v7.app.ActionBar$Tab", 
+      "focusable": true
+    }, 
+    "id": 4, 
+    "event_type": "touch"
+  }, 
+  "start_state": "9d2148cbca591e9147ad7e37018966ec"
+}

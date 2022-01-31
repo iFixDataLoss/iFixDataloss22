@@ -1,0 +1,42 @@
+{
+  "stop_state": "cac96b45d95e5d546ccde3b6457bd60f", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-03_133148", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Close navigation drawer", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "84*96", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.secuso.privacyfriendlynotes", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          12, 
+          36
+        ], 
+        [
+          96, 
+          132
+        ]
+      ], 
+      "class": "android.widget.ImageButton", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "cac96b45d95e5d546ccde3b6457bd60f"
+}

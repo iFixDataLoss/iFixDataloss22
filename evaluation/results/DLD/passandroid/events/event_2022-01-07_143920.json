@@ -1,0 +1,10 @@
+{
+  "stop_state": "f7fc3536718550fb6f9d6dae99f67110", 
+  "event_str": "IntentEvent(intent='am start org.ligi.passandroid/org.ligi.passandroid.ui.PassListActivity')", 
+  "tag": "2022-01-07_143920", 
+  "event": {
+    "intent": "am start org.ligi.passandroid/org.ligi.passandroid.ui.PassListActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "b1c5884aa99b4e971efd0bf279a76c8e"
+}

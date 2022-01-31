@@ -1,0 +1,10 @@
+{
+  "stop_state": "ee760ae12c744c345ad07822097477fe", 
+  "event_str": "IntentEvent(intent='am start org.secuso.privacyfriendlytapemeasure/org.secuso.privacyfriendlycameraruler.SplashActivity')", 
+  "tag": "2022-01-03_122028", 
+  "event": {
+    "intent": "am start org.secuso.privacyfriendlytapemeasure/org.secuso.privacyfriendlycameraruler.SplashActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "48e6c7f167f5dbd7d84637100024177b"
+}

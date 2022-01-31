@@ -1,0 +1,10 @@
+{
+  "stop_state": "a8478ee6a2addbcb460ddc3abcfe8dc2", 
+  "event_str": "IntentEvent(intent='am start com.arduia.expense/com.arduia.expense.ui.MainActivity')", 
+  "tag": "2022-01-07_190306", 
+  "event": {
+    "intent": "am start com.arduia.expense/com.arduia.expense.ui.MainActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "c0f2daa455077457420c8f8541b2268e"
+}

@@ -1,0 +1,51 @@
+{
+  "stop_state": "8e1c2aee855b10d6146113004e353a97", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-12-31_141845", 
+  "event": {
+    "views_str": [
+      "91a0c1ae33ae4d3c24183308d1433aff"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "android:id/checkbox", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "90*90", 
+        "checked": true, 
+        "temp_id": 26, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox", 
+        "is_password": false, 
+        "parent": 25, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.github.xloem.qrstream", 
+        "long_clickable": false, 
+        "view_str": "91a0c1ae33ae4d3c24183308d1433aff", 
+        "enabled": true, 
+        "bounds": [
+          [
+            922, 
+            886
+          ], 
+          [
+            1012, 
+            976
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox[text]None[enabled,checked,]"
+      }
+    ]
+  }, 
+  "start_state": "eca5286792dbfc7f9246b538e62e2aa1"
+}

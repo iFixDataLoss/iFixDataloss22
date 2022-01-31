@@ -1,0 +1,64 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        4f5898d org.secuso.privacyfriendlytapemeasure/org.secuso.privacyfriendlycameraruler.SplashActivity filter bd74c7d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Registered ContentProviders:
+  org.secuso.privacyfriendlytapemeasure/android.support.v4.content.FileProvider:
+    Provider{c82b742 org.secuso.privacyfriendlytapemeasure/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [org.secuso.privacyfriendlytapemeasure.provider]:
+    Provider{c82b742 org.secuso.privacyfriendlytapemeasure/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{68a5353 org.secuso.privacyfriendlytapemeasure}
+
+Key Set Manager:
+  [org.secuso.privacyfriendlytapemeasure]
+      Signing KeySets: 57
+
+Packages:
+  Package [org.secuso.privacyfriendlytapemeasure] (37af490):
+    userId=10063
+    pkg=Package{93e3189 org.secuso.privacyfriendlytapemeasure}
+    codePath=/data/app/org.secuso.privacyfriendlytapemeasure-1
+    resourcePath=/data/app/org.secuso.privacyfriendlytapemeasure-1
+    legacyNativeLibraryDir=/data/app/org.secuso.privacyfriendlytapemeasure-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=3 minSdk=21 targetSdk=25
+    versionName=1.0.3
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{68a5353 org.secuso.privacyfriendlytapemeasure}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/org.secuso.privacyfriendlytapemeasure
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-03 12:10:33
+    firstInstallTime=2022-01-03 12:10:33
+    lastUpdateTime=2022-01-03 12:10:33
+    signatures=PackageSignatures{b89058e [cf5b157e]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.READ_EXTERNAL_STORAGE
+    User 0: ceDataInode=3540064 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [org.secuso.privacyfriendlytapemeasure]
+    Instruction Set: x86
+      path: /data/app/org.secuso.privacyfriendlytapemeasure-1/base.apk
+      status: /data/app/org.secuso.privacyfriendlytapemeasure-1/oat/x86/base.odex [compilation_filter=interpret-only, st
+      atus=kOatUpToDate]
+
+
+Compiler stats:
+  [org.secuso.privacyfriendlytapemeasure]
+     base.apk - 170

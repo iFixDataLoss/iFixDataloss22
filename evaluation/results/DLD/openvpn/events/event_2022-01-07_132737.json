@@ -1,0 +1,42 @@
+{
+  "stop_state": "32bf9b17899167277a00db64544e0fdd", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-07_132737", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "de.blinkt.openvpn:id/faq_body", 
+      "text": "Get a working config (tested on your computer or download from your provider/organisation)\n\nIf it is a single file with no extra pem/pkcs12 files you can email the file yourself and open the attachment. If you have multiple files put them on your sd card.\n\nClick on the email attachment/Use the folder icon in the vpn list to import the config file\n\nIf there are errors about missing files put the missing files on your sd card.\n\nClick on the save symbol to add the imported VPN to your VPN list\n\nConnect the VPN by clicking on the name of the VPN\n\nIf there are error or warnings in the log try to understand the warnings/error and try to fix them\n\n", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "594*556", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.blinkt.openvpn", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          39, 
+          310
+        ], 
+        [
+          633, 
+          866
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": true
+    }, 
+    "id": 5, 
+    "event_type": "touch"
+  }, 
+  "start_state": "32bf9b17899167277a00db64544e0fdd"
+}

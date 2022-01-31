@@ -1,0 +1,165 @@
+{
+  "stop_state": "7d624858fe1d5eeb0683042093758529", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-07_122936", 
+  "event": {
+    "views_str": [
+      "ec9584ee64b0d7a4fbf32de316250c17", 
+      "ec9584ee64b0d7a4fbf32de316250c17", 
+      "ec9584ee64b0d7a4fbf32de316250c17", 
+      "ec9584ee64b0d7a4fbf32de316250c17"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "android:id/switch_widget", 
+        "text": "ON", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "70*41", 
+        "checked": true, 
+        "temp_id": 17, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.Switch[resource_id]android:id/switch_widget", 
+        "is_password": false, 
+        "parent": 16, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.Switch", 
+        "scrollable": false, 
+        "package": "org.dmfs.tasks", 
+        "long_clickable": false, 
+        "view_str": "ec9584ee64b0d7a4fbf32de316250c17", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1814, 
+            152
+          ], 
+          [
+            1884, 
+            193
+          ]
+        ], 
+        "signature": "[class]android.widget.Switch[resource_id]android:id/switch_widget[text]ON[enabled,checked,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "android:id/switch_widget", 
+        "text": "ON", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "70*41", 
+        "checked": true, 
+        "temp_id": 23, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.Switch[resource_id]android:id/switch_widget", 
+        "is_password": false, 
+        "parent": 22, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.Switch", 
+        "scrollable": false, 
+        "package": "org.dmfs.tasks", 
+        "long_clickable": false, 
+        "view_str": "ec9584ee64b0d7a4fbf32de316250c17", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1814, 
+            290
+          ], 
+          [
+            1884, 
+            331
+          ]
+        ], 
+        "signature": "[class]android.widget.Switch[resource_id]android:id/switch_widget[text]ON[enabled,checked,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "android:id/switch_widget", 
+        "text": "ON", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "70*41", 
+        "checked": true, 
+        "temp_id": 28, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.Switch[resource_id]android:id/switch_widget", 
+        "is_password": false, 
+        "parent": 27, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.Switch", 
+        "scrollable": false, 
+        "package": "org.dmfs.tasks", 
+        "long_clickable": false, 
+        "view_str": "ec9584ee64b0d7a4fbf32de316250c17", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1814, 
+            373
+          ], 
+          [
+            1884, 
+            414
+          ]
+        ], 
+        "signature": "[class]android.widget.Switch[resource_id]android:id/switch_widget[text]ON[enabled,checked,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "android:id/switch_widget", 
+        "text": "ON", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "70*41", 
+        "checked": true, 
+        "temp_id": 33, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.Switch[resource_id]android:id/switch_widget", 
+        "is_password": false, 
+        "parent": 32, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.Switch", 
+        "scrollable": false, 
+        "package": "org.dmfs.tasks", 
+        "long_clickable": false, 
+        "view_str": "ec9584ee64b0d7a4fbf32de316250c17", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1814, 
+            456
+          ], 
+          [
+            1884, 
+            497
+          ]
+        ], 
+        "signature": "[class]android.widget.Switch[resource_id]android:id/switch_widget[text]ON[enabled,checked,]"
+      }
+    ]
+  }, 
+  "start_state": "7d624858fe1d5eeb0683042093758529"
+}

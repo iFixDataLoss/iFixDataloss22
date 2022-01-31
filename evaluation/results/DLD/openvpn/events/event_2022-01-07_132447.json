@@ -1,0 +1,43 @@
+{
+  "stop_state": "1ef9ee4137d2fd995142fed3f0369f06", 
+  "event_str": "LongTouchEvent(duration=2000)", 
+  "tag": "2022-01-07_132447", 
+  "event": {
+    "event_type": "long_touch", 
+    "duration": 2000, 
+    "y": null, 
+    "x": null, 
+    "id": 8, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "de.blinkt.openvpn:id/faq_body", 
+      "text": "If Android is under system memory (RAM) pressure, apps and service which are not needed at the moment are removed from active memory. This terminates an ongoing VPN connection. To ensure that the connection/OpenVPN survives the service runs with higher priority. To run with higher priority the application must display a notification. The key notification icon is imposed by the system as described in the previous FAQ entry. It does not count as app notification for purpose of running with higher priority.", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "594*117", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.blinkt.openvpn", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          39, 
+          963
+        ], 
+        [
+          633, 
+          1080
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "1ef9ee4137d2fd995142fed3f0369f06"
+}

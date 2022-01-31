@@ -1,0 +1,51 @@
+{
+  "stop_state": "4f8130d5763d5c192566ed1ec9c3b1cf", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-07_123644", 
+  "event": {
+    "views_str": [
+      "9386ff451c1ea283b0f5ea6836d13683"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "android:id/input", 
+        "text": "Title", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "786*68", 
+        "checked": false, 
+        "temp_id": 15, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]android:id/input", 
+        "is_password": false, 
+        "parent": 14, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "org.dmfs.tasks", 
+        "long_clickable": true, 
+        "view_str": "9386ff451c1ea283b0f5ea6836d13683", 
+        "enabled": true, 
+        "bounds": [
+          [
+            567, 
+            531
+          ], 
+          [
+            1353, 
+            599
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]android:id/input[text]Title[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "4f8130d5763d5c192566ed1ec9c3b1cf"
+}

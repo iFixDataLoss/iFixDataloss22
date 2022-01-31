@@ -1,0 +1,252 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Full MIME Types:
+      application/x-openvpn-profile:
+        1dca869 de.blinkt.openvpn/.activities.ConfigConverter filter 4f6aa2f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/x-openvpn-profile"
+          AutoVerify=false
+      application/ovpn:
+        1dca869 de.blinkt.openvpn/.activities.ConfigConverter filter 43af83c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/ovpn"
+          AutoVerify=false
+      */*:
+        1dca869 de.blinkt.openvpn/.activities.ConfigConverter filter f2629c5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*..*..*..*..*.ovpn}"
+          Path: "PatternMatcher{GLOB: .*..*..*..*.ovpn}"
+          Path: "PatternMatcher{GLOB: .*..*..*.ovpn}"
+          Path: "PatternMatcher{GLOB: .*..*.ovpn}"
+          Path: "PatternMatcher{GLOB: .*.ovpn}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Base MIME Types:
+      application:
+        1dca869 de.blinkt.openvpn/.activities.ConfigConverter filter 4f6aa2f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/x-openvpn-profile"
+          AutoVerify=false
+        1dca869 de.blinkt.openvpn/.activities.ConfigConverter filter 43af83c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/ovpn"
+          AutoVerify=false
+
+  Wild MIME Types:
+      *:
+        1dca869 de.blinkt.openvpn/.activities.ConfigConverter filter f2629c5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*..*..*..*..*.ovpn}"
+          Path: "PatternMatcher{GLOB: .*..*..*..*.ovpn}"
+          Path: "PatternMatcher{GLOB: .*..*..*.ovpn}"
+          Path: "PatternMatcher{GLOB: .*..*.ovpn}"
+          Path: "PatternMatcher{GLOB: .*.ovpn}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Schemes:
+      file:
+        1dca869 de.blinkt.openvpn/.activities.ConfigConverter filter f2629c5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*..*..*..*..*.ovpn}"
+          Path: "PatternMatcher{GLOB: .*..*..*..*.ovpn}"
+          Path: "PatternMatcher{GLOB: .*..*..*.ovpn}"
+          Path: "PatternMatcher{GLOB: .*..*.ovpn}"
+          Path: "PatternMatcher{GLOB: .*.ovpn}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      content:
+        1dca869 de.blinkt.openvpn/.activities.ConfigConverter filter f2629c5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*..*..*..*..*.ovpn}"
+          Path: "PatternMatcher{GLOB: .*..*..*..*.ovpn}"
+          Path: "PatternMatcher{GLOB: .*..*..*.ovpn}"
+          Path: "PatternMatcher{GLOB: .*..*.ovpn}"
+          Path: "PatternMatcher{GLOB: .*.ovpn}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        79e2ee de.blinkt.openvpn/.activities.MainActivity filter 5d53b10
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LEANBACK_LAUNCHER"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+        91e538f de.blinkt.openvpn/.api.GrantPermissionsActivity filter 2293609
+          Action: "android.intent.action.MAIN"
+          AutoVerify=false
+        ef9561c de.blinkt.openvpn/.api.ConfirmDialog filter df8f00e
+          Action: "android.intent.action.MAIN"
+          AutoVerify=false
+        e0e6225 de.blinkt.openvpn/.LaunchVPN filter 757ff1a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+        ba53ffa de.blinkt.openvpn/.api.Intents filter 84dba4b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.CREATE_SHORTCUT:
+        43699ab de.blinkt.openvpn/.activities.CreateShortcuts filter 8dd5c28
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      android.intent.action.VIEW:
+        1dca869 de.blinkt.openvpn/.activities.ConfigConverter filter 4f6aa2f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/x-openvpn-profile"
+          AutoVerify=false
+        1dca869 de.blinkt.openvpn/.activities.ConfigConverter filter 43af83c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/ovpn"
+          AutoVerify=false
+        1dca869 de.blinkt.openvpn/.activities.ConfigConverter filter f2629c5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*..*..*..*..*.ovpn}"
+          Path: "PatternMatcher{GLOB: .*..*..*..*.ovpn}"
+          Path: "PatternMatcher{GLOB: .*..*..*.ovpn}"
+          Path: "PatternMatcher{GLOB: .*..*.ovpn}"
+          Path: "PatternMatcher{GLOB: .*.ovpn}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BOOT_COMPLETED:
+        353b808 de.blinkt.openvpn/.OnBootReceiver filter 55fa3d3
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          mPriority=999, mHasPartialTypes=false
+          AutoVerify=false
+      android.intent.action.MY_PACKAGE_REPLACED:
+        353b808 de.blinkt.openvpn/.OnBootReceiver filter 55fa3d3
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          mPriority=999, mHasPartialTypes=false
+          AutoVerify=false
+
+Service Resolver Table:
+  Non-Data Actions:
+      de.blinkt.openvpn.api.IOpenVPNAPIService:
+        ae7fba1 de.blinkt.openvpn/.api.ExternalOpenVPNService filter 5a1460d
+          Action: "de.blinkt.openvpn.api.IOpenVPNAPIService"
+          AutoVerify=false
+      android.service.quicksettings.action.QS_TILE:
+        2f761c6 de.blinkt.openvpn/.OpenVPNTileService filter 410f9c2
+          Action: "android.service.quicksettings.action.QS_TILE"
+          AutoVerify=false
+      android.net.VpnService:
+        8432587 de.blinkt.openvpn/.core.OpenVPNService filter 5cb38a4
+          Action: "android.net.VpnService"
+          AutoVerify=false
+
+Registered ContentProviders:
+  de.blinkt.openvpn/.FileProvider:
+    Provider{7704cb4 de.blinkt.openvpn/.FileProvider}
+
+ContentProvider Authorities:
+  [de.blinkt.openvpn.FileProvider]:
+    Provider{7704cb4 de.blinkt.openvpn/.FileProvider}
+      applicationInfo=ApplicationInfo{967b0dd de.blinkt.openvpn}
+
+Key Set Manager:
+  [de.blinkt.openvpn]
+      Signing KeySets: 119
+
+Packages:
+  Package [de.blinkt.openvpn] (f7d452):
+    userId=10067
+    pkg=Package{5a29323 de.blinkt.openvpn}
+    codePath=/data/app/de.blinkt.openvpn-1
+    resourcePath=/data/app/de.blinkt.openvpn-1
+    legacyNativeLibraryDir=/data/app/de.blinkt.openvpn-1/lib
+    primaryCpuAbi=x86
+    secondaryCpuAbi=null
+    versionCode=158 minSdk=14 targetSdk=27
+    versionName=0.7.5
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{967b0dd de.blinkt.openvpn}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/de.blinkt.openvpn
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-07 13:17:32
+    firstInstallTime=2022-01-07 13:17:32
+    lastUpdateTime=2022-01-07 13:17:32
+    signatures=PackageSignatures{f1f8020 [3920c2f8]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.FOREGROUND_SERVICE
+    install permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+    User 0: ceDataInode=3540222 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [de.blinkt.openvpn]
+    Instruction Set: x86
+      path: /data/app/de.blinkt.openvpn-1/base.apk
+      status: /data/app/de.blinkt.openvpn-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDate]
+
+
+Compiler stats:
+  [de.blinkt.openvpn]
+     base.apk - 138

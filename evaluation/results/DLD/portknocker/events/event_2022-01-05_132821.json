@@ -1,0 +1,10 @@
+{
+  "stop_state": "7d238a7212a0a4d630376b25f32a57a5", 
+  "event_str": "IntentEvent(intent='am start com.xargsgrep.portknocker/com.xargsgrep.portknocker.activity.HostListActivity')", 
+  "tag": "2022-01-05_132821", 
+  "event": {
+    "intent": "am start com.xargsgrep.portknocker/com.xargsgrep.portknocker.activity.HostListActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "13fbaabcf49f74705a7c74fe1c43ac5c"
+}

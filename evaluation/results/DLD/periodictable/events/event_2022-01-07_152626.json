@@ -1,0 +1,10 @@
+{
+  "stop_state": "227a7f47621f0b8eb8eed780d262a132", 
+  "event_str": "IntentEvent(intent='am start com.frozendevs.periodictable/com.frozendevs.periodictable.activity.MainActivity')", 
+  "tag": "2022-01-07_152626", 
+  "event": {
+    "intent": "am start com.frozendevs.periodictable/com.frozendevs.periodictable.activity.MainActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "c0f2daa455077457420c8f8541b2268e"
+}

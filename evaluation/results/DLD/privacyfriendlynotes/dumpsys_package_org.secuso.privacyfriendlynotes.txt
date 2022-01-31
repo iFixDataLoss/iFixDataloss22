@@ -1,0 +1,78 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        42ed795 org.secuso.privacyfriendlynotes/.SplashActivity filter 778ac7
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BOOT_COMPLETED:
+        fdf60aa org.secuso.privacyfriendlynotes/.BootReceiver filter 3d51406
+          Action: "android.intent.action.BOOT_COMPLETED"
+          AutoVerify=false
+
+Registered ContentProviders:
+  org.secuso.privacyfriendlynotes/android.support.v4.content.FileProvider:
+    Provider{f0c249b org.secuso.privacyfriendlynotes/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [org.secuso.privacyfriendlynotes]:
+    Provider{f0c249b org.secuso.privacyfriendlynotes/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{6350038 org.secuso.privacyfriendlynotes}
+
+Key Set Manager:
+  [org.secuso.privacyfriendlynotes]
+      Signing KeySets: 59
+
+Packages:
+  Package [org.secuso.privacyfriendlynotes] (df25811):
+    userId=10067
+    pkg=Package{52add76 org.secuso.privacyfriendlynotes}
+    codePath=/data/app/org.secuso.privacyfriendlynotes-1
+    resourcePath=/data/app/org.secuso.privacyfriendlynotes-1
+    legacyNativeLibraryDir=/data/app/org.secuso.privacyfriendlynotes-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=3 minSdk=17 targetSdk=25
+    versionName=1.0.2
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{6350038 org.secuso.privacyfriendlynotes}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/org.secuso.privacyfriendlynotes
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-03 13:11:12
+    firstInstallTime=2022-01-03 13:11:13
+    lastUpdateTime=2022-01-03 13:11:13
+    signatures=PackageSignatures{1fe6f77 [e4685e1d]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.RECORD_AUDIO
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+    User 0: ceDataInode=3539612 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+        android.permission.RECORD_AUDIO: granted=true
+
+
+Dexopt state:
+  [org.secuso.privacyfriendlynotes]
+    Instruction Set: x86
+      path: /data/app/org.secuso.privacyfriendlynotes-1/base.apk
+      status: /data/app/org.secuso.privacyfriendlynotes-1/oat/x86/base.odex [compilation_filter=interpret-only, status=k
+      OatUpToDate]
+
+
+Compiler stats:
+  [org.secuso.privacyfriendlynotes]
+     base.apk - 165

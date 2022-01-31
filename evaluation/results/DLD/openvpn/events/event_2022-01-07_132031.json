@@ -1,0 +1,42 @@
+{
+  "stop_state": "32bf9b17899167277a00db64544e0fdd", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-07_132031", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "de.blinkt.openvpn:id/tab_title", 
+      "text": "FAQ", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "75*96", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.blinkt.openvpn", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          373, 
+          132
+        ], 
+        [
+          448, 
+          228
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": true
+    }, 
+    "id": 3, 
+    "event_type": "touch"
+  }, 
+  "start_state": "6b692fbb0f5f2e0103133bd20873ac59"
+}

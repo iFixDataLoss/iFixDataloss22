@@ -1,0 +1,368 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Full MIME Types:
+      vnd.android.cursor.dir/vnd.openintents.notepad.note:
+        9350f30 org.openintents.notepad/.noteslist.NotesList filter 970cae0
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.dir/vnd.openintents.notepad.note"
+          AutoVerify=false
+        55847a9 org.openintents.notepad/.NoteEditor filter d79ee55
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.dir/vnd.openintents.notepad.note"
+          AutoVerify=false
+      vnd.android.cursor.item/vnd.openintents.notepad.note:
+        9350f30 org.openintents.notepad/.noteslist.NotesList filter c16d199
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/vnd.openintents.notepad.note"
+          AutoVerify=false
+        55847a9 org.openintents.notepad/.NoteEditor filter 820183f
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Action: "com.android.notepad.action.EDIT_NOTE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/vnd.openintents.notepad.note"
+          AutoVerify=false
+        222312e org.openintents.notepad/.activity.SaveFileActivity filter 9354936
+          Action: "org.openintents.notepad.action.SAVE_TO_SD_CARD"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.ALTERNATIVE"
+          Category: "android.intent.category.SELECTED_ALTERNATIVE"
+          Type: "vnd.android.cursor.item/vnd.openintents.notepad.note"
+          AutoVerify=false
+      text/plain:
+        55847a9 org.openintents.notepad/.NoteEditor filter cc7b50c
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+        55847a9 org.openintents.notepad/.NoteEditor filter 7f95b
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+        222312e org.openintents.notepad/.activity.SaveFileActivity filter 8ed99a4
+          Action: "org.openintents.notepad.action.SAVE_TO_SD_CARD"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+
+  Base MIME Types:
+      vnd.android.cursor.dir:
+        9350f30 org.openintents.notepad/.noteslist.NotesList filter 970cae0
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.dir/vnd.openintents.notepad.note"
+          AutoVerify=false
+        55847a9 org.openintents.notepad/.NoteEditor filter d79ee55
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.dir/vnd.openintents.notepad.note"
+          AutoVerify=false
+      vnd.android.cursor.item:
+        9350f30 org.openintents.notepad/.noteslist.NotesList filter c16d199
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/vnd.openintents.notepad.note"
+          AutoVerify=false
+        55847a9 org.openintents.notepad/.NoteEditor filter 820183f
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Action: "com.android.notepad.action.EDIT_NOTE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/vnd.openintents.notepad.note"
+          AutoVerify=false
+        222312e org.openintents.notepad/.activity.SaveFileActivity filter 9354936
+          Action: "org.openintents.notepad.action.SAVE_TO_SD_CARD"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.ALTERNATIVE"
+          Category: "android.intent.category.SELECTED_ALTERNATIVE"
+          Type: "vnd.android.cursor.item/vnd.openintents.notepad.note"
+          AutoVerify=false
+      text:
+        55847a9 org.openintents.notepad/.NoteEditor filter cc7b50c
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+        55847a9 org.openintents.notepad/.NoteEditor filter 7f95b
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+        222312e org.openintents.notepad/.activity.SaveFileActivity filter 8ed99a4
+          Action: "org.openintents.notepad.action.SAVE_TO_SD_CARD"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+
+  Schemes:
+      file:
+        222312e org.openintents.notepad/.activity.SaveFileActivity filter dc2d037
+          Action: "org.openintents.notepad.action.SAVE_TO_SD_CARD"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        9350f30 org.openintents.notepad/.noteslist.NotesList filter c1350e3
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+        b1f24cf org.openintents.notepad/.search.SearchQueryResultsActivity filter 8c115f8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.CREATE_SHORTCUT:
+        9350f30 org.openintents.notepad/.noteslist.NotesList filter eea0c5e
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+        55847a9 org.openintents.notepad/.NoteEditor filter e46906a
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          AutoVerify=false
+      android.intent.action.SEARCH:
+        b1f24cf org.openintents.notepad/.search.SearchQueryResultsActivity filter 4b81ad1
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      com.android.notepad.action.EDIT_NOTE:
+        55847a9 org.openintents.notepad/.NoteEditor filter 820183f
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Action: "com.android.notepad.action.EDIT_NOTE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/vnd.openintents.notepad.note"
+          AutoVerify=false
+      android.intent.action.EDIT:
+        9350f30 org.openintents.notepad/.noteslist.NotesList filter 970cae0
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.dir/vnd.openintents.notepad.note"
+          AutoVerify=false
+        55847a9 org.openintents.notepad/.NoteEditor filter 820183f
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Action: "com.android.notepad.action.EDIT_NOTE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/vnd.openintents.notepad.note"
+          AutoVerify=false
+        55847a9 org.openintents.notepad/.NoteEditor filter cc7b50c
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+      android.intent.action.PICK:
+        9350f30 org.openintents.notepad/.noteslist.NotesList filter 970cae0
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.dir/vnd.openintents.notepad.note"
+          AutoVerify=false
+      android.intent.action.SEND:
+        55847a9 org.openintents.notepad/.NoteEditor filter 7f95b
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+      android.intent.action.VIEW:
+        9350f30 org.openintents.notepad/.noteslist.NotesList filter 970cae0
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.dir/vnd.openintents.notepad.note"
+          AutoVerify=false
+        55847a9 org.openintents.notepad/.NoteEditor filter 820183f
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Action: "com.android.notepad.action.EDIT_NOTE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/vnd.openintents.notepad.note"
+          AutoVerify=false
+        55847a9 org.openintents.notepad/.NoteEditor filter cc7b50c
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+      android.intent.action.GET_CONTENT:
+        9350f30 org.openintents.notepad/.noteslist.NotesList filter c16d199
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/vnd.openintents.notepad.note"
+          AutoVerify=false
+      org.openintents.notepad.action.SAVE_TO_SD_CARD:
+        222312e org.openintents.notepad/.activity.SaveFileActivity filter 9354936
+          Action: "org.openintents.notepad.action.SAVE_TO_SD_CARD"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.ALTERNATIVE"
+          Category: "android.intent.category.SELECTED_ALTERNATIVE"
+          Type: "vnd.android.cursor.item/vnd.openintents.notepad.note"
+          AutoVerify=false
+        222312e org.openintents.notepad/.activity.SaveFileActivity filter 8ed99a4
+          Action: "org.openintents.notepad.action.SAVE_TO_SD_CARD"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+      android.intent.action.INSERT:
+        55847a9 org.openintents.notepad/.NoteEditor filter d79ee55
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.dir/vnd.openintents.notepad.note"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Full MIME Types:
+      text/plain:
+        93ee5c org.openintents.notepad/.box.TextPlainBoxOneCloudReceiver filter a69489d
+          Action: "com.box.android.EDIT_FILE"
+          Action: "com.box.android.CREATE_FILE"
+          Action: "com.box.android.VIEW_FILE"
+          Type: "text/plain"
+          AutoVerify=false
+
+  Base MIME Types:
+      text:
+        93ee5c org.openintents.notepad/.box.TextPlainBoxOneCloudReceiver filter a69489d
+          Action: "com.box.android.EDIT_FILE"
+          Action: "com.box.android.CREATE_FILE"
+          Action: "com.box.android.VIEW_FILE"
+          Type: "text/plain"
+          AutoVerify=false
+
+  Non-Data Actions:
+      com.android.vending.INSTALL_REFERRER:
+        93ee5c org.openintents.notepad/.box.TextPlainBoxOneCloudReceiver filter 961f112
+          Action: "com.box.android.LAUNCH"
+          Action: "com.android.vending.INSTALL_REFERRER"
+          AutoVerify=false
+      com.box.android.LAUNCH:
+        93ee5c org.openintents.notepad/.box.TextPlainBoxOneCloudReceiver filter 961f112
+          Action: "com.box.android.LAUNCH"
+          Action: "com.android.vending.INSTALL_REFERRER"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      com.box.android.CREATE_FILE:
+        93ee5c org.openintents.notepad/.box.TextPlainBoxOneCloudReceiver filter a69489d
+          Action: "com.box.android.EDIT_FILE"
+          Action: "com.box.android.CREATE_FILE"
+          Action: "com.box.android.VIEW_FILE"
+          Type: "text/plain"
+          AutoVerify=false
+      com.box.android.EDIT_FILE:
+        93ee5c org.openintents.notepad/.box.TextPlainBoxOneCloudReceiver filter a69489d
+          Action: "com.box.android.EDIT_FILE"
+          Action: "com.box.android.CREATE_FILE"
+          Action: "com.box.android.VIEW_FILE"
+          Type: "text/plain"
+          AutoVerify=false
+      com.box.android.VIEW_FILE:
+        93ee5c org.openintents.notepad/.box.TextPlainBoxOneCloudReceiver filter a69489d
+          Action: "com.box.android.EDIT_FILE"
+          Action: "com.box.android.CREATE_FILE"
+          Action: "com.box.android.VIEW_FILE"
+          Type: "text/plain"
+          AutoVerify=false
+
+Permissions:
+  Permission [org.openintents.notepad.READ_PERMISSION] (8c4b565):
+    sourcePackage=org.openintents.notepad
+    uid=10067 gids=null type=0 prot=normal
+    perm=Permission{c24323a org.openintents.notepad.READ_PERMISSION}
+    packageSetting=PackageSetting{5933eeb org.openintents.notepad/10067}
+  Permission [org.openintents.notepad.WRITE_PERMISSION] (19f9448):
+    sourcePackage=org.openintents.notepad
+    uid=10067 gids=null type=0 prot=normal
+    perm=Permission{7d042e1 org.openintents.notepad.WRITE_PERMISSION}
+    packageSetting=PackageSetting{5933eeb org.openintents.notepad/10067}
+
+Registered ContentProviders:
+  org.openintents.notepad/.NotePadProvider:
+    Provider{3133806 org.openintents.notepad/.NotePadProvider}
+  org.openintents.notepad/.search.SearchSuggestionProvider:
+    Provider{4e4dec7 org.openintents.notepad/.search.SearchSuggestionProvider}
+
+ContentProvider Authorities:
+  [org.openintents.notepad]:
+    Provider{3133806 org.openintents.notepad/.NotePadProvider}
+      applicationInfo=ApplicationInfo{63dacf4 org.openintents.notepad}
+  [org.openintents.notepad.search.SuggestionProvider]:
+    Provider{4e4dec7 org.openintents.notepad/.search.SearchSuggestionProvider}
+      applicationInfo=ApplicationInfo{63dacf4 org.openintents.notepad}
+
+Key Set Manager:
+  [org.openintents.notepad]
+      Signing KeySets: 22
+
+Packages:
+  Package [org.openintents.notepad] (5933eeb):
+    userId=10067
+    pkg=Package{bad2c1d org.openintents.notepad}
+    codePath=/data/app/org.openintents.notepad-1
+    resourcePath=/data/app/org.openintents.notepad-1
+    legacyNativeLibraryDir=/data/app/org.openintents.notepad-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=10084 minSdk=9 targetSdk=25
+    versionName=1.5.4
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{63dacf4 org.openintents.notepad}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/org.openintents.notepad
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-01 21:05:44
+    firstInstallTime=2022-01-01 21:05:44
+    lastUpdateTime=2022-01-01 21:05:44
+    signatures=PackageSignatures{79ace92 [b832a437]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    declared permissions:
+      org.openintents.notepad.READ_PERMISSION: prot=normal, INSTALLED
+      org.openintents.notepad.WRITE_PERMISSION: prot=normal, INSTALLED
+    requested permissions:
+      org.openintents.notepad.READ_PERMISSION
+      org.openintents.notepad.WRITE_PERMISSION
+      org.openintents.shopping.READ_PERMISSION
+      org.openintents.shopping.WRITE_PERMISSION
+      org.openintents.safe.ACCESS_INTENTS
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      org.openintents.notepad.READ_PERMISSION: granted=true
+      org.openintents.notepad.WRITE_PERMISSION: granted=true
+    User 0: ceDataInode=3539826 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [org.openintents.notepad]
+    Instruction Set: x86
+      path: /data/app/org.openintents.notepad-1/base.apk
+      status: /data/app/org.openintents.notepad-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToD
+      ate]
+
+
+Compiler stats:
+  [org.openintents.notepad]
+     base.apk - 108

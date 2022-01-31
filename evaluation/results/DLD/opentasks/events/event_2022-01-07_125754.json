@@ -1,0 +1,42 @@
+{
+  "stop_state": "f2c9213c1699d79a9e6e030be83ea871", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-07_125754", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.dmfs.tasks:id/visible_task_list_checked", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": false, 
+      "checkable": true, 
+      "size": "36*36", 
+      "scrollable": false, 
+      "checked": true, 
+      "package": "org.dmfs.tasks", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          30, 
+          162
+        ], 
+        [
+          66, 
+          198
+        ]
+      ], 
+      "class": "android.widget.CheckBox", 
+      "focusable": false
+    }, 
+    "id": 1, 
+    "event_type": "touch"
+  }, 
+  "start_state": "de3c252b8f8dc3068c8b35be33dfe107"
+}

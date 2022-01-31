@@ -1,0 +1,10 @@
+{
+  "stop_state": "fc738023ad2cf3fe090efa103c4663db", 
+  "event_str": "IntentEvent(intent='am start com.github.xloem.qrstream/com.github.xloem.qrstream.Launcher')", 
+  "tag": "2021-12-31_142932", 
+  "event": {
+    "intent": "am start com.github.xloem.qrstream/com.github.xloem.qrstream.Launcher", 
+    "event_type": "intent"
+  }, 
+  "start_state": "0b5aad7f99c2504cf58d8200138ea578"
+}

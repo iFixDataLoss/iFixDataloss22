@@ -1,0 +1,717 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Full MIME Types:
+      text/*:
+        eeaf674 org.dmfs.tasks/.EditTaskActivity filter 6430b7f
+          Action: "com.google.android.gm.action.AUTO_SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      vnd.android.cursor.item/org.dmfs.tasks.tasks:
+        2da779d org.dmfs.tasks/.ViewTaskActivity filter e4b42d9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        eeaf674 org.dmfs.tasks/.EditTaskActivity filter 13fc49e
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        eeaf674 org.dmfs.tasks/.EditTaskActivity filter ddf8caa
+          Action: "android.intent.action.INSERT_OR_EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.dir/org.dmfs.tasks.tasks"
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+      text/plain:
+        eeaf674 org.dmfs.tasks/.EditTaskActivity filter b46c74c
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+      vnd.android.cursor.item/org.dmfs.tasks.tasklists:
+        7e4f412 org.dmfs.tasks/.ManageListActivity filter 617411
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Category: "org.dmfs.intent.category.org.dmfs.account.LOCAL"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasklists"
+          AutoVerify=false
+      vnd.android.cursor.dir/org.dmfs.tasks.tasks:
+        eeaf674 org.dmfs.tasks/.EditTaskActivity filter ea43395
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.dir/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        eeaf674 org.dmfs.tasks/.EditTaskActivity filter ddf8caa
+          Action: "android.intent.action.INSERT_OR_EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.dir/org.dmfs.tasks.tasks"
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+      vnd.android.cursor.dir/org.dmfs.tasks.tasklists:
+        7e4f412 org.dmfs.tasks/.ManageListActivity filter 6bf0c38
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          Category: "org.dmfs.intent.category.org.dmfs.account.LOCAL"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.dir/org.dmfs.tasks.tasklists"
+          AutoVerify=false
+
+  Base MIME Types:
+      vnd.android.cursor.dir:
+        eeaf674 org.dmfs.tasks/.EditTaskActivity filter ea43395
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.dir/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        eeaf674 org.dmfs.tasks/.EditTaskActivity filter ddf8caa
+          Action: "android.intent.action.INSERT_OR_EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.dir/org.dmfs.tasks.tasks"
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        7e4f412 org.dmfs.tasks/.ManageListActivity filter 6bf0c38
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          Category: "org.dmfs.intent.category.org.dmfs.account.LOCAL"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.dir/org.dmfs.tasks.tasklists"
+          AutoVerify=false
+      vnd.android.cursor.item:
+        2da779d org.dmfs.tasks/.ViewTaskActivity filter e4b42d9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        eeaf674 org.dmfs.tasks/.EditTaskActivity filter 13fc49e
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        eeaf674 org.dmfs.tasks/.EditTaskActivity filter ddf8caa
+          Action: "android.intent.action.INSERT_OR_EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.dir/org.dmfs.tasks.tasks"
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        7e4f412 org.dmfs.tasks/.ManageListActivity filter 617411
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Category: "org.dmfs.intent.category.org.dmfs.account.LOCAL"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasklists"
+          AutoVerify=false
+      text:
+        eeaf674 org.dmfs.tasks/.EditTaskActivity filter b46c74c
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+
+  Wild MIME Types:
+      text:
+        eeaf674 org.dmfs.tasks/.EditTaskActivity filter 6430b7f
+          Action: "com.google.android.gm.action.AUTO_SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Schemes:
+      content:
+        2da779d org.dmfs.tasks/.ViewTaskActivity filter e4b42d9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        eeaf674 org.dmfs.tasks/.EditTaskActivity filter 13fc49e
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        eeaf674 org.dmfs.tasks/.EditTaskActivity filter ea43395
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.dir/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        eeaf674 org.dmfs.tasks/.EditTaskActivity filter ddf8caa
+          Action: "android.intent.action.INSERT_OR_EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.dir/org.dmfs.tasks.tasks"
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        7e4f412 org.dmfs.tasks/.ManageListActivity filter 6bf0c38
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          Category: "org.dmfs.intent.category.org.dmfs.account.LOCAL"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.dir/org.dmfs.tasks.tasklists"
+          AutoVerify=false
+        7e4f412 org.dmfs.tasks/.ManageListActivity filter 617411
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Category: "org.dmfs.intent.category.org.dmfs.account.LOCAL"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasklists"
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        6c597e3 org.dmfs.tasks/.TaskListActivity filter 3573920
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        2fb05e0 org.dmfs.tasks/.homescreen.TaskListWidgetSettingsActivity filter a86e09b
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+          AutoVerify=false
+      org.openintents.action.PICK_COLOR:
+        bebf099 org.dmfs.tasks/org.dmfs.android.colorpicker.activity.ColorPickerActivity filter 101c976
+          Action: "org.openintents.action.PICK_COLOR"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      android.intent.action.EDIT:
+        eeaf674 org.dmfs.tasks/.EditTaskActivity filter 13fc49e
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        7e4f412 org.dmfs.tasks/.ManageListActivity filter 617411
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Category: "org.dmfs.intent.category.org.dmfs.account.LOCAL"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasklists"
+          AutoVerify=false
+      android.intent.action.SEND:
+        eeaf674 org.dmfs.tasks/.EditTaskActivity filter b46c74c
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+      android.intent.action.VIEW:
+        2da779d org.dmfs.tasks/.ViewTaskActivity filter e4b42d9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+      android.intent.action.INSERT_OR_EDIT:
+        eeaf674 org.dmfs.tasks/.EditTaskActivity filter ddf8caa
+          Action: "android.intent.action.INSERT_OR_EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.dir/org.dmfs.tasks.tasks"
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+      android.intent.action.INSERT:
+        eeaf674 org.dmfs.tasks/.EditTaskActivity filter ea43395
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.dir/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        7e4f412 org.dmfs.tasks/.ManageListActivity filter 6bf0c38
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          Category: "org.dmfs.intent.category.org.dmfs.account.LOCAL"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.dir/org.dmfs.tasks.tasklists"
+          AutoVerify=false
+      com.google.android.gm.action.AUTO_SEND:
+        eeaf674 org.dmfs.tasks/.EditTaskActivity filter 6430b7f
+          Action: "com.google.android.gm.action.AUTO_SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Full MIME Types:
+      vnd.android.cursor.dir/vnd.org.dmfs.authority.mimetype:
+        61a3f5e org.dmfs.tasks/.utils.DatabaseInitializedReceiver filter ee0a552
+          Action: "org.dmfs.tasks.DATABASE_INITIALIZED"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.dir/vnd.org.dmfs.authority.mimetype"
+          AutoVerify=false
+      vnd.android.cursor.item/org.dmfs.tasks.tasks:
+        92fcf3f org.dmfs.tasks/.homescreen.TaskListWidgetProvider filter a3483ee
+          Action: "org.dmfs.android.tasks.TASK_START"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        43aa00c org.dmfs.tasks/.homescreen.TaskListWidgetProviderLarge filter ce8f0fa
+          Action: "org.dmfs.android.tasks.TASK_START"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        f01fd55 org.dmfs.tasks/.notification.AlarmBroadcastReceiver filter 3f6f6ab
+          Action: "org.dmfs.android.tasks.TASK_DUE"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        f01fd55 org.dmfs.tasks/.notification.AlarmBroadcastReceiver filter 2915108
+          Action: "org.dmfs.android.tasks.TASK_START"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        3c6f36a org.dmfs.tasks/.notification.TaskNotificationHandler filter f6e75b4
+          Action: "org.dmfs.tasks.action.notification.COMPLETE"
+          Action: "org.dmfs.tasks.action.notification.UNPIN"
+          Action: "org.dmfs.tasks.action.notification.DELAY_1H"
+          Action: "org.dmfs.tasks.action.notification.DELAY_1D"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+
+  Base MIME Types:
+      vnd.android.cursor.dir:
+        61a3f5e org.dmfs.tasks/.utils.DatabaseInitializedReceiver filter ee0a552
+          Action: "org.dmfs.tasks.DATABASE_INITIALIZED"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.dir/vnd.org.dmfs.authority.mimetype"
+          AutoVerify=false
+      vnd.android.cursor.item:
+        92fcf3f org.dmfs.tasks/.homescreen.TaskListWidgetProvider filter a3483ee
+          Action: "org.dmfs.android.tasks.TASK_START"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        43aa00c org.dmfs.tasks/.homescreen.TaskListWidgetProviderLarge filter ce8f0fa
+          Action: "org.dmfs.android.tasks.TASK_START"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        f01fd55 org.dmfs.tasks/.notification.AlarmBroadcastReceiver filter 3f6f6ab
+          Action: "org.dmfs.android.tasks.TASK_DUE"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        f01fd55 org.dmfs.tasks/.notification.AlarmBroadcastReceiver filter 2915108
+          Action: "org.dmfs.android.tasks.TASK_START"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        3c6f36a org.dmfs.tasks/.notification.TaskNotificationHandler filter f6e75b4
+          Action: "org.dmfs.tasks.action.notification.COMPLETE"
+          Action: "org.dmfs.tasks.action.notification.UNPIN"
+          Action: "org.dmfs.tasks.action.notification.DELAY_1H"
+          Action: "org.dmfs.tasks.action.notification.DELAY_1D"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+
+  Schemes:
+      package:
+        3c6f36a org.dmfs.tasks/.notification.TaskNotificationHandler filter 2c5287
+          Action: "android.intent.action.PACKAGE_FIRST_LAUNCH"
+          Action: "android.intent.action.PACKAGE_REPLACED"
+          Action: "android.intent.action.PACKAGE_ADDED"
+          Scheme: "package"
+          Path: "PatternMatcher{LITERAL: org.dmfs.tasks}"
+          AutoVerify=false
+      content:
+        92fcf3f org.dmfs.tasks/.homescreen.TaskListWidgetProvider filter 3492d69
+          Action: "android.intent.action.PROVIDER_CHANGED"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          AutoVerify=false
+        92fcf3f org.dmfs.tasks/.homescreen.TaskListWidgetProvider filter a3483ee
+          Action: "org.dmfs.android.tasks.TASK_START"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        43aa00c org.dmfs.tasks/.homescreen.TaskListWidgetProviderLarge filter a3e3725
+          Action: "android.intent.action.PROVIDER_CHANGED"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          AutoVerify=false
+        43aa00c org.dmfs.tasks/.homescreen.TaskListWidgetProviderLarge filter ce8f0fa
+          Action: "org.dmfs.android.tasks.TASK_START"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        f01fd55 org.dmfs.tasks/.notification.AlarmBroadcastReceiver filter 3f6f6ab
+          Action: "org.dmfs.android.tasks.TASK_DUE"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        f01fd55 org.dmfs.tasks/.notification.AlarmBroadcastReceiver filter 2915108
+          Action: "org.dmfs.android.tasks.TASK_START"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        3c6f36a org.dmfs.tasks/.notification.TaskNotificationHandler filter 2c020a1
+          Action: "android.intent.action.PROVIDER_CHANGED"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          AutoVerify=false
+        3c6f36a org.dmfs.tasks/.notification.TaskNotificationHandler filter f6e75b4
+          Action: "org.dmfs.tasks.action.notification.COMPLETE"
+          Action: "org.dmfs.tasks.action.notification.UNPIN"
+          Action: "org.dmfs.tasks.action.notification.DELAY_1H"
+          Action: "org.dmfs.tasks.action.notification.DELAY_1D"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        61a3f5e org.dmfs.tasks/.utils.DatabaseInitializedReceiver filter ee0a552
+          Action: "org.dmfs.tasks.DATABASE_INITIALIZED"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.dir/vnd.org.dmfs.authority.mimetype"
+          AutoVerify=false
+
+  Non-Data Actions:
+      org.dmfs.tasks.action.TASKWIDGET_UPDATE:
+        92fcf3f org.dmfs.tasks/.homescreen.TaskListWidgetProvider filter 3e6f3f0
+          Action: "org.dmfs.tasks.action.TASKWIDGET_UPDATE"
+          AutoVerify=false
+        43aa00c org.dmfs.tasks/.homescreen.TaskListWidgetProviderLarge filter 35f5f1c
+          Action: "org.dmfs.tasks.action.TASKWIDGET_UPDATE"
+          AutoVerify=false
+      android.intent.action.QUICKBOOT_POWERON:
+        3c6f36a org.dmfs.tasks/.notification.TaskNotificationHandler filter 34522c6
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.DATE_CHANGED"
+          AutoVerify=false
+        7dc205b org.dmfs.tasks/org.dmfs.provider.tasks.TaskProviderBroadcastReceiver filter 7719023
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.DATE_CHANGED"
+          AutoVerify=false
+      org.dmfs.tasks.action.notification.DESTRUCT:
+        3c6f36a org.dmfs.tasks/.notification.TaskNotificationHandler filter 71d25dd
+          Action: "org.dmfs.tasks.intent.ACTION_DAY_CHANGED"
+          Action: "org.dmfs.tasks.action.notification.UNDO"
+          Action: "org.dmfs.tasks.action.notification.DESTRUCT"
+          Action: "org.dmfs.tasks.action.notification.ACTION_UNDO_TIMEOUT"
+          AutoVerify=false
+      org.dmfs.tasks.intent.ACTION_DAY_CHANGED:
+        3c6f36a org.dmfs.tasks/.notification.TaskNotificationHandler filter 71d25dd
+          Action: "org.dmfs.tasks.intent.ACTION_DAY_CHANGED"
+          Action: "org.dmfs.tasks.action.notification.UNDO"
+          Action: "org.dmfs.tasks.action.notification.DESTRUCT"
+          Action: "org.dmfs.tasks.action.notification.ACTION_UNDO_TIMEOUT"
+          AutoVerify=false
+      android.intent.action.TIMEZONE_CHANGED:
+        3c6f36a org.dmfs.tasks/.notification.TaskNotificationHandler filter 34522c6
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.DATE_CHANGED"
+          AutoVerify=false
+        7dc205b org.dmfs.tasks/org.dmfs.provider.tasks.TaskProviderBroadcastReceiver filter 7719023
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.DATE_CHANGED"
+          AutoVerify=false
+      android.intent.action.TIME_SET:
+        3c6f36a org.dmfs.tasks/.notification.TaskNotificationHandler filter 34522c6
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.DATE_CHANGED"
+          AutoVerify=false
+        7dc205b org.dmfs.tasks/org.dmfs.provider.tasks.TaskProviderBroadcastReceiver filter 7719023
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.DATE_CHANGED"
+          AutoVerify=false
+      android.intent.action.BOOT_COMPLETED:
+        3c6f36a org.dmfs.tasks/.notification.TaskNotificationHandler filter 34522c6
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.DATE_CHANGED"
+          AutoVerify=false
+        7dc205b org.dmfs.tasks/org.dmfs.provider.tasks.TaskProviderBroadcastReceiver filter 7719023
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.DATE_CHANGED"
+          AutoVerify=false
+      android.intent.action.DATE_CHANGED:
+        3c6f36a org.dmfs.tasks/.notification.TaskNotificationHandler filter 34522c6
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.DATE_CHANGED"
+          AutoVerify=false
+        7dc205b org.dmfs.tasks/org.dmfs.provider.tasks.TaskProviderBroadcastReceiver filter 7719023
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.DATE_CHANGED"
+          AutoVerify=false
+      org.dmfs.tasks.action.notification.UNDO:
+        3c6f36a org.dmfs.tasks/.notification.TaskNotificationHandler filter 71d25dd
+          Action: "org.dmfs.tasks.intent.ACTION_DAY_CHANGED"
+          Action: "org.dmfs.tasks.action.notification.UNDO"
+          Action: "org.dmfs.tasks.action.notification.DESTRUCT"
+          Action: "org.dmfs.tasks.action.notification.ACTION_UNDO_TIMEOUT"
+          AutoVerify=false
+      org.dmfs.tasks.action.notification.ACTION_UNDO_TIMEOUT:
+        3c6f36a org.dmfs.tasks/.notification.TaskNotificationHandler filter 71d25dd
+          Action: "org.dmfs.tasks.intent.ACTION_DAY_CHANGED"
+          Action: "org.dmfs.tasks.action.notification.UNDO"
+          Action: "org.dmfs.tasks.action.notification.DESTRUCT"
+          Action: "org.dmfs.tasks.action.notification.ACTION_UNDO_TIMEOUT"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_UPDATE:
+        92fcf3f org.dmfs.tasks/.homescreen.TaskListWidgetProvider filter f33433
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+        43aa00c org.dmfs.tasks/.homescreen.TaskListWidgetProviderLarge filter a2e08f
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      org.dmfs.android.tasks.TASK_DUE:
+        f01fd55 org.dmfs.tasks/.notification.AlarmBroadcastReceiver filter 3f6f6ab
+          Action: "org.dmfs.android.tasks.TASK_DUE"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+      org.dmfs.tasks.action.notification.DELAY_1D:
+        3c6f36a org.dmfs.tasks/.notification.TaskNotificationHandler filter f6e75b4
+          Action: "org.dmfs.tasks.action.notification.COMPLETE"
+          Action: "org.dmfs.tasks.action.notification.UNPIN"
+          Action: "org.dmfs.tasks.action.notification.DELAY_1H"
+          Action: "org.dmfs.tasks.action.notification.DELAY_1D"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+      org.dmfs.tasks.action.notification.DELAY_1H:
+        3c6f36a org.dmfs.tasks/.notification.TaskNotificationHandler filter f6e75b4
+          Action: "org.dmfs.tasks.action.notification.COMPLETE"
+          Action: "org.dmfs.tasks.action.notification.UNPIN"
+          Action: "org.dmfs.tasks.action.notification.DELAY_1H"
+          Action: "org.dmfs.tasks.action.notification.DELAY_1D"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+      org.dmfs.android.tasks.TASK_START:
+        92fcf3f org.dmfs.tasks/.homescreen.TaskListWidgetProvider filter a3483ee
+          Action: "org.dmfs.android.tasks.TASK_START"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        43aa00c org.dmfs.tasks/.homescreen.TaskListWidgetProviderLarge filter ce8f0fa
+          Action: "org.dmfs.android.tasks.TASK_START"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+        f01fd55 org.dmfs.tasks/.notification.AlarmBroadcastReceiver filter 2915108
+          Action: "org.dmfs.android.tasks.TASK_START"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+      org.dmfs.tasks.DATABASE_INITIALIZED:
+        61a3f5e org.dmfs.tasks/.utils.DatabaseInitializedReceiver filter ee0a552
+          Action: "org.dmfs.tasks.DATABASE_INITIALIZED"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.dir/vnd.org.dmfs.authority.mimetype"
+          AutoVerify=false
+      org.dmfs.tasks.action.notification.UNPIN:
+        3c6f36a org.dmfs.tasks/.notification.TaskNotificationHandler filter f6e75b4
+          Action: "org.dmfs.tasks.action.notification.COMPLETE"
+          Action: "org.dmfs.tasks.action.notification.UNPIN"
+          Action: "org.dmfs.tasks.action.notification.DELAY_1H"
+          Action: "org.dmfs.tasks.action.notification.DELAY_1D"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+      org.dmfs.tasks.action.notification.COMPLETE:
+        3c6f36a org.dmfs.tasks/.notification.TaskNotificationHandler filter f6e75b4
+          Action: "org.dmfs.tasks.action.notification.COMPLETE"
+          Action: "org.dmfs.tasks.action.notification.UNPIN"
+          Action: "org.dmfs.tasks.action.notification.DELAY_1H"
+          Action: "org.dmfs.tasks.action.notification.DELAY_1D"
+          Scheme: "content"
+          Authority: "org.dmfs.tasks": -1
+          Type: "vnd.android.cursor.item/org.dmfs.tasks.tasks"
+          AutoVerify=false
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.android.apps.dashclock.Extension:
+        bf7b0f8 org.dmfs.tasks/.dashclock.TasksExtension filter 310fa2
+          Action: "com.google.android.apps.dashclock.Extension"
+          AutoVerify=false
+
+Permissions:
+  Permission [org.dmfs.permission.WRITE_TASKS] (83219d1):
+    sourcePackage=org.dmfs.tasks
+    uid=10114 gids=null type=0 prot=dangerous
+    perm=Permission{9d8dc36 org.dmfs.permission.WRITE_TASKS}
+    packageSetting=PackageSetting{c326737 org.dmfs.tasks/10114}
+  Permission [org.dmfs.permission.READ_TASKS] (872e4a4):
+    sourcePackage=org.dmfs.tasks
+    uid=10114 gids=null type=0 prot=dangerous
+    perm=Permission{56d820d org.dmfs.permission.READ_TASKS}
+    packageSetting=PackageSetting{c326737 org.dmfs.tasks/10114}
+
+Registered ContentProviders:
+  org.dmfs.tasks/org.dmfs.provider.tasks.TaskProvider:
+    Provider{4e85c2 org.dmfs.tasks/org.dmfs.provider.tasks.TaskProvider}
+
+ContentProvider Authorities:
+  [org.dmfs.tasks]:
+    Provider{4e85c2 org.dmfs.tasks/org.dmfs.provider.tasks.TaskProvider}
+      applicationInfo=ApplicationInfo{43c3fd3 org.dmfs.tasks}
+
+Key Set Manager:
+  [org.dmfs.tasks]
+      Signing KeySets: 67
+
+Packages:
+  Package [org.dmfs.tasks] (c326737):
+    userId=10114
+    pkg=Package{94ba710 org.dmfs.tasks}
+    codePath=/data/app/org.dmfs.tasks-1
+    resourcePath=/data/app/org.dmfs.tasks-1
+    legacyNativeLibraryDir=/data/app/org.dmfs.tasks-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=6880 minSdk=15 targetSdk=25
+    versionName=1.1.13
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{43c3fd3 org.dmfs.tasks}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/org.dmfs.tasks
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-06 18:09:39
+    firstInstallTime=2022-01-06 18:09:39
+    lastUpdateTime=2022-01-06 18:09:39
+    signatures=PackageSignatures{87d3209 [f9c6506d]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    declared permissions:
+      org.dmfs.permission.READ_TASKS: prot=dangerous, INSTALLED
+      org.dmfs.permission.WRITE_TASKS: prot=dangerous, INSTALLED
+    requested permissions:
+      org.dmfs.permission.READ_TASKS
+      org.dmfs.permission.WRITE_TASKS
+      android.permission.GET_ACCOUNTS
+      android.permission.READ_CONTACTS
+      android.permission.READ_SYNC_SETTINGS
+      android.permission.VIBRATE
+      com.android.alarm.permission.SET_ALARM
+      android.permission.RECEIVE_BOOT_COMPLETED
+    install permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.android.alarm.permission.SET_ALARM: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      android.permission.VIBRATE: granted=true
+    User 0: ceDataInode=3410440 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      runtime permissions:
+        org.dmfs.permission.WRITE_TASKS: granted=true
+        org.dmfs.permission.READ_TASKS: granted=true
+        android.permission.GET_ACCOUNTS: granted=true
+        android.permission.READ_CONTACTS: granted=true
+
+
+Dexopt state:
+  [org.dmfs.tasks]
+    Instruction Set: x86_64
+      path: /data/app/org.dmfs.tasks-1/base.apk
+      status: /data/app/org.dmfs.tasks-1/oat/x86_64/base.odex [compilation_filter=interpret-only, status=kOatUpToDate]
+
+
+Compiler stats:
+  [org.dmfs.tasks]
+     base.apk - 192

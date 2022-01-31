@@ -1,0 +1,42 @@
+{
+  "stop_state": "b7007d471d1f906d8d84e26f4d5660d3", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-12-31_144356", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "1080*197", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.github.xloem.qrstream", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          1032
+        ], 
+        [
+          1080, 
+          1229
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focusable": false
+    }, 
+    "id": 3, 
+    "event_type": "touch"
+  }, 
+  "start_state": "8e1c2aee855b10d6146113004e353a97"
+}

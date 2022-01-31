@@ -1,0 +1,10 @@
+{
+  "stop_state": "d454eb39c9f75a91b71e7a4b24a2f7cb", 
+  "event_str": "IntentEvent(intent='am start org.dmfs.tasks/org.dmfs.tasks.TaskListActivity')", 
+  "tag": "2022-01-06_181616", 
+  "event": {
+    "intent": "am start org.dmfs.tasks/org.dmfs.tasks.TaskListActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "13fbaabcf49f74705a7c74fe1c43ac5c"
+}

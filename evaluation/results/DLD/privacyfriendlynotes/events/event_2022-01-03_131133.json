@@ -1,0 +1,10 @@
+{
+  "stop_state": "cc7005b5e2bf2823f4eeb273803bf8c3", 
+  "event_str": "IntentEvent(intent='am start org.secuso.privacyfriendlynotes/org.secuso.privacyfriendlynotes.SplashActivity')", 
+  "tag": "2022-01-03_131133", 
+  "event": {
+    "intent": "am start org.secuso.privacyfriendlynotes/org.secuso.privacyfriendlynotes.SplashActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "2c1ee889c02e89e4b62747eec7959ec8"
+}

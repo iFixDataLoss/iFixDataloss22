@@ -1,0 +1,51 @@
+{
+  "stop_state": "419fb9771443ed8e6d65f3664ab06462", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-03_121133", 
+  "event": {
+    "views_str": [
+      "98e84df41214ddcc9130bd5e997d32ed"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "org.secuso.privacyfriendlytapemeasure:id/readCheckBox", 
+        "text": "I have read the disclaimer about potential rounding issues.", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "592*48", 
+        "checked": false, 
+        "temp_id": 15, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]org.secuso.privacyfriendlytapemeasure:id/readCheckBox", 
+        "is_password": false, 
+        "parent": 13, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "org.secuso.privacyfriendlytapemeasure", 
+        "long_clickable": false, 
+        "view_str": "98e84df41214ddcc9130bd5e997d32ed", 
+        "enabled": true, 
+        "bounds": [
+          [
+            664, 
+            593
+          ], 
+          [
+            1256, 
+            641
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]org.secuso.privacyfriendlytapemeasure:id/readCheckBox[text]None[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "419fb9771443ed8e6d65f3664ab06462"
+}

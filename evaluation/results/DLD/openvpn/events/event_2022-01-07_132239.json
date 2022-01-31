@@ -1,0 +1,10 @@
+{
+  "stop_state": "6b692fbb0f5f2e0103133bd20873ac59", 
+  "event_str": "IntentEvent(intent='am start de.blinkt.openvpn/de.blinkt.openvpn.activities.MainActivity')", 
+  "tag": "2022-01-07_132239", 
+  "event": {
+    "intent": "am start de.blinkt.openvpn/de.blinkt.openvpn.activities.MainActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "c0f2daa455077457420c8f8541b2268e"
+}

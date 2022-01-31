@@ -1,0 +1,309 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        3d68a96 com.metinkale.prayer/.aliasDefault filter 61e151d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+          AutoVerify=false
+        696e617 com.metinkale.prayer/.aliasTR filter 6ac0392
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+          AutoVerify=false
+        5252a04 com.metinkale.prayer/.aliasFR filter 5403163
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+          AutoVerify=false
+        6b84bed com.metinkale.prayer/.aliasRU filter f36160
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+          AutoVerify=false
+        9e8ba22 com.metinkale.prayer/.aliasAR filter f8be619
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+          AutoVerify=false
+        919ccb3 com.metinkale.prayer/.aliasDE filter f02c6de
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+          AutoVerify=false
+        1cce270 com.metinkale.prayer/.aliasEN filter a7a80bf
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+          AutoVerify=false
+        3dab9e9 com.metinkale.prayer/.aliasNL filter c1d338c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+          AutoVerify=false
+        bfc566e com.metinkale.prayer/.aliasKU filter 86bcad5
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+          AutoVerify=false
+        3da810f com.metinkale.prayer/.aliasBS filter 37072ea
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        7f5b59c com.metinkale.prayer/com.metinkale.prayerapp.vakit.WidgetConfigure filter 4e069db
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+          AutoVerify=false
+        39c0ba5 com.metinkale.prayer/com.metinkale.prayerapp.vakit.WidgetConfigureSilenter filter e2ffc78
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+          AutoVerify=false
+        b9b6b7a com.metinkale.prayer/com.metinkale.prayerapp.vakit.WidgetConfigureClock filter 62b3f51
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+          AutoVerify=false
+      android.intent.action.CREATE_SHORTCUT:
+        6481f2b com.metinkale.prayer/com.metinkale.prayerapp.hadis.Main filter 75ad3b6
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+        c768f88 com.metinkale.prayer/com.metinkale.prayerapp.compass.Main filter 2f1c8b7
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+        966bd21 com.metinkale.prayer/com.metinkale.prayerapp.names.Main filter a46824
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+        6e4c546 com.metinkale.prayer/com.metinkale.prayerapp.calendar.Main filter d937f8d
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+        da78307 com.metinkale.prayer/com.metinkale.prayerapp.tesbihat.Tesbihat filter cb87542
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+        8a91c34 com.metinkale.prayer/com.metinkale.prayerapp.kaza.Main filter 1503953
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+        ad10a5d com.metinkale.prayer/com.metinkale.prayerapp.zikr.Main filter 9d1e290
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.QUICKBOOT_POWERON:
+        d17efd2 com.metinkale.prayer/com.metinkale.prayerapp.vakit.AlarmReceiver$WakefulReceiver filter a0b1d06
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.DATE_CHANGED"
+          AutoVerify=false
+      android.intent.action.TIME_SET:
+        d17efd2 com.metinkale.prayer/com.metinkale.prayerapp.vakit.AlarmReceiver$WakefulReceiver filter a0b1d06
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.DATE_CHANGED"
+          AutoVerify=false
+      com.evernote.android.job.v14.RUN_JOB:
+        caf48a3 com.metinkale.prayer/com.evernote.android.job.v14.PlatformAlarmReceiver filter 2375fc7
+          Action: "com.evernote.android.job.v14.RUN_JOB"
+          Action: "net.vrallev.android.job.v14.RUN_JOB"
+          AutoVerify=false
+      android.intent.action.BOOT_COMPLETED:
+        d17efd2 com.metinkale.prayer/com.metinkale.prayerapp.vakit.AlarmReceiver$WakefulReceiver filter a0b1d06
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.DATE_CHANGED"
+          AutoVerify=false
+        fd5c7a0 com.metinkale.prayer/com.evernote.android.job.JobBootReceiver filter bac99f4
+          Action: "android.intent.action.BOOT_COMPLETED"
+          AutoVerify=false
+      android.intent.action.DATE_CHANGED:
+        d17efd2 com.metinkale.prayer/com.metinkale.prayerapp.vakit.AlarmReceiver$WakefulReceiver filter a0b1d06
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.DATE_CHANGED"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_UPDATE:
+        698ef59 com.metinkale.prayer/com.metinkale.prayerapp.vakit.WidgetProvider filter 9a63b5c
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+        fe1371e com.metinkale.prayer/com.metinkale.prayerapp.vakit.WidgetProviderClock filter 7057e65
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+        e3cbff com.metinkale.prayer/com.metinkale.prayerapp.vakit.WidgetProviderClock2 filter f7c73a
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+        f5fbdcc com.metinkale.prayer/com.metinkale.prayerapp.vakit.WidgetProviderLong filter 90fafeb
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+        f602815 com.metinkale.prayer/com.metinkale.prayerapp.vakit.WidgetProviderSmall filter e09b148
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+        d65a72a com.metinkale.prayer/com.metinkale.prayerapp.vakit.WidgetProviderSilenter filter 3d49be1
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+      net.vrallev.android.job.v14.RUN_JOB:
+        caf48a3 com.metinkale.prayer/com.evernote.android.job.v14.PlatformAlarmReceiver filter 2375fc7
+          Action: "com.evernote.android.job.v14.RUN_JOB"
+          Action: "net.vrallev.android.job.v14.RUN_JOB"
+          AutoVerify=false
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.intent.action.QUICKBOOT_POWERON:
+        1b3291b com.metinkale.prayer/com.metinkale.prayerapp.vakit.WidgetService filter 576762e
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.DATE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.ACTION_USER_PRESENT"
+          AutoVerify=false
+      com.google.android.gms.gcm.ACTION_TASK_READY:
+        5b0eab8 com.metinkale.prayer/com.evernote.android.job.gcm.PlatformGcmService filter 10685cf
+          Action: "com.google.android.gms.gcm.ACTION_TASK_READY"
+          AutoVerify=false
+      android.intent.action.ACTION_USER_PRESENT:
+        1b3291b com.metinkale.prayer/com.metinkale.prayerapp.vakit.WidgetService filter 576762e
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.DATE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.ACTION_USER_PRESENT"
+          AutoVerify=false
+      android.intent.action.TIMEZONE_CHANGED:
+        1b3291b com.metinkale.prayer/com.metinkale.prayerapp.vakit.WidgetService filter 576762e
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.DATE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.ACTION_USER_PRESENT"
+          AutoVerify=false
+      android.intent.action.TIME_SET:
+        1b3291b com.metinkale.prayer/com.metinkale.prayerapp.vakit.WidgetService filter 576762e
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.DATE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.ACTION_USER_PRESENT"
+          AutoVerify=false
+      android.intent.action.BOOT_COMPLETED:
+        1b3291b com.metinkale.prayer/com.metinkale.prayerapp.vakit.WidgetService filter 576762e
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.DATE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.ACTION_USER_PRESENT"
+          AutoVerify=false
+      android.intent.action.DATE_CHANGED:
+        1b3291b com.metinkale.prayer/com.metinkale.prayerapp.vakit.WidgetService filter 576762e
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.DATE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.ACTION_USER_PRESENT"
+          AutoVerify=false
+
+Registered ContentProviders:
+  com.metinkale.prayer/android.support.v4.content.FileProvider:
+    Provider{6283091 com.metinkale.prayer/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [com.metinkale.prayer.fileprovider]:
+    Provider{6283091 com.metinkale.prayer/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{f0f0bf6 com.metinkale.prayer}
+
+Key Set Manager:
+  [com.metinkale.prayer]
+      Signing KeySets: 41
+
+Packages:
+  Package [com.metinkale.prayer] (5513bf7):
+    userId=10088
+    pkg=Package{be5fa64 com.metinkale.prayer}
+    codePath=/data/app/com.metinkale.prayer-1
+    resourcePath=/data/app/com.metinkale.prayer-1
+    legacyNativeLibraryDir=/data/app/com.metinkale.prayer-1/lib
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    versionCode=191 minSdk=15 targetSdk=25
+    versionName=3.6.6
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{f0f0bf6 com.metinkale.prayer}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/com.metinkale.prayer
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      com.sec.android.app.multiwindow
+    timeStamp=2022-01-05 14:29:07
+    firstInstallTime=2022-01-05 14:29:08
+    lastUpdateTime=2022-01-05 14:29:08
+    signatures=PackageSignatures{8e44cd [df3e6524]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    requested permissions:
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.WRITE_CALENDAR
+      android.permission.WAKE_LOCK
+      android.permission.READ_CALENDAR
+      android.permission.INTERNET
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.VIBRATE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.DISABLE_KEYGUARD
+      android.permission.CAMERA
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      com.android.alarm.permission.SET_ALARM
+      android.permission.ACCESS_NOTIFICATION_POLICY
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.ACCESS_COARSE_LOCATION
+    install permissions:
+      android.permission.ACCESS_NOTIFICATION_POLICY: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.android.alarm.permission.SET_ALARM: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.DISABLE_KEYGUARD: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=3409349 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_CALENDAR: granted=true
+        android.permission.ACCESS_FINE_LOCATION: granted=true
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.ACCESS_COARSE_LOCATION: granted=true
+        android.permission.CAMERA: granted=true
+        android.permission.WRITE_CALENDAR: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [com.metinkale.prayer]
+    Instruction Set: x86_64
+      path: /data/app/com.metinkale.prayer-1/base.apk
+      status: /data/app/com.metinkale.prayer-1/oat/x86_64/base.odex [compilation_filter=interpret-only, status=kOatUpToD
+      ate]
+
+
+Compiler stats:
+  [com.metinkale.prayer]
+     base.apk - 180

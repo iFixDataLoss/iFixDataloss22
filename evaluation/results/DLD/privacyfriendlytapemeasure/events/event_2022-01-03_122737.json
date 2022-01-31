@@ -1,0 +1,42 @@
+{
+  "stop_state": "e6a1d476b56aa4b5d7605c70a264c4a1", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-03_122737", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.secuso.privacyfriendlytapemeasure:id/design_menu_item_text", 
+      "text": "Camera Ruler", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": false, 
+      "checkable": true, 
+      "size": "408*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.secuso.privacyfriendlytapemeasure", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          36, 
+          252
+        ], 
+        [
+          444, 
+          324
+        ]
+      ], 
+      "class": "android.widget.CheckedTextView", 
+      "focusable": false
+    }, 
+    "id": 6, 
+    "event_type": "touch"
+  }, 
+  "start_state": "e6a1d476b56aa4b5d7605c70a264c4a1"
+}

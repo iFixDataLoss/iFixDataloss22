@@ -1,0 +1,42 @@
+{
+  "stop_state": "b1c5884aa99b4e971efd0bf279a76c8e", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-07_144825", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "480*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.ligi.passandroid", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          456
+        ], 
+        [
+          480, 
+          528
+        ]
+      ], 
+      "class": "android.support.v7.widget.LinearLayoutCompat", 
+      "focusable": true
+    }, 
+    "id": 5, 
+    "event_type": "touch"
+  }, 
+  "start_state": "2ccdf08d69345fc8a7709aca144caf5a"
+}

@@ -1,0 +1,42 @@
+{
+  "stop_state": "545abb84d22c326c61edd3d53f2968bf", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-01_210938", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.openintents.notepad:id/button2", 
+      "text": "CANCEL", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "954*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.openintents.notepad", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          6, 
+          1006
+        ], 
+        [
+          960, 
+          1078
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "8d84f9fc350389a2ca6938ab90538561"
+}

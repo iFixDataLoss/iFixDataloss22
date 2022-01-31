@@ -1,0 +1,42 @@
+{
+  "stop_state": "eca5286792dbfc7f9246b538e62e2aa1", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-12-31_141928", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "android:id/checkbox", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": false, 
+      "checkable": true, 
+      "size": "90*90", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.github.xloem.qrstream", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          922, 
+          886
+        ], 
+        [
+          1012, 
+          976
+        ]
+      ], 
+      "class": "android.widget.CheckBox", 
+      "focusable": false
+    }, 
+    "id": 4, 
+    "event_type": "touch"
+  }, 
+  "start_state": "642ad4b0bd34c810d7eaaa2dd9f84716"
+}

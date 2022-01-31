@@ -1,0 +1,117 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Full MIME Types:
+      */*:
+        7bff413 com.xargsgrep.portknocker/com.ipaulpro.afilechooser.FileChooserActivity filter 9a53f24
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.OPENABLE"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Wild MIME Types:
+      *:
+        7bff413 com.xargsgrep.portknocker/com.ipaulpro.afilechooser.FileChooserActivity filter 9a53f24
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.OPENABLE"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        2cae650 com.xargsgrep.portknocker/.activity.HostListActivity filter a3412b6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        470a049 com.xargsgrep.portknocker/.widget.ConfigureWidgetActivity filter 4a39bb7
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      android.intent.action.GET_CONTENT:
+        7bff413 com.xargsgrep.portknocker/com.ipaulpro.afilechooser.FileChooserActivity filter 9a53f24
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.OPENABLE"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.appwidget.action.APPWIDGET_UPDATE:
+        640ad4e com.xargsgrep.portknocker/.widget.HostWidget filter 9b61a51
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+
+Provider Resolver Table:
+  Non-Data Actions:
+      android.content.action.DOCUMENTS_PROVIDER:
+        6abbe6f com.xargsgrep.portknocker/com.ianhanniballake.localstorage.LocalStorageProvider filter e016378
+          Action: "android.content.action.DOCUMENTS_PROVIDER"
+          AutoVerify=false
+
+Registered ContentProviders:
+  com.xargsgrep.portknocker/com.ianhanniballake.localstorage.LocalStorageProvider:
+    Provider{6abbe6f com.xargsgrep.portknocker/com.ianhanniballake.localstorage.LocalStorageProvider}
+
+ContentProvider Authorities:
+  [com.xargsgrep.portknocker.documents]:
+    Provider{6abbe6f com.xargsgrep.portknocker/com.ianhanniballake.localstorage.LocalStorageProvider}
+      applicationInfo=ApplicationInfo{400177c com.xargsgrep.portknocker}
+
+Key Set Manager:
+  [com.xargsgrep.portknocker]
+      Signing KeySets: 39
+
+Packages:
+  Package [com.xargsgrep.portknocker] (119f805):
+    userId=10086
+    pkg=Package{a7e505a com.xargsgrep.portknocker}
+    codePath=/data/app/com.xargsgrep.portknocker-1
+    resourcePath=/data/app/com.xargsgrep.portknocker-1
+    legacyNativeLibraryDir=/data/app/com.xargsgrep.portknocker-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=9 minSdk=10 targetSdk=23
+    versionName=1.0.8
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{400177c com.xargsgrep.portknocker}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/user/0/com.xargsgrep.portknocker
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-05 13:21:11
+    firstInstallTime=2022-01-05 13:21:11
+    lastUpdateTime=2022-01-05 13:21:11
+    signatures=PackageSignatures{3dfd28b [7d76f884]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.INTERNET: granted=true
+    User 0: ceDataInode=3409826 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [com.xargsgrep.portknocker]
+    Instruction Set: x86_64
+      path: /data/app/com.xargsgrep.portknocker-1/base.apk
+      status: /data/app/com.xargsgrep.portknocker-1/oat/x86_64/base.odex [compilation_filter=interpret-only, status=kOat
+      UpToDate]
+
+
+Compiler stats:
+  [com.xargsgrep.portknocker]
+     base.apk - 146

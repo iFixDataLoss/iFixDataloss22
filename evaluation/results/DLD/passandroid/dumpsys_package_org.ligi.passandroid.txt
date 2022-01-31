@@ -1,0 +1,2158 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Full MIME Types:
+      application/x-pdf:
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter dc98f6f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/x-pdf"
+          AutoVerify=false
+      application/pdf:
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 760147c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/pdf"
+          AutoVerify=false
+      application/vnd-com.apple.pkpass:
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 47edaa
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/vnd-com.apple.pkpass"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 67ebafe
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/vnd-com.apple.pkpass"
+          AutoVerify=false
+      application/vnd.espass-espass:
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter a34159e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/vnd.espass-espass"
+          AutoVerify=false
+      */*:
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 4862d9b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 86a0911
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 455254d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 2c8802
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter e0eb105
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter d89b38b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter bddfd67
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 5647714
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter f63325f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter df6e575
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 65d63f1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 79d2bd6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      application/vndapplepkpass:
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter bdd7895
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/vndapplepkpass"
+          AutoVerify=false
+      application/vnd.espass-espass+zip:
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter cf7887f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/vnd.espass-espass+zip"
+          AutoVerify=false
+      application/vnd.apple.pkpass:
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 236004c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/vnd.apple.pkpass"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 7ac96b9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/vnd.apple.pkpass"
+          AutoVerify=false
+
+  Base MIME Types:
+      application:
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter a34159e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/vnd.espass-espass"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter cf7887f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/vnd.espass-espass+zip"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 236004c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/vnd.apple.pkpass"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter bdd7895
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/vndapplepkpass"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 47edaa
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/vnd-com.apple.pkpass"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter dc98f6f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/x-pdf"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 760147c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/pdf"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 7ac96b9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/vnd.apple.pkpass"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 67ebafe
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/vnd-com.apple.pkpass"
+          AutoVerify=false
+
+  Wild MIME Types:
+      *:
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 4862d9b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 86a0911
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 455254d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 2c8802
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter e0eb105
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter d89b38b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter bddfd67
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 5647714
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter f63325f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter df6e575
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 65d63f1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 79d2bd6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Schemes:
+      pass2u:
+        7ee7ff9 org.ligi.passandroid/.ui.quirk_fix.URLRewriteActivity filter e3714f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "pass2u"
+          AutoVerify=false
+      passandroid:
+        7ee7ff9 org.ligi.passandroid/.ui.quirk_fix.URLRewriteActivity filter f7780dc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "passandroid"
+          AutoVerify=false
+      file:
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 994e220
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 5f20ce4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 455254d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 35bc949
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 4192d26
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter bddfd67
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 3430903
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 1374f98
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 65d63f1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      http:
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 881e652
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter fe8d538
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 86a0911
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 7f2b513
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 50f155a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter d89b38b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 586fbbd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter b0f94ac
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter df6e575
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter ecb0e57
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "www.eventbrite.com": -1
+          Path: "PatternMatcher{GLOB: /passes/order/.*}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter cd34e2d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "mbk.thy.com": -1
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 60838f3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "passbook.heathrow.com": -1
+          Path: "PatternMatcher{GLOB: /getpass/.*}"
+          AutoVerify=false
+        7ee7ff9 org.ligi.passandroid/.ui.quirk_fix.URLRewriteActivity filter 34ddfae
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "pass-cloud.appspot.com": -1
+          AutoVerify=false
+        7ee7ff9 org.ligi.passandroid/.ui.quirk_fix.URLRewriteActivity filter 54d15e5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "services.aircanada.com": -1
+          AutoVerify=false
+        7ee7ff9 org.ligi.passandroid/.ui.quirk_fix.URLRewriteActivity filter 48fd36b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "m.aircanada.ca": -1
+          Path: "PatternMatcher{GLOB: /ebp/.*}"
+          AutoVerify=false
+        7ee7ff9 org.ligi.passandroid/.ui.quirk_fix.URLRewriteActivity filter b363686
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "mbp.swiss.com": -1
+          Path: "PatternMatcher{GLOB: /mobiqa/wap/.*}"
+          AutoVerify=false
+        7ee7ff9 org.ligi.passandroid/.ui.quirk_fix.URLRewriteActivity filter 6b10f74
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "prod.wap.ncrwebhost.mobi": -1
+          Path: "PatternMatcher{GLOB: /mobiqa/wap/.*}"
+          AutoVerify=false
+        f208b3e org.ligi.passandroid/.ui.quirk_fix.USAirwaysLoadActivity filter 53144e3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "www.usairwaysmobile.com": -1
+          Path: "PatternMatcher{GLOB: /mobiqa/wap/.*}"
+          AutoVerify=false
+        b3c5d9f org.ligi.passandroid/.ui.ExtractURLAsIphoneActivity filter 447905e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "mobile.virginaustralia.com": -1
+          Path: "PatternMatcher{GLOB: /virginaustralia/.*}"
+          AutoVerify=false
+        b3c5d9f org.ligi.passandroid/.ui.ExtractURLAsIphoneActivity filter 98ad90c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "check-in.virginaustralia.com": -1
+          Path: "PatternMatcher{GLOB: /checkin/CheckInApiIntegration/.*}"
+          AutoVerify=false
+      https:
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 8e83d23
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 4862d9b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 80f3a76
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 5351350
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter e0eb105
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter d7fc68
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter c5af5b2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter f63325f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 987890a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 91dcd44
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.eventbrite.com": -1
+          Path: "PatternMatcher{GLOB: /passes/order/.*}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter b982f62
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "mbk.thy.com": -1
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 1cc79b0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "passbook.heathrow.com": -1
+          Path: "PatternMatcher{GLOB: /getpass/.*}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter f43a029
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "checkin.si.amadeus.net": -1
+          Path: "PatternMatcher{GLOB: /.*}"
+          AutoVerify=false
+        7ee7ff9 org.ligi.passandroid/.ui.quirk_fix.URLRewriteActivity filter 29c48ba
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "services.aircanada.com": -1
+          AutoVerify=false
+        7ee7ff9 org.ligi.passandroid/.ui.quirk_fix.URLRewriteActivity filter 369cec8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "m.aircanada.ca": -1
+          Path: "PatternMatcher{GLOB: /ebp/.*}"
+          AutoVerify=false
+        7ee7ff9 org.ligi.passandroid/.ui.quirk_fix.URLRewriteActivity filter 7be2b61
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.cathaypacific.com": -1
+          Path: "PatternMatcher{GLOB: /icheckin2/mbp.do.*}"
+          AutoVerify=false
+        7ee7ff9 org.ligi.passandroid/.ui.quirk_fix.URLRewriteActivity filter c563b47
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "mbp.swiss.com": -1
+          Path: "PatternMatcher{GLOB: /mobiqa/wap/.*}"
+          AutoVerify=false
+        7ee7ff9 org.ligi.passandroid/.ui.quirk_fix.URLRewriteActivity filter 3d11c9d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "prod.wap.ncrwebhost.mobi": -1
+          Path: "PatternMatcher{GLOB: /mobiqa/wap/.*}"
+          AutoVerify=false
+        f208b3e org.ligi.passandroid/.ui.quirk_fix.USAirwaysLoadActivity filter 52f3512
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.usairwaysmobile.com": -1
+          Path: "PatternMatcher{GLOB: /mobiqa/wap/.*}"
+          AutoVerify=false
+        b3c5d9f org.ligi.passandroid/.ui.ExtractURLAsIphoneActivity filter 389aee0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "mobile.aegeanair.com": -1
+          Path: "PatternMatcher{GLOB: /mbp.do.*}"
+          AutoVerify=false
+        b3c5d9f org.ligi.passandroid/.ui.ExtractURLAsIphoneActivity filter 627e599
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "mobile.virginaustralia.com": -1
+          Path: "PatternMatcher{GLOB: /virginaustralia/.*}"
+          AutoVerify=false
+        b3c5d9f org.ligi.passandroid/.ui.ExtractURLAsIphoneActivity filter 7294c3f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "check-in.virginaustralia.com": -1
+          Path: "PatternMatcher{GLOB: /checkin/CheckInApiIntegration/.*}"
+          AutoVerify=false
+      content:
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 60a37d9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter f900877
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 2c8802
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter cdf224e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter b4e5881
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 5647714
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter b9bf080
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 232957b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 79d2bd6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        5347eec org.ligi.passandroid/.ui.PassListActivity filter 366cadd
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+        c8e22b5 org.ligi.passandroid/com.squareup.leakcanary.internal.DisplayLeakActivity filter 9884255
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      android.intent.action.VIEW:
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter a34159e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/vnd.espass-espass"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter cf7887f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/vnd.espass-espass+zip"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 236004c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/vnd.apple.pkpass"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter bdd7895
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/vndapplepkpass"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 47edaa
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/vnd-com.apple.pkpass"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 4862d9b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 86a0911
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 455254d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 2c8802
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter dc98f6f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/x-pdf"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 760147c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/pdf"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter e0eb105
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter d89b38b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter bddfd67
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 5647714
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 7ac96b9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/vnd.apple.pkpass"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 67ebafe
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Type: "application/vnd-com.apple.pkpass"
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter f63325f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter df6e575
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 65d63f1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        5fab6c0 org.ligi.passandroid/.ui.PassImportActivity filter 79d2bd6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Path: "PatternMatcher{GLOB: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.android.vending.INSTALL_REFERRER:
+        4161d4a org.ligi.passandroid/.InstallListener filter ff38eb4
+          Action: "com.android.vending.INSTALL_REFERRER"
+          AutoVerify=false
+
+Registered ContentProviders:
+  org.ligi.passandroid/com.chibatching.kotpref.KotprefInitProvider:
+    Provider{b9334bb org.ligi.passandroid/com.chibatching.kotpref.KotprefInitProvider}
+  org.ligi.passandroid/android.support.v4.content.FileProvider:
+    Provider{b609dd8 org.ligi.passandroid/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [org.ligi.passandroid.fileprovider]:
+    Provider{b609dd8 org.ligi.passandroid/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{54b3531 org.ligi.passandroid}
+  [org.ligi.passandroid.KotprefInitilizeProvider]:
+    Provider{b9334bb org.ligi.passandroid/com.chibatching.kotpref.KotprefInitProvider}
+      applicationInfo=ApplicationInfo{54b3531 org.ligi.passandroid}
+
+Key Set Manager:
+  [org.ligi.passandroid]
+      Signing KeySets: 121
+
+Packages:
+  Package [org.ligi.passandroid] (20c416):
+    userId=10069
+    pkg=Package{8b66197 org.ligi.passandroid}
+    codePath=/data/app/org.ligi.passandroid-1
+    resourcePath=/data/app/org.ligi.passandroid-1
+    legacyNativeLibraryDir=/data/app/org.ligi.passandroid-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=333 minSdk=9 targetSdk=25
+    versionName=3.3.3
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{54b3531 org.ligi.passandroid}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ HAS_DOMAIN_URLS RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/org.ligi.passandroid
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-07 14:12:55
+    firstInstallTime=2022-01-07 14:12:55
+    lastUpdateTime=2022-01-07 14:12:55
+    signatures=PackageSignatures{92dbf84 [45e775cf]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.DISABLE_KEYGUARD
+      android.permission.WAKE_LOCK
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.ACCESS_COARSE_LOCATION
+    install permissions:
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.DISABLE_KEYGUARD: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=3539545 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.ACCESS_COARSE_LOCATION: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [org.ligi.passandroid]
+    Instruction Set: x86
+      path: /data/app/org.ligi.passandroid-1/base.apk
+      status: /data/app/org.ligi.passandroid-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDate
+      ]
+
+
+Compiler stats:
+  [org.ligi.passandroid]
+     base.apk - 311

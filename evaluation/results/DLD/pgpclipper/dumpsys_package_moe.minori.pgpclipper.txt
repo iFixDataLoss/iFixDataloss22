@@ -1,0 +1,67 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        18c03e moe.minori.pgpclipper/.activities.PGPClipperSettingsActivity filter e8f81cd
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BOOT_COMPLETED:
+        310ee9f moe.minori.pgpclipper/.BootListener filter a620b64
+          Action: "android.intent.action.BOOT_COMPLETED"
+          AutoVerify=false
+
+Key Set Manager:
+  [moe.minori.pgpclipper]
+      Signing KeySets: 43
+
+Packages:
+  Package [moe.minori.pgpclipper] (4e43bec):
+    userId=10088
+    pkg=Package{3f79bb5 moe.minori.pgpclipper}
+    codePath=/data/app/moe.minori.pgpclipper-1
+    resourcePath=/data/app/moe.minori.pgpclipper-1
+    legacyNativeLibraryDir=/data/app/moe.minori.pgpclipper-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=6 minSdk=21 targetSdk=28
+    versionName=0.22
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{4dca24a moe.minori.pgpclipper}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/moe.minori.pgpclipper
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-02 13:56:42
+    firstInstallTime=2022-01-02 13:56:42
+    lastUpdateTime=2022-01-02 13:56:42
+    signatures=PackageSignatures{a9fd5bb [617fe081]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    requested permissions:
+      android.permission.NFC
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.USE_FINGERPRINT
+    install permissions:
+      android.permission.NFC: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+    User 0: ceDataInode=3539562 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      runtime permissions:
+
+
+Dexopt state:
+  [moe.minori.pgpclipper]
+    Instruction Set: x86
+      path: /data/app/moe.minori.pgpclipper-1/base.apk
+      status: /data/app/moe.minori.pgpclipper-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDat
+      e]
+
+
+Compiler stats:
+  [moe.minori.pgpclipper]
+     base.apk - 178

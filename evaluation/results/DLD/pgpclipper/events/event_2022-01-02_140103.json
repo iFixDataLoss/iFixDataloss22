@@ -1,0 +1,10 @@
+{
+  "stop_state": "6dad6cabaffe16e84dbeab83b2ac1bab", 
+  "event_str": "IntentEvent(intent='am start moe.minori.pgpclipper/moe.minori.pgpclipper.activities.PGPClipperSettingsActivity')", 
+  "tag": "2022-01-02_140103", 
+  "event": {
+    "intent": "am start moe.minori.pgpclipper/moe.minori.pgpclipper.activities.PGPClipperSettingsActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "e86f1f69f6fc7c89c8a257fd4ccb746a"
+}

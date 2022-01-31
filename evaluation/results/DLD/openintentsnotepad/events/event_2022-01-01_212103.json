@@ -1,0 +1,10 @@
+{
+  "stop_state": "8d84f9fc350389a2ca6938ab90538561", 
+  "event_str": "IntentEvent(intent='am start org.openintents.notepad/org.openintents.notepad.noteslist.NotesList')", 
+  "tag": "2022-01-01_212103", 
+  "event": {
+    "intent": "am start org.openintents.notepad/org.openintents.notepad.noteslist.NotesList", 
+    "event_type": "intent"
+  }, 
+  "start_state": "545abb84d22c326c61edd3d53f2968bf"
+}

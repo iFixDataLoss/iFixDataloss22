@@ -1,0 +1,55 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        f9e5446 com.frozendevs.periodictable/.activity.MainActivity filter c936eec
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      android.intent.action.VIEW:
+        83b6607 com.frozendevs.periodictable/.activity.PropertiesActivity filter d1a52b5
+          Action: "android.intent.action.VIEW"
+          AutoVerify=false
+
+Key Set Manager:
+  [com.frozendevs.periodictable]
+      Signing KeySets: 123
+
+Packages:
+  Package [com.frozendevs.periodictable] (acac334):
+    userId=10071
+    pkg=Package{e07255d com.frozendevs.periodictable}
+    codePath=/data/app/com.frozendevs.periodictable-1
+    resourcePath=/data/app/com.frozendevs.periodictable-1
+    legacyNativeLibraryDir=/data/app/com.frozendevs.periodictable-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=5 minSdk=9 targetSdk=21
+    versionName=1.1.1
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{95b6ed2 com.frozendevs.periodictable}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/user/0/com.frozendevs.periodictable
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-07 15:18:56
+    firstInstallTime=2022-01-07 15:18:56
+    lastUpdateTime=2022-01-07 15:18:56
+    signatures=PackageSignatures{1e5ba3 [3fc1e17a]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    User 0: ceDataInode=3539181 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      runtime permissions:
+
+
+Dexopt state:
+  [com.frozendevs.periodictable]
+    Instruction Set: x86
+      path: /data/app/com.frozendevs.periodictable-1/base.apk
+      status: /data/app/com.frozendevs.periodictable-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOat
+      UpToDate]
+
+
+Compiler stats:
+  [com.frozendevs.periodictable]
+     base.apk - 100

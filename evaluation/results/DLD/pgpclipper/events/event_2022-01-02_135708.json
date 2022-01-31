@@ -1,0 +1,127 @@
+{
+  "stop_state": "5cdd872532c92e502ad84ff1686e2f74", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-02_135708", 
+  "event": {
+    "views_str": [
+      "4bb6a4659bd42f6b4f746472ac6eac0c", 
+      "1bc8c92332e9b636580cae5c5085b95c", 
+      "1bc8c92332e9b636580cae5c5085b95c"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "android:id/checkbox", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*48", 
+        "checked": false, 
+        "temp_id": 15, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox", 
+        "is_password": false, 
+        "parent": 14, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "moe.minori.pgpclipper", 
+        "long_clickable": false, 
+        "view_str": "4bb6a4659bd42f6b4f746472ac6eac0c", 
+        "enabled": false, 
+        "bounds": [
+          [
+            1836, 
+            175
+          ], 
+          [
+            1884, 
+            223
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox[text]None[,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "android:id/checkbox", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*48", 
+        "checked": false, 
+        "temp_id": 21, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox", 
+        "is_password": false, 
+        "parent": 20, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "moe.minori.pgpclipper", 
+        "long_clickable": false, 
+        "view_str": "1bc8c92332e9b636580cae5c5085b95c", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1836, 
+            311
+          ], 
+          [
+            1884, 
+            359
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "android:id/checkbox", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*48", 
+        "checked": false, 
+        "temp_id": 27, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox", 
+        "is_password": false, 
+        "parent": 26, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "moe.minori.pgpclipper", 
+        "long_clickable": false, 
+        "view_str": "1bc8c92332e9b636580cae5c5085b95c", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1836, 
+            447
+          ], 
+          [
+            1884, 
+            495
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox[text]None[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "5cdd872532c92e502ad84ff1686e2f74"
+}
