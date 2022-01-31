@@ -1,0 +1,10 @@
+{
+  "stop_state": "9d9e0441bb1d6a80baf6e4a61b121a0b", 
+  "event_str": "IntentEvent(intent='am start org.gateshipone.malp/org.gateshipone.malp.application.activities.SplashActivity')", 
+  "tag": "2022-01-06_132339", 
+  "event": {
+    "intent": "am start org.gateshipone.malp/org.gateshipone.malp.application.activities.SplashActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "19b9b332ff2324798136fd3a84eeff1d"
+}

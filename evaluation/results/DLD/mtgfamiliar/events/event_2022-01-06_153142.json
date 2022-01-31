@@ -1,0 +1,42 @@
+{
+  "stop_state": "93ec9f236fadda8885ab9c0126438483", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_153142", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "Unsporting Conduct", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "214*30", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.gelakinetic.mtgfam", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          468, 
+          775
+        ], 
+        [
+          682, 
+          805
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": true
+    }, 
+    "id": 8, 
+    "event_type": "touch"
+  }, 
+  "start_state": "505e34b3187507f2b3b506854135a8aa"
+}

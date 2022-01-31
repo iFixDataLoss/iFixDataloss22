@@ -1,0 +1,43 @@
+{
+  "stop_state": "89a8a688a7aeffa28168627a6656662c", 
+  "event_str": "LongTouchEvent(duration=2000)", 
+  "tag": "2022-01-06_145500", 
+  "event": {
+    "event_type": "long_touch", 
+    "duration": 2000, 
+    "y": null, 
+    "x": null, 
+    "id": 25, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.gelakinetic.mtgfam:id/left_drawer", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": true, 
+      "clickable": false, 
+      "checkable": false, 
+      "size": "360*1044", 
+      "scrollable": true, 
+      "checked": false, 
+      "package": "com.gelakinetic.mtgfam", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          36
+        ], 
+        [
+          360, 
+          1080
+        ]
+      ], 
+      "class": "android.widget.ListView", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "c5d7a9b0c1a7e17f91b02353f17716ba"
+}

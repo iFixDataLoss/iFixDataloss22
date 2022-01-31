@@ -1,0 +1,42 @@
+{
+  "stop_state": "32446aa67ac12dcd1cb4d96cae5f19f5", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_125639", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Open navigation drawer", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "84*96", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.gateshipone.malp", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          12, 
+          36
+        ], 
+        [
+          96, 
+          132
+        ]
+      ], 
+      "class": "android.widget.ImageButton", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "f3565add84f5d445c7acfd8b3d8258ad"
+}

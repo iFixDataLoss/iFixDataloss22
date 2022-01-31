@@ -1,0 +1,43 @@
+{
+  "stop_state": "39ca131c3e3338c4e7362851b6f1ed2b", 
+  "event_str": "SetTextEvent", 
+  "tag": "2022-01-06_153901", 
+  "event": {
+    "event_type": "set_text", 
+    "text": "HelloWorld", 
+    "y": null, 
+    "x": null, 
+    "id": 14, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.gelakinetic.mtgfam:id/supertypesearch", 
+      "text": ",, ,, ,, ,, ", 
+      "editable": true, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "936*68", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.gelakinetic.mtgfam", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          24, 
+          218
+        ], 
+        [
+          960, 
+          286
+        ]
+      ], 
+      "class": "android.widget.MultiAutoCompleteTextView", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "d7d192113197af286dfc3cc1ee42766d"
+}

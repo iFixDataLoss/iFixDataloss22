@@ -1,0 +1,356 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Full MIME Types:
+      video/*:
+        85434a9 org.horaapps.leafpic/.activities.PlayerActivity filter 52e2461
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "content"
+          Scheme: "asset"
+          Scheme: "file"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        79c1a2e org.horaapps.leafpic/.activities.SplashScreen filter d0d5c47
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.OPENABLE"
+          Type: "image"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        79c1a2e org.horaapps.leafpic/.activities.SplashScreen filter 6b81c74
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        b0559cf org.horaapps.leafpic/.activities.SingleMediaActivity filter 7dfe99
+          Action: "com.android.camera.action.REVIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      image/*:
+        79c1a2e org.horaapps.leafpic/.activities.SplashScreen filter d0d5c47
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.OPENABLE"
+          Type: "image"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        79c1a2e org.horaapps.leafpic/.activities.SplashScreen filter 6b81c74
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        b0559cf org.horaapps.leafpic/.activities.SingleMediaActivity filter 1748be0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        b0559cf org.horaapps.leafpic/.activities.SingleMediaActivity filter 7dfe99
+          Action: "com.android.camera.action.REVIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Wild MIME Types:
+      image:
+        79c1a2e org.horaapps.leafpic/.activities.SplashScreen filter d0d5c47
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.OPENABLE"
+          Type: "image"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        79c1a2e org.horaapps.leafpic/.activities.SplashScreen filter 6b81c74
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        b0559cf org.horaapps.leafpic/.activities.SingleMediaActivity filter 1748be0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        b0559cf org.horaapps.leafpic/.activities.SingleMediaActivity filter 7dfe99
+          Action: "com.android.camera.action.REVIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      video:
+        85434a9 org.horaapps.leafpic/.activities.PlayerActivity filter 52e2461
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "content"
+          Scheme: "asset"
+          Scheme: "file"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        79c1a2e org.horaapps.leafpic/.activities.SplashScreen filter d0d5c47
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.OPENABLE"
+          Type: "image"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        79c1a2e org.horaapps.leafpic/.activities.SplashScreen filter 6b81c74
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        b0559cf org.horaapps.leafpic/.activities.SingleMediaActivity filter 7dfe99
+          Action: "com.android.camera.action.REVIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Schemes:
+      file:
+        85434a9 org.horaapps.leafpic/.activities.PlayerActivity filter 52e2461
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "content"
+          Scheme: "asset"
+          Scheme: "file"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      http:
+        85434a9 org.horaapps.leafpic/.activities.PlayerActivity filter 52e2461
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "content"
+          Scheme: "asset"
+          Scheme: "file"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      asset:
+        85434a9 org.horaapps.leafpic/.activities.PlayerActivity filter 52e2461
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "content"
+          Scheme: "asset"
+          Scheme: "file"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      https:
+        85434a9 org.horaapps.leafpic/.activities.PlayerActivity filter 52e2461
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "content"
+          Scheme: "asset"
+          Scheme: "file"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      content:
+        85434a9 org.horaapps.leafpic/.activities.PlayerActivity filter 52e2461
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "content"
+          Scheme: "asset"
+          Scheme: "file"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.ABOUT:
+        7be7f5c org.horaapps.leafpic/.activities.AboutActivity filter 7c6860c
+          Action: "android.intent.action.ABOUT"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.MAIN:
+        79c1a2e org.horaapps.leafpic/.activities.SplashScreen filter 7c13b86
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.APP_GALLERY"
+          AutoVerify=false
+      android.intent.action.SECURITY:
+        4127265 org.horaapps.leafpic/.activities.SecurityActivity filter 5a6eb55
+          Action: "android.intent.action.SECURITY"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.APPLICATION_PREFERENCES:
+        9d3ab3a org.horaapps.leafpic/.activities.SettingsActivity filter 1838d3f
+          Action: "android.intent.action.APPLICATION_PREFERENCES"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.SETTING:
+        9d3ab3a org.horaapps.leafpic/.activities.SettingsActivity filter c8e355e
+          Action: "android.intent.action.SETTING"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.albumsAct:
+        627c3eb org.horaapps.leafpic/.activities.MainActivity filter fe58a12
+          Action: "android.intent.action.albumsAct"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      com.horaapps.leafpic.OPEN_ALBUM:
+        79c1a2e org.horaapps.leafpic/.activities.SplashScreen filter ac7a59d
+          Action: "com.horaapps.leafpic.OPEN_ALBUM"
+          AutoVerify=false
+      android.intent.action.ExcludedAlbums:
+        f623548 org.horaapps.leafpic/.activities.ExcludedAlbumsActivity filter 4adbe5b
+          Action: "android.intent.action.ExcludedAlbums"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.albumPhoto:
+        b0559cf org.horaapps.leafpic/.activities.SingleMediaActivity filter b975e3
+          Action: "android.intent.action.albumPhoto"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.DONATE:
+        6bccfe1 org.horaapps.leafpic/.activities.DonateActivity filter c84496a
+          Action: "android.intent.action.DONATE"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      com.android.camera.action.REVIEW:
+        b0559cf org.horaapps.leafpic/.activities.SingleMediaActivity filter 7dfe99
+          Action: "com.android.camera.action.REVIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      android.intent.action.PICK:
+        79c1a2e org.horaapps.leafpic/.activities.SplashScreen filter 6b81c74
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      android.intent.action.VIEW:
+        85434a9 org.horaapps.leafpic/.activities.PlayerActivity filter 52e2461
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "content"
+          Scheme: "asset"
+          Scheme: "file"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        b0559cf org.horaapps.leafpic/.activities.SingleMediaActivity filter 1748be0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      android.intent.action.GET_CONTENT:
+        79c1a2e org.horaapps.leafpic/.activities.SplashScreen filter d0d5c47
+          Action: "android.intent.action.GET_CONTENT"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.OPENABLE"
+          Type: "image"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+Registered ContentProviders:
+  org.horaapps.leafpic/android.support.v4.content.FileProvider:
+    Provider{ec14106 org.horaapps.leafpic/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [org.horaapps.leafpic.provider]:
+    Provider{ec14106 org.horaapps.leafpic/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{abcb3c7 org.horaapps.leafpic}
+
+Key Set Manager:
+  [org.horaapps.leafpic]
+      Signing KeySets: 49
+
+Packages:
+  Package [org.horaapps.leafpic] (4095df4):
+    userId=10094
+    pkg=Package{155891d org.horaapps.leafpic}
+    codePath=/data/app/org.horaapps.leafpic-1
+    resourcePath=/data/app/org.horaapps.leafpic-1
+    legacyNativeLibraryDir=/data/app/org.horaapps.leafpic-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=13 minSdk=19 targetSdk=24
+    versionName=v0.6-beta-1
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{abcb3c7 org.horaapps.leafpic}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privateFlags=[ HAS_DOMAIN_URLS RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/org.horaapps.leafpic
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-02 16:18:56
+    firstInstallTime=2022-01-02 16:18:57
+    lastUpdateTime=2022-01-02 16:18:57
+    signatures=PackageSignatures{aa06792 [6bc08b5d]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    requested permissions:
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.INTERNET
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      com.android.vending.BILLING
+    install permissions:
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+    User 0: ceDataInode=3539553 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [org.horaapps.leafpic]
+    Instruction Set: x86
+      path: /data/app/org.horaapps.leafpic-1/base.apk
+      status: /data/app/org.horaapps.leafpic-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDate
+      ]
+
+
+Compiler stats:
+  [org.horaapps.leafpic]
+     base.apk - 340

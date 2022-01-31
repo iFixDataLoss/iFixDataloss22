@@ -1,0 +1,10 @@
+{
+  "stop_state": "e4656c531923a502dd163cdb7a7eb6c7", 
+  "event_str": "IntentEvent(intent='am start org.isoron.uhabits/org.isoron.uhabits.MainActivity')", 
+  "tag": "2022-01-06_112414", 
+  "event": {
+    "intent": "am start org.isoron.uhabits/org.isoron.uhabits.MainActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "e5c8ead2aa398777adcbf35f79a580ab"
+}

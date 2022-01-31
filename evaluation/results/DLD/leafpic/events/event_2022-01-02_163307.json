@@ -1,0 +1,51 @@
+{
+  "stop_state": "05069920f41f6b4fae377fdb3c0e5419", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-02_163307", 
+  "event": {
+    "views_str": [
+      "288d37f3340d3ed857d0a1f35b19e3d9"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "org.horaapps.leafpic:id/apply_theme_3th_act_enabled", 
+        "text": "ON", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "165*62", 
+        "checked": true, 
+        "temp_id": 18, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.Switch[resource_id]org.horaapps.leafpic:id/apply_theme_3th_act_enabled", 
+        "is_password": false, 
+        "parent": 13, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.Switch", 
+        "scrollable": false, 
+        "package": "org.horaapps.leafpic", 
+        "long_clickable": false, 
+        "view_str": "288d37f3340d3ed857d0a1f35b19e3d9", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1206, 
+            441
+          ], 
+          [
+            1371, 
+            503
+          ]
+        ], 
+        "signature": "[class]android.widget.Switch[resource_id]org.horaapps.leafpic:id/apply_theme_3th_act_enabled[text]ON[enabled,checked,]"
+      }
+    ]
+  }, 
+  "start_state": "05069920f41f6b4fae377fdb3c0e5419"
+}

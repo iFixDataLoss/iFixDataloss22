@@ -1,0 +1,42 @@
+{
+  "stop_state": "df0bd50b0d330e06b6ca3e7693e7f9e6", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_151657", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.gelakinetic.mtgfam:id/checkBoxB", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": true, 
+      "size": "48*60", 
+      "scrollable": false, 
+      "checked": true, 
+      "package": "com.gelakinetic.mtgfam", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          780, 
+          586
+        ], 
+        [
+          828, 
+          646
+        ]
+      ], 
+      "class": "android.widget.CheckBox", 
+      "focusable": true
+    }, 
+    "id": 10, 
+    "event_type": "touch"
+  }, 
+  "start_state": "9713e72b1075ab8dab27991753c2fe39"
+}

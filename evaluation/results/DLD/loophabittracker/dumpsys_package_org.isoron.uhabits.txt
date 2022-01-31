@@ -1,0 +1,136 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        7fcf11a org.isoron.uhabits/.MainActivity filter 727924
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        c44c44b org.isoron.uhabits/.widgets.HabitPickerDialog filter 77ebc8d
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+          AutoVerify=false
+      com.twofortyfouram.locale.intent.action.EDIT_SETTING:
+        a189e28 org.isoron.uhabits/.automation.EditSettingActivity filter 776e42
+          Action: "com.twofortyfouram.locale.intent.action.EDIT_SETTING"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Schemes:
+      content:
+        79bb741 org.isoron.uhabits/.receivers.WidgetReceiver filter 346cedb
+          Action: "org.isoron.uhabits.ACTION_TOGGLE_REPETITION"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "org.isoron.uhabits": -1
+          AutoVerify=false
+        79bb741 org.isoron.uhabits/.receivers.WidgetReceiver filter 8efd78
+          Action: "org.isoron.uhabits.ACTION_ADD_REPETITION"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "org.isoron.uhabits": -1
+          AutoVerify=false
+        79bb741 org.isoron.uhabits/.receivers.WidgetReceiver filter ecac51
+          Action: "org.isoron.uhabits.ACTION_REMOVE_REPETITION"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "org.isoron.uhabits": -1
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.BOOT_COMPLETED:
+        c6904e6 org.isoron.uhabits/.receivers.ReminderReceiver filter d8d4bea
+          Action: "android.intent.action.BOOT_COMPLETED"
+          AutoVerify=false
+      com.twofortyfouram.locale.intent.action.FIRE_SETTING:
+        8195a27 org.isoron.uhabits/.automation.FireSettingReceiver filter 1d97db7
+          Action: "com.twofortyfouram.locale.intent.action.FIRE_SETTING"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_UPDATE:
+        d6d74d4 org.isoron.uhabits/.widgets.CheckmarkWidgetProvider filter 20b319
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+        12b867d org.isoron.uhabits/.widgets.HistoryWidgetProvider filter 2d40fde
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+        4308972 org.isoron.uhabits/.widgets.ScoreWidgetProvider filter 4d495bf
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+        2b771c3 org.isoron.uhabits/.widgets.StreakWidgetProvider filter 4de248c
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+        c970a40 org.isoron.uhabits/.widgets.FrequencyWidgetProvider filter 20067d5
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+      com.getpebble.action.app.RECEIVE:
+        eef0d79 org.isoron.uhabits/.receivers.PebbleReceiver filter 8ec3cb6
+          Action: "com.getpebble.action.app.RECEIVE"
+          AutoVerify=false
+
+Registered ContentProviders:
+  org.isoron.uhabits/android.support.v4.content.FileProvider:
+    Provider{679cabe org.isoron.uhabits/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [org.isoron.uhabits]:
+    Provider{679cabe org.isoron.uhabits/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{a95671f org.isoron.uhabits}
+
+Key Set Manager:
+  [org.isoron.uhabits]
+      Signing KeySets: 98
+
+Packages:
+  Package [org.isoron.uhabits] (8028a6c):
+    userId=10063
+    pkg=Package{aca0835 org.isoron.uhabits}
+    codePath=/data/app/org.isoron.uhabits-1
+    resourcePath=/data/app/org.isoron.uhabits-1
+    legacyNativeLibraryDir=/data/app/org.isoron.uhabits-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=25 minSdk=15 targetSdk=25
+    versionName=1.6.2
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{a95671f org.isoron.uhabits}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/org.isoron.uhabits
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-06 11:24:07
+    firstInstallTime=2022-01-06 11:24:08
+    lastUpdateTime=2022-01-06 11:24:08
+    signatures=PackageSignatures{483d4ca [45e775cf]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE ]
+    requested permissions:
+      android.permission.SET_ANIMATION_SCALE
+      android.permission.DISABLE_KEYGUARD
+      android.permission.WAKE_LOCK
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      android.permission.RECEIVE_BOOT_COMPLETED
+    install permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.SET_ANIMATION_SCALE: granted=true
+      android.permission.DISABLE_KEYGUARD: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=3540231 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [org.isoron.uhabits]
+    Instruction Set: x86
+      path: /data/app/org.isoron.uhabits-1/base.apk
+      status: /data/app/org.isoron.uhabits-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDate]
+
+
+Compiler stats:
+  [org.isoron.uhabits]
+     base.apk - 674

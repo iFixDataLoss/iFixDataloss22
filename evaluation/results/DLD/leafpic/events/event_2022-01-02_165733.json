@@ -1,0 +1,10 @@
+{
+  "stop_state": "980a198eade8d5c081e5fa94eab0f3c7", 
+  "event_str": "IntentEvent(intent='am start org.horaapps.leafpic/org.horaapps.leafpic.activities.SplashScreen')", 
+  "tag": "2022-01-02_165733", 
+  "event": {
+    "intent": "am start org.horaapps.leafpic/org.horaapps.leafpic.activities.SplashScreen", 
+    "event_type": "intent"
+  }, 
+  "start_state": "d980fc4684bec7adeb8ff0533dd02ff5"
+}

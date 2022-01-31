@@ -1,0 +1,60 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        e222cc8 com.manichord.mgit/me.sheimi.sgit.RepoListActivity filter 56362ee
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Key Set Manager:
+  [com.manichord.mgit]
+      Signing KeySets: 59
+
+Packages:
+  Package [com.manichord.mgit] (8e23161):
+    userId=10106
+    pkg=Package{560c486 com.manichord.mgit}
+    codePath=/data/app/com.manichord.mgit-1
+    resourcePath=/data/app/com.manichord.mgit-1
+    legacyNativeLibraryDir=/data/app/com.manichord.mgit-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=200 minSdk=18 targetSdk=22
+    versionName=1.4.0
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{bb8b147 com.manichord.mgit}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    dataDir=/data/user/0/com.manichord.mgit
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-06 13:42:48
+    firstInstallTime=2022-01-06 13:42:49
+    lastUpdateTime=2022-01-06 13:42:49
+    signatures=PackageSignatures{7914d74 [4b92ddf5]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.INTERNET: granted=true
+      android.permission.READ_EXTERNAL_STORAGE: granted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+    User 0: ceDataInode=3410370 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+
+
+Dexopt state:
+  [com.manichord.mgit]
+    Instruction Set: x86_64
+      path: /data/app/com.manichord.mgit-1/base.apk
+      status: /data/app/com.manichord.mgit-1/oat/x86_64/base.odex [compilation_filter=interpret-only, status=kOatUpToDat
+      e]
+
+
+Compiler stats:
+  [com.manichord.mgit]
+     base.apk - 147

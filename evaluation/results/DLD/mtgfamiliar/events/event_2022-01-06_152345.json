@@ -1,0 +1,42 @@
+{
+  "stop_state": "8b9fde119e1f5d1102821c1d1a7c87d5", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_152345", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.gelakinetic.mtgfam:id/energy_plus", 
+      "text": "+", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "72*79", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.gelakinetic.mtgfam", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          880, 
+          703
+        ], 
+        [
+          952, 
+          782
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 11, 
+    "event_type": "touch"
+  }, 
+  "start_state": "93cdeba69f47da92f78842887220b840"
+}

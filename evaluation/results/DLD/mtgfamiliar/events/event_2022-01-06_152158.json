@@ -1,0 +1,42 @@
+{
+  "stop_state": "37ab0cd9fb284e0a1b3485ac8b2ff65b", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_152158", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "330*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.gelakinetic.mtgfam", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          79, 
+          983
+        ], 
+        [
+          409, 
+          1055
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focusable": false
+    }, 
+    "id": 1, 
+    "event_type": "touch"
+  }, 
+  "start_state": "2ccd9dadc5e5e8a24e73d5818a4673a0"
+}

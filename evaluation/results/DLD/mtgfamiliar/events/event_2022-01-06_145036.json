@@ -1,0 +1,697 @@
+{
+  "stop_state": "29a99c03f9ce51a11bca5f39cf0989fb", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-06_145036", 
+  "event": {
+    "views_str": [
+      "6366e9e7e615c58b83a4393d54b5f756", 
+      "41730ec6f8a56fcf39431a3b58907ef8", 
+      "cb4fe446d1534cbab422a77db0530838", 
+      "7bfdd04d7e82173a1056e43fc4aedbac", 
+      "2db9591622365ce935770f7cb82e2d87", 
+      "22d1441f67398c03f248e51a4b01e0ea", 
+      "af0cef51015f8e0f29e73309d3290bc7", 
+      "f12a803efec47e0620ae260a43a240bd", 
+      "326ddd719ec6347fd4708720b80f507d", 
+      "2999773a7ae4bf46580a4916616cbd5a", 
+      "14ba97cba4eb45f59f38758612a2278c", 
+      "e86c21cfe3ef62e6cbe4d4f392fdeaa3", 
+      "6a11843d546bdae735383ffac0bd2243", 
+      "181400a65e9263a8f587c40808684eea", 
+      "01ed17595c239302aacb3b04f046548f", 
+      "ac9ba9418127155b993aa6079eba69b2", 
+      "51751046a3afb62a039e1e95cc6d6107", 
+      "f16a9004ed3aa2eb97a1e079d9bf76c9"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.gelakinetic.mtgfam:id/name_search", 
+        "text": "Name", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1872*68", 
+        "checked": false, 
+        "temp_id": 17, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.gelakinetic.mtgfam:id/name_search", 
+        "is_password": false, 
+        "parent": 16, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.gelakinetic.mtgfam", 
+        "long_clickable": true, 
+        "view_str": "6366e9e7e615c58b83a4393d54b5f756", 
+        "enabled": true, 
+        "bounds": [
+          [
+            24, 
+            138
+          ], 
+          [
+            1896, 
+            206
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.gelakinetic.mtgfam:id/name_search[text]Name[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.gelakinetic.mtgfam:id/textsearch", 
+        "text": "Text", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1872*60", 
+        "checked": false, 
+        "temp_id": 23, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.gelakinetic.mtgfam:id/textsearch", 
+        "is_password": false, 
+        "parent": 15, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.gelakinetic.mtgfam", 
+        "long_clickable": true, 
+        "view_str": "41730ec6f8a56fcf39431a3b58907ef8", 
+        "enabled": true, 
+        "bounds": [
+          [
+            24, 
+            370
+          ], 
+          [
+            1896, 
+            430
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.gelakinetic.mtgfam:id/textsearch[text]Text[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.gelakinetic.mtgfam:id/checkBoxW", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*60", 
+        "checked": true, 
+        "temp_id": 30, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxW", 
+        "is_password": false, 
+        "parent": 29, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.gelakinetic.mtgfam", 
+        "long_clickable": false, 
+        "view_str": "cb4fe446d1534cbab422a77db0530838", 
+        "enabled": true, 
+        "bounds": [
+          [
+            156, 
+            586
+          ], 
+          [
+            204, 
+            646
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxW[text]None[enabled,checked,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.gelakinetic.mtgfam:id/checkBoxU", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*60", 
+        "checked": false, 
+        "temp_id": 32, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxU", 
+        "is_password": false, 
+        "parent": 31, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.gelakinetic.mtgfam", 
+        "long_clickable": false, 
+        "view_str": "7bfdd04d7e82173a1056e43fc4aedbac", 
+        "enabled": true, 
+        "bounds": [
+          [
+            468, 
+            586
+          ], 
+          [
+            516, 
+            646
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxU[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.gelakinetic.mtgfam:id/checkBoxB", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*60", 
+        "checked": true, 
+        "temp_id": 34, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxB", 
+        "is_password": false, 
+        "parent": 33, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.gelakinetic.mtgfam", 
+        "long_clickable": false, 
+        "view_str": "2db9591622365ce935770f7cb82e2d87", 
+        "enabled": true, 
+        "bounds": [
+          [
+            780, 
+            586
+          ], 
+          [
+            828, 
+            646
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxB[text]None[enabled,checked,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.gelakinetic.mtgfam:id/checkBoxR", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*60", 
+        "checked": false, 
+        "temp_id": 36, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxR", 
+        "is_password": false, 
+        "parent": 35, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.gelakinetic.mtgfam", 
+        "long_clickable": false, 
+        "view_str": "22d1441f67398c03f248e51a4b01e0ea", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1092, 
+            586
+          ], 
+          [
+            1140, 
+            646
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxR[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.gelakinetic.mtgfam:id/checkBoxG", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*60", 
+        "checked": false, 
+        "temp_id": 38, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxG", 
+        "is_password": false, 
+        "parent": 37, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.gelakinetic.mtgfam", 
+        "long_clickable": false, 
+        "view_str": "af0cef51015f8e0f29e73309d3290bc7", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1404, 
+            586
+          ], 
+          [
+            1452, 
+            646
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxG[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.gelakinetic.mtgfam:id/checkBoxL", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*60", 
+        "checked": false, 
+        "temp_id": 40, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxL", 
+        "is_password": false, 
+        "parent": 39, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.gelakinetic.mtgfam", 
+        "long_clickable": false, 
+        "view_str": "f12a803efec47e0620ae260a43a240bd", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1716, 
+            586
+          ], 
+          [
+            1764, 
+            646
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxL[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.gelakinetic.mtgfam:id/checkBoxW_identity", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*60", 
+        "checked": true, 
+        "temp_id": 47, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxW_identity", 
+        "is_password": false, 
+        "parent": 46, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.gelakinetic.mtgfam", 
+        "long_clickable": false, 
+        "view_str": "326ddd719ec6347fd4708720b80f507d", 
+        "enabled": true, 
+        "bounds": [
+          [
+            156, 
+            802
+          ], 
+          [
+            204, 
+            862
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxW_identity[text]None[enabled,checked,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.gelakinetic.mtgfam:id/checkBoxU_identity", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*60", 
+        "checked": false, 
+        "temp_id": 49, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxU_identity", 
+        "is_password": false, 
+        "parent": 48, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.gelakinetic.mtgfam", 
+        "long_clickable": false, 
+        "view_str": "2999773a7ae4bf46580a4916616cbd5a", 
+        "enabled": true, 
+        "bounds": [
+          [
+            468, 
+            802
+          ], 
+          [
+            516, 
+            862
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxU_identity[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.gelakinetic.mtgfam:id/checkBoxB_identity", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*60", 
+        "checked": false, 
+        "temp_id": 51, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxB_identity", 
+        "is_password": false, 
+        "parent": 50, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.gelakinetic.mtgfam", 
+        "long_clickable": false, 
+        "view_str": "14ba97cba4eb45f59f38758612a2278c", 
+        "enabled": true, 
+        "bounds": [
+          [
+            780, 
+            802
+          ], 
+          [
+            828, 
+            862
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxB_identity[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.gelakinetic.mtgfam:id/checkBoxR_identity", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*60", 
+        "checked": false, 
+        "temp_id": 53, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxR_identity", 
+        "is_password": false, 
+        "parent": 52, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.gelakinetic.mtgfam", 
+        "long_clickable": false, 
+        "view_str": "e86c21cfe3ef62e6cbe4d4f392fdeaa3", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1092, 
+            802
+          ], 
+          [
+            1140, 
+            862
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxR_identity[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.gelakinetic.mtgfam:id/checkBoxG_identity", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*60", 
+        "checked": false, 
+        "temp_id": 55, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxG_identity", 
+        "is_password": false, 
+        "parent": 54, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.gelakinetic.mtgfam", 
+        "long_clickable": false, 
+        "view_str": "6a11843d546bdae735383ffac0bd2243", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1404, 
+            802
+          ], 
+          [
+            1452, 
+            862
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxG_identity[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.gelakinetic.mtgfam:id/checkBoxL_identity", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*60", 
+        "checked": false, 
+        "temp_id": 57, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxL_identity", 
+        "is_password": false, 
+        "parent": 56, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.gelakinetic.mtgfam", 
+        "long_clickable": false, 
+        "view_str": "181400a65e9263a8f587c40808684eea", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1716, 
+            802
+          ], 
+          [
+            1764, 
+            862
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.gelakinetic.mtgfam:id/checkBoxL_identity[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.gelakinetic.mtgfam:id/watermarksearch", 
+        "text": "Watermark", 
+        "visible": false, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1872*-467", 
+        "checked": false, 
+        "temp_id": 87, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.gelakinetic.mtgfam:id/watermarksearch", 
+        "is_password": false, 
+        "parent": 15, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.gelakinetic.mtgfam", 
+        "long_clickable": true, 
+        "view_str": "01ed17595c239302aacb3b04f046548f", 
+        "enabled": true, 
+        "bounds": [
+          [
+            24, 
+            1473
+          ], 
+          [
+            1896, 
+            1006
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.gelakinetic.mtgfam:id/watermarksearch[text]Watermark[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.gelakinetic.mtgfam:id/flavorsearch", 
+        "text": "Flavor Text", 
+        "visible": false, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1872*-547", 
+        "checked": false, 
+        "temp_id": 88, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.gelakinetic.mtgfam:id/flavorsearch", 
+        "is_password": false, 
+        "parent": 15, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.gelakinetic.mtgfam", 
+        "long_clickable": true, 
+        "view_str": "ac9ba9418127155b993aa6079eba69b2", 
+        "enabled": true, 
+        "bounds": [
+          [
+            24, 
+            1553
+          ], 
+          [
+            1896, 
+            1006
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.gelakinetic.mtgfam:id/flavorsearch[text]Flavor Text[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.gelakinetic.mtgfam:id/artistsearch", 
+        "text": "Artist", 
+        "visible": false, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1872*-627", 
+        "checked": false, 
+        "temp_id": 89, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.gelakinetic.mtgfam:id/artistsearch", 
+        "is_password": false, 
+        "parent": 15, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.gelakinetic.mtgfam", 
+        "long_clickable": true, 
+        "view_str": "51751046a3afb62a039e1e95cc6d6107", 
+        "enabled": true, 
+        "bounds": [
+          [
+            24, 
+            1633
+          ], 
+          [
+            1896, 
+            1006
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.gelakinetic.mtgfam:id/artistsearch[text]Artist[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.gelakinetic.mtgfam:id/collectorsnumbersearch", 
+        "text": "Collector's Number", 
+        "visible": false, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1872*-707", 
+        "checked": false, 
+        "temp_id": 90, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.gelakinetic.mtgfam:id/collectorsnumbersearch", 
+        "is_password": false, 
+        "parent": 15, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.gelakinetic.mtgfam", 
+        "long_clickable": true, 
+        "view_str": "f16a9004ed3aa2eb97a1e079d9bf76c9", 
+        "enabled": true, 
+        "bounds": [
+          [
+            24, 
+            1713
+          ], 
+          [
+            1896, 
+            1006
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.gelakinetic.mtgfam:id/collectorsnumbersearch[text]Collector's Number[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "3ab4354e0efa1d1b9edf7d641be515e4"
+}

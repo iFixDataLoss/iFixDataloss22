@@ -1,0 +1,42 @@
+{
+  "stop_state": "17fa6ac7fb86a22eb27bed97c73bf58c", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_124751", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "72*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.gateshipone.malp", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          888, 
+          132
+        ], 
+        [
+          960, 
+          204
+        ]
+      ], 
+      "class": "android.support.v7.app.ActionBar$Tab", 
+      "focusable": true
+    }, 
+    "id": 1, 
+    "event_type": "touch"
+  }, 
+  "start_state": "ce1dab85b898c180d6c470cf699fdf95"
+}

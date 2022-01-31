@@ -1,0 +1,42 @@
+{
+  "stop_state": "a666839d2e04f4c2b4a023753d63fb0b", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_162712", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.horaapps.leafpic:id/album_card", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "953*943", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.horaapps.leafpic", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          5, 
+          137
+        ], 
+        [
+          958, 
+          1080
+        ]
+      ], 
+      "class": "android.widget.FrameLayout", 
+      "focusable": false
+    }, 
+    "id": 1, 
+    "event_type": "touch"
+  }, 
+  "start_state": "08541757fac0cdb8be8b934ad42773f7"
+}

@@ -1,0 +1,10 @@
+{
+  "stop_state": "7416949364745000d11b67356dd13049", 
+  "event_str": "IntentEvent(intent='am start com.gelakinetic.mtgfam/com.gelakinetic.mtgfam.FamiliarActivity')", 
+  "tag": "2022-01-06_150905", 
+  "event": {
+    "intent": "am start com.gelakinetic.mtgfam/com.gelakinetic.mtgfam.FamiliarActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "13fbaabcf49f74705a7c74fe1c43ac5c"
+}

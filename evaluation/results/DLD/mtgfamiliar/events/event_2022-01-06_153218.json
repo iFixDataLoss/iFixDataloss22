@@ -1,0 +1,44 @@
+{
+  "stop_state": "2447914d21dfd4865799348b48f2ffde", 
+  "event_str": "ScrollEvent(direction=UP)", 
+  "tag": "2022-01-06_153218", 
+  "event": {
+    "direction": "UP", 
+    "event_type": "scroll", 
+    "y_full_down": 1750, 
+    "y": null, 
+    "x": null, 
+    "id": 8, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": true, 
+      "clickable": false, 
+      "checkable": false, 
+      "size": "493*575", 
+      "scrollable": true, 
+      "checked": false, 
+      "package": "com.gelakinetic.mtgfam", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          69, 
+          505
+        ], 
+        [
+          562, 
+          1080
+        ]
+      ], 
+      "class": "android.widget.ListView", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "2447914d21dfd4865799348b48f2ffde"
+}

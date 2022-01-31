@@ -1,0 +1,43 @@
+{
+  "stop_state": "2ccd9dadc5e5e8a24e73d5818a4673a0", 
+  "event_str": "LongTouchEvent(duration=2000)", 
+  "tag": "2022-01-06_152207", 
+  "event": {
+    "event_type": "long_touch", 
+    "duration": 2000, 
+    "y": null, 
+    "x": null, 
+    "id": 1, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.gelakinetic.mtgfam:id/name", 
+      "text": "Ugin's Conjurant", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": false, 
+      "checkable": false, 
+      "size": "1036*44", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.gelakinetic.mtgfam", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          24, 
+          138
+        ], 
+        [
+          1060, 
+          182
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": false
+    }
+  }, 
+  "start_state": "37ab0cd9fb284e0a1b3485ac8b2ff65b"
+}

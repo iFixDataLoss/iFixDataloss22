@@ -1,0 +1,142 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Schemes:
+      card:
+        892e295 com.gelakinetic.mtgfam/.FamiliarActivity filter 1a9c16e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "card"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "multiverseid": -1
+          Authority: "gatherer.wizards.com": -1
+          Authority: "gatherer.wizards.com": -1
+          Path: "PatternMatcher{PREFIX: /}"
+          Path: "PatternMatcher{PREFIX: /Pages/Card}"
+          Path: "PatternMatcher{PREFIX: /Pages/Card}"
+          AutoVerify=false
+      http:
+        892e295 com.gelakinetic.mtgfam/.FamiliarActivity filter 1a9c16e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "card"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "multiverseid": -1
+          Authority: "gatherer.wizards.com": -1
+          Authority: "gatherer.wizards.com": -1
+          Path: "PatternMatcher{PREFIX: /}"
+          Path: "PatternMatcher{PREFIX: /Pages/Card}"
+          Path: "PatternMatcher{PREFIX: /Pages/Card}"
+          AutoVerify=false
+      https:
+        892e295 com.gelakinetic.mtgfam/.FamiliarActivity filter 1a9c16e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "card"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "multiverseid": -1
+          Authority: "gatherer.wizards.com": -1
+          Authority: "gatherer.wizards.com": -1
+          Path: "PatternMatcher{PREFIX: /}"
+          Path: "PatternMatcher{PREFIX: /Pages/Card}"
+          Path: "PatternMatcher{PREFIX: /Pages/Card}"
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        892e295 com.gelakinetic.mtgfam/.FamiliarActivity filter 5139570
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        bd20faa com.gelakinetic.mtgfam/.MtgAppWidgetConfigure filter 74b100f
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+          AutoVerify=false
+      android.intent.action.SEARCH:
+        892e295 com.gelakinetic.mtgfam/.FamiliarActivity filter 57ef0e9
+          Action: "android.intent.action.SEARCH"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.appwidget.action.APPWIDGET_UPDATE:
+        b2a79b com.gelakinetic.mtgfam/.helpers.MTGFamiliarAppWidgetProviderDark filter b057522
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+        804c738 com.gelakinetic.mtgfam/.helpers.MTGFamiliarAppWidgetProviderLight filter 54f6bb3
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+
+Registered ContentProviders:
+  com.gelakinetic.mtgfam/.helpers.database.CardSearchProvider:
+    Provider{c0c1311 com.gelakinetic.mtgfam/.helpers.database.CardSearchProvider}
+  com.gelakinetic.mtgfam/android.support.v4.content.FileProvider:
+    Provider{f197c76 com.gelakinetic.mtgfam/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [com.gelakinetic.mtgfam.helpers.database.CardSearchProvider]:
+    Provider{c0c1311 com.gelakinetic.mtgfam/.helpers.database.CardSearchProvider}
+      applicationInfo=ApplicationInfo{b0a2277 com.gelakinetic.mtgfam}
+  [com.gelakinetic.mtgfam.FileProvider]:
+    Provider{f197c76 com.gelakinetic.mtgfam/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{b0a2277 com.gelakinetic.mtgfam}
+
+Key Set Manager:
+  [com.gelakinetic.mtgfam]
+      Signing KeySets: 61
+
+Packages:
+  Package [com.gelakinetic.mtgfam] (8db1ee4):
+    userId=10108
+    pkg=Package{10dcf4d com.gelakinetic.mtgfam}
+    codePath=/data/app/com.gelakinetic.mtgfam-1
+    resourcePath=/data/app/com.gelakinetic.mtgfam-1
+    legacyNativeLibraryDir=/data/app/com.gelakinetic.mtgfam-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=59 minSdk=15 targetSdk=27
+    versionName=3.5.5
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{b0a2277 com.gelakinetic.mtgfam}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ HAS_DOMAIN_URLS RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/com.gelakinetic.mtgfam
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-06 14:51:30
+    firstInstallTime=2022-01-06 14:51:30
+    lastUpdateTime=2022-01-06 14:51:30
+    signatures=PackageSignatures{a98ea02 [75cdbcec]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+    User 0: ceDataInode=3410438 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [com.gelakinetic.mtgfam]
+    Instruction Set: x86_64
+      path: /data/app/com.gelakinetic.mtgfam-1/base.apk
+      status: /data/app/com.gelakinetic.mtgfam-1/oat/x86_64/base.odex [compilation_filter=interpret-only, status=kOatUpT
+      oDate]
+
+
+Compiler stats:
+  [com.gelakinetic.mtgfam]
+     base.apk - 266

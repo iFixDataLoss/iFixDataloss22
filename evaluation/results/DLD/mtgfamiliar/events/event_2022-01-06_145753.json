@@ -1,0 +1,43 @@
+{
+  "stop_state": "668cbee09739abdf1a5003997a97e852", 
+  "event_str": "LongTouchEvent(duration=2000)", 
+  "tag": "2022-01-06_145753", 
+  "event": {
+    "event_type": "long_touch", 
+    "duration": 2000, 
+    "y": null, 
+    "x": null, 
+    "id": 45, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "360*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.gelakinetic.mtgfam", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          756
+        ], 
+        [
+          360, 
+          828
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focusable": false
+    }
+  }, 
+  "start_state": "6ab5a0d0e1b4b09ec4c448fe3c7497e2"
+}

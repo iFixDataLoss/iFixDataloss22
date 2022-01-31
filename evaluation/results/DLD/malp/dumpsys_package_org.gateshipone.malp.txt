@@ -1,0 +1,99 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        a69c56 org.gateshipone.malp/.application.activities.SplashActivity filter 2189f95
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      android.intent.action.VIEW:
+        b16f4d7 org.gateshipone.malp/.application.activities.AboutActivity filter 75988aa
+          Action: "android.intent.action.VIEW"
+          AutoVerify=false
+        ca9f1c4 org.gateshipone.malp/.application.activities.FanartActivity filter 63f2c9b
+          Action: "android.intent.action.VIEW"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      org.gateshipone.malp.widget.track_changed:
+        d9dd8ad org.gateshipone.malp/.application.background.WidgetProvider filter 359634c
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "org.gateshipone.malp.widget.status_changed"
+          Action: "org.gateshipone.malp.widget.track_changed"
+          Action: "org.gateshipone.malp.widget.server_disconnected"
+          AutoVerify=false
+      org.gateshipone.malp.widget.server_disconnected:
+        d9dd8ad org.gateshipone.malp/.application.background.WidgetProvider filter 359634c
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "org.gateshipone.malp.widget.status_changed"
+          Action: "org.gateshipone.malp.widget.track_changed"
+          Action: "org.gateshipone.malp.widget.server_disconnected"
+          AutoVerify=false
+      org.gateshipone.malp.widget.status_changed:
+        d9dd8ad org.gateshipone.malp/.application.background.WidgetProvider filter 359634c
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "org.gateshipone.malp.widget.status_changed"
+          Action: "org.gateshipone.malp.widget.track_changed"
+          Action: "org.gateshipone.malp.widget.server_disconnected"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_UPDATE:
+        d9dd8ad org.gateshipone.malp/.application.background.WidgetProvider filter 359634c
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "org.gateshipone.malp.widget.status_changed"
+          Action: "org.gateshipone.malp.widget.track_changed"
+          Action: "org.gateshipone.malp.widget.server_disconnected"
+          AutoVerify=false
+
+Key Set Manager:
+  [org.gateshipone.malp]
+      Signing KeySets: 100
+
+Packages:
+  Package [org.gateshipone.malp] (70827e2):
+    userId=10071
+    pkg=Package{56c0773 org.gateshipone.malp}
+    codePath=/data/app/org.gateshipone.malp-1
+    resourcePath=/data/app/org.gateshipone.malp-1
+    legacyNativeLibraryDir=/data/app/org.gateshipone.malp-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=9 minSdk=21 targetSdk=25
+    versionName=1.1.0
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{f366630 org.gateshipone.malp}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/org.gateshipone.malp
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-06 12:30:50
+    firstInstallTime=2022-01-06 12:30:51
+    lastUpdateTime=2022-01-06 12:30:51
+    signatures=PackageSignatures{66c52a9 [a163bd6f]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.WAKE_LOCK
+    install permissions:
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=3539493 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+
+
+Dexopt state:
+  [org.gateshipone.malp]
+    Instruction Set: x86
+      path: /data/app/org.gateshipone.malp-1/base.apk
+      status: /data/app/org.gateshipone.malp-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDate
+      ]
+
+
+Compiler stats:
+  [org.gateshipone.malp]
+     base.apk - 191

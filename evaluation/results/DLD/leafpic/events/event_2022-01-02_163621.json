@@ -1,0 +1,42 @@
+{
+  "stop_state": "ae1ee721fead0890234c8f398a4848f9", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_163621", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.horaapps.leafpic:id/about_author_donald_googleplus_item", 
+      "text": "GOOGLE +", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "143*63", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.horaapps.leafpic", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          184, 
+          994
+        ], 
+        [
+          327, 
+          1057
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": false
+    }, 
+    "id": 2, 
+    "event_type": "touch"
+  }, 
+  "start_state": "86263586115fb82e2210615d2672a36f"
+}

@@ -1,0 +1,10 @@
+{
+  "stop_state": "70ac4be97c5457829550f4df551fe8c2", 
+  "event_str": "IntentEvent(intent='am start com.farmerbb.notepad/com.farmerbb.notepad.MainActivity')", 
+  "tag": "2022-01-06_164012", 
+  "event": {
+    "intent": "am start com.farmerbb.notepad/com.farmerbb.notepad.MainActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "13fbaabcf49f74705a7c74fe1c43ac5c"
+}

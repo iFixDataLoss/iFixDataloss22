@@ -1,0 +1,42 @@
+{
+  "stop_state": "8474af730b1449af8609960103e4084a", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_153002", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.gelakinetic.mtgfam:id/psts_tab_title", 
+      "text": "COUNTER", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "132*69", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.gelakinetic.mtgfam", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          224, 
+          132
+        ], 
+        [
+          356, 
+          201
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": true
+    }, 
+    "id": 4, 
+    "event_type": "touch"
+  }, 
+  "start_state": "d62edb71c3bac9073bc8f23476a29c5d"
+}

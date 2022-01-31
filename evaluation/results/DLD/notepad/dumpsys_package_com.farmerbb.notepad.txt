@@ -1,0 +1,110 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Full MIME Types:
+      text/plain:
+        db9f7d1 com.farmerbb.notepad/.activity.NoteEditActivity filter a9ca2fd
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.SEND"
+          Action: "com.google.android.gm.action.AUTO_SEND"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.google.android.voicesearch.SELF_NOTE"
+          Type: "text/plain"
+          AutoVerify=false
+
+  Base MIME Types:
+      text:
+        db9f7d1 com.farmerbb.notepad/.activity.NoteEditActivity filter a9ca2fd
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.SEND"
+          Action: "com.google.android.gm.action.AUTO_SEND"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.google.android.voicesearch.SELF_NOTE"
+          Type: "text/plain"
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        e566236 com.farmerbb.notepad/.MainActivity filter 4b73354
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.APP_MAPS"
+          AutoVerify=false
+      org.chromium.arc.intent.action.CREATE_NOTE:
+        db9f7d1 com.farmerbb.notepad/.activity.NoteEditActivity filter b08abf2
+          Action: "org.chromium.arc.intent.action.CREATE_NOTE"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      android.intent.action.EDIT:
+        db9f7d1 com.farmerbb.notepad/.activity.NoteEditActivity filter a9ca2fd
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.SEND"
+          Action: "com.google.android.gm.action.AUTO_SEND"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.google.android.voicesearch.SELF_NOTE"
+          Type: "text/plain"
+          AutoVerify=false
+      android.intent.action.SEND:
+        db9f7d1 com.farmerbb.notepad/.activity.NoteEditActivity filter a9ca2fd
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.SEND"
+          Action: "com.google.android.gm.action.AUTO_SEND"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.google.android.voicesearch.SELF_NOTE"
+          Type: "text/plain"
+          AutoVerify=false
+      com.google.android.gm.action.AUTO_SEND:
+        db9f7d1 com.farmerbb.notepad/.activity.NoteEditActivity filter a9ca2fd
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.SEND"
+          Action: "com.google.android.gm.action.AUTO_SEND"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.google.android.voicesearch.SELF_NOTE"
+          Type: "text/plain"
+          AutoVerify=false
+
+Key Set Manager:
+  [com.farmerbb.notepad]
+      Signing KeySets: 63
+
+Packages:
+  Package [com.farmerbb.notepad] (8787537):
+    userId=10110
+    pkg=Package{e8adaa4 com.farmerbb.notepad}
+    codePath=/data/app/com.farmerbb.notepad-1
+    resourcePath=/data/app/com.farmerbb.notepad-1
+    legacyNativeLibraryDir=/data/app/com.farmerbb.notepad-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=100 minSdk=14 targetSdk=27
+    versionName=2.3
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{e95400d com.farmerbb.notepad}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/com.farmerbb.notepad
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-06 15:45:22
+    firstInstallTime=2022-01-06 15:45:23
+    lastUpdateTime=2022-01-06 15:45:23
+    signatures=PackageSignatures{61e6bc2 [673cd49e]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    User 0: ceDataInode=3410420 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      runtime permissions:
+
+
+Dexopt state:
+  [com.farmerbb.notepad]
+    Instruction Set: x86_64
+      path: /data/app/com.farmerbb.notepad-1/base.apk
+      status: /data/app/com.farmerbb.notepad-1/oat/x86_64/base.odex [compilation_filter=interpret-only, status=kOatUpToD
+      ate]
+
+
+Compiler stats:
+  [com.farmerbb.notepad]
+     base.apk - 100

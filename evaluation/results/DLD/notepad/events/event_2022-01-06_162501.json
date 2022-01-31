@@ -1,0 +1,42 @@
+{
+  "stop_state": "d9c9ab115523e1e7cf73fcf8ad5a1903", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_162501", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "android:id/button1", 
+      "text": "CLOSE", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "100*81", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.farmerbb.notepad", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          786, 
+          1022
+        ], 
+        [
+          886, 
+          1103
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "82b4893b4eee01399d2dab455af9617c"
+}

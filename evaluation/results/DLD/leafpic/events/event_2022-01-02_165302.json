@@ -1,0 +1,42 @@
+{
+  "stop_state": "d7217228ea9485c4fcce53fa759b35d5", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_165302", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.horaapps.leafpic:id/ll_drawer_hidden", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "450*81", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.horaapps.leafpic", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          365
+        ], 
+        [
+          450, 
+          446
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focusable": false
+    }, 
+    "id": 5, 
+    "event_type": "touch"
+  }, 
+  "start_state": "fdfcd7ea768e2320d6ab2a8690c16de5"
+}

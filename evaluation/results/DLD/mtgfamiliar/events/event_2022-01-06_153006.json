@@ -1,0 +1,42 @@
+{
+  "stop_state": "679cdff0f837414afff1166063fae4b1", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_153006", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.gelakinetic.mtgfam:id/psts_tab_title", 
+      "text": "IPG", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "69*69", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.gelakinetic.mtgfam", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          80, 
+          132
+        ], 
+        [
+          149, 
+          201
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": true
+    }, 
+    "id": 2, 
+    "event_type": "touch"
+  }, 
+  "start_state": "679cdff0f837414afff1166063fae4b1"
+}

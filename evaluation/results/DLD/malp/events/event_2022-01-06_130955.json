@@ -1,0 +1,42 @@
+{
+  "stop_state": "3b5886a08198203f41fff3d6e36c92dc", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_130955", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.gateshipone.malp:id/design_menu_item_text", 
+      "text": "App settings", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": false, 
+      "checkable": true, 
+      "size": "408*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.gateshipone.malp", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          36, 
+          770
+        ], 
+        [
+          444, 
+          842
+        ]
+      ], 
+      "class": "android.widget.CheckedTextView", 
+      "focusable": false
+    }, 
+    "id": 16, 
+    "event_type": "touch"
+  }, 
+  "start_state": "01225046b2e9db7b6916c14332712acc"
+}

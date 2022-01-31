@@ -1,0 +1,10 @@
+{
+  "stop_state": "813847306f42c5679508d32a38fa2e67", 
+  "event_str": "IntentEvent(intent='am start com.manichord.mgit/me.sheimi.sgit.RepoListActivity')", 
+  "tag": "2022-01-06_135840", 
+  "event": {
+    "intent": "am start com.manichord.mgit/me.sheimi.sgit.RepoListActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "13fbaabcf49f74705a7c74fe1c43ac5c"
+}

@@ -1,0 +1,42 @@
+{
+  "stop_state": "86263586115fb82e2210615d2672a36f", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-02_164047", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.horaapps.leafpic:id/about_author_donald_mail_item", 
+      "text": "SEND EMAIL", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "169*63", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.horaapps.leafpic", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          15, 
+          994
+        ], 
+        [
+          184, 
+          1057
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": false
+    }, 
+    "id": 1, 
+    "event_type": "touch"
+  }, 
+  "start_state": "86263586115fb82e2210615d2672a36f"
+}
