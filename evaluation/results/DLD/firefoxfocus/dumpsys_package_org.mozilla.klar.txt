@@ -1,0 +1,237 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Full MIME Types:
+      text/html:
+        68c45fd org.mozilla.klar/org.mozilla.focus.activity.MainActivity filter aa6ae5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Type: "text/html"
+          Type: "text/plain"
+          Type: "application/xhtml+xml"
+          AutoVerify=false
+      application/xhtml+xml:
+        68c45fd org.mozilla.klar/org.mozilla.focus.activity.MainActivity filter aa6ae5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Type: "text/html"
+          Type: "text/plain"
+          Type: "application/xhtml+xml"
+          AutoVerify=false
+      text/plain:
+        68c45fd org.mozilla.klar/org.mozilla.focus.activity.MainActivity filter aa6ae5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Type: "text/html"
+          Type: "text/plain"
+          Type: "application/xhtml+xml"
+          AutoVerify=false
+        68c45fd org.mozilla.klar/org.mozilla.focus.activity.MainActivity filter 73f79ba
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+        5bb12f2 org.mozilla.klar/org.mozilla.focus.activity.TextActionActivity filter cf9b06b
+          Action: "android.intent.action.PROCESS_TEXT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+
+  Base MIME Types:
+      text:
+        68c45fd org.mozilla.klar/org.mozilla.focus.activity.MainActivity filter aa6ae5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Type: "text/html"
+          Type: "text/plain"
+          Type: "application/xhtml+xml"
+          AutoVerify=false
+        68c45fd org.mozilla.klar/org.mozilla.focus.activity.MainActivity filter aa6ae5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Type: "text/html"
+          Type: "text/plain"
+          Type: "application/xhtml+xml"
+          AutoVerify=false
+        68c45fd org.mozilla.klar/org.mozilla.focus.activity.MainActivity filter 73f79ba
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+        5bb12f2 org.mozilla.klar/org.mozilla.focus.activity.TextActionActivity filter cf9b06b
+          Action: "android.intent.action.PROCESS_TEXT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+      application:
+        68c45fd org.mozilla.klar/org.mozilla.focus.activity.MainActivity filter aa6ae5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Type: "text/html"
+          Type: "text/plain"
+          Type: "application/xhtml+xml"
+          AutoVerify=false
+
+  Schemes:
+      http:
+        68c45fd org.mozilla.klar/org.mozilla.focus.activity.MainActivity filter 55109dc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          AutoVerify=false
+        68c45fd org.mozilla.klar/org.mozilla.focus.activity.MainActivity filter aa6ae5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Type: "text/html"
+          Type: "text/plain"
+          Type: "application/xhtml+xml"
+          AutoVerify=false
+      https:
+        68c45fd org.mozilla.klar/org.mozilla.focus.activity.MainActivity filter 55109dc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          AutoVerify=false
+        68c45fd org.mozilla.klar/org.mozilla.focus.activity.MainActivity filter aa6ae5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Type: "text/html"
+          Type: "text/plain"
+          Type: "application/xhtml+xml"
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        68c45fd org.mozilla.klar/org.mozilla.focus.activity.MainActivity filter 1797e4f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        68c45fd org.mozilla.klar/org.mozilla.focus.activity.MainActivity filter 73f79ba
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+      android.intent.action.VIEW:
+        68c45fd org.mozilla.klar/org.mozilla.focus.activity.MainActivity filter aa6ae5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Type: "text/html"
+          Type: "text/plain"
+          Type: "application/xhtml+xml"
+          AutoVerify=false
+      android.intent.action.PROCESS_TEXT:
+        5bb12f2 org.mozilla.klar/org.mozilla.focus.activity.TextActionActivity filter cf9b06b
+          Action: "android.intent.action.PROCESS_TEXT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.support.customtabs.action.CustomTabsService:
+        998fd43 org.mozilla.klar/org.mozilla.focus.customtabs.CustomTabsService filter 17000ae
+          Action: "android.support.customtabs.action.CustomTabsService"
+          AutoVerify=false
+
+Registered ContentProviders:
+  org.mozilla.klar/android.arch.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{8206fc0 org.mozilla.klar/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+  org.mozilla.klar/android.support.v4.content.FileProvider:
+    Provider{65c44f9 org.mozilla.klar/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [org.mozilla.klar.lifecycle-trojan]:
+    Provider{8206fc0 org.mozilla.klar/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{3e36c3e org.mozilla.klar}
+  [org.mozilla.klar.fileprovider]:
+    Provider{65c44f9 org.mozilla.klar/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{3e36c3e org.mozilla.klar}
+
+Key Set Manager:
+  [org.mozilla.klar]
+      Signing KeySets: 111
+
+Packages:
+  Package [org.mozilla.klar] (8c42a9f):
+    userId=10082
+    pkg=Package{67cc7ec org.mozilla.klar}
+    codePath=/data/app/org.mozilla.klar-1
+    resourcePath=/data/app/org.mozilla.klar-1
+    legacyNativeLibraryDir=/data/app/org.mozilla.klar-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=13420901 minSdk=21 targetSdk=26
+    versionName=4.0
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{3e36c3e org.mozilla.klar}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ HAS_DOMAIN_URLS RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/org.mozilla.klar
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-06 18:47:56
+    firstInstallTime=2022-01-06 18:47:56
+    lastUpdateTime=2022-01-06 18:47:56
+    signatures=PackageSignatures{49337b5 [c9196a51]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.WRITE_EXTERNAL_STORAGE
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+    User 0: ceDataInode=3539540 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [org.mozilla.klar]
+    Instruction Set: x86
+      path: /data/app/org.mozilla.klar-1/base.apk
+      status: /data/app/org.mozilla.klar-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDate]
+
+
+Compiler stats:
+  [org.mozilla.klar]
+     base.apk - 167

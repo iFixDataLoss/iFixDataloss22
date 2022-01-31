@@ -1,0 +1,42 @@
+{
+  "stop_state": "d5339f2a80cf48d446d2af65e863b2b1", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_173838", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "de.tap.easy_xkcd:id/design_menu_item_text", 
+      "text": "About", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": false, 
+      "checkable": true, 
+      "size": "408*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.tap.easy_xkcd", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          36, 
+          623
+        ], 
+        [
+          444, 
+          695
+        ]
+      ], 
+      "class": "android.widget.CheckedTextView", 
+      "focusable": false
+    }, 
+    "id": 12, 
+    "event_type": "touch"
+  }, 
+  "start_state": "936bfd898228c19db687052c111f2992"
+}

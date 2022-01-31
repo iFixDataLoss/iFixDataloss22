@@ -1,0 +1,51 @@
+{
+  "stop_state": "c9abb748afb0cdb1d6ad75671d3c24f8", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-06_200949", 
+  "event": {
+    "views_str": [
+      "f6d8fd27ba88fbbfa1b6cdd6d7566554"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "android:id/checkbox", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*48", 
+        "checked": false, 
+        "temp_id": 24, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox", 
+        "is_password": false, 
+        "parent": 19, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "net.fred.feedex", 
+        "long_clickable": false, 
+        "view_str": "f6d8fd27ba88fbbfa1b6cdd6d7566554", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1864, 
+            150
+          ], 
+          [
+            1912, 
+            198
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox[text]None[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "c9abb748afb0cdb1d6ad75671d3c24f8"
+}

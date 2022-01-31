@@ -1,0 +1,127 @@
+{
+  "stop_state": "09014f9870d1ed1d145862edf658c264", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-06_175520", 
+  "event": {
+    "views_str": [
+      "15b30edfde900b842f4845f3bc4c2b56", 
+      "15b30edfde900b842f4845f3bc4c2b56", 
+      "15b30edfde900b842f4845f3bc4c2b56"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": "Sync calendar", 
+        "resource_id": "ws.xsoh.etar:id/sync", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*48", 
+        "checked": true, 
+        "temp_id": 31, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]ws.xsoh.etar:id/sync", 
+        "is_password": false, 
+        "parent": 26, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "ws.xsoh.etar", 
+        "long_clickable": false, 
+        "view_str": "15b30edfde900b842f4845f3bc4c2b56", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1851, 
+            156
+          ], 
+          [
+            1899, 
+            204
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]ws.xsoh.etar:id/sync[text]None[enabled,checked,]"
+      }, 
+      {
+        "content_description": "Sync calendar", 
+        "resource_id": "ws.xsoh.etar:id/sync", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*48", 
+        "checked": true, 
+        "temp_id": 37, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]ws.xsoh.etar:id/sync", 
+        "is_password": false, 
+        "parent": 32, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "ws.xsoh.etar", 
+        "long_clickable": false, 
+        "view_str": "15b30edfde900b842f4845f3bc4c2b56", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1851, 
+            254
+          ], 
+          [
+            1899, 
+            302
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]ws.xsoh.etar:id/sync[text]None[enabled,checked,]"
+      }, 
+      {
+        "content_description": "Sync calendar", 
+        "resource_id": "ws.xsoh.etar:id/sync", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*48", 
+        "checked": true, 
+        "temp_id": 43, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]ws.xsoh.etar:id/sync", 
+        "is_password": false, 
+        "parent": 38, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "ws.xsoh.etar", 
+        "long_clickable": false, 
+        "view_str": "15b30edfde900b842f4845f3bc4c2b56", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1851, 
+            352
+          ], 
+          [
+            1899, 
+            400
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]ws.xsoh.etar:id/sync[text]None[enabled,checked,]"
+      }
+    ]
+  }, 
+  "start_state": "09014f9870d1ed1d145862edf658c264"
+}

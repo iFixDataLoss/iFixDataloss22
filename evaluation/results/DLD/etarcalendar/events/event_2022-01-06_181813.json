@@ -1,0 +1,42 @@
+{
+  "stop_state": "343fe9b6b30170557d76a4f5e7f64b59", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_181813", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "android:id/content", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "768*127", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "ws.xsoh.etar", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          516
+        ], 
+        [
+          768, 
+          643
+        ]
+      ], 
+      "class": "android.widget.GridLayout", 
+      "focusable": false
+    }, 
+    "id": 3, 
+    "event_type": "touch"
+  }, 
+  "start_state": "a2c692d58acd6489b1f329a2c803d882"
+}

@@ -1,0 +1,42 @@
+{
+  "stop_state": "b99fe20d3e96d43f068b39f011527f9a", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-12-31_160223", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "android:id/button2", 
+      "text": "CANCEL", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "213*135", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "nl.asymmetrics.droidshows", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          581, 
+          1255
+        ], 
+        [
+          794, 
+          1390
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "9de8c6adb48be75dea6443dd1b7b1485"
+}

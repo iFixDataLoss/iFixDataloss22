@@ -1,0 +1,10 @@
+{
+  "stop_state": "3cb0fd8d4ea2cef58be65097bfec5ecf", 
+  "event_str": "IntentEvent(intent='am start ws.xsoh.etar/com.android.calendar.AllInOneActivity')", 
+  "tag": "2022-01-06_180349", 
+  "event": {
+    "intent": "am start ws.xsoh.etar/com.android.calendar.AllInOneActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "c705f66114105927a9e0c609c7dcb49c"
+}

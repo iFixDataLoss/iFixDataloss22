@@ -1,0 +1,10 @@
+{
+  "stop_state": "8b143ab20ade2eb31636b62268958d85", 
+  "event_str": "IntentEvent(intent='am start org.billthefarmer.diary/org.billthefarmer.diary.Diary')", 
+  "tag": "2022-01-05_152458", 
+  "event": {
+    "intent": "am start org.billthefarmer.diary/org.billthefarmer.diary.Diary", 
+    "event_type": "intent"
+  }, 
+  "start_state": "946bb7bdf6e615e6b5ad994ff482186b"
+}

@@ -1,0 +1,42 @@
+{
+  "stop_state": "1e645f028f2e34b25873d0560ce6d0aa", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_184519", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Color picker", 
+      "resource_id": "ws.xsoh.etar:id/color", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "48*48", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "ws.xsoh.etar", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          660, 
+          156
+        ], 
+        [
+          708, 
+          204
+        ]
+      ], 
+      "class": "android.widget.QuickContactBadge", 
+      "focusable": false
+    }, 
+    "id": 4, 
+    "event_type": "touch"
+  }, 
+  "start_state": "fa48519b1c7cd5b8b31300665ca7df41"
+}

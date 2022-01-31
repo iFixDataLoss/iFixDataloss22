@@ -1,0 +1,43 @@
+{
+  "stop_state": "6d377184e9e21c6bcff636aac3c9ecc0", 
+  "event_str": "LongTouchEvent(duration=2000)", 
+  "tag": "2021-12-31_155751", 
+  "event": {
+    "event_type": "long_touch", 
+    "duration": 2000, 
+    "y": null, 
+    "x": null, 
+    "id": 12, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "nl.asymmetrics.droidshows:id/search_text", 
+      "text": "HelloWorldtest123", 
+      "editable": true, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": true, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "922*102", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "nl.asymmetrics.droidshows", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          231
+        ], 
+        [
+          922, 
+          333
+        ]
+      ], 
+      "class": "android.widget.EditText", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "6d377184e9e21c6bcff636aac3c9ecc0"
+}

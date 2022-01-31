@@ -1,0 +1,43 @@
+{
+  "stop_state": "c0bb7ee0e2492dcf119db3c40d82f612", 
+  "event_str": "LongTouchEvent(duration=2000)", 
+  "tag": "2022-01-06_181652", 
+  "event": {
+    "event_type": "long_touch", 
+    "duration": 2000, 
+    "y": null, 
+    "x": null, 
+    "id": 11, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "ws.xsoh.etar:id/when_datetime", 
+      "text": "Saturday, January 1", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "284*37", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "ws.xsoh.etar", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          792, 
+          238
+        ], 
+        [
+          1076, 
+          275
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "c0bb7ee0e2492dcf119db3c40d82f612"
+}

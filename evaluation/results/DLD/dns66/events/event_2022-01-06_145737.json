@@ -1,0 +1,42 @@
+{
+  "stop_state": "abcc9ad9171f209d927c3484bbf4ce20", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_145737", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.jak_linux.dns66:id/item_enabled", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "48*48", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.jak_linux.dns66", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          96, 
+          531
+        ], 
+        [
+          144, 
+          579
+        ]
+      ], 
+      "class": "android.widget.ImageView", 
+      "focusable": false
+    }, 
+    "id": 3, 
+    "event_type": "touch"
+  }, 
+  "start_state": "abcc9ad9171f209d927c3484bbf4ce20"
+}

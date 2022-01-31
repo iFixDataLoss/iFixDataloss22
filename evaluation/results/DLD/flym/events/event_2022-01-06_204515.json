@@ -1,0 +1,42 @@
+{
+  "stop_state": "4687e8ccfa7d84b930d45ca441428e63", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_204515", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "435*88", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "net.fred.feedex", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          381
+        ], 
+        [
+          435, 
+          469
+        ]
+      ], 
+      "class": "android.widget.RelativeLayout", 
+      "focusable": false
+    }, 
+    "id": 4, 
+    "event_type": "touch"
+  }, 
+  "start_state": "d1ee6b1165860b22d703506c7a5e69b2"
+}

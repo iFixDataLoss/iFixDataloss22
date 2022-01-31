@@ -1,0 +1,42 @@
+{
+  "stop_state": "c8161e9385f647fe1ba07c65ecb89f58", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-12-31_171740", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "nl.asymmetrics.droidshows:id/latest_season", 
+      "text": "Update shows' latest season only", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": true, 
+      "size": "936*90", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "nl.asymmetrics.droidshows", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          72, 
+          487
+        ], 
+        [
+          1008, 
+          577
+        ]
+      ], 
+      "class": "android.widget.CheckBox", 
+      "focusable": false
+    }, 
+    "id": 12, 
+    "event_type": "touch"
+  }, 
+  "start_state": "8e32fdec1ac1a94f602455fc1f6ecc76"
+}

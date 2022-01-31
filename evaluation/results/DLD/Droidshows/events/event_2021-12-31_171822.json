@@ -1,0 +1,10 @@
+{
+  "stop_state": "f2c12e3f7d116e4673a77c4efc390dc5", 
+  "event_str": "IntentEvent(intent='am start nl.asymmetrics.droidshows/nl.asymmetrics.droidshows.DroidShows')", 
+  "tag": "2021-12-31_171822", 
+  "event": {
+    "intent": "am start nl.asymmetrics.droidshows/nl.asymmetrics.droidshows.DroidShows", 
+    "event_type": "intent"
+  }, 
+  "start_state": "e34da8af2a0f590597b7ccfca8733cee"
+}

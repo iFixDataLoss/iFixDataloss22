@@ -1,0 +1,317 @@
+{
+  "stop_state": "8e32fdec1ac1a94f602455fc1f6ecc76", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-12-31_155003", 
+  "event": {
+    "views_str": [
+      "400f9b79ec3d94f9cff12d45f62e82dd", 
+      "0d88447efc96777e37fa53b96adef37d", 
+      "eb118c0f1c573e1aa23c73ae4ae08a23", 
+      "63de2282f1ef82747d09f7ec721919ae", 
+      "5dbcca15d3fe1aeda8bfea7512ab8fa3", 
+      "b6510fc4fe1bedc8a5fb52daf0571fb7", 
+      "48a9f9ba8271eaa2ef00d241a878e3c2", 
+      "3bedd93db31f2b5b31ef2bd5f927980d"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "nl.asymmetrics.droidshows:id/auto_backup", 
+        "text": "Automatically perform daily backups", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "936*90", 
+        "checked": false, 
+        "temp_id": 14, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]nl.asymmetrics.droidshows:id/auto_backup", 
+        "is_password": false, 
+        "parent": 10, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "nl.asymmetrics.droidshows", 
+        "long_clickable": false, 
+        "view_str": "400f9b79ec3d94f9cff12d45f62e82dd", 
+        "enabled": true, 
+        "bounds": [
+          [
+            72, 
+            397
+          ], 
+          [
+            1008, 
+            487
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]nl.asymmetrics.droidshows:id/auto_backup[text]Automatically perform daily backups[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "nl.asymmetrics.droidshows:id/latest_season", 
+        "text": "Update shows' latest season only", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "936*90", 
+        "checked": true, 
+        "temp_id": 15, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]nl.asymmetrics.droidshows:id/latest_season", 
+        "is_password": false, 
+        "parent": 10, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "nl.asymmetrics.droidshows", 
+        "long_clickable": false, 
+        "view_str": "0d88447efc96777e37fa53b96adef37d", 
+        "enabled": true, 
+        "bounds": [
+          [
+            72, 
+            487
+          ], 
+          [
+            1008, 
+            577
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]nl.asymmetrics.droidshows:id/latest_season[text]Update shows' latest season only[enabled,checked,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "nl.asymmetrics.droidshows:id/show_next_airing", 
+        "text": "Show date of next airing episode, instead of next episode's date", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "936*99", 
+        "checked": false, 
+        "temp_id": 16, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]nl.asymmetrics.droidshows:id/show_next_airing", 
+        "is_password": false, 
+        "parent": 10, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "nl.asymmetrics.droidshows", 
+        "long_clickable": false, 
+        "view_str": "eb118c0f1c573e1aa23c73ae4ae08a23", 
+        "enabled": true, 
+        "bounds": [
+          [
+            72, 
+            577
+          ], 
+          [
+            1008, 
+            676
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]nl.asymmetrics.droidshows:id/show_next_airing[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "nl.asymmetrics.droidshows:id/mark_from_last_watched", 
+        "text": "Mark next episode starting from the most recently watched", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "936*99", 
+        "checked": false, 
+        "temp_id": 17, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]nl.asymmetrics.droidshows:id/mark_from_last_watched", 
+        "is_password": false, 
+        "parent": 10, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "nl.asymmetrics.droidshows", 
+        "long_clickable": false, 
+        "view_str": "63de2282f1ef82747d09f7ec721919ae", 
+        "enabled": true, 
+        "bounds": [
+          [
+            72, 
+            676
+          ], 
+          [
+            1008, 
+            775
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]nl.asymmetrics.droidshows:id/mark_from_last_watched[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "nl.asymmetrics.droidshows:id/include_specials", 
+        "text": "Include specials in unwatched count", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "936*90", 
+        "checked": false, 
+        "temp_id": 18, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]nl.asymmetrics.droidshows:id/include_specials", 
+        "is_password": false, 
+        "parent": 10, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "nl.asymmetrics.droidshows", 
+        "long_clickable": false, 
+        "view_str": "5dbcca15d3fe1aeda8bfea7512ab8fa3", 
+        "enabled": true, 
+        "bounds": [
+          [
+            72, 
+            775
+          ], 
+          [
+            1008, 
+            865
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]nl.asymmetrics.droidshows:id/include_specials[text]Include specials in unwatched count[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "nl.asymmetrics.droidshows:id/full_line_check", 
+        "text": "Use entire line to mark episode", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "936*90", 
+        "checked": false, 
+        "temp_id": 19, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]nl.asymmetrics.droidshows:id/full_line_check", 
+        "is_password": false, 
+        "parent": 10, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "nl.asymmetrics.droidshows", 
+        "long_clickable": false, 
+        "view_str": "b6510fc4fe1bedc8a5fb52daf0571fb7", 
+        "enabled": true, 
+        "bounds": [
+          [
+            72, 
+            865
+          ], 
+          [
+            1008, 
+            955
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]nl.asymmetrics.droidshows:id/full_line_check[text]Use entire line to mark episode[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "nl.asymmetrics.droidshows:id/switch_swipe_direction", 
+        "text": "Swipe right-to-left to go back", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "936*90", 
+        "checked": false, 
+        "temp_id": 20, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]nl.asymmetrics.droidshows:id/switch_swipe_direction", 
+        "is_password": false, 
+        "parent": 10, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "nl.asymmetrics.droidshows", 
+        "long_clickable": false, 
+        "view_str": "48a9f9ba8271eaa2ef00d241a878e3c2", 
+        "enabled": true, 
+        "bounds": [
+          [
+            72, 
+            955
+          ], 
+          [
+            1008, 
+            1045
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]nl.asymmetrics.droidshows:id/switch_swipe_direction[text]Swipe right-to-left to go back[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "nl.asymmetrics.droidshows:id/use_mirror", 
+        "text": "Use TheTVDB mirror (try this if updates are too slow)", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "936*99", 
+        "checked": false, 
+        "temp_id": 21, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]nl.asymmetrics.droidshows:id/use_mirror", 
+        "is_password": false, 
+        "parent": 10, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "nl.asymmetrics.droidshows", 
+        "long_clickable": false, 
+        "view_str": "3bedd93db31f2b5b31ef2bd5f927980d", 
+        "enabled": true, 
+        "bounds": [
+          [
+            72, 
+            1045
+          ], 
+          [
+            1008, 
+            1144
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]nl.asymmetrics.droidshows:id/use_mirror[text]None[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "914105be82b38a28a9e53d8d88514692"
+}

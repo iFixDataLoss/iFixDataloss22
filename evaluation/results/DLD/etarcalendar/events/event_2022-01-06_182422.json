@@ -1,0 +1,42 @@
+{
+  "stop_state": "09014f9870d1ed1d145862edf658c264", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_182422", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Color 11", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "96*96", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "ws.xsoh.etar", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          972, 
+          484
+        ], 
+        [
+          1068, 
+          580
+        ]
+      ], 
+      "class": "android.widget.FrameLayout", 
+      "focusable": false
+    }, 
+    "id": 8, 
+    "event_type": "touch"
+  }, 
+  "start_state": "1e645f028f2e34b25873d0560ce6d0aa"
+}

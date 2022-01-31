@@ -1,0 +1,42 @@
+{
+  "stop_state": "669fffcaa98d8defe2fbc3284548cb90", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_203323", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Times - World, Open navigation drawer", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "239*84", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "net.fred.feedex", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          36
+        ], 
+        [
+          239, 
+          120
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "b9c3d4e2cd64082a4ebdd3ce29d36f83"
+}

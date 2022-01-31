@@ -1,0 +1,42 @@
+{
+  "stop_state": "4c316e75404eb1122628e937b7d0373b", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-12-31_165929", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "android:id/button1", 
+      "text": "OK", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "180*135", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "nl.asymmetrics.droidshows", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          794, 
+          1255
+        ], 
+        [
+          974, 
+          1390
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 1, 
+    "event_type": "touch"
+  }, 
+  "start_state": "9de8c6adb48be75dea6443dd1b7b1485"
+}

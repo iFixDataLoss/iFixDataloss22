@@ -1,0 +1,42 @@
+{
+  "stop_state": "bee4627b84d464be0704829ccaaf41a8", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_203734", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "android:id/icon", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "48*90", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "net.fred.feedex", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          8, 
+          129
+        ], 
+        [
+          56, 
+          219
+        ]
+      ], 
+      "class": "android.widget.ImageView", 
+      "focusable": false
+    }, 
+    "id": 1, 
+    "event_type": "touch"
+  }, 
+  "start_state": "994855015da3884e1f2b2241d4039e43"
+}

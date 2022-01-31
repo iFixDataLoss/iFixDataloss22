@@ -1,0 +1,312 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        57cf145 nl.asymmetrics.droidshows/.DroidShows filter b6b1f21
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      android.intent.action.SEARCH:
+        813f09a nl.asymmetrics.droidshows/.ui.AddSerie filter 49e7f46
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+
+Key Set Manager:
+  [nl.asymmetrics.droidshows]
+      Signing KeySets: 178
+
+Packages:
+  Package [nl.asymmetrics.droidshows] (4e88dcb):
+    userId=10382
+    pkg=Package{83a69a8 nl.asymmetrics.droidshows}
+    codePath=/data/app/nl.asymmetrics.droidshows-FAo_1ORj1eO4Mycxv0cVYQ==
+    resourcePath=/data/app/nl.asymmetrics.droidshows-FAo_1ORj1eO4Mycxv0cVYQ==
+    legacyNativeLibraryDir=/data/app/nl.asymmetrics.droidshows-FAo_1ORj1eO4Mycxv0cVYQ==/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=797 minSdk=9 targetSdk=21
+    versionName=7.9.7
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{d005cc1 nl.asymmetrics.droidshows}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE ]
+    dataDir=/data/user/0/nl.asymmetrics.droidshows
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2021-12-31 16:27:44
+    firstInstallTime=2021-12-31 16:27:57
+    lastUpdateTime=2021-12-31 16:27:57
+    signatures=PackageSignatures{3b07c66 version:2, signatures:[e4685e1d], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.VIBRATE
+      android.permission.WRITE_CALENDAR
+      android.permission.WRITE_EXTERNAL_STORAGE: restricted=true
+      android.permission.READ_EXTERNAL_STORAGE: restricted=true
+      android.permission.ACCESS_MEDIA_LOCATION
+    install permissions:
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+    User 0: ceDataInode=593973 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0 instant=false virtual=false
+    overlay paths:
+      /product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ REVOKE_ON_UPGRADE|REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.WRITE_CALENDAR: granted=true, flags=[ REVOKE_ON_UPGRADE|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ REVOKE_ON_UPGRADE|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=true, flags=[ REVOKE_ON_UPGRADE|REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+SkippingApks:
+  name : 100Game_PERSONAL_4x4_PF36_2009_2.0.2.apk
+  name : ASKSManager.apk
+  name : ATTThanks_VPL_ATT.apk
+  name : AccessTmobile_TMO.apk
+  name : Adalyst_ZTA.apk
+  name : AdaptClient.apk
+  name : AdvancedCalling.apk
+  name : AmazonMDIP_CAN.apk
+  name : AmazonMDIP_USA.apk
+  name : AmazonShopping_AIO.apk
+  name : AmazonShopping_CAN.apk
+  name : AmazonShopping_USA.apk
+  name : AmazonVideo_SPR_stub.apk
+  name : Amazon_Shopping.apk
+  name : AppLock.apk
+  name : AppSelect_ATT.apk
+  name : AttCNN_vpl_ATT.apk
+  name : AttIqi_ATT.apk
+  name : AttSmartHelp_ATT.apk
+  name : BellTVWidget.apk
+  name : BleacherReport_vpl_ATT.apk
+  name : CHENotification_4.1.apk
+  name : CLAROAPPS_STUB_1_0_0.apk
+  name : CallGuardian_uscc.apk
+  name : CallProtect_ATT.apk
+  name : CallingPlus.apk
+  name : CarrierDeviceManager.apk
+  name : CarrierWifi.apk
+  name : Chameleon2.apk
+  name : ClaroContenedor_Stub.apk
+  name : DMAT_Stub.apk
+  name : Deezer.apk
+  name : DeviceCheckup_TLS.apk
+  name : DirectvNow_VPL_ATT.apk
+  name : DriveMode_hvpl_ATT.apk
+  name : DumpCollector.apk
+  name : EWidgetATT.apk
+  name : EmergencyAlert.apk
+  name : Entel_Peru_3.10.4.apk
+  name : FBInstagram_stub.apk
+  name : FBMessenger_stub.apk
+  name : Fast.apk
+  name : GOTConquest_VPL_ATT.apk
+  name : HancomOfficeEditor_Hidden_Install.apk
+  name : HuxExtension.apk
+  name : Ignite-uscc.apk
+  name : IgniteVerizon.apk
+  name : Ignite_AIO.apk
+  name : JanskySettings.apk
+  name : LLKAgent.apk
+  name : LocationAgent.apk
+  name : LoginClientUnbranded.apk
+  name : LoginClientUnbranded_sku.apk
+  name : LookoutFull_SPR.apk
+  name : Lookout_ATT.apk
+  name : Lookout_MTR.apk
+  name : Lookout_TMO.apk
+  name : MDIP_phone_1.0.51.apk
+  name : MHSWrapperMTR.apk
+  name : MHSWrapperUSC.apk
+  name : MShopAndroidPhoneApp-16.5.0.100-build16.0.201246.0-patron-release-releasesigned.apk
+  name : MaftPreloadManagerAndroidApp-release-signed-tagged-TelefonicaLATAM.apk
+  name : MaftPreloadManagerAndroidApp-release-signed-tagged-movistarmx.apk
+  name : MetroAppStore_MTR.apk
+  name : MetroZone_MTR.apk
+  name : MeuTIM.apk
+  name : MiTigoBolivia.apk
+  name : MinhaOi.apk
+  name : MnoDmClient.apk
+  name : MnoDmViewer.apk
+  name : MobileID.apk
+  name : MobileInstaller.apk
+  name : MobileKey_ATT.apk
+  name : MobileSecurity_ATT.apk
+  name : MovitarPlayTGU_b_stub_v1.1_20180517.apk
+  name : MyATT_ATT.apk
+  name : MyAccount_FMC.apk
+  name : MyAccount_GLW.apk
+  name : MyAccount_VMC.apk
+  name : MyBell.apk
+  name : MyCricket_AIO.apk
+  name : MyMetro_MTR.apk
+  name : MyRogers.apk
+  name : MyTELUS.apk
+  name : MyVerizonMobile.apk
+  name : MyVerizonService.apk
+  name : Mychatr.apk
+  name : NameIDVPL_TMO.apk
+  name : NameID_MTR.apk
+  name : NaverV_N.apk
+  name : NextRadio_vpl_AIO.apk
+  name : OBDM_Permissions.apk
+  name : OiApps.apk
+  name : OiAppsClube.apk
+  name : OiRecarga.apk
+  name : OiWiFi.apk
+  name : OmadmSpr.apk
+  name : OmadmSprHm.apk
+  name : OneTalkDialer.apk
+  name : PhoneInfo2.apk
+  name : Push_To_Talk_BMC.apk
+  name : QAS_DVC_MSP_VZW.apk
+  name : QoSIndicator_ATT.apk
+  name : RemoteSupport_ATT.apk
+  name : SDMHiddenMenu.apk
+  name : SNP_stub.apk
+  name : SamsungConcierge.apk
+  name : SamsungNACloudDreamNewIcon.apk
+  name : SamsungPayStub.apk
+  name : SecVVM_dream.apk
+  name : SecVVM_v2.apk
+  name : SecVVM_v3.apk
+  name : SelfCareMobile-6.0.3-prod-signed.apk
+  name : SimLock_MTR.apk
+  name : SimLock_TMO.apk
+  name : SmartHelp_ATT.apk
+  name : SmartWifi_Stub_ATT.apk
+  name : Smartapps.apk
+  name : SpectrumCM.apk
+  name : SprWfc.apk
+  name : SprintAndroidExtension2.apk
+  name : SprintCallerID.apk
+  name : SprintCallerID02.apk
+  name : SprintHub.apk
+  name : SprintZone.apk
+  name : TIMBackup.apk
+  name : TIMmusic.apk
+  name : TelcelContenedorStub.apk
+  name : TheScoop_AIO.apk
+  name : TigoMoney.apk
+  name : TigoShop.apk
+  name : TigoSports.apk
+  name : TmoVVM.apk
+  name : TonosDeEspera_v2.0_20180123_omc_tgu_only.apk
+  name : UnifiedSettingService.apk
+  name : UnifiedTetheringProvision.apk
+  name : UnifiedVVM.apk
+  name : Upday.apk
+  name : UserManual.apk
+  name : VMS_stub.apk
+  name : VZWAPNService_VZW.apk
+  name : VZWAPNService_sku.apk
+  name : VisualVoiceMail_CHA_stub.apk
+  name : VisualVoiceMail_HUX_CCT_stub.apk
+  name : VisualVoiceMail_TFN_stub.apk
+  name : VisualVoiceMail_VZW_stub.apk
+  name : VisualVoicemailSpr.apk
+  name : VivoAppsClube.apk
+  name : VivoMaisApps.apk
+  name : Voicemail_AIO.apk
+  name : VzCloud.apk
+  name : VzwImsApiService.apk
+  name : amazon_shopping_16.4.0.100
+  name : appcloud_oobe_digicel-release_V2.17.3.apk
+  name : apps_brasil_signed_aligned.apk
+  name : bits_2-0-0.apk
+  name : canid_stub.apk
+  name : com.customermobile.preload.vzw.apk
+  name : entelPlay_20122016.apk
+  name : instagram-stub.apk
+  name : instagram-stub_27.2.0.apk
+  name : kolbi-3-13-2.apk
+  name : koodo.apk
+  name : messenger-stub.apk
+  name : messenger-stub_27.2.0.apk
+  name : miTelcel_Stub.apk
+  name : mySaskTel.apk
+  name : myflow-release6-1-118.apk
+  name : noticias_aro_52.apk
+  name : ready2Go_ATT.apk
+  name : samsung_club_bo_4.3.4.apk
+  name : samsung_club_uy_access_release_v1_3.apk
+  name : samsung_concierge_argentina_stub.apk
+  name : samsungclub_py.apk
+  name : samsungclub_py_v3.3.4.apk
+  name : samsungclub_uy.apk
+  name : talkback.apk
+  name : tickantel_1-6-5.apk
+  name : veramas_1-15-5.apk
+  name : veratv_2-1-3.apk
+  name : videotron_usercentre_plus.apk
+  name : virginmobile_mybenefits.apk
+  name : vzw_msdc_api.apk
+  name : wssyncmldm.apk
+  name : xtra_t_app.apk
+
+Package Changes:
+  Sequence number=86
+  User 0:
+    seq=0, package=com.google.android.modulemetadata
+    seq=1, package=com.google.android.documentsui
+    seq=9, package=com.microsoft.appmanager
+    seq=22, package=com.android.traceur
+    seq=26, package=com.google.android.gms
+    seq=33, package=com.arduia.expense
+    seq=59, package=com.alaskalinuxuser.hourglass
+    seq=63, package=com.github.xloem.qrstream
+    seq=73, package=com.ringdroid
+    seq=83, package=com.facebook.appmanager
+    seq=84, package=io.github.ylimit.droidbotapp
+    seq=85, package=nl.asymmetrics.droidshows
+
+
+Dexopt state:
+  [nl.asymmetrics.droidshows]
+    path: /data/app/nl.asymmetrics.droidshows-FAo_1ORj1eO4Mycxv0cVYQ==/base.apk
+      arm64: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [nl.asymmetrics.droidshows]
+    (No recorded stats)
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+  APEX session state:
+    Session ID: 1889451552
+      State: SUCCESS
+
+Active install Logging info:
+  []
+    1640919303513: "Ver":"", "Session":"0", 
+
+Historical install Logging info(9/10):
+  [nl.asymmetrics.droidshows]
+    1640939264018: "Ver":"797", "Session":"0", "Write":"14", "Commit":"63", "Stage":"3", "Init":"54", "Verified(Unknown)
+    ":"12844", "Copy":"17", "Sign":"5", "DexOpt":"69", 
+  [com.ringdroid]
+    1640933605155: "Ver":"20704", "Session":"0", "Write":"5", "Commit":"69", "Stage":"2", "Init":"51", "Verified(Unknown
+    )":"14126", "Copy":"7", "Sign":"1", "DexOpt":"63", 
+  [com.github.xloem.qrstream]
+    1640931369877: "Ver":"9", "Session":"0", "Write":"9", "Commit":"94", "Stage":"2", "Init":"56", "Verified(Unknown)":"
+    13988", "Copy":"14", "Sign":"1", "DexOpt":"48", 
+  [io.github.ylimit.droidbotapp]
+    1640939244822: "Ver":"1", "Session":"0", "Write":"1", "Commit":"116", "Stage":"3", "Init":"77", "Verified(Unknown)":
+    "15281", "Copy":"12", "Sign":"2", "DexOpt":"85", 
+  [com.alaskalinuxuser.hourglass]
+    1640928750823: "Ver":"9", "Session":"0", "Write":"11", "Commit":"141", "Stage":"3", "Init":"75", "Verified(Unknown)"
+    :"13045", "Copy":"16", "Sign":"2", "DexOpt":"69", 

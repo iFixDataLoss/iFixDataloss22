@@ -1,0 +1,42 @@
+{
+  "stop_state": "983677097529f8521998e5adee21cc68", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-12-31_163110", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "nl.asymmetrics.droidshows:id/add_show", 
+      "text": "ADD SHOW", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "265*135", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "nl.asymmetrics.droidshows", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          407, 
+          334
+        ], 
+        [
+          672, 
+          469
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 3, 
+    "event_type": "touch"
+  }, 
+  "start_state": "6839fb024ad9813840f6799f810ea072"
+}

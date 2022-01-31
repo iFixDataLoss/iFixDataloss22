@@ -1,0 +1,10 @@
+{
+  "stop_state": "9db9e33ee7ba2663f764d14983b83e52", 
+  "event_str": "IntentEvent(intent='am start org.sufficientlysecure.viewer/org.ebookdroid.ui.library.RecentActivity')", 
+  "tag": "2022-01-06_161500", 
+  "event": {
+    "intent": "am start org.sufficientlysecure.viewer/org.ebookdroid.ui.library.RecentActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "c705f66114105927a9e0c609c7dcb49c"
+}

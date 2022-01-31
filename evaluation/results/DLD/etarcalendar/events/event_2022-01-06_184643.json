@@ -1,0 +1,42 @@
+{
+  "stop_state": "409e243fb7ca814adef10f57645b5294", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_184643", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "ws.xsoh.etar:id/design_menu_item_text", 
+      "text": "Day", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": false, 
+      "checkable": true, 
+      "size": "408*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "ws.xsoh.etar", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          36, 
+          48
+        ], 
+        [
+          444, 
+          120
+        ]
+      ], 
+      "class": "android.widget.CheckedTextView", 
+      "focusable": false
+    }, 
+    "id": 17, 
+    "event_type": "touch"
+  }, 
+  "start_state": "d26f47a2fe35b539c6343f8f48126f77"
+}

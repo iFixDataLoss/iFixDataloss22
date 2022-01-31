@@ -1,0 +1,44 @@
+{
+  "stop_state": "4f412391b862343e8cb9d18fba03304d", 
+  "event_str": "ScrollEvent(direction=UP)", 
+  "tag": "2022-01-06_181002", 
+  "event": {
+    "direction": "UP", 
+    "event_type": "scroll", 
+    "y_full_down": 1750, 
+    "y": null, 
+    "x": null, 
+    "id": 8, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "ws.xsoh.etar:id/agenda_events_list", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": true, 
+      "clickable": false, 
+      "checkable": false, 
+      "size": "768*948", 
+      "scrollable": true, 
+      "checked": false, 
+      "package": "ws.xsoh.etar", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          132
+        ], 
+        [
+          768, 
+          1080
+        ]
+      ], 
+      "class": "android.widget.ListView", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "009865772130f7d95da3364155b77926"
+}

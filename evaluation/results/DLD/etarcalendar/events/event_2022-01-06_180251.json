@@ -1,0 +1,42 @@
+{
+  "stop_state": "9bb8f5b079ea8519bc1e3671ce07e8c7", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_180251", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "ws.xsoh.etar:id/design_menu_item_text", 
+      "text": "Week", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": false, 
+      "checkable": true, 
+      "size": "408*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "ws.xsoh.etar", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          36, 
+          120
+        ], 
+        [
+          444, 
+          192
+        ]
+      ], 
+      "class": "android.widget.CheckedTextView", 
+      "focusable": false
+    }, 
+    "id": 8, 
+    "event_type": "touch"
+  }, 
+  "start_state": "2c7c83fd0fb99c75328b9133158147b2"
+}

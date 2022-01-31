@@ -1,0 +1,163 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Schemes:
+      http:
+        2ee4ed9 de.tap.easy_xkcd/.Activities.MainActivity filter 4da32f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.xkcd.com": -1
+          Authority: "xkcd.com": -1
+          Authority: "xkcd.com": -1
+          Authority: "xkcd.com": -1
+          Authority: "m.xkcd.com": -1
+          Authority: "m.xkcd.com": -1
+          AutoVerify=false
+        2ee4ed9 de.tap.easy_xkcd/.Activities.MainActivity filter e20fd3c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "what-if.xkcd.com": -1
+          Authority: "what-if.xkcd.com": -1
+          AutoVerify=false
+      https:
+        2ee4ed9 de.tap.easy_xkcd/.Activities.MainActivity filter 4da32f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.xkcd.com": -1
+          Authority: "xkcd.com": -1
+          Authority: "xkcd.com": -1
+          Authority: "xkcd.com": -1
+          Authority: "m.xkcd.com": -1
+          Authority: "m.xkcd.com": -1
+          AutoVerify=false
+        2ee4ed9 de.tap.easy_xkcd/.Activities.MainActivity filter e20fd3c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "what-if.xkcd.com": -1
+          Authority: "what-if.xkcd.com": -1
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        2ee4ed9 de.tap.easy_xkcd/.Activities.MainActivity filter 4f4f010
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      de.tap.easy_xkcd.ACTION_COMIC:
+        2ee4ed9 de.tap.easy_xkcd/.Activities.MainActivity filter 9cf4709
+          Action: "de.tap.easy_xkcd.ACTION_COMIC"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.SEARCH:
+        2ee4ed9 de.tap.easy_xkcd/.Activities.MainActivity filter 4f4f010
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+        53e09e de.tap.easy_xkcd/.Activities.SearchResultsActivity filter 99c4ac5
+          Action: "android.intent.action.SEARCH"
+          AutoVerify=false
+      de.tap.easy_xkcd.ACTION_WHAT_IF:
+        2ee4ed9 de.tap.easy_xkcd/.Activities.MainActivity filter edc2d0e
+          Action: "de.tap.easy_xkcd.ACTION_WHAT_IF"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.net.conn.CONNECTIVITY_CHANGE:
+        a5af77f de.tap.easy_xkcd/.notifications.ConnectivityReceiver filter 258470d
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          AutoVerify=false
+      android.intent.action.BOOT_COMPLETED:
+        b5e434c de.tap.easy_xkcd/com.commonsware.cwac.wakeful.AlarmReceiver filter e99da4
+          Action: "android.intent.action.BOOT_COMPLETED"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_UPDATE:
+        86bff95 de.tap.easy_xkcd/.widget.WidgetRandomProvider filter 64a66c2
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+        1968aa de.tap.easy_xkcd/.widget.WidgetLatestProvider filter 5090cd3
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+
+Registered ContentProviders:
+  de.tap.easy_xkcd/android.support.v4.content.FileProvider:
+    Provider{6318c9b de.tap.easy_xkcd/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [de.tap.easy_xkcd.fileProvider]:
+    Provider{6318c9b de.tap.easy_xkcd/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{6d24838 de.tap.easy_xkcd}
+
+Key Set Manager:
+  [de.tap.easy_xkcd]
+      Signing KeySets: 107
+
+Packages:
+  Package [de.tap.easy_xkcd] (cda0011):
+    userId=10078
+    pkg=Package{2fd6576 de.tap.easy_xkcd}
+    codePath=/data/app/de.tap.easy_xkcd-1
+    resourcePath=/data/app/de.tap.easy_xkcd-1
+    legacyNativeLibraryDir=/data/app/de.tap.easy_xkcd-1/lib
+    primaryCpuAbi=x86
+    secondaryCpuAbi=null
+    versionCode=146 minSdk=15 targetSdk=25
+    versionName=6.1.2
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{6d24838 de.tap.easy_xkcd}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ HAS_DOMAIN_URLS RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/de.tap.easy_xkcd
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-06 16:52:23
+    firstInstallTime=2022-01-06 16:52:23
+    lastUpdateTime=2022-01-06 16:52:23
+    signatures=PackageSignatures{a125777 [cec05045]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      android.permission.WAKE_LOCK
+      com.android.vending.BILLING
+    install permissions:
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=3539548 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [de.tap.easy_xkcd]
+    Instruction Set: x86
+      path: /data/app/de.tap.easy_xkcd-1/base.apk
+      status: /data/app/de.tap.easy_xkcd-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDate]
+
+
+Compiler stats:
+  [de.tap.easy_xkcd]
+     base.apk - 313

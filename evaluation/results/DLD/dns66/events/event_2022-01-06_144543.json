@@ -1,0 +1,10 @@
+{
+  "stop_state": "b9f9f8478f14aacef481e34d6f83693d", 
+  "event_str": "IntentEvent(intent='am start org.jak_linux.dns66/org.jak_linux.dns66.MainActivity')", 
+  "tag": "2022-01-06_144543", 
+  "event": {
+    "intent": "am start org.jak_linux.dns66/org.jak_linux.dns66.MainActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "c705f66114105927a9e0c609c7dcb49c"
+}

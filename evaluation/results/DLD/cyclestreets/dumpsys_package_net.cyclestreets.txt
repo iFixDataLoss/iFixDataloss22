@@ -1,0 +1,102 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Schemes:
+      http:
+        3928684 net.cyclestreets/.CycleStreets filter 8fa8737
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "cycle.st": -1
+          Authority: "cyclestreets.net": -1
+          Authority: "www.cyclestreets.net": -1
+          Authority: "m.cyclestreets.net": -1
+          Path: "PatternMatcher{PREFIX: /j}"
+          Path: "PatternMatcher{PREFIX: /journey/}"
+          Path: "PatternMatcher{PREFIX: /journey/}"
+          Path: "PatternMatcher{PREFIX: /journey/}"
+          AutoVerify=false
+
+  Non-Data Actions:
+      net.cyclestreets.LocationsActivity:
+        877ae6d net.cyclestreets/.LocationsActivity filter 14d25c2
+          Action: "net.cyclestreets.LocationsActivity"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.MAIN:
+        3928684 net.cyclestreets/.CycleStreets filter a2d7c36
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      net.cyclestreets.AboutActivity:
+        768aaa2 net.cyclestreets/.AboutActivity filter 6c2a20d
+          Action: "net.cyclestreets.AboutActivity"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      net.cyclestreets.AccountDetailsActivity:
+        6da3333 net.cyclestreets/.AccountDetailsActivity filter 36884a4
+          Action: "net.cyclestreets.AccountDetailsActivity"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+
+Key Set Manager:
+  [net.cyclestreets]
+      Signing KeySets: 94
+
+Packages:
+  Package [net.cyclestreets] (2f386f0):
+    userId=10067
+    pkg=Package{26dc469 net.cyclestreets}
+    codePath=/data/app/net.cyclestreets-1
+    resourcePath=/data/app/net.cyclestreets-1
+    legacyNativeLibraryDir=/data/app/net.cyclestreets-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=25 minSdk=14 targetSdk=19
+    versionName=3.5
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{ccaceee net.cyclestreets}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ HAS_DOMAIN_URLS ]
+    dataDir=/data/user/0/net.cyclestreets
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-05 13:30:44
+    firstInstallTime=2022-01-05 13:30:44
+    lastUpdateTime=2022-01-05 13:30:44
+    signatures=PackageSignatures{77acf8f [afb6a643]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.READ_CONTACTS
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.ACCESS_FINE_LOCATION: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.READ_EXTERNAL_STORAGE: granted=true
+      android.permission.ACCESS_COARSE_LOCATION: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.READ_CONTACTS: granted=true
+    User 0: ceDataInode=3539493 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+
+
+Dexopt state:
+  [net.cyclestreets]
+    Instruction Set: x86
+      path: /data/app/net.cyclestreets-1/base.apk
+      status: /data/app/net.cyclestreets-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDate]
+
+
+Compiler stats:
+  [net.cyclestreets]
+     base.apk - 266

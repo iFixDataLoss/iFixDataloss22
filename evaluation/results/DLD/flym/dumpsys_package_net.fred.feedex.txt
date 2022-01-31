@@ -1,0 +1,170 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Full MIME Types:
+      vnd.android.cursor.dir/vnd.feedex.feed:
+        8c0c738 net.fred.feedex/.activity.EditFeedActivity filter a14d9a8
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.dir/vnd.feedex.feed"
+          AutoVerify=false
+      text/plain:
+        8c0c738 net.fred.feedex/.activity.EditFeedActivity filter 5220cc1
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+      vnd.android.cursor.item/vnd.feedex.entry:
+        4181311 net.fred.feedex/.activity.EntryActivity filter 5e3a145
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/vnd.feedex.entry"
+          AutoVerify=false
+      vnd.android.cursor.item/vnd.feedex.feed:
+        8c0c738 net.fred.feedex/.activity.EditFeedActivity filter 4e6bdcb
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/vnd.feedex.feed"
+          AutoVerify=false
+
+  Base MIME Types:
+      vnd.android.cursor.dir:
+        8c0c738 net.fred.feedex/.activity.EditFeedActivity filter a14d9a8
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.dir/vnd.feedex.feed"
+          AutoVerify=false
+      vnd.android.cursor.item:
+        4181311 net.fred.feedex/.activity.EntryActivity filter 5e3a145
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/vnd.feedex.entry"
+          AutoVerify=false
+        8c0c738 net.fred.feedex/.activity.EditFeedActivity filter 4e6bdcb
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/vnd.feedex.feed"
+          AutoVerify=false
+      text:
+        8c0c738 net.fred.feedex/.activity.EditFeedActivity filter 5220cc1
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        4357c76 net.fred.feedex/.activity.HomeActivity filter 52d9dbc
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        ff62277 net.fred.feedex/.widget.WidgetConfigActivity filter d6ce09a
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      android.intent.action.EDIT:
+        8c0c738 net.fred.feedex/.activity.EditFeedActivity filter 4e6bdcb
+          Action: "android.intent.action.EDIT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/vnd.feedex.feed"
+          AutoVerify=false
+      android.intent.action.SEND:
+        8c0c738 net.fred.feedex/.activity.EditFeedActivity filter 5220cc1
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+      android.intent.action.VIEW:
+        4181311 net.fred.feedex/.activity.EntryActivity filter 5e3a145
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.item/vnd.feedex.entry"
+          AutoVerify=false
+      android.intent.action.INSERT:
+        8c0c738 net.fred.feedex/.activity.EditFeedActivity filter a14d9a8
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.dir/vnd.feedex.feed"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.net.conn.CONNECTIVITY_CHANGE:
+        9571ee4 net.fred.feedex/.receiver.ConnectionChangeReceiver filter c1e75af
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          AutoVerify=false
+      android.intent.action.BOOT_COMPLETED:
+        dd9cf4d net.fred.feedex/.receiver.BootCompletedBroadcastReceiver filter 7fab98e
+          Action: "android.intent.action.BOOT_COMPLETED"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_UPDATE:
+        574ea02 net.fred.feedex/.widget.WidgetProvider filter 6563589
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+
+Registered ContentProviders:
+  net.fred.feedex/.provider.FeedDataContentProvider:
+    Provider{1a06f13 net.fred.feedex/.provider.FeedDataContentProvider}
+
+ContentProvider Authorities:
+  [net.fred.feedex.provider.FeedData]:
+    Provider{1a06f13 net.fred.feedex/.provider.FeedDataContentProvider}
+      applicationInfo=ApplicationInfo{ed94550 net.fred.feedex}
+
+Key Set Manager:
+  [net.fred.feedex]
+      Signing KeySets: 113
+
+Packages:
+  Package [net.fred.feedex] (1811349):
+    userId=10084
+    pkg=Package{b4ba44e net.fred.feedex}
+    codePath=/data/app/net.fred.feedex-1
+    resourcePath=/data/app/net.fred.feedex-1
+    legacyNativeLibraryDir=/data/app/net.fred.feedex-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=34 minSdk=15 targetSdk=19
+    versionName=1.4.0
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{ed94550 net.fred.feedex}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/user/0/net.fred.feedex
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-06 20:02:17
+    firstInstallTime=2022-01-06 20:02:17
+    lastUpdateTime=2022-01-06 20:02:17
+    signatures=PackageSignatures{d98e96f [45e775cf]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.VIBRATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.READ_EXTERNAL_STORAGE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+      android.permission.VIBRATE: granted=true
+    User 0: ceDataInode=3539549 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+
+
+Dexopt state:
+  [net.fred.feedex]
+    Instruction Set: x86
+      path: /data/app/net.fred.feedex-1/base.apk
+      status: /data/app/net.fred.feedex-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDate]
+
+
+Compiler stats:
+  [net.fred.feedex]
+     base.apk - 80

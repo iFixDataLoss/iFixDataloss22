@@ -1,0 +1,42 @@
+{
+  "stop_state": "c0bb7ee0e2492dcf119db3c40d82f612", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_175731", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "ws.xsoh.etar:id/when_datetime", 
+      "text": "Saturday, January 1", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "284*37", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "ws.xsoh.etar", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          792, 
+          238
+        ], 
+        [
+          1076, 
+          275
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": true
+    }, 
+    "id": 12, 
+    "event_type": "touch"
+  }, 
+  "start_state": "327897b06784fa5214a3b3e54a988042"
+}

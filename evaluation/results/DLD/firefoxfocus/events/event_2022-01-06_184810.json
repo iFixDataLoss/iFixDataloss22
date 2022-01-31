@@ -1,0 +1,51 @@
+{
+  "stop_state": "c7ace44b456180c96c76c2110e083f15", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-06_184810", 
+  "event": {
+    "views_str": [
+      "20f970da7324a4216ec915a689f893bb"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "org.mozilla.klar:id/urlView", 
+        "text": "Search or enter address", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1836*60", 
+        "checked": false, 
+        "temp_id": 40, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]org.mozilla.klar:id/urlView", 
+        "is_password": false, 
+        "parent": 39, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "org.mozilla.klar", 
+        "long_clickable": true, 
+        "view_str": "20f970da7324a4216ec915a689f893bb", 
+        "enabled": true, 
+        "bounds": [
+          [
+            12, 
+            50
+          ], 
+          [
+            1848, 
+            110
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]org.mozilla.klar:id/urlView[text]Search or enter address[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "c7ace44b456180c96c76c2110e083f15"
+}

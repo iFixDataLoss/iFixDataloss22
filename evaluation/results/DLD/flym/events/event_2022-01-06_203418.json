@@ -1,0 +1,42 @@
+{
+  "stop_state": "1a783426fd3fef0594ffa4080f85fdff", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_203418", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "News, Open navigation drawer", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "176*84", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "net.fred.feedex", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          36
+        ], 
+        [
+          176, 
+          120
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "4687e8ccfa7d84b930d45ca441428e63"
+}

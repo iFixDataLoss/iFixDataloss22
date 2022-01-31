@@ -1,0 +1,51 @@
+{
+  "stop_state": "0728ce51135846024f7ac801d2568a2c", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-12-31_163004", 
+  "event": {
+    "views_str": [
+      "6881a599e2c0eeb56529d173aa2c3791"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "nl.asymmetrics.droidshows:id/search_text", 
+        "text": "Search\u2026", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "922*102", 
+        "checked": false, 
+        "temp_id": 13, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]nl.asymmetrics.droidshows:id/search_text", 
+        "is_password": false, 
+        "parent": 12, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "nl.asymmetrics.droidshows", 
+        "long_clickable": true, 
+        "view_str": "6881a599e2c0eeb56529d173aa2c3791", 
+        "enabled": true, 
+        "bounds": [
+          [
+            0, 
+            231
+          ], 
+          [
+            922, 
+            333
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]nl.asymmetrics.droidshows:id/search_text[text]Search\u2026[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "720d304c65bfbb52e385135e6adba02b"
+}

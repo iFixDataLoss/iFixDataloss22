@@ -1,0 +1,10 @@
+{
+  "stop_state": "1999b091509cbc866f246112db7c3f4b", 
+  "event_str": "IntentEvent(intent='am start de.tap.easy_xkcd/de.tap.easy_xkcd.Activities.MainActivity')", 
+  "tag": "2022-01-06_172028", 
+  "event": {
+    "intent": "am start de.tap.easy_xkcd/de.tap.easy_xkcd.Activities.MainActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "c705f66114105927a9e0c609c7dcb49c"
+}

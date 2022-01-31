@@ -1,0 +1,42 @@
+{
+  "stop_state": "d4843e54e9db7f5417e23eb4a7791225", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-12-31_163739", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Clear query", 
+      "resource_id": "android:id/search_close_btn", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "114*132", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "nl.asymmetrics.droidshows", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          943, 
+          73
+        ], 
+        [
+          1057, 
+          205
+        ]
+      ], 
+      "class": "android.widget.ImageView", 
+      "focusable": true
+    }, 
+    "id": 2, 
+    "event_type": "touch"
+  }, 
+  "start_state": "155ecd6d327b4fc0aeda21b78f88f71f"
+}

@@ -1,0 +1,42 @@
+{
+  "stop_state": "6581de6945104977aa9dcbd1d61fd4d5", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_170957", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "de.tap.easy_xkcd:id/design_menu_item_text", 
+      "text": "Comic Browser", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": false, 
+      "checkable": true, 
+      "size": "408*72", 
+      "scrollable": false, 
+      "checked": true, 
+      "package": "de.tap.easy_xkcd", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          36, 
+          237
+        ], 
+        [
+          444, 
+          309
+        ]
+      ], 
+      "class": "android.widget.CheckedTextView", 
+      "focusable": false
+    }, 
+    "id": 7, 
+    "event_type": "touch"
+  }, 
+  "start_state": "0c7994a8dcb5df741bf8a75df9e181e8"
+}

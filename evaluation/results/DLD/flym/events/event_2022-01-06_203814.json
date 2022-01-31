@@ -1,0 +1,10 @@
+{
+  "stop_state": "39eb9e2e77edc2bd77c142fb6b6e037b", 
+  "event_str": "IntentEvent(intent='am start net.fred.feedex/net.fred.feedex.activity.HomeActivity')", 
+  "tag": "2022-01-06_203814", 
+  "event": {
+    "intent": "am start net.fred.feedex/net.fred.feedex.activity.HomeActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "f6980c3ca964cb4edbdf34437d1db6cd"
+}

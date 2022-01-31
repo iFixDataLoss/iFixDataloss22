@@ -1,0 +1,42 @@
+{
+  "stop_state": "ac046124245816fe8042835f56c08573", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_200325", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "FeedEx, Close navigation drawer", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "195*84", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "net.fred.feedex", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          36
+        ], 
+        [
+          195, 
+          120
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "249f80d2bbce64c973c7c06dd8e9abd8"
+}

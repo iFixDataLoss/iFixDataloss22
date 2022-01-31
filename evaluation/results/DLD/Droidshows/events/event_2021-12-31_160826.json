@@ -1,0 +1,51 @@
+{
+  "stop_state": "f8a0f66a44e8e9b4c701094c4221b504", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-12-31_160826", 
+  "event": {
+    "views_str": [
+      "272fd6a1e9a3dff8c6d5656cbe8952d4"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "nl.asymmetrics.droidshows:id/seen", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "107*124", 
+        "checked": false, 
+        "temp_id": 16, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]nl.asymmetrics.droidshows:id/seen", 
+        "is_password": false, 
+        "parent": 15, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "nl.asymmetrics.droidshows", 
+        "long_clickable": true, 
+        "view_str": "272fd6a1e9a3dff8c6d5656cbe8952d4", 
+        "enabled": true, 
+        "bounds": [
+          [
+            973, 
+            357
+          ], 
+          [
+            1080, 
+            481
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]nl.asymmetrics.droidshows:id/seen[text]None[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "950106b5c171b566dbac69b7bb58134c"
+}

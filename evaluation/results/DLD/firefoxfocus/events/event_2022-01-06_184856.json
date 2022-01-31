@@ -1,0 +1,42 @@
+{
+  "stop_state": "5ad3ae4a73716c4f03a2d4f9a115d9f4", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-06_184856", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "org.mozilla.klar:id/skip", 
+      "text": "SKIP", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "132*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.mozilla.klar", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          38
+        ], 
+        [
+          132, 
+          110
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 4, 
+    "event_type": "touch"
+  }, 
+  "start_state": "2d0b982cb9cc70bf665037156d3fdb9e"
+}

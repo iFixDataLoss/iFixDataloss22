@@ -1,0 +1,10 @@
+{
+  "stop_state": "d45a0155a5b3035db89fd41539ac03bd", 
+  "event_str": "IntentEvent(intent='am start net.cyclestreets/net.cyclestreets.CycleStreets')", 
+  "tag": "2022-01-05_133304", 
+  "event": {
+    "intent": "am start net.cyclestreets/net.cyclestreets.CycleStreets", 
+    "event_type": "intent"
+  }, 
+  "start_state": "52aec3a0f58e7a2d1d97ea0223899beb"
+}

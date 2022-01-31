@@ -1,0 +1,51 @@
+{
+  "stop_state": "733f4e5e3d1ed1c91d508606300a0f16", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-12-31_154139", 
+  "event": {
+    "views_str": [
+      "6ace6b9fd5b1be9b3e57cc7901e0a378"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "android:id/search_src_text", 
+        "text": "   Show to add\u2026", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "869*101", 
+        "checked": false, 
+        "temp_id": 12, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]android:id/search_src_text", 
+        "is_password": false, 
+        "parent": 11, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "nl.asymmetrics.droidshows", 
+        "long_clickable": true, 
+        "view_str": "6ace6b9fd5b1be9b3e57cc7901e0a378", 
+        "enabled": true, 
+        "bounds": [
+          [
+            188, 
+            88
+          ], 
+          [
+            1057, 
+            189
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]android:id/search_src_text[text]   Show to add\u2026[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "d4843e54e9db7f5417e23eb4a7791225"
+}
