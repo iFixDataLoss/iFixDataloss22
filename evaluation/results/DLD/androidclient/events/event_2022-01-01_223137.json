@@ -1,0 +1,42 @@
+{
+  "stop_state": "bde749cd81ee7046885aad0ae1ae3ac3", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-01_223137", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "android:id/button2", 
+      "text": "Cancel", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "599*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.yaxim.androidclient", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          360, 
+          680
+        ], 
+        [
+          959, 
+          752
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "ab2dca54b132c1a2d537cbbb722086e5"
+}

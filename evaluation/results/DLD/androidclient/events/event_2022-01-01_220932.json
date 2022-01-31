@@ -1,0 +1,165 @@
+{
+  "stop_state": "ae7cabaae2db15a23d30228ca63ca4a0", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-01_220932", 
+  "event": {
+    "views_str": [
+      "2a6689f32fae1744bce2c1584385405c", 
+      "900079b7a0d90d6f6b14350f56f18505", 
+      "de5b42abf387315803ebfb01765fc041", 
+      "92a0b621dd2be1801ca57e384b2ad492"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": "Jabber ID:", 
+        "resource_id": "org.yaxim.androidclient:id/StartupDialog_JID_EditTextField", 
+        "text": "user@yax.im", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1170*67", 
+        "checked": false, 
+        "temp_id": 14, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]org.yaxim.androidclient:id/StartupDialog_JID_EditTextField", 
+        "is_password": false, 
+        "parent": 11, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "org.yaxim.androidclient", 
+        "long_clickable": true, 
+        "view_str": "2a6689f32fae1744bce2c1584385405c", 
+        "enabled": true, 
+        "bounds": [
+          [
+            375, 
+            502
+          ], 
+          [
+            1545, 
+            569
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]org.yaxim.androidclient:id/StartupDialog_JID_EditTextField[text]user@yax.im[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "org.yaxim.androidclient:id/create_account", 
+        "text": "Register new account", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "1170*48", 
+        "checked": false, 
+        "temp_id": 15, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]org.yaxim.androidclient:id/create_account", 
+        "is_password": false, 
+        "parent": 11, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "org.yaxim.androidclient", 
+        "long_clickable": false, 
+        "view_str": "900079b7a0d90d6f6b14350f56f18505", 
+        "enabled": true, 
+        "bounds": [
+          [
+            375, 
+            569
+          ], 
+          [
+            1545, 
+            617
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]org.yaxim.androidclient:id/create_account[text]Register new account[enabled,,]"
+      }, 
+      {
+        "content_description": "Password:", 
+        "resource_id": "org.yaxim.androidclient:id/StartupDialog_PASSWD_EditTextField", 
+        "text": "\u2022\u2022\u2022\u2022\u2022", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1170*67", 
+        "checked": false, 
+        "temp_id": 17, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]org.yaxim.androidclient:id/StartupDialog_PASSWD_EditTextField", 
+        "is_password": true, 
+        "parent": 11, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "org.yaxim.androidclient", 
+        "long_clickable": true, 
+        "view_str": "de5b42abf387315803ebfb01765fc041", 
+        "enabled": true, 
+        "bounds": [
+          [
+            375, 
+            652
+          ], 
+          [
+            1545, 
+            719
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]org.yaxim.androidclient:id/StartupDialog_PASSWD_EditTextField[text]\u2022\u2022[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "org.yaxim.androidclient:id/password_show", 
+        "text": "Show password", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "1170*48", 
+        "checked": false, 
+        "temp_id": 18, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]org.yaxim.androidclient:id/password_show", 
+        "is_password": false, 
+        "parent": 11, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "org.yaxim.androidclient", 
+        "long_clickable": false, 
+        "view_str": "92a0b621dd2be1801ca57e384b2ad492", 
+        "enabled": true, 
+        "bounds": [
+          [
+            375, 
+            719
+          ], 
+          [
+            1545, 
+            767
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]org.yaxim.androidclient:id/password_show[text]Show password[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "ae7cabaae2db15a23d30228ca63ca4a0"
+}

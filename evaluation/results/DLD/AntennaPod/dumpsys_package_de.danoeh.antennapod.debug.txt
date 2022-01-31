@@ -1,0 +1,520 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Full MIME Types:
+      application/rss+xml:
+        a6c25e9 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OnlineFeedViewActivity filter ee6f6d5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Type: "text/xml"
+          Type: "application/rss+xml"
+          Type: "application/atom+xml"
+          Type: "application/xml"
+          AutoVerify=false
+      application/atom+xml:
+        a6c25e9 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OnlineFeedViewActivity filter ee6f6d5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Type: "text/xml"
+          Type: "application/rss+xml"
+          Type: "application/atom+xml"
+          Type: "application/xml"
+          AutoVerify=false
+      application/xml:
+        a6c25e9 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OnlineFeedViewActivity filter ee6f6d5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Type: "text/xml"
+          Type: "application/rss+xml"
+          Type: "application/atom+xml"
+          Type: "application/xml"
+          AutoVerify=false
+      text/xml:
+        a6c25e9 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OnlineFeedViewActivity filter ee6f6d5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Type: "text/xml"
+          Type: "application/rss+xml"
+          Type: "application/atom+xml"
+          Type: "application/xml"
+          AutoVerify=false
+      audio/*:
+        ecf526e de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.AudioplayerActivity filter c7a3f92
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Type: "audio"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      */*:
+        877cd0f de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OpmlImportFromIntentActivity filter a6c5219
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.opml}"
+          Path: "PatternMatcher{GLOB: .*\.opml}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      video/*:
+        417119c de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.VideoplayerActivity filter 978c2de
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      text/plain:
+        a6c25e9 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OnlineFeedViewActivity filter ddd75db
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+
+  Base MIME Types:
+      text:
+        a6c25e9 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OnlineFeedViewActivity filter ee6f6d5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Type: "text/xml"
+          Type: "application/rss+xml"
+          Type: "application/atom+xml"
+          Type: "application/xml"
+          AutoVerify=false
+        a6c25e9 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OnlineFeedViewActivity filter ddd75db
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+      application:
+        a6c25e9 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OnlineFeedViewActivity filter ee6f6d5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Type: "text/xml"
+          Type: "application/rss+xml"
+          Type: "application/atom+xml"
+          Type: "application/xml"
+          AutoVerify=false
+        a6c25e9 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OnlineFeedViewActivity filter ee6f6d5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Type: "text/xml"
+          Type: "application/rss+xml"
+          Type: "application/atom+xml"
+          Type: "application/xml"
+          AutoVerify=false
+        a6c25e9 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OnlineFeedViewActivity filter ee6f6d5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Type: "text/xml"
+          Type: "application/rss+xml"
+          Type: "application/atom+xml"
+          Type: "application/xml"
+          AutoVerify=false
+
+  Wild MIME Types:
+      *:
+        877cd0f de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OpmlImportFromIntentActivity filter a6c5219
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.opml}"
+          Path: "PatternMatcher{GLOB: .*\.opml}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      audio:
+        ecf526e de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.AudioplayerActivity filter c7a3f92
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Type: "audio"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      video:
+        417119c de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.VideoplayerActivity filter 978c2de
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Schemes:
+      feed:
+        a6c25e9 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OnlineFeedViewActivity filter 54a2eea
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "itpc"
+          Scheme: "pcast"
+          Scheme: "feed"
+          Scheme: "antennapod-subscribe"
+          AutoVerify=false
+      file:
+        ecf526e de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.AudioplayerActivity filter c7a3f92
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Type: "audio"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        877cd0f de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OpmlImportFromIntentActivity filter a6c5219
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.opml}"
+          Path: "PatternMatcher{GLOB: .*\.opml}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        417119c de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.VideoplayerActivity filter 978c2de
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      http:
+        a6c25e9 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OnlineFeedViewActivity filter 97eccbf
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.xml}"
+          Path: "PatternMatcher{GLOB: .*\.rss}"
+          AutoVerify=false
+        a6c25e9 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OnlineFeedViewActivity filter 8198f8c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "feeds.feedburner.com": -1
+          Authority: "feedproxy.google.com": -1
+          Authority: "feeds2.feedburner.com": -1
+          Authority: "feedsproxy.google.com": -1
+          AutoVerify=false
+        a6c25e9 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OnlineFeedViewActivity filter ee6f6d5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Type: "text/xml"
+          Type: "application/rss+xml"
+          Type: "application/atom+xml"
+          Type: "application/xml"
+          AutoVerify=false
+      itpc:
+        a6c25e9 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OnlineFeedViewActivity filter 54a2eea
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "itpc"
+          Scheme: "pcast"
+          Scheme: "feed"
+          Scheme: "antennapod-subscribe"
+          AutoVerify=false
+      https:
+        a6c25e9 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OnlineFeedViewActivity filter 97eccbf
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.xml}"
+          Path: "PatternMatcher{GLOB: .*\.rss}"
+          AutoVerify=false
+        a6c25e9 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OnlineFeedViewActivity filter 8198f8c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "feeds.feedburner.com": -1
+          Authority: "feedproxy.google.com": -1
+          Authority: "feeds2.feedburner.com": -1
+          Authority: "feedsproxy.google.com": -1
+          AutoVerify=false
+        a6c25e9 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OnlineFeedViewActivity filter ee6f6d5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Type: "text/xml"
+          Type: "application/rss+xml"
+          Type: "application/atom+xml"
+          Type: "application/xml"
+          AutoVerify=false
+      pcast:
+        a6c25e9 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OnlineFeedViewActivity filter 54a2eea
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "itpc"
+          Scheme: "pcast"
+          Scheme: "feed"
+          Scheme: "antennapod-subscribe"
+          AutoVerify=false
+      antennapod-subscribe:
+        a6c25e9 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OnlineFeedViewActivity filter 54a2eea
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "itpc"
+          Scheme: "pcast"
+          Scheme: "feed"
+          Scheme: "antennapod-subscribe"
+          AutoVerify=false
+      content:
+        877cd0f de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OpmlImportFromIntentActivity filter a6c5219
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.opml}"
+          Path: "PatternMatcher{GLOB: .*\.opml}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      flattr4j:
+        fd837a5 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.FlattrAuthActivity filter aa1fd60
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "flattr4j"
+          Authority: "de.danoeh.antennapod": -1
+          AutoVerify=false
+
+  Non-Data Actions:
+      .activity.gpoddernet.GpodnetAuthenticationActivity:
+        ea2277a de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.gpoddernet.GpodnetAuthenticationActivity filter 3961878
+          Action: ".activity.gpoddernet.GpodnetAuthenticationActivity"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+      android.intent.action.MAIN:
+        56e2b2b de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.MainActivity filter d8fc11d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      .activities.FlattrAuthActivity:
+        fd837a5 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.FlattrAuthActivity filter c57bd63
+          Action: ".activities.FlattrAuthActivity"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        a6c25e9 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OnlineFeedViewActivity filter ddd75db
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+      android.intent.action.VIEW:
+        ecf526e de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.AudioplayerActivity filter c7a3f92
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Type: "audio"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        877cd0f de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OpmlImportFromIntentActivity filter a6c5219
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.opml}"
+          Path: "PatternMatcher{GLOB: .*\.opml}"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        417119c de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.VideoplayerActivity filter 978c2de
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Type: "video"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        a6c25e9 de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.OnlineFeedViewActivity filter ee6f6d5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Type: "text/xml"
+          Type: "application/rss+xml"
+          Type: "application/atom+xml"
+          Type: "application/xml"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        f51ab88 de.danoeh.antennapod.debug/de.danoeh.antennapod.core.receiver.AlarmUpdateReceiver filter a2d9906
+          Action: "android.intent.action.PACKAGE_REPLACED"
+          Scheme: "package"
+          Path: "PatternMatcher{LITERAL: de.danoeh.antennapod}"
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        b39a921 de.danoeh.antennapod.debug/de.danoeh.antennapod.receiver.PowerConnectionReceiver filter f71bbeb
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          AutoVerify=false
+      android.net.conn.CONNECTIVITY_CHANGE:
+        99b4146 de.danoeh.antennapod.debug/de.danoeh.antennapod.receiver.ConnectivityActionReceiver filter 2aa833a
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          AutoVerify=false
+      de.danoeh.antennapod.FORCE_WIDGET_UPDATE:
+        7224f07 de.danoeh.antennapod.debug/de.danoeh.antennapod.receiver.PlayerWidget filter 193975c
+          Action: "de.danoeh.antennapod.FORCE_WIDGET_UPDATE"
+          AutoVerify=false
+      de.danoeh.antennapod.NOTIFY_BUTTON_RECEIVER:
+        419f834 de.danoeh.antennapod.debug/de.danoeh.antennapod.core.receiver.MediaButtonReceiver filter 6975f4
+          Action: "de.danoeh.antennapod.NOTIFY_BUTTON_RECEIVER"
+          AutoVerify=false
+      android.intent.action.BOOT_COMPLETED:
+        f51ab88 de.danoeh.antennapod.debug/de.danoeh.antennapod.core.receiver.AlarmUpdateReceiver filter 54387e1
+          Action: "android.intent.action.BOOT_COMPLETED"
+          AutoVerify=false
+      android.intent.action.ACTION_POWER_CONNECTED:
+        b39a921 de.danoeh.antennapod.debug/de.danoeh.antennapod.receiver.PowerConnectionReceiver filter f71bbeb
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          AutoVerify=false
+      de.danoeh.antennapod.STOP_WIDGET_UPDATE:
+        7224f07 de.danoeh.antennapod.debug/de.danoeh.antennapod.receiver.PlayerWidget filter 11daa65
+          Action: "de.danoeh.antennapod.STOP_WIDGET_UPDATE"
+          AutoVerify=false
+      de.danoeh.antennapdsp.intent.SP_APPS_QUERY_FEEDS_RESPONSE:
+        4e6b65d de.danoeh.antennapod.debug/de.danoeh.antennapod.receiver.SPAReceiver filter d70cd48
+          Action: "de.danoeh.antennapdsp.intent.SP_APPS_QUERY_FEEDS_RESPONSE"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_UPDATE:
+        7224f07 de.danoeh.antennapod.debug/de.danoeh.antennapod.receiver.PlayerWidget filter 11fd1cf
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+      android.intent.action.MEDIA_BUTTON:
+        419f834 de.danoeh.antennapod.debug/de.danoeh.antennapod.core.receiver.MediaButtonReceiver filter aae2bc7
+          Action: "android.intent.action.MEDIA_BUTTON"
+          AutoVerify=false
+
+Key Set Manager:
+  [de.danoeh.antennapod.debug]
+      Signing KeySets: 85
+
+Packages:
+  Package [de.danoeh.antennapod.debug] (aba2bd2):
+    userId=10063
+    pkg=Package{10ad4a3 de.danoeh.antennapod.debug}
+    codePath=/data/app/de.danoeh.antennapod.debug-1
+    resourcePath=/data/app/de.danoeh.antennapod.debug-1
+    legacyNativeLibraryDir=/data/app/de.danoeh.antennapod.debug-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=1060009 minSdk=10 targetSdk=23
+    versionName=1.6.0.9
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{77863a0 de.danoeh.antennapod.debug}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE RESTORE_ANY_VERSION ]
+    privateFlags=[ HAS_DOMAIN_URLS ]
+    dataDir=/data/user/0/de.danoeh.antennapod.debug
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-04 18:03:51
+    firstInstallTime=2022-01-04 18:03:51
+    lastUpdateTime=2022-01-04 18:03:51
+    signatures=PackageSignatures{a5d5b59 [45e775cf]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE RESTORE_ANY_VERSION ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.WAKE_LOCK
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.BLUETOOTH
+      android.permission.VIBRATE
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=3539682 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3002, 3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [de.danoeh.antennapod.debug]
+    Instruction Set: x86
+      path: /data/app/de.danoeh.antennapod.debug-1/base.apk
+      status: /data/app/de.danoeh.antennapod.debug-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUp
+      ToDate]
+
+
+Compiler stats:
+  [de.danoeh.antennapod.debug]
+     base.apk - 425

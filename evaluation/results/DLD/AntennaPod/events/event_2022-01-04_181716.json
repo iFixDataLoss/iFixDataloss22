@@ -1,0 +1,43 @@
+{
+  "stop_state": "fff93356b49cd44ab823afeded3decda", 
+  "event_str": "LongTouchEvent(duration=2000)", 
+  "tag": "2022-01-04_181716", 
+  "event": {
+    "event_type": "long_touch", 
+    "duration": 2000, 
+    "y": null, 
+    "x": null, 
+    "id": 8, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "de.danoeh.antennapod.debug:id/nav_list", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": true, 
+      "clickable": false, 
+      "checkable": false, 
+      "size": "420*970", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.danoeh.antennapod.debug", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          36
+        ], 
+        [
+          420, 
+          1006
+        ]
+      ], 
+      "class": "android.widget.ListView", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "fff93356b49cd44ab823afeded3decda"
+}

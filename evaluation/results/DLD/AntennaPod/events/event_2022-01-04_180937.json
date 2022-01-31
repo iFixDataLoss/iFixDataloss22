@@ -1,0 +1,42 @@
+{
+  "stop_state": "78b3e390aea3288043d4f372438d5885", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-04_180937", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "420*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.danoeh.antennapod.debug", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          332
+        ], 
+        [
+          420, 
+          404
+        ]
+      ], 
+      "class": "android.widget.RelativeLayout", 
+      "focusable": false
+    }, 
+    "id": 5, 
+    "event_type": "touch"
+  }, 
+  "start_state": "49df9dbc3d69fe7d5579938169e72c1a"
+}

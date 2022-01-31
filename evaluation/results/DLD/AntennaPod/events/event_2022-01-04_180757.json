@@ -1,0 +1,203 @@
+{
+  "stop_state": "af50a7fd9fd74dd74a3f4a3072e2e3b7", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-04_180757", 
+  "event": {
+    "views_str": [
+      "167cedf0841d652d62c87e9807d63e35", 
+      "e06d8435cd7eaf48175f2735afb1d9a3", 
+      "e06d8435cd7eaf48175f2735afb1d9a3", 
+      "e06d8435cd7eaf48175f2735afb1d9a3", 
+      "167cedf0841d652d62c87e9807d63e35"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "android:id/checkbox", 
+        "text": "OFF", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "72*41", 
+        "checked": false, 
+        "temp_id": 28, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.Switch[resource_id]android:id/checkbox", 
+        "is_password": false, 
+        "parent": 27, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.Switch", 
+        "scrollable": false, 
+        "package": "de.danoeh.antennapod.debug", 
+        "long_clickable": false, 
+        "view_str": "167cedf0841d652d62c87e9807d63e35", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1812, 
+            445
+          ], 
+          [
+            1884, 
+            486
+          ]
+        ], 
+        "signature": "[class]android.widget.Switch[resource_id]android:id/checkbox[text]OFF[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "android:id/checkbox", 
+        "text": "ON", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "72*41", 
+        "checked": true, 
+        "temp_id": 34, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.Switch[resource_id]android:id/checkbox", 
+        "is_password": false, 
+        "parent": 33, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.Switch", 
+        "scrollable": false, 
+        "package": "de.danoeh.antennapod.debug", 
+        "long_clickable": false, 
+        "view_str": "e06d8435cd7eaf48175f2735afb1d9a3", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1812, 
+            557
+          ], 
+          [
+            1884, 
+            598
+          ]
+        ], 
+        "signature": "[class]android.widget.Switch[resource_id]android:id/checkbox[text]ON[enabled,checked,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "android:id/checkbox", 
+        "text": "ON", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "72*41", 
+        "checked": true, 
+        "temp_id": 44, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.Switch[resource_id]android:id/checkbox", 
+        "is_password": false, 
+        "parent": 43, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.Switch", 
+        "scrollable": false, 
+        "package": "de.danoeh.antennapod.debug", 
+        "long_clickable": false, 
+        "view_str": "e06d8435cd7eaf48175f2735afb1d9a3", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1812, 
+            781
+          ], 
+          [
+            1884, 
+            822
+          ]
+        ], 
+        "signature": "[class]android.widget.Switch[resource_id]android:id/checkbox[text]ON[enabled,checked,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "android:id/checkbox", 
+        "text": "ON", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "72*41", 
+        "checked": true, 
+        "temp_id": 50, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.Switch[resource_id]android:id/checkbox", 
+        "is_password": false, 
+        "parent": 49, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.Switch", 
+        "scrollable": false, 
+        "package": "de.danoeh.antennapod.debug", 
+        "long_clickable": false, 
+        "view_str": "e06d8435cd7eaf48175f2735afb1d9a3", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1812, 
+            893
+          ], 
+          [
+            1884, 
+            934
+          ]
+        ], 
+        "signature": "[class]android.widget.Switch[resource_id]android:id/checkbox[text]ON[enabled,checked,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "android:id/checkbox", 
+        "text": "OFF", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "72*20", 
+        "checked": false, 
+        "temp_id": 57, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.Switch[resource_id]android:id/checkbox", 
+        "is_password": false, 
+        "parent": 56, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.Switch", 
+        "scrollable": false, 
+        "package": "de.danoeh.antennapod.debug", 
+        "long_clickable": false, 
+        "view_str": "167cedf0841d652d62c87e9807d63e35", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1812, 
+            1060
+          ], 
+          [
+            1884, 
+            1080
+          ]
+        ], 
+        "signature": "[class]android.widget.Switch[resource_id]android:id/checkbox[text]OFF[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "af50a7fd9fd74dd74a3f4a3072e2e3b7"
+}

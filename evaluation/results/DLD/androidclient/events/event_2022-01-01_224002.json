@@ -1,0 +1,42 @@
+{
+  "stop_state": "caf586e99073ba5391b22f800a15a28d", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-01_224002", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "android:id/button3", 
+      "text": "Advanced\u2026", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "610*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.yaxim.androidclient", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          360, 
+          792
+        ], 
+        [
+          970, 
+          864
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "ae7cabaae2db15a23d30228ca63ca4a0"
+}

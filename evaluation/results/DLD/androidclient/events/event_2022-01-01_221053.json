@@ -1,0 +1,51 @@
+{
+  "stop_state": "ab2dca54b132c1a2d537cbbb722086e5", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-01_221053", 
+  "event": {
+    "views_str": [
+      "82345d9c718eea40dce25e6225572db1"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "org.yaxim.androidclient:id/statusview_message", 
+        "text": "Your status message", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1170*60", 
+        "checked": false, 
+        "temp_id": 17, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]org.yaxim.androidclient:id/statusview_message", 
+        "is_password": false, 
+        "parent": 16, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "org.yaxim.androidclient", 
+        "long_clickable": true, 
+        "view_str": "82345d9c718eea40dce25e6225572db1", 
+        "enabled": true, 
+        "bounds": [
+          [
+            375, 
+            572
+          ], 
+          [
+            1545, 
+            632
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]org.yaxim.androidclient:id/statusview_message[text]Your status message[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "ab2dca54b132c1a2d537cbbb722086e5"
+}

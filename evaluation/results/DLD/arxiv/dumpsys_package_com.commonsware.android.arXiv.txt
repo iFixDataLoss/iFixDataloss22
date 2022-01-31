@@ -1,0 +1,67 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        5d2ba67 com.commonsware.android.arXiv/.arXiv filter 2ee6f97
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.appwidget.action.APPWIDGET_UPDATE:
+        22ef014 com.commonsware.android.arXiv/.ArxivAppWidgetProvider filter b184a16
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+
+Key Set Manager:
+  [com.commonsware.android.arXiv]
+      Signing KeySets: 127
+
+Packages:
+  Package [com.commonsware.android.arXiv] (e9a80bd):
+    userId=10075
+    pkg=Package{a3096b2 com.commonsware.android.arXiv}
+    codePath=/data/app/com.commonsware.android.arXiv-1
+    resourcePath=/data/app/com.commonsware.android.arXiv-1
+    legacyNativeLibraryDir=/data/app/com.commonsware.android.arXiv-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=112 minSdk=4 targetSdk=15
+    versionName=2.0.27
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{4469603 com.commonsware.android.arXiv}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/user/0/com.commonsware.android.arXiv
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-07 19:16:32
+    firstInstallTime=2022-01-07 19:16:32
+    lastUpdateTime=2022-01-07 19:16:32
+    signatures=PackageSignatures{d14f980 [b608f517]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.INTERNET: granted=true
+      android.permission.READ_EXTERNAL_STORAGE: granted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+    User 0: ceDataInode=3539540 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+
+
+Dexopt state:
+  [com.commonsware.android.arXiv]
+    Instruction Set: x86
+      path: /data/app/com.commonsware.android.arXiv-1/base.apk
+      status: /data/app/com.commonsware.android.arXiv-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOa
+      tUpToDate]
+
+
+Compiler stats:
+  [com.commonsware.android.arXiv]
+     base.apk - 40

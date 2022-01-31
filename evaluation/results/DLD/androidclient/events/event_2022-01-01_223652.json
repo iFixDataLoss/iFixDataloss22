@@ -1,0 +1,42 @@
+{
+  "stop_state": "ae7cabaae2db15a23d30228ca63ca4a0", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-01_223652", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Settings, Navigate up", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "208*84", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "org.yaxim.androidclient", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          36
+        ], 
+        [
+          208, 
+          120
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "08d664c741d76f1be35dec0aea07775b"
+}

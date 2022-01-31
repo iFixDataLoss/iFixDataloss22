@@ -1,0 +1,10 @@
+{
+  "stop_state": "2e5f47a10500ce46835c898fba4bd043", 
+  "event_str": "IntentEvent(intent='am start de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.MainActivity')", 
+  "tag": "2022-01-04_190000", 
+  "event": {
+    "intent": "am start de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.MainActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "24f1cc7b049aa17ec1c741081fcd2836"
+}

@@ -1,0 +1,10 @@
+{
+  "stop_state": "ae7cabaae2db15a23d30228ca63ca4a0", 
+  "event_str": "IntentEvent(intent='am start org.yaxim.androidclient/org.yaxim.androidclient.MainWindow')", 
+  "tag": "2022-01-01_224413", 
+  "event": {
+    "intent": "am start org.yaxim.androidclient/org.yaxim.androidclient.MainWindow", 
+    "event_type": "intent"
+  }, 
+  "start_state": "545abb84d22c326c61edd3d53f2968bf"
+}

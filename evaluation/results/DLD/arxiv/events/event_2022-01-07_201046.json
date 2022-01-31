@@ -1,0 +1,10 @@
+{
+  "stop_state": "e36c5a2417cf188ac83d4cc67ebe0e88", 
+  "event_str": "IntentEvent(intent='am start com.commonsware.android.arXiv/com.commonsware.android.arXiv.arXiv')", 
+  "tag": "2022-01-07_201046", 
+  "event": {
+    "intent": "am start com.commonsware.android.arXiv/com.commonsware.android.arXiv.arXiv", 
+    "event_type": "intent"
+  }, 
+  "start_state": "c0f2daa455077457420c8f8541b2268e"
+}

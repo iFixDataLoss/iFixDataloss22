@@ -1,0 +1,89 @@
+{
+  "stop_state": "caf586e99073ba5391b22f800a15a28d", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-01_220945", 
+  "event": {
+    "views_str": [
+      "a7a1a03287e749b7a921f09ff8c15533", 
+      "a7a1a03287e749b7a921f09ff8c15533"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "android:id/checkbox", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*48", 
+        "checked": true, 
+        "temp_id": 34, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox", 
+        "is_password": false, 
+        "parent": 33, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "org.yaxim.androidclient", 
+        "long_clickable": false, 
+        "view_str": "a7a1a03287e749b7a921f09ff8c15533", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1641, 
+            488
+          ], 
+          [
+            1689, 
+            536
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox[text]None[enabled,checked,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "android:id/checkbox", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*48", 
+        "checked": true, 
+        "temp_id": 62, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox", 
+        "is_password": false, 
+        "parent": 61, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "org.yaxim.androidclient", 
+        "long_clickable": false, 
+        "view_str": "a7a1a03287e749b7a921f09ff8c15533", 
+        "enabled": true, 
+        "bounds": [
+          [
+            1641, 
+            1028
+          ], 
+          [
+            1689, 
+            1076
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox[text]None[enabled,checked,]"
+      }
+    ]
+  }, 
+  "start_state": "caf586e99073ba5391b22f800a15a28d"
+}

@@ -1,0 +1,217 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Full MIME Types:
+      text/*:
+        1b43a org.yaxim.androidclient/.MainWindow filter 39e73b2
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      */*:
+        1b43a org.yaxim.androidclient/.MainWindow filter f63af03
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Wild MIME Types:
+      *:
+        1b43a org.yaxim.androidclient/.MainWindow filter f63af03
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+      text:
+        1b43a org.yaxim.androidclient/.MainWindow filter 39e73b2
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+  Schemes:
+      imto:
+        1b43a org.yaxim.androidclient/.MainWindow filter c169e80
+          Action: "android.intent.action.SENDTO"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "imto"
+          Authority: "jabber": -1
+          AutoVerify=false
+      xmpp:
+        1b43a org.yaxim.androidclient/.MainWindow filter ecacb9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xmpp"
+          AutoVerify=false
+        1b43a org.yaxim.androidclient/.MainWindow filter 3e8385f
+          Action: "android.nfc.action.NDEF_DISCOVERED"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "xmpp"
+          AutoVerify=false
+      https:
+        1b43a org.yaxim.androidclient/.MainWindow filter 17c18fe
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "yax.im": -1
+          Authority: "yax.im": -1
+          Authority: "conversations.im": -1
+          Authority: "conversations.im": -1
+          Path: "PatternMatcher{PREFIX: /i/}"
+          Path: "PatternMatcher{PREFIX: /j/}"
+          Path: "PatternMatcher{PREFIX: /i/}"
+          Path: "PatternMatcher{PREFIX: /j/}"
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        1b43a org.yaxim.androidclient/.MainWindow filter 5d1b1bd
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        1b43a org.yaxim.androidclient/.MainWindow filter 39e73b2
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+        1b43a org.yaxim.androidclient/.MainWindow filter f63af03
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mHasPartialTypes=true
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.net.conn.CONNECTIVITY_CHANGE:
+        47f98eb org.yaxim.androidclient/.service.YaximBroadcastReceiver filter 980cb26
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          AutoVerify=false
+      com.android.vending.INSTALL_REFERRER:
+        bade648 org.yaxim.androidclient/.service.InstallReferrerReceiver filter df04514
+          Action: "com.android.vending.INSTALL_REFERRER"
+          AutoVerify=false
+      org.yaxim.androidclient.ACTION_MESSAGE_HEARD:
+        47f98eb org.yaxim.androidclient/.service.YaximBroadcastReceiver filter f204367
+          Action: "org.yaxim.androidclient.ACTION_MESSAGE_HEARD"
+          Action: "org.yaxim.androidclient.ACTION_MESSAGE_REPLY"
+          AutoVerify=false
+      org.yaxim.androidclient.ACTION_MESSAGE_REPLY:
+        47f98eb org.yaxim.androidclient/.service.YaximBroadcastReceiver filter f204367
+          Action: "org.yaxim.androidclient.ACTION_MESSAGE_HEARD"
+          Action: "org.yaxim.androidclient.ACTION_MESSAGE_REPLY"
+          AutoVerify=false
+      android.intent.action.ACTION_SHUTDOWN:
+        47f98eb org.yaxim.androidclient/.service.YaximBroadcastReceiver filter 980cb26
+          Action: "android.intent.action.ACTION_SHUTDOWN"
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          AutoVerify=false
+
+Service Resolver Table:
+  Non-Data Actions:
+      de.hdmstuttgart.yaxim.XMPPSERVICE:
+        8e52ce1 org.yaxim.androidclient/.service.XMPPService filter 939ae81
+          Action: "de.hdmstuttgart.yaxim.XMPPSERVICE"
+          AutoVerify=false
+
+Registered ContentProviders:
+  org.yaxim.androidclient/.data.RosterProvider:
+    Provider{446da06 org.yaxim.androidclient/.data.RosterProvider}
+  org.yaxim.androidclient/.data.ChatProvider:
+    Provider{f3cd8c7 org.yaxim.androidclient/.data.ChatProvider}
+
+ContentProvider Authorities:
+  [org.yaxim.androidclient.provider.Chats]:
+    Provider{f3cd8c7 org.yaxim.androidclient/.data.ChatProvider}
+      applicationInfo=ApplicationInfo{7df1ef4 org.yaxim.androidclient}
+  [org.yaxim.androidclient.provider.Roster]:
+    Provider{446da06 org.yaxim.androidclient/.data.RosterProvider}
+      applicationInfo=ApplicationInfo{7df1ef4 org.yaxim.androidclient}
+
+Key Set Manager:
+  [org.yaxim.androidclient]
+      Signing KeySets: 24
+
+Packages:
+  Package [org.yaxim.androidclient] (a26b61d):
+    userId=10069
+    pkg=Package{5669092 org.yaxim.androidclient}
+    codePath=/data/app/org.yaxim.androidclient-1
+    resourcePath=/data/app/org.yaxim.androidclient-1
+    legacyNativeLibraryDir=/data/app/org.yaxim.androidclient-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=53 minSdk=7 targetSdk=17
+    versionName=0.9.3
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{7df1ef4 org.yaxim.androidclient}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ HAS_DOMAIN_URLS ]
+    dataDir=/data/user/0/org.yaxim.androidclient
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-01 22:09:19
+    firstInstallTime=2022-01-01 22:09:19
+    lastUpdateTime=2022-01-01 22:09:19
+    signatures=PackageSignatures{fa43a63 [e36f11b3]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.INTERNET
+      android.permission.NFC
+      android.permission.VIBRATE
+      android.permission.WAKE_LOCK
+      android.permission.WRITE_EXTERNAL_STORAGE
+      com.sec.android.provider.badge.permission.READ
+      com.sec.android.provider.badge.permission.WRITE
+      com.htc.launcher.permission.READ_SETTINGS
+      com.htc.launcher.permission.UPDATE_SHORTCUT
+      com.sonyericsson.home.permission.BROADCAST_BADGE
+      com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+      com.anddoes.launcher.permission.UPDATE_COUNT
+      com.majeur.launcher.permission.UPDATE_BADGE
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      com.huawei.android.launcher.permission.READ_SETTINGS
+      com.huawei.android.launcher.permission.WRITE_SETTINGS
+      android.permission.READ_APP_BADGE
+      com.oppo.launcher.permission.READ_SETTINGS
+      com.oppo.launcher.permission.WRITE_SETTINGS
+      me.everything.badger.permission.BADGE_COUNT_READ
+      me.everything.badger.permission.BADGE_COUNT_WRITE
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.NFC: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.READ_EXTERNAL_STORAGE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=3539719 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+
+
+Dexopt state:
+  [org.yaxim.androidclient]
+    Instruction Set: x86
+      path: /data/app/org.yaxim.androidclient-1/base.apk
+      status: /data/app/org.yaxim.androidclient-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToD
+      ate]
+
+
+Compiler stats:
+  [org.yaxim.androidclient]
+     base.apk - 144
