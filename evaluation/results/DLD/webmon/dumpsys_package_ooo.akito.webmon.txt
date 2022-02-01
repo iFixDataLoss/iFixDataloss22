@@ -1,0 +1,145 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        b3c784e ooo.akito.webmon/.ui.splash.SplashActivity filter feb18d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        fbb2d6f ooo.akito.webmon/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter c5abdb
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+          AutoVerify=false
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        d645a7c ooo.akito.webmon/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter a797cea
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          AutoVerify=false
+      android.intent.action.DEVICE_STORAGE_LOW:
+        f347f05 ooo.akito.webmon/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 4e91678
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+          AutoVerify=false
+      android.net.conn.CONNECTIVITY_CHANGE:
+        aebcb5a ooo.akito.webmon/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 4e75151
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          AutoVerify=false
+      android.intent.action.DEVICE_STORAGE_OK:
+        f347f05 ooo.akito.webmon/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 4e91678
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+          AutoVerify=false
+      android.intent.action.BATTERY_LOW:
+        fbb2d6f ooo.akito.webmon/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter c5abdb
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+          AutoVerify=false
+      android.intent.action.TIMEZONE_CHANGED:
+        ff7318b ooo.akito.webmon/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 6ea7db6
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          AutoVerify=false
+      android.intent.action.TIME_SET:
+        ff7318b ooo.akito.webmon/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 6ea7db6
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          AutoVerify=false
+      android.intent.action.BOOT_COMPLETED:
+        ff7318b ooo.akito.webmon/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 6ea7db6
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          AutoVerify=false
+      android.intent.action.ACTION_POWER_CONNECTED:
+        d645a7c ooo.akito.webmon/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter a797cea
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          AutoVerify=false
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        9daa268 ooo.akito.webmon/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 2d52224
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+          AutoVerify=false
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        4030681 ooo.akito.webmon/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 4e92ab7
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+          AutoVerify=false
+
+Registered ContentProviders:
+  ooo.akito.webmon/androidx.core.content.FileProvider:
+    Provider{a0b4326 ooo.akito.webmon/androidx.core.content.FileProvider}
+  ooo.akito.webmon/androidx.startup.InitializationProvider:
+    Provider{aa55b67 ooo.akito.webmon/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [ooo.akito.webmon.androidx-startup]:
+    Provider{aa55b67 ooo.akito.webmon/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{2eb7d14 ooo.akito.webmon}
+  [ooo.akito.webmon]:
+    Provider{a0b4326 ooo.akito.webmon/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{2eb7d14 ooo.akito.webmon}
+
+Key Set Manager:
+  [ooo.akito.webmon]
+      Signing KeySets: 131
+
+Packages:
+  Package [ooo.akito.webmon] (fd889bd):
+    userId=10079
+    pkg=Package{e586bb2 ooo.akito.webmon}
+    codePath=/data/app/ooo.akito.webmon-1
+    resourcePath=/data/app/ooo.akito.webmon-1
+    legacyNativeLibraryDir=/data/app/ooo.akito.webmon-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=12 minSdk=19 targetSdk=31
+    versionName=2.7.0
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{2eb7d14 ooo.akito.webmon}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PARTIALLY_DIRECT_BOOT_AWARE RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/ooo.akito.webmon
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-07 21:29:21
+    firstInstallTime=2022-01-07 21:29:22
+    lastUpdateTime=2022-01-07 21:29:22
+    signatures=PackageSignatures{a224703 [68a18d9d]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.VIBRATE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.WAKE_LOCK
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.RECEIVE_BOOT_COMPLETED
+    install permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=3539538 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [ooo.akito.webmon]
+    Instruction Set: x86
+      path: /data/app/ooo.akito.webmon-1/base.apk
+      status: /data/app/ooo.akito.webmon-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDate]
+
+
+Compiler stats:
+  [ooo.akito.webmon]
+     base.apk - 849

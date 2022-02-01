@@ -1,0 +1,10 @@
+{
+  "stop_state": "1d94a0e93d06f1ae32df09e74606952a", 
+  "event_str": "IntentEvent(intent='am start ooo.akito.webmon/ooo.akito.webmon.ui.splash.SplashActivity')", 
+  "tag": "2022-01-07_224422", 
+  "event": {
+    "intent": "am start ooo.akito.webmon/ooo.akito.webmon.ui.splash.SplashActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "c0f2daa455077457420c8f8541b2268e"
+}

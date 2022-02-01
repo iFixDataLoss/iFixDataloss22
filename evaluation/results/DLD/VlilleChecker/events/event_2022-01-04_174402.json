@@ -1,0 +1,42 @@
+{
+  "stop_state": "24b5da98743e0b5a7a5ddef705a252a7", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-04_174402", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.vlille.checker:id/detail_starred", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": true, 
+      "size": "48*48", 
+      "scrollable": false, 
+      "checked": true, 
+      "package": "com.vlille.checker", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          12, 
+          458
+        ], 
+        [
+          60, 
+          506
+        ]
+      ], 
+      "class": "android.widget.CheckBox", 
+      "focusable": false
+    }, 
+    "id": 6, 
+    "event_type": "touch"
+  }, 
+  "start_state": "2423986eb7e0fcbfbb3b48bcc51ddacb"
+}

@@ -1,0 +1,42 @@
+{
+  "stop_state": "63250105e0f050d8013d9fe711cd12de", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-04_165621", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "https://vremsoftwaredevelopment.github.io/WiFiAnalyzer", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "537*29", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.vrem.wifianalyzer", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          24, 
+          349
+        ], 
+        [
+          561, 
+          378
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": true
+    }, 
+    "id": 1, 
+    "event_type": "touch"
+  }, 
+  "start_state": "6df85cbf803413f1c573541a1980f25f"
+}

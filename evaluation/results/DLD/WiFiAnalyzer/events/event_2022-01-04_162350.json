@@ -1,0 +1,42 @@
+{
+  "stop_state": "40e0cfcf57e6497e441d1adb79bfd7f0", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-04_162350", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.vrem.wifianalyzer:id/design_menu_item_text", 
+      "text": "Vendors", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": false, 
+      "checkable": true, 
+      "size": "408*72", 
+      "scrollable": false, 
+      "checked": true, 
+      "package": "com.vrem.wifianalyzer", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          36, 
+          635
+        ], 
+        [
+          444, 
+          707
+        ]
+      ], 
+      "class": "android.widget.CheckedTextView", 
+      "focusable": false
+    }, 
+    "id": 10, 
+    "event_type": "touch"
+  }, 
+  "start_state": "eb17a90133d57f84b0f03a1e93ccb88d"
+}

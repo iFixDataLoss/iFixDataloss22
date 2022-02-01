@@ -1,0 +1,43 @@
+{
+  "stop_state": "08bc42fd36165beb2a02270b61287bb5", 
+  "event_str": "LongTouchEvent(duration=2000)", 
+  "tag": "2022-01-04_165945", 
+  "event": {
+    "event_type": "long_touch", 
+    "duration": 2000, 
+    "y": null, 
+    "x": null, 
+    "id": 12, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "http://www.gnu.org/licenses/gpl-3.0.html", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "392*29", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.vrem.wifianalyzer", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          24, 
+          484
+        ], 
+        [
+          416, 
+          513
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "6df85cbf803413f1c573541a1980f25f"
+}

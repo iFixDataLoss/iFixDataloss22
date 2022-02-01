@@ -1,0 +1,42 @@
+{
+  "stop_state": "eb79bab8da559fac33a07603e00a8317", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-04_165733", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "http://www.android-graphview.org", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "320*29", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.vrem.wifianalyzer", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          48, 
+          1033
+        ], 
+        [
+          368, 
+          1062
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": true
+    }, 
+    "id": 9, 
+    "event_type": "touch"
+  }, 
+  "start_state": "6df85cbf803413f1c573541a1980f25f"
+}

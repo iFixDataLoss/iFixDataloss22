@@ -1,0 +1,42 @@
+{
+  "stop_state": "80493ae480f49f16e0bb84eda884d28b", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-04_164959", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "http://www.apache.org/licenses/LICENSE-2.0", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "429*29", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.vrem.wifianalyzer", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          48, 
+          975
+        ], 
+        [
+          477, 
+          1004
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": true
+    }, 
+    "id": 8, 
+    "event_type": "touch"
+  }, 
+  "start_state": "6df85cbf803413f1c573541a1980f25f"
+}

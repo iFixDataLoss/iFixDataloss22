@@ -1,0 +1,42 @@
+{
+  "stop_state": "a4c15ee415174235b5531fd826cc22a7", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-04_163015", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "480*72", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.vrem.wifianalyzer", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          733
+        ], 
+        [
+          480, 
+          805
+        ]
+      ], 
+      "class": "android.support.v7.widget.ap", 
+      "focusable": true
+    }, 
+    "id": 7, 
+    "event_type": "touch"
+  }, 
+  "start_state": "eb17a90133d57f84b0f03a1e93ccb88d"
+}

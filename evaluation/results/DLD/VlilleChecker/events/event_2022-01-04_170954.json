@@ -1,0 +1,393 @@
+{
+  "stop_state": "f83ac33211703d99737ed3b06030b397", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-04_170954", 
+  "event": {
+    "views_str": [
+      "7ff61a0084f579e4dc3d7349b35429a7", 
+      "ef000540d09685bae57bd38de5aa0b8f", 
+      "ef000540d09685bae57bd38de5aa0b8f", 
+      "ef000540d09685bae57bd38de5aa0b8f", 
+      "ef000540d09685bae57bd38de5aa0b8f", 
+      "ef000540d09685bae57bd38de5aa0b8f", 
+      "ef000540d09685bae57bd38de5aa0b8f", 
+      "ef000540d09685bae57bd38de5aa0b8f", 
+      "ef000540d09685bae57bd38de5aa0b8f", 
+      "ef000540d09685bae57bd38de5aa0b8f"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.vlille.checker:id/list_search_field", 
+        "text": null, 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1920*68", 
+        "checked": false, 
+        "temp_id": 24, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.vlille.checker:id/list_search_field", 
+        "is_password": false, 
+        "parent": 23, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.vlille.checker", 
+        "long_clickable": true, 
+        "view_str": "7ff61a0084f579e4dc3d7349b35429a7", 
+        "enabled": true, 
+        "bounds": [
+          [
+            0, 
+            132
+          ], 
+          [
+            1920, 
+            200
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.vlille.checker:id/list_search_field[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.vlille.checker:id/detail_starred", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*48", 
+        "checked": false, 
+        "temp_id": 32, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.vlille.checker:id/detail_starred", 
+        "is_password": false, 
+        "parent": 30, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.vlille.checker", 
+        "long_clickable": false, 
+        "view_str": "ef000540d09685bae57bd38de5aa0b8f", 
+        "enabled": true, 
+        "bounds": [
+          [
+            12, 
+            240
+          ], 
+          [
+            60, 
+            288
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.vlille.checker:id/detail_starred[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.vlille.checker:id/detail_starred", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*48", 
+        "checked": false, 
+        "temp_id": 42, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.vlille.checker:id/detail_starred", 
+        "is_password": false, 
+        "parent": 41, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.vlille.checker", 
+        "long_clickable": false, 
+        "view_str": "ef000540d09685bae57bd38de5aa0b8f", 
+        "enabled": true, 
+        "bounds": [
+          [
+            12, 
+            336
+          ], 
+          [
+            60, 
+            384
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.vlille.checker:id/detail_starred[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.vlille.checker:id/detail_starred", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*48", 
+        "checked": false, 
+        "temp_id": 54, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.vlille.checker:id/detail_starred", 
+        "is_password": false, 
+        "parent": 53, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.vlille.checker", 
+        "long_clickable": false, 
+        "view_str": "ef000540d09685bae57bd38de5aa0b8f", 
+        "enabled": true, 
+        "bounds": [
+          [
+            12, 
+            432
+          ], 
+          [
+            60, 
+            480
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.vlille.checker:id/detail_starred[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.vlille.checker:id/detail_starred", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*48", 
+        "checked": false, 
+        "temp_id": 66, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.vlille.checker:id/detail_starred", 
+        "is_password": false, 
+        "parent": 65, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.vlille.checker", 
+        "long_clickable": false, 
+        "view_str": "ef000540d09685bae57bd38de5aa0b8f", 
+        "enabled": true, 
+        "bounds": [
+          [
+            12, 
+            528
+          ], 
+          [
+            60, 
+            576
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.vlille.checker:id/detail_starred[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.vlille.checker:id/detail_starred", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*48", 
+        "checked": false, 
+        "temp_id": 78, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.vlille.checker:id/detail_starred", 
+        "is_password": false, 
+        "parent": 77, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.vlille.checker", 
+        "long_clickable": false, 
+        "view_str": "ef000540d09685bae57bd38de5aa0b8f", 
+        "enabled": true, 
+        "bounds": [
+          [
+            12, 
+            624
+          ], 
+          [
+            60, 
+            672
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.vlille.checker:id/detail_starred[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.vlille.checker:id/detail_starred", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*48", 
+        "checked": false, 
+        "temp_id": 92, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.vlille.checker:id/detail_starred", 
+        "is_password": false, 
+        "parent": 91, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.vlille.checker", 
+        "long_clickable": false, 
+        "view_str": "ef000540d09685bae57bd38de5aa0b8f", 
+        "enabled": true, 
+        "bounds": [
+          [
+            12, 
+            745
+          ], 
+          [
+            60, 
+            793
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.vlille.checker:id/detail_starred[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.vlille.checker:id/detail_starred", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*48", 
+        "checked": false, 
+        "temp_id": 105, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.vlille.checker:id/detail_starred", 
+        "is_password": false, 
+        "parent": 103, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.vlille.checker", 
+        "long_clickable": false, 
+        "view_str": "ef000540d09685bae57bd38de5aa0b8f", 
+        "enabled": true, 
+        "bounds": [
+          [
+            12, 
+            841
+          ], 
+          [
+            60, 
+            889
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.vlille.checker:id/detail_starred[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.vlille.checker:id/detail_starred", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*48", 
+        "checked": false, 
+        "temp_id": 116, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.vlille.checker:id/detail_starred", 
+        "is_password": false, 
+        "parent": 114, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.vlille.checker", 
+        "long_clickable": false, 
+        "view_str": "ef000540d09685bae57bd38de5aa0b8f", 
+        "enabled": true, 
+        "bounds": [
+          [
+            12, 
+            937
+          ], 
+          [
+            60, 
+            985
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.vlille.checker:id/detail_starred[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.vlille.checker:id/detail_starred", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*47", 
+        "checked": false, 
+        "temp_id": 127, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.vlille.checker:id/detail_starred", 
+        "is_password": false, 
+        "parent": 125, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.vlille.checker", 
+        "long_clickable": false, 
+        "view_str": "ef000540d09685bae57bd38de5aa0b8f", 
+        "enabled": true, 
+        "bounds": [
+          [
+            12, 
+            1033
+          ], 
+          [
+            60, 
+            1080
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.vlille.checker:id/detail_starred[text]None[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "6ce56699bd7a7e51b9bd185c34828413"
+}

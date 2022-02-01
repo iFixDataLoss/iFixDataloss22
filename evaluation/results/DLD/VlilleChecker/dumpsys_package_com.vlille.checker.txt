@@ -1,0 +1,106 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        c14f0da com.vlille.checker/.ui.HomeActivity filter e88fbe5
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        8e9290b com.vlille.checker/.ui.widget.StationWidgetConfigurationActivity filter 53136ba
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.vlille.checker.widget.Provider.action.REFRESH:
+        f4a03e8 com.vlille.checker/.ui.widget.StationWidgetProvider filter 63b3edc
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.vlille.checker.widget.Provider.action.REFRESH"
+          AutoVerify=false
+      android.intent.action.BOOT_COMPLETED:
+        f4a03e8 com.vlille.checker/.ui.widget.StationWidgetProvider filter 63b3edc
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.vlille.checker.widget.Provider.action.REFRESH"
+          AutoVerify=false
+      android.intent.action.USER_PRESENT:
+        f4a03e8 com.vlille.checker/.ui.widget.StationWidgetProvider filter 63b3edc
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.vlille.checker.widget.Provider.action.REFRESH"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_UPDATE:
+        f4a03e8 com.vlille.checker/.ui.widget.StationWidgetProvider filter 63b3edc
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.vlille.checker.widget.Provider.action.REFRESH"
+          AutoVerify=false
+
+Key Set Manager:
+  [com.vlille.checker]
+      Signing KeySets: 25
+
+Packages:
+  Package [com.vlille.checker] (d248a01):
+    userId=10072
+    pkg=Package{86140a6 com.vlille.checker}
+    codePath=/data/app/com.vlille.checker-1
+    resourcePath=/data/app/com.vlille.checker-1
+    legacyNativeLibraryDir=/data/app/com.vlille.checker-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=740 minSdk=14 targetSdk=25
+    versionName=4.4.0
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{97f4ae7 com.vlille.checker}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/com.vlille.checker
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-04 17:10:20
+    firstInstallTime=2022-01-04 17:10:20
+    lastUpdateTime=2022-01-04 17:10:20
+    signatures=PackageSignatures{9af7694 [e81bd5ef]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.INTERNET
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+    User 0: ceDataInode=3409579 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=true
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.ACCESS_COARSE_LOCATION: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [com.vlille.checker]
+    Instruction Set: x86_64
+      path: /data/app/com.vlille.checker-1/base.apk
+      status: /data/app/com.vlille.checker-1/oat/x86_64/base.odex [compilation_filter=interpret-only, status=kOatUpToDat
+      e]
+
+
+Compiler stats:
+  [com.vlille.checker]
+     base.apk - 196

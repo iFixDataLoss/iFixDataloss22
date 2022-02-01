@@ -1,0 +1,51 @@
+{
+  "stop_state": "a5b89a3d8d86c5bd5abc45cba47aa051", 
+  "event_str": "FillUIEvent", 
+  "tag": "2022-01-04_171219", 
+  "event": {
+    "views_str": [
+      "bb0c466b598cdeda0478ba3b7c107475"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.vlille.checker:id/detail_starred", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "48*48", 
+        "checked": true, 
+        "temp_id": 31, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.vlille.checker:id/detail_starred", 
+        "is_password": false, 
+        "parent": 30, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.vlille.checker", 
+        "long_clickable": false, 
+        "view_str": "bb0c466b598cdeda0478ba3b7c107475", 
+        "enabled": true, 
+        "bounds": [
+          [
+            12, 
+            195
+          ], 
+          [
+            60, 
+            243
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.vlille.checker:id/detail_starred[text]None[enabled,checked,]"
+      }
+    ]
+  }, 
+  "start_state": "fb75098d1d11e3f02bfb46b75704251a"
+}

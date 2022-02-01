@@ -1,0 +1,10 @@
+{
+  "stop_state": "369de6ffc1e4f58e588aa99a88de429c", 
+  "event_str": "IntentEvent(intent='am start com.vlille.checker/com.vlille.checker.ui.HomeActivity')", 
+  "tag": "2022-01-04_170852", 
+  "event": {
+    "intent": "am start com.vlille.checker/com.vlille.checker.ui.HomeActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "6835de5e3e4655e2be2dd08661aaa9ee"
+}

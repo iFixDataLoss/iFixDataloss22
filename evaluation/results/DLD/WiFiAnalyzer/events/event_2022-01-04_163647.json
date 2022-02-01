@@ -1,0 +1,10 @@
+{
+  "stop_state": "6545a937ed85460388b5cc2214b16621", 
+  "event_str": "IntentEvent(intent='am start com.vrem.wifianalyzer/com.vrem.wifianalyzer.SplashActivity')", 
+  "tag": "2022-01-04_163647", 
+  "event": {
+    "intent": "am start com.vrem.wifianalyzer/com.vrem.wifianalyzer.SplashActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "b50eb60aa70c9b09079fbd20af8a70b8"
+}

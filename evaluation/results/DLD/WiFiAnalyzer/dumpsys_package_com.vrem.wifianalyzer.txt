@@ -1,0 +1,63 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        8c744ec com.vrem.wifianalyzer/.SplashActivity filter 387f2e7
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      com.vrem.wifianalyzer.MAINACTIVITY:
+        e6070b5 com.vrem.wifianalyzer/.MainActivity filter 28efe94
+          Action: "com.vrem.wifianalyzer.MAINACTIVITY"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+
+Key Set Manager:
+  [com.vrem.wifianalyzer]
+      Signing KeySets: 23
+
+Packages:
+  Package [com.vrem.wifianalyzer] (265534a):
+    userId=10070
+    pkg=Package{9c132bb com.vrem.wifianalyzer}
+    codePath=/data/app/com.vrem.wifianalyzer-1
+    resourcePath=/data/app/com.vrem.wifianalyzer-1
+    legacyNativeLibraryDir=/data/app/com.vrem.wifianalyzer-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=40 minSdk=16 targetSdk=22
+    versionName=1.9.2
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{c59c3d8 com.vrem.wifianalyzer}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/com.vrem.wifianalyzer
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-01-04 16:12:00
+    firstInstallTime=2022-01-04 16:12:00
+    lastUpdateTime=2022-01-04 16:12:00
+    signatures=PackageSignatures{cf46331 [454e69c2]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.CHANGE_WIFI_STATE
+    install permissions:
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+    User 0: ceDataInode=3409383 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      runtime permissions:
+
+
+Dexopt state:
+  [com.vrem.wifianalyzer]
+    Instruction Set: x86_64
+      path: /data/app/com.vrem.wifianalyzer-1/base.apk
+      status: /data/app/com.vrem.wifianalyzer-1/oat/x86_64/base.odex [compilation_filter=interpret-only, status=kOatUpTo
+      Date]
+
+
+Compiler stats:
+  [com.vrem.wifianalyzer]
+     base.apk - 136
