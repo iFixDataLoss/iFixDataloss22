@@ -1,0 +1,43 @@
+{
+  "stop_state": "1c071fd70f295d2cda194256000a3a47", 
+  "event_str": "LongTouchEvent(duration=2000)", 
+  "tag": "2022-01-04_184045", 
+  "event": {
+    "event_type": "long_touch", 
+    "duration": 2000, 
+    "y": null, 
+    "x": null, 
+    "id": 2, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "de.blau.android:id/floatingLock", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "78*88", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.blau.android", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          36
+        ], 
+        [
+          78, 
+          124
+        ]
+      ], 
+      "class": "android.widget.ImageButton", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "42bcf5165c109bc88a86eed820cf445b"
+}

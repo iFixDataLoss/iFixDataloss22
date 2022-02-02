@@ -1,0 +1,137 @@
+Total number of currently running services:0
+Activity Resolver Table:
+  Schemes:
+      vespucci:
+        8a962f de.blau.android/.prefs.VespucciURLActivity filter 222504d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "vespucci"
+          AutoVerify=false
+      geo:
+        c1e743c de.blau.android/.GeoUrlActivity filter 5a1d702
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geo"
+          AutoVerify=false
+      http:
+        2c9f5c5 de.blau.android/.RemoteControlUrlActivity filter 1d87a50
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "127.0.0.1": 8111
+          Authority: "127.0.0.1": 8112
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          AutoVerify=false
+      josm:
+        2c9f5c5 de.blau.android/.RemoteControlUrlActivity filter 2f75813
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "josm"
+          AutoVerify=false
+      https:
+        2c9f5c5 de.blau.android/.RemoteControlUrlActivity filter 1d87a50
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "127.0.0.1": 8111
+          Authority: "127.0.0.1": 8112
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        43ddb1a de.blau.android/.Splash filter 15d03e4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+          AutoVerify=false
+
+Service Resolver Table:
+  Non-Data Actions:
+      de.blau.android.services.IMapTileProviderService:
+        734664b de.blau.android/.services.MapTileProviderService filter 807b77
+          Action: "de.blau.android.services.IMapTileProviderService"
+          AutoVerify=false
+
+Registered ContentProviders:
+  de.blau.android/org.acra.attachment.AcraContentProvider:
+    Provider{17c9828 de.blau.android/org.acra.attachment.AcraContentProvider}
+  de.blau.android/android.support.v4.content.FileProvider:
+    Provider{f592941 de.blau.android/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [de.blau.android.osmeditor4android.provider]:
+    Provider{f592941 de.blau.android/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{cce8ee6 de.blau.android}
+  [de.blau.android.acra]:
+    Provider{17c9828 de.blau.android/org.acra.attachment.AcraContentProvider}
+      applicationInfo=ApplicationInfo{cce8ee6 de.blau.android}
+
+Key Set Manager:
+  [de.blau.android]
+      Signing KeySets: 27
+
+Packages:
+  Package [de.blau.android] (f611c27):
+    userId=10074
+    pkg=Package{170ed4 de.blau.android}
+    codePath=/data/app/de.blau.android-1
+    resourcePath=/data/app/de.blau.android-1
+    legacyNativeLibraryDir=/data/app/de.blau.android-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=502 minSdk=9 targetSdk=25
+    versionName=10.2.1.0
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{cce8ee6 de.blau.android}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privateFlags=[ HAS_DOMAIN_URLS RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/de.blau.android
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      com.sec.android.app.multiwindow
+    timeStamp=2022-01-04 17:59:11
+    firstInstallTime=2022-01-04 17:59:11
+    lastUpdateTime=2022-01-04 17:59:11
+    signatures=PackageSignatures{c4e187d [45e775cf]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    requested permissions:
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+    User 0: ceDataInode=3408526 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=true
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.ACCESS_COARSE_LOCATION: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [de.blau.android]
+    Instruction Set: x86_64
+      path: /data/app/de.blau.android-1/base.apk
+      status: /data/app/de.blau.android-1/oat/x86_64/base.odex [compilation_filter=interpret-only, status=kOatUpToDate]
+
+
+Compiler stats:
+  [de.blau.android]
+     base.apk - 282

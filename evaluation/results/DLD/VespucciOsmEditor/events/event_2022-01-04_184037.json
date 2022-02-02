@@ -1,0 +1,42 @@
+{
+  "stop_state": "c8bca1dc11805baeee6c0589ae489f93", 
+  "event_str": "TouchEvent", 
+  "tag": "2022-01-04_184037", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "de.blau.android:id/follow", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "96*114", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "de.blau.android", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          453
+        ], 
+        [
+          96, 
+          567
+        ]
+      ], 
+      "class": "android.widget.ImageButton", 
+      "focusable": true
+    }, 
+    "id": 1, 
+    "event_type": "touch"
+  }, 
+  "start_state": "42bcf5165c109bc88a86eed820cf445b"
+}
