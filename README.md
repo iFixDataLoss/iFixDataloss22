@@ -9,3 +9,9 @@ All data loss issues detected by iFixDataloss are in the DataSet folder, and the
 We give two examples to show the data loss issue.
 
 ## Example1
+<video src='videos/dataloss1.mp4' controls="controls">
+</video>
+
+## Example2
+<video src='videos/dataloss2.mp4' controls="controls">
+</video>
