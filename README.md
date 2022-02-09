@@ -13,13 +13,13 @@ We give two examples to show the data loss issue.
 <td>
 <div>
 <img src="videos/dataloss1.gif" border=0>
-<h1>before fixing</h1>
+<h1 align="center">before fixing</h1>
 </div>
 </td>
 <td>
 <div>
 <img src="videos/fix1.gif" border=0>
-<h1>after fixing</h1>
+<h1 align="center">after fixing</h1>
 </div>
 </td>
 </tr></table>
@@ -29,13 +29,13 @@ We give two examples to show the data loss issue.
 <td>
 <div>
 <img src="videos/dataloss2.gif" border=0>
-<h1>before fixing</h1>
+<h1 align="center">before fixing</h1>
 </div>
 </td>
 <td>
 <div>
 <img src="videos/fix2.gif" border=0>
-<h1>after fixing</h1>
+<h1 align="center">after fixing</h1>
 </div>
 </td>
 </tr></table>
