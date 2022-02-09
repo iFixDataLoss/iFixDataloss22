@@ -10,12 +10,32 @@ We give two examples to show the data loss issue.
 
 ## Example1
 <table><tr>
-<td><img src="videos/dataloss1.gif" border=0></td>
-<td><img src="videos/fix1.gif" border=0></td>
+<td>
+<div>
+<img src="videos/dataloss1.gif" border=0>
+<h1>before fixing</h1>
+</div>
+</td>
+<td>
+<div>
+<img src="videos/fix1.gif" border=0>
+<h1>after fixing</h1>
+</div>
+</td>
 </tr></table>
 
 ## Example2
 <table><tr>
-<td><img src="videos/dataloss2.gif" border=0></td>
-<td><img src="videos/fix2.gif" border=0></td>
+<td>
+<div>
+<img src="videos/dataloss2.gif" border=0>
+<h1>before fixing</h1>
+</div>
+</td>
+<td>
+<div>
+<img src="videos/fix2.gif" border=0>
+<h1>after fixing</h1>
+</div>
+</td>
 </tr></table>
