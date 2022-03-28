@@ -42,22 +42,22 @@ We give two examples to show the data loss issue.
 
 ## How to use the tool
 1. Make sure you have an Android device opened and connected via ADB
-2. Install the input apk in the Android device and start the installed app: 
-   **adb install <apk file path>**
+2. Install the input apk in the Android device and start the installed app:   
+   **adb install <apk file path>**  
    **adb shell am start -S -n <app package name>**
 3. Compile and run AndroidStaticAnalysis:
-   **cd .../AndroidStaticAnalysis**
-   **mvn compile**
+   **cd .../AndroidStaticAnalysis**  
+   **mvn compile**  
    **mvn exec:java -Dexec.mainClass="com.fdu.se.sootanalyze.Main"**
 4. Compile and run DynamicExplore:
-   **cd .../DynamicExplore**
-   **gradlew clean**
-   **gradlew build**
-   **gradlew assembleDebug**
-   **adb install -t .../app-debug.apk**
-   **adb install -r .../app-debug-androidTest.apk**
+   **cd .../DynamicExplore**  
+   **gradlew clean**  
+   **gradlew build**  
+   **gradlew assembleDebug**  
+   **adb install -t .../app-debug.apk**  
+   **adb install -r .../app-debug-androidTest.apk**  
    **adb shell am instrument -w -r -e debug false -e class 'com.fdu.uiautomatortest.DynamicTest#getDynamicGraphWithStatic' com.fdu.uiautomatortest.test/android.support.test.runner.AndroidJUnitRunner**
 5. Compile and run AndroidPatchGen:
-   **cd .../AndroidPatchGen**
-   **mvn compile**
+   **cd .../AndroidPatchGen**  
+   **mvn compile**  
    **mvn exec:java -Dexec.mainClass="com.fdu.se.patchgen.Main"**
