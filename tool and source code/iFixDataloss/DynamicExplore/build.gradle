@@ -7,11 +7,11 @@ buildscript {
     repositories {
         google()
         jcenter()
-        maven { url "https://chaquo.com/maven" } //添加行
+//        maven { url "https://chaquo.com/maven" } //添加行
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.4.0'
-        classpath "com.chaquo.python:gradle:9.1.0" //添加行
+//        classpath "com.chaquo.python:gradle:9.1.0" //添加行
         
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files

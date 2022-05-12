@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Point;
 import android.graphics.Rect;
+import android.os.Environment;
 import android.os.RemoteException;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.runner.AndroidJUnit4;
@@ -16,10 +17,10 @@ import android.util.Log;
 
 
 import com.alibaba.fastjson.JSON;
-import com.chaquo.python.PyObject;
-import com.chaquo.python.Python;
-import com.chaquo.python.android.AndroidPlatform;
-import com.chaquo.python.android.PyApplication;
+//import com.chaquo.python.PyObject;
+//import com.chaquo.python.Python;
+//import com.chaquo.python.android.AndroidPlatform;
+//import com.chaquo.python.android.PyApplication;
 import com.fdu.uiautomatortest.dao.DynamicGraphDao;
 import com.fdu.uiautomatortest.dao.TransitionGraphDao;
 import com.fdu.uiautomatortest.dao.WidgetDao;
@@ -36,6 +37,7 @@ import com.fdu.uiautomatortest.model.WindowNode;
 import com.fdu.uiautomatortest.model.WindowType;
 import com.fdu.uiautomatortest.utils.DBUtil;
 import com.fdu.uiautomatortest.utils.FileUtil;
+import com.fdu.uiautomatortest.utils.LoadProperties;
 import com.fdu.uiautomatortest.utils.StringUtil;
 
 import org.dom4j.Attribute;
@@ -59,6 +61,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -77,7 +80,7 @@ public class DynamicTest {
     private Set<String> visitedACT = new HashSet<>();//visited activities
     private String fText = "abc";
     private String fNum = "123";
-    private String windowLabel = "TapeMeasure";
+    private String windowLabel = "arXiv mobile";
     private final long clickDuration = 1500;
     private final long waitTime = 1000;//wait time after execute
     private final long rotateWait = 1000;//wait time after rotate
@@ -89,7 +92,7 @@ public class DynamicTest {
     private List<MenuItem> staticMenuItem = new ArrayList<>();//already visit menuitem from static
     private List<SubMenu> staticSubMenu = new ArrayList<>();//already visit submenu from static
     private long scenarioTimeout = 10000;
-    private long testTimeout = 1000 * 60 * 4;
+    private long testTimeout = 1000 * 60 * 5;
     private Integer frequencyCap = 4;
     private String hierarchyPath = "/data/data/com.fdu.uiautomatortest/hierarchy.xml";
 
@@ -103,456 +106,19 @@ public class DynamicTest {
         mainActivityRaw = getRunningActivityRaw();
         width = mUidevice.getDisplayWidth();
         height = mUidevice.getDisplayHeight();
+        windowLabel = LoadProperties.get("WINLABEL");
+        testTimeout = Long.parseLong(LoadProperties.get("TESTTIMEOUT"));
     }
 
-    private void initPython(){
-        if(!Python.isStarted()){
-            Python.start(new AndroidPlatform(InstrumentationRegistry.getTargetContext()));
-        }
-    }
+//    private void initPython(){
+//        if(!Python.isStarted()){
+//            Python.start(new AndroidPlatform(InstrumentationRegistry.getTargetContext()));
+//        }
+//    }
 
     @Test
     public void test(){
-        dumpWindow();
-//        Document doc = getWinHierarchyfromFile(hierarchyPath);
-//        Element root = doc.getRootElement();
-//        Element first = root.elements().get(0);
-//        Log.d("root attribute", first.attributeValue("package"));
-        //Log.d("running activity", getRunningActivity());
-//        try {
-//            mUidevice.executeShellCommand("content insert --uri content://settings/system --bind name:s:user_rotation --bind value:i:1");
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
     }
-
-//    @Test
-//    public void dfsStatic2() {
-//        boolean staticFlag = true;
-//        String type = "ACT";
-//        long startTime = System.currentTimeMillis();
-//        long endTime = startTime;
-//        while (endTime - startTime <= testTimeout) {
-//            String curACT = getRunningActivity();
-//            if (isMenu()) {
-//                type = "Menu";
-//            } else if (isDialog()) {
-//                type = "Dialog";
-//            }
-//            TransitionEdgeDao edgeDao = new TransitionEdgeDao();
-//            List<Map<String, Object>> staticResults = edgeDao.findTransitionResults(windowLabel, curACT, type);
-//            if (staticResults.isEmpty() || !staticFlag) {
-//                staticFlag = true;//dynamic successfully, set flag
-//                List<UiObject2> clickableElements = mUidevice.findObjects(By.clickable(true));
-//                if (clickableElements.isEmpty()) {
-//                    back();
-//                }
-//                if (visitMap.isEmpty()) {
-//                    UiObject2 firEle = clickableElements.get(0);
-//                    String text = firEle.getText();
-//                    String resourceId = firEle.getResourceName();
-//                    String contentDesc = firEle.getContentDescription();
-//                    String classType = firEle.getClassName();
-//                    Rect visBounds = firEle.getVisibleBounds();
-//                    String hostACT = curACT;
-//                    UIElement firUIEle = new UIElement(text, resourceId, contentDesc, classType, visBounds, hostACT);
-//                    fill_data(firEle);
-//                    executeEvent(firEle, "click");
-//                    VisitInfo firVisit = new VisitInfo();
-//                    if (isDialog()) {
-//                        firVisit.setOpenType(1);
-//                        firVisit.setVisit(false);
-//                    } else if (isMenu()) {
-//                        firVisit.setOpenType(2);
-//                        firVisit.setVisit(false);
-//                    }
-//                    Integer nextFrequency = firVisit.getFrequency() + 1;
-//                    firVisit.setFrequency(nextFrequency);
-//                    visitMap.put(firUIEle, firVisit);
-//                } else {
-//                    if (gotoAnotherApp()) {
-//                        back();
-//                        String curPack = mUidevice.getCurrentPackageName();
-//                        if (curPack.equals(mPackage)) {
-//                            continue;
-//                        } else {
-//                            restartApp(mPackage, mainActivity);
-//                            continue;
-//                        }
-//                    }
-//                    for (UiObject2 cele : clickableElements) {
-//                        String text = cele.getText();
-//                        String resourceId = cele.getResourceName();
-//                        String contentDesc = cele.getContentDescription();
-//                        String classType = cele.getClassName();
-//                        Rect visBounds = cele.getVisibleBounds();
-//                        String hostACT = curACT;
-//                        boolean isEditText = isEditText(cele);
-//                        UIElement uiEle = new UIElement(text, resourceId, contentDesc, classType, visBounds, hostACT);
-//                        if (!visitMap.containsKey(uiEle)) {
-//                            fill_data(cele);
-//                            executeEvent(cele, "click");
-//                            String dynamicInfo = "dynamic: "+hostACT + " " + visBounds.toString() + " id: " + resourceId;
-//                            Log.i("TestInfo",dynamicInfo);
-//                            VisitInfo subVisit = new VisitInfo();
-//                            if (isDialog() && !isEditText) {
-//                                subVisit.setOpenType(1);
-//                                subVisit.setVisit(false);
-//                            } else if (isMenu() && !isEditText) {
-//                                subVisit.setOpenType(2);
-//                                subVisit.setVisit(false);
-//                            }
-//                            Integer nextFrequency = subVisit.getFrequency() + 1;
-//                            subVisit.setFrequency(nextFrequency);
-//                            visitMap.put(uiEle, subVisit);
-//                            break;
-//                        } else {
-//                            VisitInfo dmVisit = visitMap.get(uiEle);
-//                            if (!dmVisit.getVisit()) {//to open menu or dialog
-//                                Log.d("open type", dmVisit.getOpenType() + "");
-//                                executeEvent(cele, "click");
-//                                String dynamicInfo = "dynamic: "+hostACT + " " + visBounds.toString() + " id: " + resourceId;
-//                                Log.i("TestInfo",dynamicInfo);
-//                                Boolean dmFlag = true;
-//                                List<UiObject2> dmElements = mUidevice.findObjects(By.clickable(true));//elements in menu or dialog
-//                                for (UiObject2 dmEle : dmElements) {
-//                                    String dmText = dmEle.getText();
-//                                    String dmResourceId = dmEle.getResourceName();
-//                                    String dmContentDesc = dmEle.getContentDescription();
-//                                    String dmClassType = dmEle.getClassName();
-//                                    Rect dmVisBounds = dmEle.getVisibleBounds();
-//                                    String dmHostACT = getRunningActivity();
-//                                    UIElement dm = new UIElement(dmText, dmResourceId, dmContentDesc, dmClassType, dmVisBounds, dmHostACT);
-//                                    if (!visitMap.containsKey(dm)) {
-//                                        dmFlag = false;
-//                                        break;
-//                                    } else {
-//                                        dmFlag = dmFlag && visitMap.get(dm).getVisit();
-//                                    }
-//                                }
-//                                Integer nextFrequency = dmVisit.getFrequency() + 1;
-//                                dmVisit.setFrequency(nextFrequency);
-//                                dmVisit.setVisit(dmFlag);
-//                                if (dmVisit.getFrequency() > frequencyCap) {
-//                                    dmVisit.setVisit(true);
-//                                }
-//                                break;
-//                            }
-//                        }
-//                        if (clickableElements.indexOf(cele) == clickableElements.size() - 1) {
-//                            String curAct = getRunningActivity();
-//                            if (((mainActivity.equals(curAct))) && !isDialog() && !isMenu()) {
-//                                UiObject2 optElement = findOptimalElement(clickableElements);
-//                                String opt_text = optElement.getText();
-//                                String opt_resourceId = optElement.getResourceName();
-//                                String opt_contentDesc = optElement.getContentDescription();
-//                                String opt_classType = optElement.getClassName();
-//                                Rect opt_visBounds = optElement.getVisibleBounds();
-//                                String opt_hostACT = curAct;
-//                                UIElement opt_uiElement = new UIElement(opt_text, opt_resourceId, opt_contentDesc, opt_classType, opt_visBounds, opt_hostACT);
-//                                VisitInfo opt_info = visitMap.get(opt_uiElement);
-//                                executeEvent(optElement, "click");
-//                                String dynamicInfo = "dynamic: "+ opt_hostACT + " " + opt_visBounds.toString() + " id: " + opt_resourceId;
-//                                Log.i("TestInfo",dynamicInfo);
-//                                opt_info.setFrequency(opt_info.getFrequency() + 1);
-//                                visitMap.put(opt_uiElement, opt_info);
-//                                break;
-//                            } else {
-//                                back();
-//                                break;
-//                            }
-//                        }
-//                    }
-//                }
-//            } else {
-//                String event = "click";
-//                String widgetId = "";
-//                UiObject2 sWidget = null;
-//                for (Map<String, Object> r : staticResults) {
-//                    event = (String) r.get("event");
-//                    widgetId = (String) r.get("widgetId");
-//                    //widgetId = mPackage + ":id/" + widgetId;
-//                    widgetId = "android:id/" + widgetId;
-//                    if (mUidevice.hasObject(By.res(widgetId))) {
-//                        List<UiObject2> sWidgets = mUidevice.findObjects(By.res(widgetId));
-//                        sWidget = sWidgets.get(sWidgets.size() / 2);
-//                        //sWidget = mUidevice.findObject(By.res(widgetId));
-//                        String text = sWidget.getText();
-//                        String resourceId = sWidget.getResourceName();
-//                        String contentDesc = sWidget.getContentDescription();
-//                        String classType = sWidget.getClassName();
-//                        Rect visBounds = sWidget.getVisibleBounds();
-//                        String hostACT = curACT;
-//                        UIElement suie = new UIElement(text, resourceId, contentDesc, classType, visBounds, hostACT);
-//                        if (!visitMap.containsKey(suie)) {
-//                            executeEvent(sWidget, event);
-//                            String staticInfo = "static: "+hostACT + " " + visBounds.toString() + " id: " + resourceId;
-//                            Log.i("TestInfo",staticInfo);
-//                            VisitInfo s_visit = new VisitInfo();
-//                            if (isDialog()) {
-//                                s_visit.setOpenType(1);
-//                                s_visit.setVisit(false);
-//                            } else if (isMenu()) {
-//                                s_visit.setOpenType(2);
-//                                s_visit.setVisit(false);
-//                            }
-//                            Integer nextFrequency = s_visit.getFrequency() + 1;
-//                            s_visit.setFrequency(nextFrequency);
-//                            visitMap.put(suie, s_visit);
-//                            staticFlag = true;//execute static successfully, set flag
-//                            break;
-//                        } else {
-//                            VisitInfo sInfo = visitMap.get(suie);
-//                            if((sInfo.getFrequency()==1 && sInfo.getOpenType()==0 && event.equals("long_click")) ||
-//                                    (sInfo.getFrequency()==1 && sInfo.getOpenType()!=0 && event.equals("click"))){
-//                                executeEvent(sWidget, event);
-//                                String staticInfo = "static: "+hostACT + " " + visBounds.toString() + " id: " + resourceId;
-//                                Log.i("TestInfo",staticInfo);
-//                                VisitInfo s_visit = new VisitInfo();
-//                                if (isDialog()) {
-//                                    s_visit.setOpenType(1);
-//                                    s_visit.setVisit(false);
-//                                } else if (isMenu()) {
-//                                    s_visit.setOpenType(2);
-//                                    s_visit.setVisit(false);
-//                                }
-//                                Integer nextFrequency = s_visit.getFrequency() + 1;
-//                                s_visit.setFrequency(nextFrequency);
-//                                visitMap.put(suie, s_visit);
-//                                staticFlag = true;//execute static successfully, set flag
-//                                break;
-//                            }else{
-//                                staticFlag = false;
-//                                continue;
-//                            }
-//                            //staticFlag = false;//does not execute static, set flag
-//                            //continue;
-//                        }
-//                    } else {
-//                        staticFlag = false;//does not execute static, set flag
-//                        continue;
-//                    }
-//                }
-//            }
-//            endTime = System.currentTimeMillis();
-//        }
-//    }
-
-//    @Test
-//    public void dfsStatic1() {
-//        boolean staticFlag = true;
-//        String type = "ACT";
-//        long startTime = System.currentTimeMillis();
-//        long endTime = startTime;
-//        while (endTime - startTime <= testTimeout) {
-//            String curACT = getRunningActivity();
-//            if (isMenu()) {
-//                type = "MENU";
-//            } else if (isDialog()) {
-//                type = "DIALOG";
-//            }
-//            TransitionGraphDao graphDao = new TransitionGraphDao();
-//            TransitionGraph g = graphDao.getTransitionGraph(windowLabel);
-//            List<Map<String, String>> staticResults = graphDao.findTransitionResults(g, curACT, type, mPackage);
-//            if (staticResults.isEmpty() || !staticFlag) {
-//                staticFlag = true;//dynamic successfully, set flag
-//                List<UiObject2> clickableElements = mUidevice.findObjects(By.clickable(true));
-//                if (clickableElements.isEmpty()) {
-//                    back();
-//                }
-//                if (visitMap.isEmpty()) {
-//                    UiObject2 firEle = clickableElements.get(0);
-//                    String text = firEle.getText();
-//                    String resourceId = firEle.getResourceName();
-//                    String contentDesc = firEle.getContentDescription();
-//                    String classType = firEle.getClassName();
-//                    Rect visBounds = firEle.getVisibleBounds();
-//                    String hostACT = curACT;
-//                    UIElement firUIEle = new UIElement(text, resourceId, contentDesc, classType, visBounds, hostACT);
-//                    fill_data(firEle);
-//                    executeEvent(firEle, "click");
-//                    VisitInfo firVisit = new VisitInfo();
-//                    if (isDialog()) {
-//                        firVisit.setOpenType(1);
-//                        firVisit.setVisit(false);
-//                    } else if (isMenu()) {
-//                        firVisit.setOpenType(2);
-//                        firVisit.setVisit(false);
-//                    }
-//                    Integer nextFrequency = firVisit.getFrequency() + 1;
-//                    firVisit.setFrequency(nextFrequency);
-//                    visitMap.put(firUIEle, firVisit);
-//                } else {
-//                    if (gotoAnotherApp()) {
-//                        back();
-//                        String curPack = mUidevice.getCurrentPackageName();
-//                        if (curPack.equals(mPackage)) {
-//                            continue;
-//                        } else {
-//                            restartApp(mPackage, mainActivity);
-//                            continue;
-//                        }
-//                    }
-//                    for (UiObject2 cele : clickableElements) {
-//                        String text = cele.getText();
-//                        String resourceId = cele.getResourceName();
-//                        String contentDesc = cele.getContentDescription();
-//                        String classType = cele.getClassName();
-//                        Rect visBounds = cele.getVisibleBounds();
-//                        String hostACT = curACT;
-//                        boolean isEditText = isEditText(cele);
-//                        UIElement uiEle = new UIElement(text, resourceId, contentDesc, classType, visBounds, hostACT);
-//                        if (!visitMap.containsKey(uiEle)) {
-//                            fill_data(cele);
-//                            executeEvent(cele, "click");
-//                            String dynamicInfo = "dynamic: " + hostACT + " " + visBounds.toString() + " id: " + resourceId;
-//                            Log.i("TestInfo", dynamicInfo);
-//                            VisitInfo subVisit = new VisitInfo();
-//                            if (isDialog() && !isEditText) {
-//                                subVisit.setOpenType(1);
-//                                subVisit.setVisit(false);
-//                            } else if (isMenu() && !isEditText) {
-//                                subVisit.setOpenType(2);
-//                                subVisit.setVisit(false);
-//                            }
-//                            Integer nextFrequency = subVisit.getFrequency() + 1;
-//                            subVisit.setFrequency(nextFrequency);
-//                            visitMap.put(uiEle, subVisit);
-//                            break;
-//                        } else {
-//                            VisitInfo dmVisit = visitMap.get(uiEle);
-//                            if (!dmVisit.getVisit()) {//to open menu or dialog
-//                                Log.d("open type", dmVisit.getOpenType() + "");
-//                                executeEvent(cele, "click");
-//                                String dynamicInfo = "dynamic: " + hostACT + " " + visBounds.toString() + " id: " + resourceId;
-//                                Log.i("TestInfo", dynamicInfo);
-//                                Boolean dmFlag = true;
-//                                List<UiObject2> dmElements = mUidevice.findObjects(By.clickable(true));//elements in menu or dialog
-//                                for (UiObject2 dmEle : dmElements) {
-//                                    String dmText = dmEle.getText();
-//                                    String dmResourceId = dmEle.getResourceName();
-//                                    String dmContentDesc = dmEle.getContentDescription();
-//                                    String dmClassType = dmEle.getClassName();
-//                                    Rect dmVisBounds = dmEle.getVisibleBounds();
-//                                    String dmHostACT = getRunningActivity();
-//                                    UIElement dm = new UIElement(dmText, dmResourceId, dmContentDesc, dmClassType, dmVisBounds, dmHostACT);
-//                                    if (!visitMap.containsKey(dm)) {
-//                                        dmFlag = false;
-//                                        break;
-//                                    } else {
-//                                        dmFlag = dmFlag && visitMap.get(dm).getVisit();
-//                                    }
-//                                }
-//                                Integer nextFrequency = dmVisit.getFrequency() + 1;
-//                                dmVisit.setFrequency(nextFrequency);
-//                                dmVisit.setVisit(dmFlag);
-//                                if (dmVisit.getFrequency() > frequencyCap) {
-//                                    dmVisit.setVisit(true);
-//                                }
-//                                break;
-//                            }
-//                        }
-//                        if (clickableElements.indexOf(cele) == clickableElements.size() - 1) {
-//                            String curAct = getRunningActivity();
-//                            if (((mainActivity.equals(curAct))) && !isDialog() && !isMenu()) {
-//                                UiObject2 optElement = findOptimalElement(clickableElements);
-//                                String opt_text = optElement.getText();
-//                                String opt_resourceId = optElement.getResourceName();
-//                                String opt_contentDesc = optElement.getContentDescription();
-//                                String opt_classType = optElement.getClassName();
-//                                Rect opt_visBounds = optElement.getVisibleBounds();
-//                                String opt_hostACT = curAct;
-//                                UIElement opt_uiElement = new UIElement(opt_text, opt_resourceId, opt_contentDesc, opt_classType, opt_visBounds, opt_hostACT);
-//                                VisitInfo opt_info = visitMap.get(opt_uiElement);
-//                                executeEvent(optElement, "click");
-//                                String dynamicInfo = "dynamic: " + opt_hostACT + " " + opt_visBounds.toString() + " id: " + opt_resourceId;
-//                                Log.i("TestInfo", dynamicInfo);
-//                                opt_info.setFrequency(opt_info.getFrequency() + 1);
-//                                visitMap.put(opt_uiElement, opt_info);
-//                                break;
-//                            } else {
-//                                back();
-//                                break;
-//                            }
-//                        }
-//                    }
-//                }
-//            } else {
-//                String event = "click";
-//                String widgetId = "";
-//                UiObject2 sWidget = null;
-//                for (Map<String, String> r : staticResults) {
-//                    event = r.get("event");
-//                    widgetId = r.get("widgetId");
-//                    widgetId = mPackage + ":id/" + widgetId;
-//                    if (!mUidevice.hasObject(By.res(widgetId))) {
-//                        widgetId = "android:id/" + widgetId;
-//                    }
-//                    if (mUidevice.hasObject(By.res(widgetId))) {
-//                        List<UiObject2> sWidgets = mUidevice.findObjects(By.res(widgetId));
-//                        sWidget = sWidgets.get(sWidgets.size() / 2);
-//                        //sWidget = mUidevice.findObject(By.res(widgetId));
-//                        String text = sWidget.getText();
-//                        String resourceId = sWidget.getResourceName();
-//                        String contentDesc = sWidget.getContentDescription();
-//                        String classType = sWidget.getClassName();
-//                        Rect visBounds = sWidget.getVisibleBounds();
-//                        String hostACT = curACT;
-//                        UIElement suie = new UIElement(text, resourceId, contentDesc, classType, visBounds, hostACT);
-//                        if (!visitMap.containsKey(suie)) {
-//                            executeEvent(sWidget, event);
-//                            String staticInfo = "static: " + hostACT + " " + visBounds.toString() + " id: " + resourceId;
-//                            Log.i("TestInfo", staticInfo);
-//                            VisitInfo s_visit = new VisitInfo();
-//                            if (isDialog()) {
-//                                s_visit.setOpenType(1);
-//                                s_visit.setVisit(false);
-//                            } else if (isMenu()) {
-//                                s_visit.setOpenType(2);
-//                                s_visit.setVisit(false);
-//                            }
-//                            Integer nextFrequency = s_visit.getFrequency() + 1;
-//                            s_visit.setFrequency(nextFrequency);
-//                            visitMap.put(suie, s_visit);
-//                            staticFlag = true;//execute static successfully, set flag
-//                            break;
-//                        } else {
-//                            VisitInfo sInfo = visitMap.get(suie);
-//                            if ((sInfo.getFrequency() == 1 && sInfo.getOpenType() == 0 && event.equals("long_click")) ||
-//                                    (sInfo.getFrequency() == 1 && sInfo.getOpenType() != 0 && event.equals("click"))) {
-//                                executeEvent(sWidget, event);
-//                                String staticInfo = "static: " + hostACT + " " + visBounds.toString() + " id: " + resourceId;
-//                                Log.i("TestInfo", staticInfo);
-//                                VisitInfo s_visit = new VisitInfo();
-//                                if (isDialog()) {
-//                                    s_visit.setOpenType(1);
-//                                    s_visit.setVisit(false);
-//                                } else if (isMenu()) {
-//                                    s_visit.setOpenType(2);
-//                                    s_visit.setVisit(false);
-//                                }
-//                                Integer nextFrequency = s_visit.getFrequency() + 1;
-//                                s_visit.setFrequency(nextFrequency);
-//                                visitMap.put(suie, s_visit);
-//                                staticFlag = true;//execute static successfully, set flag
-//                                break;
-//                            } else {
-//                                staticFlag = false;
-//                                continue;
-//                            }
-//                            //staticFlag = false;//does not execute static, set flag
-//                            //continue;
-//                        }
-//                    } else {
-//                        staticFlag = false;//does not execute static, set flag
-//                        continue;
-//                    }
-//                }
-//            }
-//            endTime = System.currentTimeMillis();
-//        }
-//    }
-    
 
     @Test
     public void dfsStatic() {
@@ -889,6 +455,9 @@ public class DynamicTest {
             if (clickableElements.isEmpty()) {
                 back();
             }
+//            if(mUidevice.getCurrentPackageName().equals("com.vphone.launcher")){
+//                restartApp(mainActivityRaw);
+//            }
             if (visitMap.isEmpty()) {
                 UiObject2 firEle = clickableElements.get(0);
                 String text = firEle.getText();
@@ -1002,12 +571,6 @@ public class DynamicTest {
             }
             endTime = System.currentTimeMillis();
         }
-    }
-
-    @Test
-    public void testConn(){
-        DBUtil.getConnection();
-        //DBUtil.getSqliteConnection();
     }
 
     @Test
@@ -1911,8 +1474,8 @@ public class DynamicTest {
         dynamicGraph.setNodes(dynamicWindows);
         dynamicGraph.setEdges(dynamicEdges);
         printDynamicGraph(dynamicGraph);
-//        DynamicGraphDao graphDao1 = new DynamicGraphDao();
-//        graphDao1.insertDynamicGraph(dynamicGraph);
+        DynamicGraphDao graphDao1 = new DynamicGraphDao();
+        graphDao1.insertDynamicGraph(dynamicGraph);
     }
 
     @Test
@@ -3134,11 +2697,12 @@ public class DynamicTest {
     }
 
     private String getPhraseType(String phrase){
-        initPython();
-        Python py = Python.getInstance();
-        PyObject pyObject = py.getModule("nlp").callAttr("analysePhrase",phrase);
-        String type = pyObject.toString();
-        return type;
+//        initPython();
+//        Python py = Python.getInstance();
+//        PyObject pyObject = py.getModule("nlp").callAttr("analysePhrase",phrase);
+//        String type = pyObject.toString();
+//        return type;
+        return "python";
     }
 
     public void dumpWindow(){

@@ -3,17 +3,19 @@ package com.fdu.se.patchgen.utils;
 import java.sql.*;
 
 public class DBUtil {
-    private final static String SQLITEDRIVER = "org.sqlite.JDBC";
+    //private final static String SQLITEDRIVER = "org.sqlite.JDBC";
+    private final static String SQLITEDRIVER = LoadProperties.get("SQLITEDRIVER");
 
     public static Connection getSqliteConnection(){
         Connection connection = null;
         try{
             Class.forName(SQLITEDRIVER);
-            String dbPath = "jdbc:sqlite:C:/Users/William/Nox_share/ImageShare/navgraph.db";
+            //String dbPath = "jdbc:sqlite:C:/Users/William/Nox_share/ImageShare/navgraph.db";
+            String dbPath = "jdbc:sqlite:" + LoadProperties.get("SQLITEDBPATH");
             connection = DriverManager.getConnection(dbPath);
             System.out.println("connect successfully");
         }catch(Exception e){
-            System.out.println("connect failed");
+            System.err.println("connect failed");
             e.printStackTrace();
         }
         return connection;

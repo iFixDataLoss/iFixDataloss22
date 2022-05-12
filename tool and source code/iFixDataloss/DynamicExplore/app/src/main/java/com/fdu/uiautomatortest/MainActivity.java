@@ -9,9 +9,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.chaquo.python.PyObject;
-import com.chaquo.python.Python;
-import com.chaquo.python.android.AndroidPlatform;
+//import com.chaquo.python.PyObject;
+//import com.chaquo.python.Python;
+//import com.chaquo.python.android.AndroidPlatform;
 
 import java.util.ArrayList;
 
@@ -49,10 +49,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void initPython(){
-        if (! Python.isStarted()) {
-            Python.start(new AndroidPlatform(this));
-        }
-    }
+//    public void initPython(){
+//        if (! Python.isStarted()) {
+//            Python.start(new AndroidPlatform(this));
+//        }
+//    }
 
 }

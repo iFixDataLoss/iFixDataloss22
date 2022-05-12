@@ -3,10 +3,14 @@ package com.fdu.se.sootanalyze.utils;
 import java.sql.*;
 
 public class DBUtil {
-    private final static String DRIVER = "com.mysql.jdbc.Driver";
-    private final static String URL = "jdbc:mysql://127.0.0.1:3306/android?useUnicode=true&characterEncoding=UTF-8&useSSL=false";
-    private final static String USERNAME = "root";
-    private final static String PASSWORD = "1234";
+//    private final static String DRIVER = "com.mysql.jdbc.Driver";
+//    private final static String URL = "jdbc:mysql://127.0.0.1:3306/android?useUnicode=true&characterEncoding=UTF-8&useSSL=false";
+//    private final static String USERNAME = "root";
+//    private final static String PASSWORD = "1234";
+    private final static String DRIVER = LoadProperties.get("DRIVER");
+    private final static String URL = LoadProperties.get("MYSQLURL");
+    private final static String USERNAME = LoadProperties.get("MYSQLUSERNAME");
+    private final static String PASSWORD = LoadProperties.get("MYSQLPASSWORD");
 
     public static Connection getConnection(){
         Connection connection = null;

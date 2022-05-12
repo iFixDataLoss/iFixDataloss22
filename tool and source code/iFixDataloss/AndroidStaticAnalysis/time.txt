@@ -1,0 +1,100 @@
+E:\E_backup\AndroidTesting\test app\apps\36C3 Schedule.apk	16372
+E:\E_backup\AndroidTesting\test app\apps\A Photo Manager.apk	15758
+E:\E_backup\AndroidTesting\test app\apps\Addi.apk	2797
+E:\E_backup\AndroidTesting\test app\apps\ADSdriod.apk	2455
+E:\E_backup\AndroidTesting\test app\apps\Amaze Debug.apk	2239
+E:\E_backup\AndroidTesting\test app\apps\Angulo Classic.apk	1877
+E:\E_backup\AndroidTesting\test app\apps\AnyMemo.apk	2129
+E:\E_backup\AndroidTesting\test app\apps\Apod Classic.apk	4468
+E:\E_backup\AndroidTesting\test app\apps\APV PDF Viewer.apk	3690
+E:\E_backup\AndroidTesting\test app\apps\arXiv Explorer.apk	3015
+E:\E_backup\AndroidTesting\test app\apps\arXiv mobile.apk	2627
+E:\E_backup\AndroidTesting\test app\apps\Atomic.apk	4431
+E:\E_backup\AndroidTesting\test app\apps\AudioBook.apk	3655
+E:\E_backup\AndroidTesting\test app\apps\AudioMeter.apk	2712
+E:\E_backup\AndroidTesting\test app\apps\Binaural Beats.apk	3591
+E:\E_backup\AndroidTesting\test app\apps\Bop-MusicPlayer.apk	3212
+E:\E_backup\AndroidTesting\test app\apps\Budget.apk	3010
+E:\E_backup\AndroidTesting\test app\apps\Car Report.apk	1861
+E:\E_backup\AndroidTesting\test app\apps\Cetoolbox.apk	2013
+E:\E_backup\AndroidTesting\test app\apps\chanu.apk	12509
+E:\E_backup\AndroidTesting\test app\apps\Daily Dozen.apk	16973
+E:\E_backup\AndroidTesting\test app\apps\Dalvik Explorer.apk	2102
+E:\E_backup\AndroidTesting\test app\apps\DemocracyDroid.apk	7313
+E:\E_backup\AndroidTesting\test app\apps\Dev GrowTracker.apk	2171
+E:\E_backup\AndroidTesting\test app\apps\Diary.apk	2301
+E:\E_backup\AndroidTesting\test app\apps\Diccionario castellano.apk	3299
+E:\E_backup\AndroidTesting\test app\apps\Eternity Wall.apk	1970
+E:\E_backup\AndroidTesting\test app\apps\Finance Manager.apk	4671
+E:\E_backup\AndroidTesting\test app\apps\Fissure.apk	3199
+E:\E_backup\AndroidTesting\test app\apps\Free Mobile Netstat.apk	3769
+E:\E_backup\AndroidTesting\test app\apps\FTP Server.apk	5782
+E:\E_backup\AndroidTesting\test app\apps\G-droid.apk	10668
+E:\E_backup\AndroidTesting\test app\apps\Goblim.apk	3394
+E:\E_backup\AndroidTesting\test app\apps\Hendroid-beta.apk	19678
+E:\E_backup\AndroidTesting\test app\apps\IMCKTG.apk	2564
+E:\E_backup\AndroidTesting\test app\apps\InternetRadio.apk	4192
+E:\E_backup\AndroidTesting\test app\apps\inventum.apk	4659
+E:\E_backup\AndroidTesting\test app\apps\Just Craigslist.apk	3214
+E:\E_backup\AndroidTesting\test app\apps\Just Notes.apk	2973
+E:\E_backup\AndroidTesting\test app\apps\KeePassDroid.apk	7754
+E:\E_backup\AndroidTesting\test app\apps\KindMind.apk	3032
+E:\E_backup\AndroidTesting\test app\apps\KouChat.apk	4622
+E:\E_backup\AndroidTesting\test app\apps\library.apk	2761
+E:\E_backup\AndroidTesting\test app\apps\Lift.apk	5793
+E:\E_backup\AndroidTesting\test app\apps\Lock Pattern Generator.apk	1749
+E:\E_backup\AndroidTesting\test app\apps\LogicalDefence.apk	2681
+E:\E_backup\AndroidTesting\test app\apps\Makor.apk	5229
+E:\E_backup\AndroidTesting\test app\apps\man man.apk	3130
+E:\E_backup\AndroidTesting\test app\apps\MatLong.apk	8164
+E:\E_backup\AndroidTesting\test app\apps\meiting.apk	3156
+E:\E_backup\AndroidTesting\test app\apps\MoneyWallet.apk	4332
+E:\E_backup\AndroidTesting\test app\apps\Multi Sms.apk	1553
+E:\E_backup\AndroidTesting\test app\apps\Nainja.apk	4077
+E:\E_backup\AndroidTesting\test app\apps\NanoConverter.apk	2134
+E:\E_backup\AndroidTesting\test app\apps\Net Monitor.apk	4015
+E:\E_backup\AndroidTesting\test app\apps\NewPipe.apk	4082
+E:\E_backup\AndroidTesting\test app\apps\News.apk	18665
+E:\E_backup\AndroidTesting\test app\apps\Notes.apk	16508
+E:\E_backup\AndroidTesting\test app\apps\OInotepad.apk	3986
+E:\E_backup\AndroidTesting\test app\apps\OpenManga.apk	17346
+E:\E_backup\AndroidTesting\test app\apps\primitive ftpd.apk	5547
+E:\E_backup\AndroidTesting\test app\apps\PWMP.apk	7710
+E:\E_backup\AndroidTesting\test app\apps\ringdroid.apk	2080
+E:\E_backup\AndroidTesting\test app\apps\Sanity.apk	3612
+E:\E_backup\AndroidTesting\test app\apps\Shopping List.apk	6026
+E:\E_backup\AndroidTesting\test app\apps\Silectric.apk	3119
+E:\E_backup\AndroidTesting\test app\apps\sNotePad.apk	2792
+E:\E_backup\AndroidTesting\test app\apps\Starke Verben.apk	6368
+E:\E_backup\AndroidTesting\test app\apps\SwipeView.apk	2712
+E:\E_backup\AndroidTesting\test app\apps\SyncMyPix.apk	2790
+E:\E_backup\AndroidTesting\test app\apps\Tinte Webcoms.apk	5986
+E:\E_backup\AndroidTesting\test app\apps\Tshot.apk	17591
+E:\E_backup\AndroidTesting\test app\apps\uNote.apk	1998
+E:\E_backup\AndroidTesting\test app\apps\Vinyl DEBUG.apk	23342
+E:\E_backup\AndroidTesting\test app\apps\WeightTracker.apk	7338
+E:\E_backup\AndroidTesting\test app\apps\Wikipedia.apk	25045
+E:\E_backup\AndroidTesting\test app\apps\Zapp.apk	9804
+E:\E_backup\AndroidStateSave\test apps\Pro_Expense.apk	19386
+E:\E_backup\AndroidStateSave\test apps\Fast_N_Fitness.apk	40385
+E:\E_backup\AndroidStateSave\test apps\Githo.apk	5561
+E:\E_backup\AndroidStateSave\test apps\Webmon_base.apk	13815
+E:\E_backup\AndroidStateSave\test apps\remembeer.apk	9004
+E:\E_backup\AndroidStateSave\test apps\newsblur.apk	32825
+E:\E_backup\AndroidStateSave\test apps\Book_Catalogue.apk	16414
+E:\E_backup\AndroidStateSave\test apps\BeeCount.apk	11000
+E:\E_backup\AndroidStateSave\test apps\DNS66.apk	13338
+E:\E_backup\AndroidStateSave\test apps\QuasselDroid.apk	15779
+E:\E_backup\AndroidStateSave\test apps\CycleStreets.apk	18854
+E:\E_backup\AndroidStateSave\test apps\Etar Calendar.apk	6860
+E:\E_backup\AndroidStateSave\test apps\MGit.apk	11437
+E:\E_backup\AndroidStateSave\test apps\Omni Notes.apk	38389
+E:\E_backup\AndroidStateSave\test apps\OpenTasks.apk	15245
+E:\E_backup\AndroidStateSave\test apps\Taskbar.apk	6932
+E:\E_backup\AndroidStateSave\test apps\Timesheet.apk	4743
+E:\E_backup\AndroidStateSave\test apps\Hourglass.apk	5492
+E:\E_backup\AndroidStateSave\test apps\androidclient.apk	16182
+C:\iFixDataloss\AndroidStaticAnalysis\inputApk\arXiv mobile.apk	21563
+C:\iFixDataloss\AndroidStaticAnalysis\inputApk\arXiv mobile.apk	16685
+C:\iFixDataloss\AndroidStaticAnalysis\inputApk\arXiv mobile.apk	15265
+C:\iFixDataloss\AndroidStaticAnalysis\inputApk\arXiv mobile.apk	15359

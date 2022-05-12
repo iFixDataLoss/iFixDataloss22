@@ -51,7 +51,6 @@ public class SootAnalyze {
     private String packageName;
     private String apkPath = "apks/chaun.apk";
     private static String sdkPath = "libs/android.jar";
-    private static String sdkPath2 = "E:/Android/Sdk/platforms";
     private static String callbackPath = "AndroidCallbacks.txt";
     private static String sourceSinkFilePath = "SourcesAndSinks2.txt";
     private long curNodeId = 0;//the current id of WindowNode when constructing Transition Graph

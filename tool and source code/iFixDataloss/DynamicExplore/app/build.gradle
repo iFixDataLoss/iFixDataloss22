@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.chaquo.python'
+//apply plugin: 'com.chaquo.python'
 
 android {
     compileSdkVersion 28
@@ -13,12 +13,12 @@ android {
         ndk {
             abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
         }
-        python {
-            buildPython "E:/anaconda3/python.exe"
-            pip{
-                install "spacy"
-            }
-        }
+//        python {
+//            buildPython "E:/anaconda3/python.exe"
+//            pip{
+//                install "spacy"
+//            }
+//        }
         //multiDexEnabled true
         javaCompileOptions { annotationProcessorOptions { includeCompileClasspath = true } }
         //multiDexKeepProguard file('multiDexKeep.pro')

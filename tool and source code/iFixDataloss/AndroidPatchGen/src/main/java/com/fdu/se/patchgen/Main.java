@@ -6,6 +6,7 @@ import com.fdu.se.patchgen.model.DynamicWindow;
 import com.fdu.se.patchgen.model.WindowType;
 import com.fdu.se.patchgen.utils.ASTUtil;
 import com.fdu.se.patchgen.utils.FileUtil;
+import com.fdu.se.patchgen.utils.LoadProperties;
 import com.github.javaparser.*;
 import com.github.javaparser.ast.CompilationUnit;
 import com.github.javaparser.ast.body.*;
@@ -13,11 +14,13 @@ import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.*;
 
 public class Main {
-    private static String graphLabel = "CycleStreets";
-    private static String srcPath = "E:\\android\\app\\src";
+    private static String graphLabel = LoadProperties.get("GRAPHLABEL");
+    private static String srcPath = LoadProperties.get("SRCPATH");
 
     public static void main(String[] args) {
         DynamicGraphDao graphDao = new DynamicGraphDao();
@@ -44,7 +47,9 @@ public class Main {
                     ClassOrInterfaceDeclaration classDecl = classDeclares.get(0);
                     ASTUtil.addImport(cu);
                     ASTUtil.insertCode(classDecl,savedIds);
+                    System.out.println("Activity: " + f.getName());
                     System.out.println(cu.toString());
+                    updateActFile(f,cu.toString());
 
                 }catch (FileNotFoundException e){
                     e.printStackTrace();
@@ -62,11 +67,13 @@ public class Main {
         return null;
     }
 
-    private static class ClassDeclareVisitor extends VoidVisitorAdapter<Void>{
-        @Override
-        public void visit(ClassOrInterfaceDeclaration n, Void arg) {
-            super.visit(n, arg);
-            System.out.println(n.getName());
+   private static void updateActFile(File file, String cuString){
+        try{
+            FileWriter fileWriter = new FileWriter(file,false);
+            fileWriter.write(cuString);
+            fileWriter.close();
+        }catch (IOException e){
+            e.printStackTrace();
         }
-    }
+   }
 }

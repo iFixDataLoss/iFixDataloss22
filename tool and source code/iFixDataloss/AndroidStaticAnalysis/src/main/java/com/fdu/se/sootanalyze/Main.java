@@ -9,6 +9,7 @@ import com.fdu.se.sootanalyze.dao.WindowNodeDao;
 import com.fdu.se.sootanalyze.model.*;
 import com.fdu.se.sootanalyze.utils.DBUtil;
 import com.fdu.se.sootanalyze.utils.FileUtil;
+import com.fdu.se.sootanalyze.utils.LoadProperties;
 import soot.SootClass;
 
 import java.util.ArrayList;
@@ -17,7 +18,8 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         SootAnalyze sootAnalyze = new SootAnalyze();
-        List<String> apkPaths = FileUtil.getApkPaths("E:\\E_backup\\AndroidStateSave\\test apps");
+        String inputApkPaths = LoadProperties.get("INPUTAPKPATH");
+        List<String> apkPaths = FileUtil.getApkPaths(inputApkPaths);
         for(String apkPath:apkPaths){
             long startTime = System.currentTimeMillis();
             sootAnalyze.init(apkPath);

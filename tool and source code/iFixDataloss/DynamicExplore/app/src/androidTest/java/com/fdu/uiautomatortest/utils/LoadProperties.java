@@ -19,8 +19,7 @@ public class LoadProperties {
             return properties;
         try {
             properties = new Properties();
-            InputStream in = new FileInputStream(new File("config.properties"));
-            properties.load(in);
+            properties.load(LoadProperties.class.getResourceAsStream("/assets/Aconfig.properties"));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
