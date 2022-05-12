@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6540706.svg)](https://doi.org/10.5281/zenodo.6540706)
 # iFixDataloss
 This repository contains the iFixDataloss tool, the evaluation detail and all data loss issues detected by iFixDataloss, which are available in three separate folders: tool and source code, evaluation, and DataSet.
 
