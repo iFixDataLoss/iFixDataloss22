@@ -47,6 +47,23 @@ public class DBUtil {
         return connection;
     }
 
+    public static boolean isExists(String table, Connection conn){
+        boolean result = false;
+        try{
+            DatabaseMetaData meta = conn.getMetaData();
+            ResultSet set = meta.getTables(null,null,table,null);
+            if(set.next()){
+                result = true;
+            }else{
+                result = false;
+            }
+
+        }catch(SQLException e){
+            e.printStackTrace();
+        }
+        return result;
+    }
+
     public static void closeConnection(Connection connection) {
         try {
             if (connection != null)

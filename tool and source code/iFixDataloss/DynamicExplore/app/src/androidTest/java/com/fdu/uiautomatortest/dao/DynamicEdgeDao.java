@@ -9,6 +9,7 @@ import com.fdu.uiautomatortest.utils.DBUtil;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Map;
 
@@ -17,6 +18,9 @@ public class DynamicEdgeDao {
         int insertId = (int)edge.getId();
         try{
             Connection sqlite_conn = DBUtil.getSqliteConnection();
+            if(!DBUtil.isExists("dynamic_edge",sqlite_conn)){
+                createEdgeTable(sqlite_conn);
+            }
 //            String sql = "insert into dynamic_edge(_id,label,type,swindow_id,twindow_id,widget_id) values" +
 //                    "(?,?,?,?,?,?)";
             String sql = "insert into dynamic_edge(label,type,swindow_id,twindow_id,widget_id) values" +
@@ -58,5 +62,25 @@ public class DynamicEdgeDao {
             e.printStackTrace();
         }
         return insertId;
+    }
+
+    private void createEdgeTable(Connection conn){
+        String sql = "CREATE TABLE \"dynamic_edge\" (\n" +
+                "  \"_id\" integer NOT NULL PRIMARY KEY AUTOINCREMENT,\n" +
+                "  \"label\" text,\n" +
+                "  \"type\" text,\n" +
+                "  \"swindow_id\" integer,\n" +
+                "  \"twindow_id\" integer,\n" +
+                "  \"widget_id\" integer\n" +
+                ")";
+        try {
+            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            preparedStatement.execute();
+            DBUtil.closePreparedStatement(preparedStatement);
+            DBUtil.closeConnection(conn);
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+
     }
 }

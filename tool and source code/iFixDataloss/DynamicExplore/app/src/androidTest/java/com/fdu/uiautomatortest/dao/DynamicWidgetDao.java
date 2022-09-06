@@ -10,6 +10,7 @@ import com.fdu.uiautomatortest.utils.DBUtil;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
 
 public class DynamicWidgetDao {
@@ -17,6 +18,9 @@ public class DynamicWidgetDao {
         int insertId = (int)widget.getId();
         try{
             Connection sqlite_conn = DBUtil.getSqliteConnection();
+            if(!DBUtil.isExists("dynamic_widget",sqlite_conn)){
+                createWidgetTable(sqlite_conn);
+            }
 //            String sql = "insert into dynamic_widget(_id,res_id,text,pack,widget_class,content_desc,checkable," +
 //                    "checked,clickable,enabled,focusable,focused,scrollable,long_clickable,selected,bounds,center,complete_text) values" +
 //                    "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
@@ -69,6 +73,38 @@ public class DynamicWidgetDao {
             e.printStackTrace();
         }
         return insertId;
+    }
+
+    private void createWidgetTable(Connection conn){
+        String sql = "CREATE TABLE \"dynamic_widget\" (\n" +
+                "  \"_id\" integer NOT NULL PRIMARY KEY AUTOINCREMENT,\n" +
+                "  \"res_id\" text,\n" +
+                "  \"text\" text,\n" +
+                "  \"pack\" text,\n" +
+                "  \"widget_class\" text,\n" +
+                "  \"content_desc\" text,\n" +
+                "  \"checkable\" integer,\n" +
+                "  \"checked\" integer,\n" +
+                "  \"clickable\" integer,\n" +
+                "  \"enabled\" integer,\n" +
+                "  \"focusable\" integer,\n" +
+                "  \"focused\" integer,\n" +
+                "  \"scrollable\" integer,\n" +
+                "  \"long_clickable\" integer,\n" +
+                "  \"selected\" integer,\n" +
+                "  \"bounds\" text,\n" +
+                "  \"center\" text,\n" +
+                "  \"complete_text\" text\n" +
+                ")";
+        try {
+            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            preparedStatement.execute();
+            DBUtil.closePreparedStatement(preparedStatement);
+            DBUtil.closeConnection(conn);
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+
     }
 
     private int connvertToInt(Boolean b){

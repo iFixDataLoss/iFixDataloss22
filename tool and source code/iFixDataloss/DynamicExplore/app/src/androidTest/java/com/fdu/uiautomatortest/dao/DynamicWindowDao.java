@@ -9,6 +9,7 @@ import com.fdu.uiautomatortest.utils.DBUtil;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
 
 public class DynamicWindowDao {
@@ -16,6 +17,9 @@ public class DynamicWindowDao {
         int insertId = (int)dw.getId();
         try{
             Connection sqlite_conn = DBUtil.getSqliteConnection();
+            if(!DBUtil.isExists("dynamic_window",sqlite_conn)){
+                createWindowTable(sqlite_conn);
+            }
             //String sql = "insert into dynamic_window(_id,name,label,type) values (?,?,?,?)";
             String sql = "insert into dynamic_window(name,label,type,hierarchy,maySaved,savedWidgets) values (?,?,?,?,?,?)";
             //PreparedStatement preparedStatement = sqlite_conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
@@ -49,6 +53,27 @@ public class DynamicWindowDao {
             e.printStackTrace();
         }
         return insertId;
+    }
+
+    private void createWindowTable(Connection conn){
+        String sql = "CREATE TABLE \"dynamic_window\" (\n" +
+                "  \"_id\" integer NOT NULL PRIMARY KEY AUTOINCREMENT,\n" +
+                "  \"name\" text,\n" +
+                "  \"label\" text,\n" +
+                "  \"type\" text,\n" +
+                "  \"hierarchy\" text,\n" +
+                "  \"maySaved\" integer,\n" +
+                "  \"savedWidgets\" text\n" +
+                ")";
+        try {
+            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            preparedStatement.execute();
+            DBUtil.closePreparedStatement(preparedStatement);
+            DBUtil.closeConnection(conn);
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+
     }
 
     private int connvertToInt(Boolean b){

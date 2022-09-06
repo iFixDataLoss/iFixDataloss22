@@ -100,11 +100,12 @@ All values remain default.
    - AndroidStudio compile: import this module using AndroidStudio and compile it.
    - Gradle compile:
      - cd .../DynamicExplore
+	 - set the Android SDK dir in DynamicExplore/local.properties
 	 - gradlew clean
      - gradlew build  
      - gradlew assembleDebug
 	 - gradlew assembleDebugAndroidTest
-   If succeed, an apk file should be at DynamicExplore/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
+   If succeed, two apk files(debug apk and test apk) should be at DynamicExplore/app/build/outputs/apk/debug/app-debug.apk and DynamicExplore/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
 3) Compile AndroidPatchGen: similar to compiling AndroidStaticAnalysis.
 
 #### Quick Run
@@ -115,9 +116,10 @@ If the execution succeed, the patched activity and its code will be printed.
 Run the main method of com.fdu.se.sootanalyze.Main class in Intellij IDEA, or **cd .../AndroidStaticAnalysis** and **mvn exec:java -Dexec.mainClass="com.fdu.se.sootanalyze.Main"**
 If the execution succeed, the static model will stored in your MYSQL database.
 #### Run dynamic explorer
+- Install the debug apk(DynamicExplore/app/build/outputs/apk/debug/app-debug.apk) and start it.
 - Install the input apk(adb install ../AndroidStaticAnalysis/inputApk/arXiv mobile.apk) and start it. 
 - Install the test apk: adb install -r ../DynamicExplore/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
-- Run the dynamic explore process: adb shell am instrument -w -r -e debug false -e class 'com.fdu.uiautomatortest.DynamicTest#getDynamicGraphWithStatic' com.fdu.uiautomatortest.test/android.support.test.runner.AndroidJUnitRunner
+- Run the dynamic explore process: adb shell am instrument -w -r -e debug false -e class 'com.fdu.uiautomatortest.DynamicTest#detectDataloss' com.fdu.uiautomatortest.test/android.support.test.runner.AndroidJUnitRunner
 - adb install -t C:\iFixDataloss\DynamicExplore\app\build\outputs\apk\debug\app-debug.apk
 - adb install -r C:\iFixDataloss\DynamicExplore\app\build\outputs\apk\androidTest\debug\app-debug-androidTest.apk
 If all the steps succeed, a db file should be at /storage/emulated/0/navgraph.db of your android device(or emulator).
