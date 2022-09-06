@@ -61,50 +61,62 @@ We give two examples to show the data loss issue.
 - Initailize database: mysql -u**username** -p**password** -Dandroid < ../AndroidStaticAnalysis/androidmodel.sql Please replace **username** and **password** with your own.
 
 #### Configure
-1) Configure the ``config.properties`` under /AndroidStaticAnalysis/src/main/resources, which looks like as:
-```bash
-DRIVER=com.mysql.jdbc.Driver
-MYSQLURL=jdbc:mysql://127.0.0.1:3306/android?useUnicode=true&characterEncoding=UTF-8&useSSL=false
-MYSQLUSERNAME=root
-MYSQLPASSWORD=1234
-INPUTAPKPATH=inputApk
-```
-The MYSQLURL, MYSQLUSERNAME, MYSQLPASSWORD are the url, username, password of MYSQL, please replace them with the arguments of your own. Other values remain default, and the input apk(arXiv mobile.apk) is in the INPUTAPKPATH(AndroidStaticAnalysis/inputApk).
-2) Configure the ``Aconfig.properties`` under /DynamicExplore/app/src/main/assets, which looks like as:
-```bash
-MYSQLDRIVER=com.mysql.jdbc.Driver
-MYSQLURL=jdbc:mysql://192.168.1.102:3306/android?useUnicode=true&characterEncoding=UTF-8&useSSL=false
-MYSQLUSERNAME=root
-MYSQLPASSWORD=1234
-SQLITEDRIVER=org.sqldroid.SQLDroidDriver
-SQLITEDBPATH=/storage/emulated/0/navgraph.db
-WINLABEL=arXiv mobile
-TESTTIMEOUT=300000
-```
-Similar to the above, please replace MYSQLURL, MYSQLUSERNAME, and MYSQLPASSWORD with the arguments of your own. It is worth noting that the ip address of MYSQLURL should be the ip address of your PC(e.g. 192.168.1.102) not 127.0.0.1. Other values remain default.
-3) Configure the ``Pconfig.properties`` under /AndroidPatchGen/src/main/resources, which looks like as:
-```bash
-GRAPHLABEL=arXiv mobile
-SRCPATH=PatchedProject/arxiv-mobile/src
-SQLITEDRIVER=org.sqlite.JDBC
-SQLITEDBPATH=db/navgraph.db
-```
-All values remain default.
+
+1. Configure the ``config.properties`` under /AndroidStaticAnalysis/src/main/resources, which looks like as:
+
+   ```bash
+   DRIVER=com.mysql.jdbc.Driver
+   MYSQLURL=jdbc:mysql://127.0.0.1:3306/android?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+   MYSQLUSERNAME=root
+   MYSQLPASSWORD=1234
+   INPUTAPKPATH=inputApk
+   ```
+
+   The MYSQLURL, MYSQLUSERNAME, MYSQLPASSWORD are the url, username, password of MYSQL, please replace them with the arguments of your own. Other values remain default, and the input apk(arXiv mobile.apk) is in the INPUTAPKPATH(AndroidStaticAnalysis/inputApk).
+
+2. Configure the ``Aconfig.properties`` under /DynamicExplore/app/src/main/assets, which looks like as:
+
+   ```bash
+   MYSQLDRIVER=com.mysql.jdbc.Driver
+   MYSQLURL=jdbc:mysql://192.168.1.102:3306/android?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+   MYSQLUSERNAME=root
+   MYSQLPASSWORD=1234
+   SQLITEDRIVER=org.sqldroid.SQLDroidDriver
+   SQLITEDBPATH=/storage/emulated/0/navgraph.db
+   WINLABEL=arXiv mobile
+   TESTTIMEOUT=300000
+   ```
+
+   Similar to the above, please replace MYSQLURL, MYSQLUSERNAME, and MYSQLPASSWORD with the arguments of your own. It is worth noting that the ip address of MYSQLURL should be the ip address of your PC(e.g. 192.168.1.102) not 127.0.0.1. Other values remain default.
+
+3. Configure the ``Pconfig.properties`` under /AndroidPatchGen/src/main/resources, which looks like as:
+
+   ```bash
+   GRAPHLABEL=arXiv mobile
+   SRCPATH=PatchedProject/arxiv-mobile/src
+   SQLITEDRIVER=org.sqlite.JDBC
+   SQLITEDBPATH=db/navgraph.db
+   ```
+
+   All values remain default.
+
 #### Compile
+
 1) Compile AndroidStaticAnalysis: Intellij IDEA compile or maven compile
    - Intellij IDEA compile: import this module using Intellij IDEA and compile it.
    - Maven compile: 
      - cd .../AndroidStaticAnalysis 
      - mvn compile
 2) Compile DynamicExplore: AndroidStudio compile or gradle compile
+
    - AndroidStudio compile: import this module using AndroidStudio and compile it.
    - Gradle compile:
      - cd .../DynamicExplore
-	 - set the Android SDK dir in DynamicExplore/local.properties
-	 - gradlew clean
+	  - gradlew clean
      - gradlew build  
      - gradlew assembleDebug
-	 - gradlew assembleDebugAndroidTest
+	  - gradlew assembleDebugAndroidTest
+
    If succeed, two apk files(debug apk and test apk) should be at DynamicExplore/app/build/outputs/apk/debug/app-debug.apk and DynamicExplore/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
 3) Compile AndroidPatchGen: similar to compiling AndroidStaticAnalysis.
 
